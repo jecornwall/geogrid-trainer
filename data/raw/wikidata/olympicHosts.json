@@ -1,0 +1,644 @@
+{
+  "head": {
+    "vars": [
+      "country",
+      "iso2",
+      "olympics",
+      "olympicsLabel",
+      "year",
+      "city",
+      "cityLabel"
+    ]
+  },
+  "results": {
+    "bindings": [
+      {
+        "olympics": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q8429"
+        },
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q96"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "MX"
+        },
+        "year": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "type": "literal",
+          "value": "1968"
+        },
+        "city": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q767558"
+        },
+        "olympicsLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "1968 Summer Olympics"
+        },
+        "cityLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Universitary Olympic Stadium"
+        }
+      },
+      {
+        "olympics": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q8438"
+        },
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q183"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "DE"
+        },
+        "year": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "type": "literal",
+          "value": "1972"
+        },
+        "city": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q131610"
+        },
+        "olympicsLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "1972 Summer Olympics"
+        },
+        "cityLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Munich Olympic Stadium"
+        }
+      },
+      {
+        "olympics": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q8444"
+        },
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q16"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "CA"
+        },
+        "year": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "type": "literal",
+          "value": "1976"
+        },
+        "city": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q340"
+        },
+        "olympicsLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "1976 Summer Olympics"
+        },
+        "cityLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Montreal"
+        }
+      },
+      {
+        "olympics": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q31039462"
+        },
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q408"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "AU"
+        },
+        "year": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "type": "literal",
+          "value": "2032"
+        },
+        "city": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q34932"
+        },
+        "olympicsLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "2032 Summer Olympics"
+        },
+        "cityLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Brisbane"
+        }
+      },
+      {
+        "olympics": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q8429"
+        },
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q96"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "MX"
+        },
+        "year": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "type": "literal",
+          "value": "1968"
+        },
+        "city": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q1489"
+        },
+        "olympicsLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "1968 Summer Olympics"
+        },
+        "cityLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Mexico City"
+        }
+      },
+      {
+        "olympics": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q8577"
+        },
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q145"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "GB"
+        },
+        "year": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "type": "literal",
+          "value": "2012"
+        },
+        "city": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q84"
+        },
+        "olympicsLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "2012 Summer Olympics"
+        },
+        "cityLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "London"
+        }
+      },
+      {
+        "olympics": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q8558"
+        },
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q41"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "GR"
+        },
+        "year": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "type": "literal",
+          "value": "2004"
+        },
+        "city": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q189663"
+        },
+        "olympicsLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "2004 Summer Olympics"
+        },
+        "cityLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Olympic Stadium in Athens"
+        }
+      },
+      {
+        "olympics": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q8531"
+        },
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q30"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "US"
+        },
+        "year": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "type": "literal",
+          "value": "1996"
+        },
+        "city": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q795345"
+        },
+        "olympicsLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "1996 Summer Olympics"
+        },
+        "cityLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Centennial Olympic Stadium"
+        }
+      },
+      {
+        "olympics": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q8544"
+        },
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q408"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "AU"
+        },
+        "year": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "type": "literal",
+          "value": "2000"
+        },
+        "city": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q3130"
+        },
+        "olympicsLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "2000 Summer Olympics"
+        },
+        "cityLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Sydney"
+        }
+      },
+      {
+        "olympics": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q8531"
+        },
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q30"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "US"
+        },
+        "year": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "type": "literal",
+          "value": "1996"
+        },
+        "city": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q23556"
+        },
+        "olympicsLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "1996 Summer Olympics"
+        },
+        "cityLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Atlanta"
+        }
+      },
+      {
+        "olympics": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q8558"
+        },
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q41"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "GR"
+        },
+        "year": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "type": "literal",
+          "value": "2004"
+        },
+        "city": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q1524"
+        },
+        "olympicsLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "2004 Summer Olympics"
+        },
+        "cityLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Athens"
+        }
+      },
+      {
+        "olympics": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q8488"
+        },
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q29"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "ES"
+        },
+        "year": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "type": "literal",
+          "value": "1992"
+        },
+        "city": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q1492"
+        },
+        "olympicsLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "1992 Summer Olympics"
+        },
+        "cityLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Barcelona"
+        }
+      },
+      {
+        "olympics": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q995653"
+        },
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q142"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "FR"
+        },
+        "year": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "type": "literal",
+          "value": "2024"
+        },
+        "city": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q90"
+        },
+        "olympicsLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "2024 Summer Olympics"
+        },
+        "cityLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Paris"
+        }
+      },
+      {
+        "olympics": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q8444"
+        },
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q16"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "CA"
+        },
+        "year": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "type": "literal",
+          "value": "1976"
+        },
+        "city": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q285467"
+        },
+        "olympicsLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "1976 Summer Olympics"
+        },
+        "cityLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Olympic Stadium"
+        }
+      },
+      {
+        "olympics": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q181278"
+        },
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q17"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "JP"
+        },
+        "year": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "type": "literal",
+          "value": "2021"
+        },
+        "city": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q1490"
+        },
+        "olympicsLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "2020 Summer Olympics"
+        },
+        "cityLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Tokyo"
+        }
+      },
+      {
+        "olympics": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q8613"
+        },
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q155"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "BR"
+        },
+        "year": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "type": "literal",
+          "value": "2016"
+        },
+        "city": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q8678"
+        },
+        "olympicsLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "2016 Summer Olympics"
+        },
+        "cityLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Rio de Janeiro"
+        }
+      },
+      {
+        "olympics": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q8567"
+        },
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q148"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "CN"
+        },
+        "year": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "type": "literal",
+          "value": "2008"
+        },
+        "city": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q956"
+        },
+        "olympicsLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "2008 Summer Olympics"
+        },
+        "cityLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Beijing"
+        }
+      },
+      {
+        "olympics": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q1451505"
+        },
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q30"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "US"
+        },
+        "year": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "type": "literal",
+          "value": "2028"
+        },
+        "city": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q65"
+        },
+        "olympicsLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "2028 Summer Olympics"
+        },
+        "cityLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Los Angeles"
+        }
+      },
+      {
+        "olympics": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q8470"
+        },
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q884"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "KR"
+        },
+        "year": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "type": "literal",
+          "value": "1988"
+        },
+        "city": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q392086"
+        },
+        "olympicsLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "1988 Summer Olympics"
+        },
+        "cityLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Seoul Olympic Stadium"
+        }
+      }
+    ]
+  }
+}

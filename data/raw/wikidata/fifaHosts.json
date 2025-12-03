@@ -1,0 +1,14 @@
+{
+  "head": {
+    "vars": [
+      "country",
+      "iso2",
+      "worldcup",
+      "worldcupLabel",
+      "year"
+    ]
+  },
+  "results": {
+    "bindings": []
+  }
+}

@@ -1,0 +1,1460 @@
+{
+  "head": {
+    "vars": [
+      "country",
+      "iso2",
+      "olympics",
+      "olympicsLabel",
+      "year",
+      "city",
+      "cityLabel"
+    ]
+  },
+  "results": {
+    "bindings": [
+      {
+        "olympics": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q4630399"
+        },
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q38"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "IT"
+        },
+        "year": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "type": "literal",
+          "value": "2026"
+        },
+        "city": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q490"
+        },
+        "olympicsLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "2026 Winter Olympics"
+        },
+        "cityLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Milan"
+        }
+      },
+      {
+        "olympics": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q9652"
+        },
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q30"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "US"
+        },
+        "year": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "type": "literal",
+          "value": "1980"
+        },
+        "city": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q192700"
+        },
+        "olympicsLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "1980 Winter Olympics"
+        },
+        "cityLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Lake Placid"
+        }
+      },
+      {
+        "olympics": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q9678"
+        },
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q159"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "RU"
+        },
+        "year": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "type": "literal",
+          "value": "2014"
+        },
+        "city": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q39420"
+        },
+        "olympicsLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "2014 Winter Olympics"
+        },
+        "cityLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Sochi"
+        }
+      },
+      {
+        "olympics": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q9623"
+        },
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q20"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "NO"
+        },
+        "year": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "type": "literal",
+          "value": "1952"
+        },
+        "city": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q866409"
+        },
+        "olympicsLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "1952 Winter Olympics"
+        },
+        "cityLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Bislett Stadion"
+        }
+      },
+      {
+        "olympics": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q9646"
+        },
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q17"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "JP"
+        },
+        "year": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "type": "literal",
+          "value": "1972"
+        },
+        "city": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q673240"
+        },
+        "olympicsLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "1972 Winter Olympics"
+        },
+        "cityLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Makomanai Open Stadium"
+        }
+      },
+      {
+        "olympics": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q29389034"
+        },
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q142"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "FR"
+        },
+        "year": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "type": "literal",
+          "value": "2030"
+        },
+        "city": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q1630884"
+        },
+        "olympicsLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "2030 Winter Olympics"
+        },
+        "cityLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "French Alps"
+        }
+      },
+      {
+        "olympics": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q9636"
+        },
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q40"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "AT"
+        },
+        "year": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "type": "literal",
+          "value": "1964"
+        },
+        "city": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q672833"
+        },
+        "olympicsLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "1964 Winter Olympics"
+        },
+        "cityLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Bergiselschanze"
+        }
+      },
+      {
+        "olympics": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q193074"
+        },
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q148"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "CN"
+        },
+        "year": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "type": "literal",
+          "value": "2022"
+        },
+        "city": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q1139142"
+        },
+        "olympicsLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "2022 Winter Olympics"
+        },
+        "cityLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Beijing National Indoor Stadium"
+        }
+      },
+      {
+        "olympics": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q9632"
+        },
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q38"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "IT"
+        },
+        "year": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "type": "literal",
+          "value": "1956"
+        },
+        "city": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q41158"
+        },
+        "olympicsLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "1956 Winter Olympics"
+        },
+        "cityLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Cortina d'Ampezzo"
+        }
+      },
+      {
+        "olympics": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q193074"
+        },
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q148"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "CN"
+        },
+        "year": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "type": "literal",
+          "value": "2022"
+        },
+        "city": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q133525"
+        },
+        "olympicsLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "2022 Winter Olympics"
+        },
+        "cityLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Beijing National Stadium"
+        }
+      },
+      {
+        "olympics": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q193074"
+        },
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q148"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "CN"
+        },
+        "year": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "type": "literal",
+          "value": "2022"
+        },
+        "city": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q1321458"
+        },
+        "olympicsLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "2022 Winter Olympics"
+        },
+        "cityLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Cadillac Arena"
+        }
+      },
+      {
+        "olympics": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q193074"
+        },
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q148"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "CN"
+        },
+        "year": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "type": "literal",
+          "value": "2022"
+        },
+        "city": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q1589654"
+        },
+        "olympicsLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "2022 Winter Olympics"
+        },
+        "cityLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Capital Indoor Stadium"
+        }
+      },
+      {
+        "olympics": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q193074"
+        },
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q148"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "CN"
+        },
+        "year": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "type": "literal",
+          "value": "2022"
+        },
+        "city": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q244877"
+        },
+        "olympicsLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "2022 Winter Olympics"
+        },
+        "cityLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Beijing National Aquatics Center"
+        }
+      },
+      {
+        "olympics": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q9672"
+        },
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q38"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "IT"
+        },
+        "year": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "type": "literal",
+          "value": "2006"
+        },
+        "city": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q214629"
+        },
+        "olympicsLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "2006 Winter Olympics"
+        },
+        "cityLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Stadio Olimpico Grande Torino"
+        }
+      },
+      {
+        "olympics": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q9658"
+        },
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q16"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "CA"
+        },
+        "year": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "type": "literal",
+          "value": "1988"
+        },
+        "city": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q36312"
+        },
+        "olympicsLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "1988 Winter Olympics"
+        },
+        "cityLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Calgary"
+        }
+      },
+      {
+        "olympics": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q9596"
+        },
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q30"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "US"
+        },
+        "year": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "type": "literal",
+          "value": "1932"
+        },
+        "city": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q192700"
+        },
+        "olympicsLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "1932 Winter Olympics"
+        },
+        "cityLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Lake Placid"
+        }
+      },
+      {
+        "olympics": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q9591"
+        },
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q39"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "CH"
+        },
+        "year": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "type": "literal",
+          "value": "1928"
+        },
+        "city": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q68986"
+        },
+        "olympicsLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "1928 Winter Olympics"
+        },
+        "cityLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "St. Moritz"
+        }
+      },
+      {
+        "olympics": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q193074"
+        },
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q148"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "CN"
+        },
+        "year": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "type": "literal",
+          "value": "2022"
+        },
+        "city": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q20745708"
+        },
+        "olympicsLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "2022 Winter Olympics"
+        },
+        "cityLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "National Speed Skating Oval"
+        }
+      },
+      {
+        "olympics": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q9634"
+        },
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q30"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "US"
+        },
+        "year": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "type": "literal",
+          "value": "1960"
+        },
+        "city": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q2182804"
+        },
+        "olympicsLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "1960 Winter Olympics"
+        },
+        "cityLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Palisades Tahoe"
+        }
+      },
+      {
+        "olympics": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q9668"
+        },
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q30"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "US"
+        },
+        "year": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "type": "literal",
+          "value": "2002"
+        },
+        "city": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q23337"
+        },
+        "olympicsLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "2002 Winter Olympics"
+        },
+        "cityLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Salt Lake City"
+        }
+      },
+      {
+        "olympics": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q9663"
+        },
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q20"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "NO"
+        },
+        "year": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "type": "literal",
+          "value": "1994"
+        },
+        "city": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q1782828"
+        },
+        "olympicsLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "1994 Winter Olympics"
+        },
+        "cityLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Vikingskipet"
+        }
+      },
+      {
+        "olympics": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q9663"
+        },
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q20"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "NO"
+        },
+        "year": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "type": "literal",
+          "value": "1994"
+        },
+        "city": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q256064"
+        },
+        "olympicsLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "1994 Winter Olympics"
+        },
+        "cityLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Kvitfjell"
+        }
+      },
+      {
+        "olympics": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q9664"
+        },
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q17"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "JP"
+        },
+        "year": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "type": "literal",
+          "value": "1998"
+        },
+        "city": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q981819"
+        },
+        "olympicsLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "1998 Winter Olympics"
+        },
+        "cityLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Nagano Olympic Stadium"
+        }
+      },
+      {
+        "olympics": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q9615"
+        },
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q39"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "CH"
+        },
+        "year": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "type": "literal",
+          "value": "1948"
+        },
+        "city": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q68986"
+        },
+        "olympicsLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "1948 Winter Olympics"
+        },
+        "cityLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "St. Moritz"
+        }
+      },
+      {
+        "olympics": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q9651"
+        },
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q40"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "AT"
+        },
+        "year": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "type": "literal",
+          "value": "1976"
+        },
+        "city": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q1735"
+        },
+        "olympicsLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "1976 Winter Olympics"
+        },
+        "cityLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Innsbruck"
+        }
+      },
+      {
+        "olympics": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q9663"
+        },
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q20"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "NO"
+        },
+        "year": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "type": "literal",
+          "value": "1994"
+        },
+        "city": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q954639"
+        },
+        "olympicsLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "1994 Winter Olympics"
+        },
+        "cityLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Hafjell"
+        }
+      },
+      {
+        "olympics": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q9663"
+        },
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q20"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "NO"
+        },
+        "year": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "type": "literal",
+          "value": "1994"
+        },
+        "city": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q3143296"
+        },
+        "olympicsLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "1994 Winter Olympics"
+        },
+        "cityLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Lillehammer Olympic Bobsleigh and Luge Track"
+        }
+      },
+      {
+        "olympics": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q9663"
+        },
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q20"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "NO"
+        },
+        "year": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "type": "literal",
+          "value": "1994"
+        },
+        "city": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q3353373"
+        },
+        "olympicsLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "1994 Winter Olympics"
+        },
+        "cityLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Gjøvik Olympic Cavern Hall"
+        }
+      },
+      {
+        "olympics": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q9596"
+        },
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q30"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "US"
+        },
+        "year": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "type": "literal",
+          "value": "1932"
+        },
+        "city": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q2588112"
+        },
+        "olympicsLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "1932 Winter Olympics"
+        },
+        "cityLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "James B. Sheffield Olympic Skating Rink"
+        }
+      },
+      {
+        "olympics": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q9678"
+        },
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q159"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "RU"
+        },
+        "year": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "type": "literal",
+          "value": "2014"
+        },
+        "city": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q266071"
+        },
+        "olympicsLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "2014 Winter Olympics"
+        },
+        "cityLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Krasnaya Polyana"
+        }
+      },
+      {
+        "olympics": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q9591"
+        },
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q39"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "CH"
+        },
+        "year": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "type": "literal",
+          "value": "1928"
+        },
+        "city": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q2455367"
+        },
+        "olympicsLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "1928 Winter Olympics"
+        },
+        "cityLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "St. Moritz Olympic Ice Rink"
+        }
+      },
+      {
+        "olympics": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q193074"
+        },
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q148"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "CN"
+        },
+        "year": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "type": "literal",
+          "value": "2022"
+        },
+        "city": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q956"
+        },
+        "olympicsLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "2022 Winter Olympics"
+        },
+        "cityLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Beijing"
+        }
+      },
+      {
+        "olympics": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q9663"
+        },
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q20"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "NO"
+        },
+        "year": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "type": "literal",
+          "value": "1994"
+        },
+        "city": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q477911"
+        },
+        "olympicsLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "1994 Winter Olympics"
+        },
+        "cityLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "CC Amfi"
+        }
+      },
+      {
+        "olympics": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q9663"
+        },
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q20"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "NO"
+        },
+        "year": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "type": "literal",
+          "value": "1994"
+        },
+        "city": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q632041"
+        },
+        "olympicsLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "1994 Winter Olympics"
+        },
+        "cityLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Lysgårdsbakken"
+        }
+      },
+      {
+        "olympics": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q9583"
+        },
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q142"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "FR"
+        },
+        "year": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "type": "literal",
+          "value": "1924"
+        },
+        "city": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q83236"
+        },
+        "olympicsLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "1924 Winter Olympics"
+        },
+        "cityLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Chamonix-Mont-Blanc"
+        }
+      },
+      {
+        "olympics": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q9632"
+        },
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q38"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "IT"
+        },
+        "year": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "type": "literal",
+          "value": "1956"
+        },
+        "city": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q2022888"
+        },
+        "olympicsLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "1956 Winter Olympics"
+        },
+        "cityLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Stadio Olimpico del Ghiaccio"
+        }
+      },
+      {
+        "olympics": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q9663"
+        },
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q20"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "NO"
+        },
+        "year": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "type": "literal",
+          "value": "1994"
+        },
+        "city": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q6365428"
+        },
+        "olympicsLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "1994 Winter Olympics"
+        },
+        "cityLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Kanthaugen Freestyle Arena"
+        }
+      },
+      {
+        "olympics": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q9607"
+        },
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q17"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "JP"
+        },
+        "year": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "type": "literal",
+          "value": "1940"
+        },
+        "olympicsLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "1940 Winter Olympics"
+        }
+      },
+      {
+        "olympics": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q9660"
+        },
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q142"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "FR"
+        },
+        "year": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "type": "literal",
+          "value": "1992"
+        },
+        "city": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q2698412"
+        },
+        "olympicsLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "1992 Winter Olympics"
+        },
+        "cityLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Théâtre des Cérémonies"
+        }
+      },
+      {
+        "olympics": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q113511381"
+        },
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q30"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "US"
+        },
+        "year": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "type": "literal",
+          "value": "2034"
+        },
+        "city": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q23337"
+        },
+        "olympicsLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "2034 Winter Olympics"
+        },
+        "cityLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Salt Lake City"
+        }
+      },
+      {
+        "olympics": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q9674"
+        },
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q16"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "CA"
+        },
+        "year": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "type": "literal",
+          "value": "2010"
+        },
+        "city": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q612227"
+        },
+        "olympicsLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "2010 Winter Olympics"
+        },
+        "cityLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "BC Place"
+        }
+      },
+      {
+        "olympics": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q9642"
+        },
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q142"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "FR"
+        },
+        "year": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "type": "literal",
+          "value": "1968"
+        },
+        "city": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q1289"
+        },
+        "olympicsLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "1968 Winter Olympics"
+        },
+        "cityLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Grenoble"
+        }
+      },
+      {
+        "olympics": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q9680"
+        },
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q884"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "KR"
+        },
+        "year": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "type": "literal",
+          "value": "2018"
+        },
+        "city": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q7089110"
+        },
+        "olympicsLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "2018 Winter Olympics"
+        },
+        "cityLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Pyeongchang Olympic Stadium"
+        }
+      },
+      {
+        "olympics": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q193074"
+        },
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q148"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "CN"
+        },
+        "year": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "type": "literal",
+          "value": "2022"
+        },
+        "city": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q55640291"
+        },
+        "olympicsLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "2022 Winter Olympics"
+        },
+        "cityLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Kuyangshu Nordic Center and Biathlon Center"
+        }
+      }
+    ]
+  }
+}

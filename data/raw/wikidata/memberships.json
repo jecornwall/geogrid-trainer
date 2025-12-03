@@ -1,0 +1,1572 @@
+{
+  "head": {
+    "vars": [
+      "country",
+      "iso2",
+      "org",
+      "orgLabel"
+    ]
+  },
+  "results": {
+    "bindings": [
+      {
+        "org": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q7785"
+        },
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q1005"
+        },
+        "orgLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Commonwealth of Nations"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "GM"
+        }
+      },
+      {
+        "org": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q7785"
+        },
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q1044"
+        },
+        "orgLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Commonwealth of Nations"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "SL"
+        }
+      },
+      {
+        "org": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q458"
+        },
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q40"
+        },
+        "orgLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "European Union"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "AT"
+        }
+      },
+      {
+        "org": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q458"
+        },
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q145"
+        },
+        "orgLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "European Union"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "GB"
+        }
+      },
+      {
+        "org": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q458"
+        },
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q36"
+        },
+        "orgLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "European Union"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "PL"
+        }
+      },
+      {
+        "org": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q7785"
+        },
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q664"
+        },
+        "orgLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Commonwealth of Nations"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "NZ"
+        }
+      },
+      {
+        "org": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q458"
+        },
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q211"
+        },
+        "orgLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "European Union"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "LV"
+        }
+      },
+      {
+        "org": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q7785"
+        },
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q1042"
+        },
+        "orgLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Commonwealth of Nations"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "SC"
+        }
+      },
+      {
+        "org": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q7785"
+        },
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q672"
+        },
+        "orgLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Commonwealth of Nations"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "TV"
+        }
+      },
+      {
+        "org": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q458"
+        },
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q35"
+        },
+        "orgLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "European Union"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "DK"
+        }
+      },
+      {
+        "org": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q7785"
+        },
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q233"
+        },
+        "orgLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Commonwealth of Nations"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "MT"
+        }
+      },
+      {
+        "org": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q7785"
+        },
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q1013"
+        },
+        "orgLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Commonwealth of Nations"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "LS"
+        }
+      },
+      {
+        "org": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q7785"
+        },
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q117"
+        },
+        "orgLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Commonwealth of Nations"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "GH"
+        }
+      },
+      {
+        "org": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q458"
+        },
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q183"
+        },
+        "orgLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "European Union"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "DE"
+        }
+      },
+      {
+        "org": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q7785"
+        },
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q1027"
+        },
+        "orgLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Commonwealth of Nations"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "MU"
+        }
+      },
+      {
+        "org": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q7785"
+        },
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q826"
+        },
+        "orgLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Commonwealth of Nations"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "MV"
+        }
+      },
+      {
+        "org": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q7785"
+        },
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q843"
+        },
+        "orgLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Commonwealth of Nations"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "PK"
+        }
+      },
+      {
+        "org": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q7785"
+        },
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q114"
+        },
+        "orgLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Commonwealth of Nations"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "KE"
+        }
+      },
+      {
+        "org": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q7785"
+        },
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q244"
+        },
+        "orgLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Commonwealth of Nations"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "BB"
+        }
+      },
+      {
+        "org": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q7785"
+        },
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q686"
+        },
+        "orgLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Commonwealth of Nations"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "VU"
+        }
+      },
+      {
+        "org": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q7785"
+        },
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q754"
+        },
+        "orgLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Commonwealth of Nations"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "TT"
+        }
+      },
+      {
+        "org": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q7785"
+        },
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q854"
+        },
+        "orgLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Commonwealth of Nations"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "LK"
+        }
+      },
+      {
+        "org": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q7785"
+        },
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q683"
+        },
+        "orgLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Commonwealth of Nations"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "WS"
+        }
+      },
+      {
+        "org": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q7785"
+        },
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q757"
+        },
+        "orgLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Commonwealth of Nations"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "VC"
+        }
+      },
+      {
+        "org": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q7785"
+        },
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q1009"
+        },
+        "orgLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Commonwealth of Nations"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "CM"
+        }
+      },
+      {
+        "org": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q458"
+        },
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q218"
+        },
+        "orgLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "European Union"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "RO"
+        }
+      },
+      {
+        "org": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q7785"
+        },
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q769"
+        },
+        "orgLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Commonwealth of Nations"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "GD"
+        }
+      },
+      {
+        "org": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q7785"
+        },
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q258"
+        },
+        "orgLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Commonwealth of Nations"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "ZA"
+        }
+      },
+      {
+        "org": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q458"
+        },
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q33"
+        },
+        "orgLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "European Union"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "FI"
+        }
+      },
+      {
+        "org": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q7785"
+        },
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q766"
+        },
+        "orgLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Commonwealth of Nations"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "JM"
+        }
+      },
+      {
+        "org": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q458"
+        },
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q31"
+        },
+        "orgLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "European Union"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "BE"
+        }
+      },
+      {
+        "org": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q7785"
+        },
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q242"
+        },
+        "orgLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Commonwealth of Nations"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "BZ"
+        }
+      },
+      {
+        "org": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q7785"
+        },
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q1029"
+        },
+        "orgLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Commonwealth of Nations"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "MZ"
+        }
+      },
+      {
+        "org": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q7785"
+        },
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q668"
+        },
+        "orgLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Commonwealth of Nations"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "IN"
+        }
+      },
+      {
+        "org": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q7785"
+        },
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q763"
+        },
+        "orgLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Commonwealth of Nations"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "KN"
+        }
+      },
+      {
+        "org": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q7785"
+        },
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q712"
+        },
+        "orgLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Commonwealth of Nations"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "FJ"
+        }
+      },
+      {
+        "org": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q7785"
+        },
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q924"
+        },
+        "orgLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Commonwealth of Nations"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "TZ"
+        }
+      },
+      {
+        "org": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q458"
+        },
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q142"
+        },
+        "orgLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "European Union"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "FR"
+        }
+      },
+      {
+        "org": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q7785"
+        },
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q945"
+        },
+        "orgLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Commonwealth of Nations"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "TG"
+        }
+      },
+      {
+        "org": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q7785"
+        },
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q697"
+        },
+        "orgLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Commonwealth of Nations"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "NR"
+        }
+      },
+      {
+        "org": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q458"
+        },
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q229"
+        },
+        "orgLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "European Union"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "CY"
+        }
+      },
+      {
+        "org": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q7785"
+        },
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q953"
+        },
+        "orgLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Commonwealth of Nations"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "ZM"
+        }
+      },
+      {
+        "org": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q7785"
+        },
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q902"
+        },
+        "orgLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Commonwealth of Nations"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "BD"
+        }
+      },
+      {
+        "org": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q7785"
+        },
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q760"
+        },
+        "orgLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Commonwealth of Nations"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "LC"
+        }
+      },
+      {
+        "org": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q7785"
+        },
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q1050"
+        },
+        "orgLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Commonwealth of Nations"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "SZ"
+        }
+      },
+      {
+        "org": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q458"
+        },
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q41"
+        },
+        "orgLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "European Union"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "GR"
+        }
+      },
+      {
+        "org": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q458"
+        },
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q32"
+        },
+        "orgLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "European Union"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "LU"
+        }
+      },
+      {
+        "org": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q7785"
+        },
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q16"
+        },
+        "orgLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Commonwealth of Nations"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "CA"
+        }
+      },
+      {
+        "org": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q7785"
+        },
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q334"
+        },
+        "orgLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Commonwealth of Nations"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "SG"
+        }
+      },
+      {
+        "org": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q458"
+        },
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q29"
+        },
+        "orgLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "European Union"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "ES"
+        }
+      },
+      {
+        "org": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q458"
+        },
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q27"
+        },
+        "orgLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "European Union"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "IE"
+        }
+      },
+      {
+        "org": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q7785"
+        },
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q710"
+        },
+        "orgLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Commonwealth of Nations"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "KI"
+        }
+      },
+      {
+        "org": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q7785"
+        },
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q833"
+        },
+        "orgLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Commonwealth of Nations"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "MY"
+        }
+      },
+      {
+        "org": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q458"
+        },
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q224"
+        },
+        "orgLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "European Union"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "HR"
+        }
+      },
+      {
+        "org": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q7785"
+        },
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q784"
+        },
+        "orgLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Commonwealth of Nations"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "DM"
+        }
+      },
+      {
+        "org": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q458"
+        },
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q45"
+        },
+        "orgLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "European Union"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "PT"
+        }
+      },
+      {
+        "org": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q7785"
+        },
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q781"
+        },
+        "orgLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Commonwealth of Nations"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "AG"
+        }
+      },
+      {
+        "org": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q7785"
+        },
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q1033"
+        },
+        "orgLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Commonwealth of Nations"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "NG"
+        }
+      },
+      {
+        "org": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q7785"
+        },
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q921"
+        },
+        "orgLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Commonwealth of Nations"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "BN"
+        }
+      },
+      {
+        "org": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q458"
+        },
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q34"
+        },
+        "orgLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "European Union"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "SE"
+        }
+      },
+      {
+        "org": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q458"
+        },
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q37"
+        },
+        "orgLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "European Union"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "LT"
+        }
+      },
+      {
+        "org": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q7785"
+        },
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q229"
+        },
+        "orgLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Commonwealth of Nations"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "CY"
+        }
+      },
+      {
+        "org": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q458"
+        },
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q191"
+        },
+        "orgLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "European Union"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "EE"
+        }
+      },
+      {
+        "org": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q458"
+        },
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q213"
+        },
+        "orgLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "European Union"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "CZ"
+        }
+      },
+      {
+        "org": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q7785"
+        },
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q734"
+        },
+        "orgLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Commonwealth of Nations"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "GY"
+        }
+      },
+      {
+        "org": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q7785"
+        },
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q691"
+        },
+        "orgLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Commonwealth of Nations"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "PG"
+        }
+      },
+      {
+        "org": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q7785"
+        },
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q678"
+        },
+        "orgLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Commonwealth of Nations"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "TO"
+        }
+      },
+      {
+        "org": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q7785"
+        },
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q1000"
+        },
+        "orgLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Commonwealth of Nations"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "GA"
+        }
+      },
+      {
+        "org": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q458"
+        },
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q215"
+        },
+        "orgLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "European Union"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "SI"
+        }
+      },
+      {
+        "org": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q7785"
+        },
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q778"
+        },
+        "orgLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Commonwealth of Nations"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "BS"
+        }
+      },
+      {
+        "org": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q458"
+        },
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q233"
+        },
+        "orgLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "European Union"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "MT"
+        }
+      },
+      {
+        "org": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q7785"
+        },
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q685"
+        },
+        "orgLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Commonwealth of Nations"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "SB"
+        }
+      },
+      {
+        "org": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q7785"
+        },
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q963"
+        },
+        "orgLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Commonwealth of Nations"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "BW"
+        }
+      },
+      {
+        "org": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q458"
+        },
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q214"
+        },
+        "orgLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "European Union"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "SK"
+        }
+      },
+      {
+        "org": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q7785"
+        },
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q408"
+        },
+        "orgLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Commonwealth of Nations"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "AU"
+        }
+      },
+      {
+        "org": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q7785"
+        },
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q1037"
+        },
+        "orgLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Commonwealth of Nations"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "RW"
+        }
+      },
+      {
+        "org": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q458"
+        },
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q28"
+        },
+        "orgLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "European Union"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "HU"
+        }
+      },
+      {
+        "org": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q7785"
+        },
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q1030"
+        },
+        "orgLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Commonwealth of Nations"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "NA"
+        }
+      },
+      {
+        "org": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q458"
+        },
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q219"
+        },
+        "orgLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "European Union"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "BG"
+        }
+      },
+      {
+        "org": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q7785"
+        },
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q1036"
+        },
+        "orgLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Commonwealth of Nations"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "UG"
+        }
+      },
+      {
+        "org": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q7785"
+        },
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q1020"
+        },
+        "orgLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Commonwealth of Nations"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "MW"
+        }
+      },
+      {
+        "org": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q458"
+        },
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q38"
+        },
+        "orgLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "European Union"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "IT"
+        }
+      }
+    ]
+  }
+}

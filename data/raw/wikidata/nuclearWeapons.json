@@ -1,0 +1,11 @@
+{
+  "head": {
+    "vars": [
+      "country",
+      "iso2"
+    ]
+  },
+  "results": {
+    "bindings": []
+  }
+}

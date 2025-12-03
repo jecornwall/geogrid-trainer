@@ -1,0 +1,12 @@
+{
+  "head": {
+    "vars": [
+      "country",
+      "iso2",
+      "coastline"
+    ]
+  },
+  "results": {
+    "bindings": []
+  }
+}

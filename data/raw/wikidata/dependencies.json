@@ -1,0 +1,1269 @@
+{
+  "head": {
+    "vars": [
+      "territory",
+      "iso2",
+      "territoryLabel",
+      "sovereign",
+      "sovereignLabel"
+    ]
+  },
+  "results": {
+    "bindings": [
+      {
+        "territory": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q161258"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "CP"
+        },
+        "sovereign": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q142"
+        },
+        "territoryLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Clipperton Island"
+        },
+        "sovereignLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "France"
+        }
+      },
+      {
+        "territory": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q16641"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "AS"
+        },
+        "sovereign": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q30"
+        },
+        "territoryLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "American Samoa"
+        },
+        "sovereignLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "United States"
+        }
+      },
+      {
+        "territory": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q18221"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "TC"
+        },
+        "sovereign": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q145"
+        },
+        "territoryLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Turks and Caicos Islands"
+        },
+        "sovereignLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "United Kingdom"
+        }
+      },
+      {
+        "territory": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q3405693"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "CQ"
+        },
+        "sovereign": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q25230"
+        },
+        "territoryLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Sark"
+        },
+        "sovereignLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Guernsey"
+        }
+      },
+      {
+        "territory": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q1410"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "GI"
+        },
+        "sovereign": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q145"
+        },
+        "territoryLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Gibraltar"
+        },
+        "sovereignLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "United Kingdom"
+        }
+      },
+      {
+        "territory": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q223"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "GL"
+        },
+        "sovereign": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q756617"
+        },
+        "territoryLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Greenland"
+        },
+        "sovereignLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Danish Realm"
+        }
+      },
+      {
+        "territory": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q36823"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "TK"
+        },
+        "sovereign": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q664"
+        },
+        "territoryLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Tokelau"
+        },
+        "sovereignLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "New Zealand"
+        }
+      },
+      {
+        "territory": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q14773"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "MO"
+        },
+        "sovereign": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q148"
+        },
+        "territoryLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Macau"
+        },
+        "sovereignLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "People's Republic of China"
+        }
+      },
+      {
+        "territory": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q25279"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "CW"
+        },
+        "sovereign": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q29999"
+        },
+        "territoryLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Curaçao"
+        },
+        "sovereignLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Kingdom of the Netherlands"
+        }
+      },
+      {
+        "territory": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q17063"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "YT"
+        },
+        "sovereign": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q142"
+        },
+        "territoryLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Mayotte"
+        },
+        "sovereignLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "France"
+        }
+      },
+      {
+        "territory": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q35672"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "PN"
+        },
+        "sovereign": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q145"
+        },
+        "territoryLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Pitcairn Islands"
+        },
+        "sovereignLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "United Kingdom"
+        }
+      },
+      {
+        "territory": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q21203"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "AW"
+        },
+        "sovereign": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q21203"
+        },
+        "territoryLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Aruba"
+        },
+        "sovereignLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Aruba"
+        }
+      },
+      {
+        "territory": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q25305"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "VG"
+        },
+        "sovereign": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q145"
+        },
+        "territoryLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "British Virgin Islands"
+        },
+        "sovereignLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "United Kingdom"
+        }
+      },
+      {
+        "territory": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q25362"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "BL"
+        },
+        "sovereign": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q142"
+        },
+        "territoryLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Saint Barthélemy"
+        },
+        "sovereignLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "France"
+        }
+      },
+      {
+        "territory": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q126125"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "MF"
+        },
+        "sovereign": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q142"
+        },
+        "territoryLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Saint-Martin"
+        },
+        "sovereignLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "France"
+        }
+      },
+      {
+        "territory": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q8646"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "HK"
+        },
+        "sovereign": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q148"
+        },
+        "territoryLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Hong Kong"
+        },
+        "sovereignLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "People's Republic of China"
+        }
+      },
+      {
+        "territory": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q30971"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "PF"
+        },
+        "sovereign": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q142"
+        },
+        "territoryLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "French Polynesia"
+        },
+        "sovereignLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "France"
+        }
+      },
+      {
+        "territory": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q785"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "JE"
+        },
+        "sovereign": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q145"
+        },
+        "territoryLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Jersey"
+        },
+        "sovereignLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "United Kingdom"
+        }
+      },
+      {
+        "territory": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q17070"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "RE"
+        },
+        "sovereign": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q142"
+        },
+        "territoryLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Réunion"
+        },
+        "sovereignLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "France"
+        }
+      },
+      {
+        "territory": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q1183"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "PR"
+        },
+        "sovereign": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q30"
+        },
+        "territoryLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Puerto Rico"
+        },
+        "sovereignLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "United States"
+        }
+      },
+      {
+        "territory": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q11703"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "VI"
+        },
+        "sovereign": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q30"
+        },
+        "territoryLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "United States Virgin Islands"
+        },
+        "sovereignLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "United States"
+        }
+      },
+      {
+        "territory": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q23635"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "BM"
+        },
+        "sovereign": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q145"
+        },
+        "territoryLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Bermuda"
+        },
+        "sovereignLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "United Kingdom"
+        }
+      },
+      {
+        "territory": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q129237"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "PC"
+        },
+        "territoryLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Trust Territory of the Pacific Islands"
+        }
+      },
+      {
+        "territory": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q25227"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "AN"
+        },
+        "sovereign": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q29999"
+        },
+        "territoryLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Netherlands Antilles"
+        },
+        "sovereignLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Kingdom of the Netherlands"
+        }
+      },
+      {
+        "territory": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q17054"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "MQ"
+        },
+        "sovereign": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q142"
+        },
+        "territoryLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Martinique"
+        },
+        "sovereignLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "France"
+        }
+      },
+      {
+        "territory": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q36004"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "CC"
+        },
+        "sovereign": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q408"
+        },
+        "territoryLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Cocos (Keeling) Islands"
+        },
+        "sovereignLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Australia"
+        }
+      },
+      {
+        "territory": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q25228"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "AI"
+        },
+        "sovereign": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q145"
+        },
+        "territoryLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Anguilla"
+        },
+        "sovereignLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "United Kingdom"
+        }
+      },
+      {
+        "territory": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q34617"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "PM"
+        },
+        "sovereign": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q142"
+        },
+        "territoryLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Saint Pierre and Miquelon"
+        },
+        "sovereignLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "France"
+        }
+      },
+      {
+        "territory": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q131198"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "HM"
+        },
+        "sovereign": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q408"
+        },
+        "territoryLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Heard Island and McDonald Islands"
+        },
+        "sovereignLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Australia"
+        }
+      },
+      {
+        "territory": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q192184"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "SH"
+        },
+        "sovereign": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q145"
+        },
+        "territoryLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Saint Helena, Ascension and Tristan da Cunha"
+        },
+        "sovereignLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "United Kingdom"
+        }
+      },
+      {
+        "territory": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q230"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "GE"
+        },
+        "sovereign": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q230"
+        },
+        "territoryLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Georgia"
+        },
+        "sovereignLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Georgia"
+        }
+      },
+      {
+        "territory": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q34020"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "NU"
+        },
+        "sovereign": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q34020"
+        },
+        "territoryLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Niue"
+        },
+        "sovereignLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Niue"
+        }
+      },
+      {
+        "territory": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q33788"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "NC"
+        },
+        "sovereign": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q142"
+        },
+        "territoryLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "New Caledonia"
+        },
+        "sovereignLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "France"
+        }
+      },
+      {
+        "territory": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q16644"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "MP"
+        },
+        "sovereign": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q30"
+        },
+        "territoryLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Northern Mariana Islands"
+        },
+        "sovereignLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "United States"
+        }
+      },
+      {
+        "territory": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q43448"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "IO"
+        },
+        "sovereign": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q145"
+        },
+        "territoryLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "British Indian Ocean Territory"
+        },
+        "sovereignLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "United Kingdom"
+        }
+      },
+      {
+        "territory": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q35086"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "GS"
+        },
+        "sovereign": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q145"
+        },
+        "territoryLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "South Georgia and the South Sandwich Islands"
+        },
+        "sovereignLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "United Kingdom"
+        }
+      },
+      {
+        "territory": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q23408"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "BV"
+        },
+        "sovereign": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q20"
+        },
+        "territoryLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Bouvet Island"
+        },
+        "sovereignLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Norway"
+        }
+      },
+      {
+        "territory": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q31057"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "NF"
+        },
+        "sovereign": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q408"
+        },
+        "territoryLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Norfolk Island"
+        },
+        "sovereignLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Australia"
+        }
+      },
+      {
+        "territory": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q9676"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "IM"
+        },
+        "sovereign": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q9676"
+        },
+        "territoryLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Isle of Man"
+        },
+        "sovereignLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Isle of Man"
+        }
+      },
+      {
+        "territory": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q26273"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "SX"
+        },
+        "sovereign": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q29999"
+        },
+        "territoryLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Sint Maarten"
+        },
+        "sovereignLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Kingdom of the Netherlands"
+        }
+      },
+      {
+        "territory": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q17012"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "GP"
+        },
+        "sovereign": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q142"
+        },
+        "territoryLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Guadeloupe"
+        },
+        "sovereignLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "France"
+        }
+      },
+      {
+        "territory": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q129003"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "TF"
+        },
+        "sovereign": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q142"
+        },
+        "territoryLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "French Southern and Antarctic Lands"
+        },
+        "sovereignLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "France"
+        }
+      },
+      {
+        "territory": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q3769"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "GF"
+        },
+        "sovereign": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q142"
+        },
+        "territoryLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "French Guiana"
+        },
+        "sovereignLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "France"
+        }
+      },
+      {
+        "territory": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q9648"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "FK"
+        },
+        "sovereign": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q145"
+        },
+        "territoryLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Falkland Islands"
+        },
+        "sovereignLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "United Kingdom"
+        }
+      },
+      {
+        "territory": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q13353"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "MS"
+        },
+        "sovereign": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q145"
+        },
+        "territoryLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Montserrat"
+        },
+        "sovereignLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "United Kingdom"
+        }
+      },
+      {
+        "territory": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q26988"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "CK"
+        },
+        "sovereign": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q26988"
+        },
+        "territoryLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Cook Islands"
+        },
+        "sovereignLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Cook Islands"
+        }
+      },
+      {
+        "territory": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q25230"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "GG"
+        },
+        "sovereign": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q145"
+        },
+        "territoryLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Guernsey"
+        },
+        "sovereignLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "United Kingdom"
+        }
+      },
+      {
+        "territory": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q35555"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "WF"
+        },
+        "sovereign": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q142"
+        },
+        "territoryLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Wallis and Futuna"
+        },
+        "sovereignLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "France"
+        }
+      },
+      {
+        "territory": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q31063"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "CX"
+        },
+        "sovereign": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q408"
+        },
+        "territoryLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Christmas Island"
+        },
+        "sovereignLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Australia"
+        }
+      },
+      {
+        "territory": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q16645"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "UM"
+        },
+        "sovereign": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q30"
+        },
+        "territoryLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "United States Minor Outlying Islands"
+        },
+        "sovereignLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "United States"
+        }
+      },
+      {
+        "territory": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q5785"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "KY"
+        },
+        "sovereign": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q145"
+        },
+        "territoryLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Cayman Islands"
+        },
+        "sovereignLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "United Kingdom"
+        }
+      },
+      {
+        "territory": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q21590062"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "AQ"
+        },
+        "territoryLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Antarctic Treaty area"
+        }
+      },
+      {
+        "territory": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q16635"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "GU"
+        },
+        "sovereign": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q30"
+        },
+        "territoryLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Guam"
+        },
+        "sovereignLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "United States"
+        }
+      }
+    ]
+  }
+}

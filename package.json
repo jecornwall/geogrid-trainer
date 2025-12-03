@@ -6,6 +6,7 @@
   "scripts": {
     "scrape": "node scripts/scrape-categories.js",
     "download": "node scripts/download-raw-data.js",
+    "download:wikidata": "node scripts/download-wikidata.js",
     "download:wikipedia": "node scripts/download-raw-data.js --wikipedia-only",
     "download:external": "node scripts/download-raw-data.js --external-only",
     "download:countries": "node scripts/download-raw-data.js --countries-only",
