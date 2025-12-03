@@ -2,10 +2,18 @@
   "name": "geogrid-trainer",
   "version": "1.0.0",
   "description": "World map application with GeoGrid category data for geography practice",
+  "type": "module",
   "scripts": {
-    "scrape": "node scripts/scrape-categories.js"
+    "scrape": "node scripts/scrape-categories.js",
+    "test": "vitest run",
+    "test:watch": "vitest"
   },
   "dependencies": {
     "playwright": "^1.40.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.3.0",
+    "vitest": "^1.0.0",
+    "zod": "^3.22.0"
   }
 }
