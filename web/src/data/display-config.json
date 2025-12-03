@@ -1,0 +1,88 @@
+{
+  "$schema": "./display-config.schema.json",
+  "$comment": "This file controls which country properties are displayed in the UI. Set to true only for fields that have been parsed and contain real data. See NEXT-TASK-PARSE-DATA.md for parsing status.",
+  
+  "geography": {
+    "continents": true,
+    "is_island_nation": true,
+    "is_landlocked": true,
+    "coastline_km": true,
+    "coastlines": false,
+    "river_systems": false,
+    "touches_equator": false,
+    "touches_eurasian_steppe": false,
+    "touches_sahara": false
+  },
+  
+  "flag": {
+    "colors": false,
+    "has_star": true,
+    "has_coat_of_arms": true,
+    "has_animal": true
+  },
+  
+  "borders": {
+    "countries": true
+  },
+  
+  "political": {
+    "is_eu_member": true,
+    "is_commonwealth_member": true,
+    "was_ussr": true,
+    "is_monarchy": true,
+    "is_dependency": true,
+    "has_nuclear_weapons": false,
+    "official_languages": true,
+    "same_sex_marriage_legal": false,
+    "same_sex_activities_illegal": false,
+    "corruption_perceptions_index": false,
+    "time_zones": true,
+    "observes_dst": false
+  },
+  
+  "population": {
+    "count": true,
+    "density_per_km2": true,
+    "capitals": true,
+    "most_populated_city": true
+  },
+  
+  "area_km2": true,
+  
+  "economic": {
+    "gdp_per_capita": true,
+    "hdi": true,
+    "produces_nuclear_power": false,
+    "wheat_production_rank": false,
+    "oil_production_rank": false,
+    "renewable_energy_share_rank": false
+  },
+  
+  "facts": {
+    "drives_on_left": true,
+    "skyscraper_count": false,
+    "has_alcohol_prohibition": false,
+    "air_pollution_pm25": false,
+    "co2_emissions_per_capita": false,
+    "obesity_rate_rank": false,
+    "alcohol_consumption_rank": false,
+    "chocolate_consumption_rank": false,
+    "rail_network_rank": false,
+    "population_density_rank": false,
+    "tourist_arrivals_rank": false,
+    "world_heritage_sites_rank": false,
+    "lakes_count_rank": false
+  },
+  
+  "sports": {
+    "olympic_medals": true,
+    "olympics_hosted": true,
+    "fifa_world_cup": {
+      "hosted": false,
+      "played": false,
+      "wins": false
+    },
+    "f1_hosted": false
+  }
+}
+

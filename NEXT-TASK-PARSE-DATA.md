@@ -281,3 +281,42 @@ npm run download:wikidata     # Re-download Wikidata if needed
 npm run download:wikipedia    # Re-download Wikipedia HTML if needed
 node scripts/parse-wikipedia-{topic}.js  # Run a specific parser
 ```
+
+---
+
+## Web UI Display Configuration
+
+The web UI uses a display configuration file to control which data fields are shown:
+
+**File:** `web/src/data/display-config.json`
+
+This file contains boolean flags for each data field. Only fields set to `true` will be displayed in the country popup panel. This prevents showing "No" or empty values for fields that haven't been parsed yet.
+
+### After Creating a New Parser
+
+After you parse a new data source and update `countries.jsonl`, you **must** also update the display config:
+
+1. Open `web/src/data/display-config.json`
+2. Find the relevant field(s) you just parsed
+3. Change the value from `false` to `true`
+4. Rebuild the web UI: `cd web && npm run build`
+
+### Example
+
+After running `parse-wikipedia-nuclear-weapons.js`:
+
+```json
+// Before
+"political": {
+  "has_nuclear_weapons": false,
+  ...
+}
+
+// After
+"political": {
+  "has_nuclear_weapons": true,
+  ...
+}
+```
+
+This ensures the web UI only displays data that has been properly parsed and validated.
