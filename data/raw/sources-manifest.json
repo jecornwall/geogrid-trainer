@@ -1,0 +1,415 @@
+{
+  "metadata": {
+    "description": "URL manifest for raw data sources",
+    "created": "2024-12-03",
+    "version": "1.0"
+  },
+  "wikipedia": {
+    "baseUrl": "https://en.wikipedia.org/wiki/",
+    "apiBaseUrl": "https://en.wikipedia.org/api/rest_v1/page/html/",
+    "sources": [
+      {
+        "id": "flags-design",
+        "title": "List_of_national_flags_by_design",
+        "category": "flag",
+        "fields": ["has_star", "has_coat_of_arms", "has_animal"]
+      },
+      {
+        "id": "national-emblems",
+        "title": "National_emblem",
+        "category": "flag",
+        "fields": ["has_coat_of_arms"]
+      },
+      {
+        "id": "island-countries",
+        "title": "List_of_island_countries",
+        "category": "geography",
+        "fields": ["is_island_nation"]
+      },
+      {
+        "id": "landlocked-countries",
+        "title": "Landlocked_country",
+        "category": "geography",
+        "fields": ["is_landlocked"]
+      },
+      {
+        "id": "coastline-length",
+        "title": "List_of_countries_by_length_of_coastline",
+        "category": "geography",
+        "fields": ["coastline_km"]
+      },
+      {
+        "id": "mediterranean-sea",
+        "title": "Mediterranean_Sea",
+        "category": "geography",
+        "fields": ["coastlines"]
+      },
+      {
+        "id": "indian-ocean",
+        "title": "Indian_Ocean",
+        "category": "geography",
+        "fields": ["coastlines"]
+      },
+      {
+        "id": "pacific-ocean",
+        "title": "Pacific_Ocean",
+        "category": "geography",
+        "fields": ["coastlines"]
+      },
+      {
+        "id": "atlantic-ocean",
+        "title": "Atlantic_Ocean",
+        "category": "geography",
+        "fields": ["coastlines"]
+      },
+      {
+        "id": "caribbean-sea",
+        "title": "Caribbean_Sea",
+        "category": "geography",
+        "fields": ["coastlines"]
+      },
+      {
+        "id": "black-sea",
+        "title": "Black_Sea",
+        "category": "geography",
+        "fields": ["coastlines"]
+      },
+      {
+        "id": "baltic-sea",
+        "title": "Baltic_Sea",
+        "category": "geography",
+        "fields": ["coastlines"]
+      },
+      {
+        "id": "east-china-sea",
+        "title": "East_China_Sea",
+        "category": "geography",
+        "fields": ["coastlines"]
+      },
+      {
+        "id": "south-china-sea",
+        "title": "South_China_Sea",
+        "category": "geography",
+        "fields": ["coastlines"]
+      },
+      {
+        "id": "river-systems",
+        "title": "List_of_river_systems_by_length",
+        "category": "geography",
+        "fields": ["river_systems"]
+      },
+      {
+        "id": "continent-asia",
+        "title": "Asia",
+        "category": "geography",
+        "fields": ["continents"]
+      },
+      {
+        "id": "continent-europe",
+        "title": "Europe",
+        "category": "geography",
+        "fields": ["continents"]
+      },
+      {
+        "id": "continent-africa",
+        "title": "Africa",
+        "category": "geography",
+        "fields": ["continents"]
+      },
+      {
+        "id": "continent-north-america",
+        "title": "North_America",
+        "category": "geography",
+        "fields": ["continents"]
+      },
+      {
+        "id": "continent-south-america",
+        "title": "South_America",
+        "category": "geography",
+        "fields": ["continents"]
+      },
+      {
+        "id": "continent-oceania",
+        "title": "Oceania",
+        "category": "geography",
+        "fields": ["continents"]
+      },
+      {
+        "id": "equator",
+        "title": "Equator",
+        "category": "geography",
+        "fields": ["touches_equator"]
+      },
+      {
+        "id": "eurasian-steppe",
+        "title": "Eurasian_Steppe",
+        "category": "geography",
+        "fields": ["touches_eurasian_steppe"]
+      },
+      {
+        "id": "sahara-desert",
+        "title": "Sahara",
+        "category": "geography",
+        "fields": ["touches_sahara"]
+      },
+      {
+        "id": "land-borders",
+        "title": "List_of_countries_and_territories_by_number_of_land_borders",
+        "category": "borders",
+        "fields": ["countries"]
+      },
+      {
+        "id": "eu-members",
+        "title": "Member_state_of_the_European_Union",
+        "category": "political",
+        "fields": ["is_eu_member"]
+      },
+      {
+        "id": "commonwealth-members",
+        "title": "Member_states_of_the_Commonwealth_of_Nations",
+        "category": "political",
+        "fields": ["is_commonwealth_member"]
+      },
+      {
+        "id": "post-soviet-states",
+        "title": "Post-Soviet_states",
+        "category": "political",
+        "fields": ["was_ussr"]
+      },
+      {
+        "id": "monarchies",
+        "title": "Monarchy",
+        "category": "political",
+        "fields": ["is_monarchy"]
+      },
+      {
+        "id": "dependent-territories",
+        "title": "Dependent_territory",
+        "category": "political",
+        "fields": ["is_dependency"]
+      },
+      {
+        "id": "nuclear-weapons",
+        "title": "List_of_states_with_nuclear_weapons",
+        "category": "political",
+        "fields": ["has_nuclear_weapons"]
+      },
+      {
+        "id": "lang-spanish",
+        "title": "List_of_countries_where_Spanish_is_an_official_language",
+        "category": "political",
+        "fields": ["official_languages"]
+      },
+      {
+        "id": "lang-portuguese",
+        "title": "List_of_countries_and_territories_where_Portuguese_is_an_official_language",
+        "category": "political",
+        "fields": ["official_languages"]
+      },
+      {
+        "id": "lang-french",
+        "title": "List_of_countries_and_territories_where_French_is_an_official_language",
+        "category": "political",
+        "fields": ["official_languages"]
+      },
+      {
+        "id": "lang-arabic",
+        "title": "List_of_countries_and_territories_where_Arabic_is_an_official_language",
+        "category": "political",
+        "fields": ["official_languages"]
+      },
+      {
+        "id": "lang-english",
+        "title": "List_of_countries_and_territories_where_English_is_an_official_language",
+        "category": "political",
+        "fields": ["official_languages"]
+      },
+      {
+        "id": "same-sex-marriage",
+        "title": "Same-sex_marriage",
+        "category": "political",
+        "fields": ["same_sex_marriage_legal"]
+      },
+      {
+        "id": "criminalization-homosexuality",
+        "title": "Criminalization_of_homosexuality",
+        "category": "political",
+        "fields": ["same_sex_activities_illegal"]
+      },
+      {
+        "id": "corruption-index",
+        "title": "Corruption_Perceptions_Index",
+        "category": "political",
+        "fields": ["corruption_perceptions_index"]
+      },
+      {
+        "id": "time-zones",
+        "title": "List_of_time_zones_by_country",
+        "category": "political",
+        "fields": ["time_zones"]
+      },
+      {
+        "id": "daylight-saving",
+        "title": "Daylight_saving_time_by_country",
+        "category": "political",
+        "fields": ["observes_dst"]
+      },
+      {
+        "id": "nuclear-power",
+        "title": "Nuclear_power_by_country",
+        "category": "economic",
+        "fields": ["produces_nuclear_power"]
+      },
+      {
+        "id": "wheat-production",
+        "title": "List_of_countries_by_wheat_production",
+        "category": "economic",
+        "fields": ["wheat_production_rank"]
+      },
+      {
+        "id": "oil-production",
+        "title": "List_of_countries_by_oil_production",
+        "category": "economic",
+        "fields": ["oil_production_rank"]
+      },
+      {
+        "id": "renewable-energy",
+        "title": "List_of_countries_by_renewable_electricity_production",
+        "category": "economic",
+        "fields": ["renewable_energy_share_rank"]
+      },
+      {
+        "id": "left-hand-traffic",
+        "title": "Left-_and_right-hand_traffic",
+        "category": "facts",
+        "fields": ["drives_on_left"]
+      },
+      {
+        "id": "skyscrapers",
+        "title": "List_of_countries_with_the_most_skyscrapers",
+        "category": "facts",
+        "fields": ["skyscraper_count"]
+      },
+      {
+        "id": "alcohol-prohibition",
+        "title": "List_of_countries_with_alcohol_prohibition",
+        "category": "facts",
+        "fields": ["has_alcohol_prohibition"]
+      },
+      {
+        "id": "alcohol-consumption",
+        "title": "List_of_countries_by_alcohol_consumption_per_capita",
+        "category": "facts",
+        "fields": ["alcohol_consumption_rank"]
+      },
+      {
+        "id": "rail-networks",
+        "title": "List_of_countries_by_rail_transport_network_size",
+        "category": "facts",
+        "fields": ["rail_network_rank"]
+      },
+      {
+        "id": "population-density",
+        "title": "List_of_countries_and_dependencies_by_population_density",
+        "category": "facts",
+        "fields": ["population_density_rank"]
+      },
+      {
+        "id": "tourist-arrivals",
+        "title": "World_Tourism_rankings",
+        "category": "facts",
+        "fields": ["tourist_arrivals_rank"]
+      },
+      {
+        "id": "world-heritage-sites",
+        "title": "World_Heritage_Sites_by_country",
+        "category": "facts",
+        "fields": ["world_heritage_sites_rank"]
+      },
+      {
+        "id": "air-pollution",
+        "title": "List_of_countries_by_air_pollution",
+        "category": "facts",
+        "fields": ["air_pollution_pm25"]
+      },
+      {
+        "id": "co2-emissions",
+        "title": "List_of_countries_by_carbon_dioxide_emissions_per_capita",
+        "category": "facts",
+        "fields": ["co2_emissions_per_capita"]
+      },
+      {
+        "id": "olympic-medals",
+        "title": "All-time_Olympic_Games_medal_table",
+        "category": "sports",
+        "fields": ["olympic_medals"]
+      },
+      {
+        "id": "olympic-hosts",
+        "title": "List_of_Olympic_Games_host_cities",
+        "category": "sports",
+        "fields": ["olympics_hosted"]
+      },
+      {
+        "id": "fifa-hosts",
+        "title": "FIFA_World_Cup_hosts",
+        "category": "sports",
+        "fields": ["fifa_world_cup.hosted"]
+      },
+      {
+        "id": "fifa-appearances",
+        "title": "National_team_appearances_in_the_FIFA_World_Cup",
+        "category": "sports",
+        "fields": ["fifa_world_cup.played"]
+      },
+      {
+        "id": "fifa-finals",
+        "title": "List_of_FIFA_World_Cup_finals",
+        "category": "sports",
+        "fields": ["fifa_world_cup.wins"]
+      },
+      {
+        "id": "f1-grands-prix",
+        "title": "List_of_Formula_One_Grands_Prix",
+        "category": "sports",
+        "fields": ["f1_hosted"]
+      },
+      {
+        "id": "country-areas",
+        "title": "List_of_countries_and_dependencies_by_area",
+        "category": "size",
+        "fields": ["area_km2"]
+      }
+    ]
+  },
+  "external": {
+    "sources": [
+      {
+        "id": "who-obesity",
+        "url": "https://www.who.int/data/gho/data/indicators/indicator-details/GHO/prevalence-of-obesity-among-adults-bmi-=-30-(crude-estimate)-(-)",
+        "category": "facts",
+        "fields": ["obesity_rate_rank"],
+        "method": "playwright"
+      },
+      {
+        "id": "wpr-chocolate",
+        "url": "https://worldpopulationreview.com/country-rankings/which-country-eats-the-most-chocolate",
+        "category": "facts",
+        "fields": ["chocolate_consumption_rank"],
+        "method": "playwright"
+      },
+      {
+        "id": "wpr-lakes",
+        "url": "https://worldpopulationreview.com/country-rankings/what-country-has-the-most-lakes",
+        "category": "facts",
+        "fields": ["lakes_count_rank"],
+        "method": "playwright"
+      }
+    ]
+  },
+  "countryPages": {
+    "description": "Individual country Wikipedia pages for dynamic data (population, GDP, HDI, capital)",
+    "fields": ["population.count", "population.density_per_km2", "population.capitals", "population.most_populated_city", "economic.gdp_per_capita", "economic.hdi"]
+  }
+}
+

@@ -1,0 +1,692 @@
+{
+  "startedAt": "2025-12-03T02:48:01.790Z",
+  "wikipedia": {
+    "flags-design": {
+      "status": "complete",
+      "downloadedAt": "2025-12-03T02:50:11.376Z",
+      "title": "List_of_national_flags_by_design",
+      "category": "flag",
+      "fields": [
+        "has_star",
+        "has_coat_of_arms",
+        "has_animal"
+      ],
+      "size": 2202858,
+      "contentType": "text/html; charset=utf-8; profile=\"https://www.mediawiki.org/wiki/Specs/HTML/2.8.0\""
+    },
+    "national-emblems": {
+      "status": "complete",
+      "downloadedAt": "2025-12-03T02:50:13.531Z",
+      "title": "National_emblem",
+      "category": "flag",
+      "fields": [
+        "has_coat_of_arms"
+      ],
+      "size": 46402,
+      "contentType": "text/html; charset=utf-8; profile=\"https://www.mediawiki.org/wiki/Specs/HTML/2.8.0\""
+    },
+    "island-countries": {
+      "status": "complete",
+      "downloadedAt": "2025-12-03T02:50:15.786Z",
+      "title": "List_of_island_countries",
+      "category": "geography",
+      "fields": [
+        "is_island_nation"
+      ],
+      "size": 546974,
+      "contentType": "text/html; charset=utf-8; profile=\"https://www.mediawiki.org/wiki/Specs/HTML/2.8.0\""
+    },
+    "landlocked-countries": {
+      "status": "complete",
+      "downloadedAt": "2025-12-03T02:50:19.515Z",
+      "title": "Landlocked_country",
+      "category": "geography",
+      "fields": [
+        "is_landlocked"
+      ],
+      "size": 262906,
+      "contentType": "text/html; charset=utf-8; profile=\"https://www.mediawiki.org/wiki/Specs/HTML/2.8.0\""
+    },
+    "coastline-length": {
+      "status": "complete",
+      "downloadedAt": "2025-12-03T02:50:21.780Z",
+      "title": "List_of_countries_by_length_of_coastline",
+      "category": "geography",
+      "fields": [
+        "coastline_km"
+      ],
+      "size": 572199,
+      "contentType": "text/html; charset=utf-8; profile=\"https://www.mediawiki.org/wiki/Specs/HTML/2.8.0\""
+    },
+    "mediterranean-sea": {
+      "status": "complete",
+      "downloadedAt": "2025-12-03T02:50:24.255Z",
+      "title": "Mediterranean_Sea",
+      "category": "geography",
+      "fields": [
+        "coastlines"
+      ],
+      "size": 1150655,
+      "contentType": "text/html; charset=utf-8; profile=\"https://www.mediawiki.org/wiki/Specs/HTML/2.8.0\""
+    },
+    "indian-ocean": {
+      "status": "complete",
+      "downloadedAt": "2025-12-03T02:50:31.411Z",
+      "title": "Indian_Ocean",
+      "category": "geography",
+      "fields": [
+        "coastlines"
+      ],
+      "size": 705424,
+      "contentType": "text/html; charset=utf-8; profile=\"https://www.mediawiki.org/wiki/Specs/HTML/2.8.0\""
+    },
+    "pacific-ocean": {
+      "status": "complete",
+      "downloadedAt": "2025-12-03T02:50:33.661Z",
+      "title": "Pacific_Ocean",
+      "category": "geography",
+      "fields": [
+        "coastlines"
+      ],
+      "size": 569284,
+      "contentType": "text/html; charset=utf-8; profile=\"https://www.mediawiki.org/wiki/Specs/HTML/2.8.0\""
+    },
+    "atlantic-ocean": {
+      "status": "complete",
+      "downloadedAt": "2025-12-03T02:50:35.930Z",
+      "title": "Atlantic_Ocean",
+      "category": "geography",
+      "fields": [
+        "coastlines"
+      ],
+      "size": 661506,
+      "contentType": "text/html; charset=utf-8; profile=\"https://www.mediawiki.org/wiki/Specs/HTML/2.8.0\""
+    },
+    "caribbean-sea": {
+      "status": "complete",
+      "downloadedAt": "2025-12-03T02:50:37.980Z",
+      "title": "Caribbean_Sea",
+      "category": "geography",
+      "fields": [
+        "coastlines"
+      ],
+      "size": 343188,
+      "contentType": "text/html; charset=utf-8; profile=\"https://www.mediawiki.org/wiki/Specs/HTML/2.8.0\""
+    },
+    "black-sea": {
+      "status": "complete",
+      "downloadedAt": "2025-12-03T02:50:40.246Z",
+      "title": "Black_Sea",
+      "category": "geography",
+      "fields": [
+        "coastlines"
+      ],
+      "size": 814761,
+      "contentType": "text/html; charset=utf-8; profile=\"https://www.mediawiki.org/wiki/Specs/HTML/2.8.0\""
+    },
+    "baltic-sea": {
+      "status": "complete",
+      "downloadedAt": "2025-12-03T02:50:48.984Z",
+      "title": "Baltic_Sea",
+      "category": "geography",
+      "fields": [
+        "coastlines"
+      ],
+      "size": 841470,
+      "contentType": "text/html; charset=utf-8; profile=\"https://www.mediawiki.org/wiki/Specs/HTML/2.8.0\""
+    },
+    "east-china-sea": {
+      "status": "complete",
+      "downloadedAt": "2025-12-03T02:50:52.590Z",
+      "title": "East_China_Sea",
+      "category": "geography",
+      "fields": [
+        "coastlines"
+      ],
+      "size": 184783,
+      "contentType": "text/html; charset=utf-8; profile=\"https://www.mediawiki.org/wiki/Specs/HTML/2.8.0\""
+    },
+    "south-china-sea": {
+      "status": "complete",
+      "downloadedAt": "2025-12-03T02:50:54.843Z",
+      "title": "South_China_Sea",
+      "category": "geography",
+      "fields": [
+        "coastlines"
+      ],
+      "size": 751136,
+      "contentType": "text/html; charset=utf-8; profile=\"https://www.mediawiki.org/wiki/Specs/HTML/2.8.0\""
+    },
+    "river-systems": {
+      "status": "complete",
+      "downloadedAt": "2025-12-03T02:50:57.119Z",
+      "title": "List_of_river_systems_by_length",
+      "category": "geography",
+      "fields": [
+        "river_systems"
+      ],
+      "size": 508259,
+      "contentType": "text/html; charset=utf-8; profile=\"https://www.mediawiki.org/wiki/Specs/HTML/2.8.0\""
+    },
+    "continent-asia": {
+      "status": "complete",
+      "downloadedAt": "2025-12-03T02:50:59.577Z",
+      "title": "Asia",
+      "category": "geography",
+      "fields": [
+        "continents"
+      ],
+      "size": 1033548,
+      "contentType": "text/html; charset=utf-8; profile=\"https://www.mediawiki.org/wiki/Specs/HTML/2.8.0\""
+    },
+    "continent-europe": {
+      "status": "complete",
+      "downloadedAt": "2025-12-03T02:51:08.245Z",
+      "title": "Europe",
+      "category": "geography",
+      "fields": [
+        "continents"
+      ],
+      "size": 1539285,
+      "contentType": "text/html; charset=utf-8; profile=\"https://www.mediawiki.org/wiki/Specs/HTML/2.8.0\""
+    },
+    "continent-africa": {
+      "status": "complete",
+      "downloadedAt": "2025-12-03T02:51:10.740Z",
+      "title": "Africa",
+      "category": "geography",
+      "fields": [
+        "continents"
+      ],
+      "size": 1561484,
+      "contentType": "text/html; charset=utf-8; profile=\"https://www.mediawiki.org/wiki/Specs/HTML/2.8.0\""
+    },
+    "continent-north-america": {
+      "status": "complete",
+      "downloadedAt": "2025-12-03T02:51:12.824Z",
+      "title": "North_America",
+      "category": "geography",
+      "fields": [
+        "continents"
+      ],
+      "size": 1103574,
+      "contentType": "text/html; charset=utf-8; profile=\"https://www.mediawiki.org/wiki/Specs/HTML/2.8.0\""
+    },
+    "continent-south-america": {
+      "status": "complete",
+      "downloadedAt": "2025-12-03T02:51:21.374Z",
+      "title": "South_America",
+      "category": "geography",
+      "fields": [
+        "continents"
+      ],
+      "size": 1289321,
+      "contentType": "text/html; charset=utf-8; profile=\"https://www.mediawiki.org/wiki/Specs/HTML/2.8.0\""
+    },
+    "continent-oceania": {
+      "status": "complete",
+      "downloadedAt": "2025-12-03T02:51:36.985Z",
+      "title": "Oceania",
+      "category": "geography",
+      "fields": [
+        "continents"
+      ],
+      "size": 2162266,
+      "contentType": "text/html; charset=utf-8; profile=\"https://www.mediawiki.org/wiki/Specs/HTML/2.8.0\""
+    },
+    "equator": {
+      "status": "complete",
+      "downloadedAt": "2025-12-03T02:51:41.057Z",
+      "title": "Equator",
+      "category": "geography",
+      "fields": [
+        "touches_equator"
+      ],
+      "size": 286662,
+      "contentType": "text/html; charset=utf-8; profile=\"https://www.mediawiki.org/wiki/Specs/HTML/2.8.0\""
+    },
+    "eurasian-steppe": {
+      "status": "complete",
+      "downloadedAt": "2025-12-03T02:51:43.097Z",
+      "title": "Eurasian_Steppe",
+      "category": "geography",
+      "fields": [
+        "touches_eurasian_steppe"
+      ],
+      "size": 231730,
+      "contentType": "text/html; charset=utf-8; profile=\"https://www.mediawiki.org/wiki/Specs/HTML/2.8.0\""
+    },
+    "sahara-desert": {
+      "status": "complete",
+      "downloadedAt": "2025-12-03T02:51:49.567Z",
+      "title": "Sahara",
+      "category": "geography",
+      "fields": [
+        "touches_sahara"
+      ],
+      "size": 602290,
+      "contentType": "text/html; charset=utf-8; profile=\"https://www.mediawiki.org/wiki/Specs/HTML/2.8.0\""
+    },
+    "land-borders": {
+      "status": "complete",
+      "downloadedAt": "2025-12-03T02:51:52.034Z",
+      "title": "List_of_countries_and_territories_by_number_of_land_borders",
+      "category": "borders",
+      "fields": [
+        "countries"
+      ],
+      "size": 1382825,
+      "contentType": "text/html; charset=utf-8; profile=\"https://www.mediawiki.org/wiki/Specs/HTML/2.8.0\""
+    },
+    "eu-members": {
+      "status": "complete",
+      "downloadedAt": "2025-12-03T02:51:54.301Z",
+      "title": "Member_state_of_the_European_Union",
+      "category": "political",
+      "fields": [
+        "is_eu_member"
+      ],
+      "size": 450168,
+      "contentType": "text/html; charset=utf-8; profile=\"https://www.mediawiki.org/wiki/Specs/HTML/2.8.0\""
+    },
+    "commonwealth-members": {
+      "status": "complete",
+      "downloadedAt": "2025-12-03T02:51:56.553Z",
+      "title": "Member_states_of_the_Commonwealth_of_Nations",
+      "category": "political",
+      "fields": [
+        "is_commonwealth_member"
+      ],
+      "size": 463898,
+      "contentType": "text/html; charset=utf-8; profile=\"https://www.mediawiki.org/wiki/Specs/HTML/2.8.0\""
+    },
+    "post-soviet-states": {
+      "status": "complete",
+      "downloadedAt": "2025-12-03T02:52:05.170Z",
+      "title": "Post-Soviet_states",
+      "category": "political",
+      "fields": [
+        "was_ussr"
+      ],
+      "size": 936700,
+      "contentType": "text/html; charset=utf-8; profile=\"https://www.mediawiki.org/wiki/Specs/HTML/2.8.0\""
+    },
+    "monarchies": {
+      "status": "complete",
+      "downloadedAt": "2025-12-03T02:52:07.416Z",
+      "title": "Monarchy",
+      "category": "political",
+      "fields": [
+        "is_monarchy"
+      ],
+      "size": 449643,
+      "contentType": "text/html; charset=utf-8; profile=\"https://www.mediawiki.org/wiki/Specs/HTML/2.8.0\""
+    },
+    "dependent-territories": {
+      "status": "complete",
+      "downloadedAt": "2025-12-03T02:52:09.667Z",
+      "title": "Dependent_territory",
+      "category": "political",
+      "fields": [
+        "is_dependency"
+      ],
+      "size": 485827,
+      "contentType": "text/html; charset=utf-8; profile=\"https://www.mediawiki.org/wiki/Specs/HTML/2.8.0\""
+    },
+    "nuclear-weapons": {
+      "status": "complete",
+      "downloadedAt": "2025-12-03T02:52:15.967Z",
+      "title": "List_of_states_with_nuclear_weapons",
+      "category": "political",
+      "fields": [
+        "has_nuclear_weapons"
+      ],
+      "size": 818971,
+      "contentType": "text/html; charset=utf-8; profile=\"https://www.mediawiki.org/wiki/Specs/HTML/2.8.0\""
+    },
+    "lang-spanish": {
+      "status": "complete",
+      "downloadedAt": "2025-12-03T02:52:18.345Z",
+      "title": "List_of_countries_where_Spanish_is_an_official_language",
+      "category": "political",
+      "fields": [
+        "official_languages"
+      ],
+      "size": 269207,
+      "contentType": "text/html; charset=utf-8; profile=\"https://www.mediawiki.org/wiki/Specs/HTML/2.8.0\""
+    },
+    "lang-portuguese": {
+      "status": "complete",
+      "downloadedAt": "2025-12-03T02:52:20.445Z",
+      "title": "List_of_countries_and_territories_where_Portuguese_is_an_official_language",
+      "category": "political",
+      "fields": [
+        "official_languages"
+      ],
+      "size": 134847,
+      "contentType": "text/html; charset=utf-8; profile=\"https://www.mediawiki.org/wiki/Specs/HTML/2.8.0\""
+    },
+    "lang-french": {
+      "status": "complete",
+      "downloadedAt": "2025-12-03T02:52:22.290Z",
+      "title": "List_of_countries_and_territories_where_French_is_an_official_language",
+      "category": "political",
+      "fields": [
+        "official_languages"
+      ],
+      "size": 146385,
+      "contentType": "text/html; charset=utf-8; profile=\"https://www.mediawiki.org/wiki/Specs/HTML/2.8.0\""
+    },
+    "lang-arabic": {
+      "status": "complete",
+      "downloadedAt": "2025-12-03T02:52:24.341Z",
+      "title": "List_of_countries_and_territories_where_Arabic_is_an_official_language",
+      "category": "political",
+      "fields": [
+        "official_languages"
+      ],
+      "size": 303518,
+      "contentType": "text/html; charset=utf-8; profile=\"https://www.mediawiki.org/wiki/Specs/HTML/2.8.0\""
+    },
+    "lang-english": {
+      "status": "complete",
+      "downloadedAt": "2025-12-03T02:52:29.171Z",
+      "title": "List_of_countries_and_territories_where_English_is_an_official_language",
+      "category": "political",
+      "fields": [
+        "official_languages"
+      ],
+      "size": 377279,
+      "contentType": "text/html; charset=utf-8; profile=\"https://www.mediawiki.org/wiki/Specs/HTML/2.8.0\""
+    },
+    "same-sex-marriage": {
+      "status": "complete",
+      "downloadedAt": "2025-12-03T02:52:39.466Z",
+      "title": "Same-sex_marriage",
+      "category": "political",
+      "fields": [
+        "same_sex_marriage_legal"
+      ],
+      "size": 1320754,
+      "contentType": "text/html; charset=utf-8; profile=\"https://www.mediawiki.org/wiki/Specs/HTML/2.8.0\""
+    },
+    "criminalization-homosexuality": {
+      "status": "complete",
+      "downloadedAt": "2025-12-03T02:52:45.812Z",
+      "title": "Criminalization_of_homosexuality",
+      "category": "political",
+      "fields": [
+        "same_sex_activities_illegal"
+      ],
+      "size": 628448,
+      "contentType": "text/html; charset=utf-8; profile=\"https://www.mediawiki.org/wiki/Specs/HTML/2.8.0\""
+    },
+    "corruption-index": {
+      "status": "complete",
+      "downloadedAt": "2025-12-03T02:52:47.873Z",
+      "title": "Corruption_Perceptions_Index",
+      "category": "political",
+      "fields": [
+        "corruption_perceptions_index"
+      ],
+      "size": 642987,
+      "contentType": "text/html; charset=utf-8; profile=\"https://www.mediawiki.org/wiki/Specs/HTML/2.8.0\""
+    },
+    "time-zones": {
+      "status": "complete",
+      "downloadedAt": "2025-12-03T02:52:50.986Z",
+      "title": "List_of_time_zones_by_country",
+      "category": "political",
+      "fields": [
+        "time_zones"
+      ],
+      "size": 202899,
+      "contentType": "text/html; charset=utf-8; profile=\"https://www.mediawiki.org/wiki/Specs/HTML/2.8.0\""
+    },
+    "daylight-saving": {
+      "status": "complete",
+      "downloadedAt": "2025-12-03T02:52:55.541Z",
+      "title": "Daylight_saving_time_by_country",
+      "category": "political",
+      "fields": [
+        "observes_dst"
+      ],
+      "size": 270681,
+      "contentType": "text/html; charset=utf-8; profile=\"https://www.mediawiki.org/wiki/Specs/HTML/2.8.0\""
+    },
+    "nuclear-power": {
+      "status": "complete",
+      "downloadedAt": "2025-12-03T02:52:57.191Z",
+      "title": "Nuclear_power_by_country",
+      "category": "economic",
+      "fields": [
+        "produces_nuclear_power"
+      ],
+      "size": 152434,
+      "contentType": "text/html; charset=utf-8; profile=\"https://www.mediawiki.org/wiki/Specs/HTML/2.8.0\""
+    },
+    "wheat-production": {
+      "status": "complete",
+      "downloadedAt": "2025-12-03T02:52:59.038Z",
+      "title": "List_of_countries_by_wheat_production",
+      "category": "economic",
+      "fields": [
+        "wheat_production_rank"
+      ],
+      "size": 117378,
+      "contentType": "text/html; charset=utf-8; profile=\"https://www.mediawiki.org/wiki/Specs/HTML/2.8.0\""
+    },
+    "oil-production": {
+      "status": "complete",
+      "downloadedAt": "2025-12-03T02:53:01.371Z",
+      "title": "List_of_countries_by_oil_production",
+      "category": "economic",
+      "fields": [
+        "oil_production_rank"
+      ],
+      "size": 215698,
+      "contentType": "text/html; charset=utf-8; profile=\"https://www.mediawiki.org/wiki/Specs/HTML/2.8.0\""
+    },
+    "renewable-energy": {
+      "status": "complete",
+      "downloadedAt": "2025-12-03T02:53:09.476Z",
+      "title": "List_of_countries_by_renewable_electricity_production",
+      "category": "economic",
+      "fields": [
+        "renewable_energy_share_rank"
+      ],
+      "size": 601901,
+      "contentType": "text/html; charset=utf-8; profile=\"https://www.mediawiki.org/wiki/Specs/HTML/2.8.0\""
+    },
+    "left-hand-traffic": {
+      "status": "complete",
+      "downloadedAt": "2025-12-03T02:53:20.891Z",
+      "title": "Left-_and_right-hand_traffic",
+      "category": "facts",
+      "fields": [
+        "drives_on_left"
+      ],
+      "size": 1119594,
+      "contentType": "text/html; charset=utf-8; profile=\"https://www.mediawiki.org/wiki/Specs/HTML/2.8.0\""
+    },
+    "skyscrapers": {
+      "status": "complete",
+      "downloadedAt": "2025-12-03T02:53:23.661Z",
+      "title": "List_of_countries_with_the_most_skyscrapers",
+      "category": "facts",
+      "fields": [
+        "skyscraper_count"
+      ],
+      "size": 119573,
+      "contentType": "text/html; charset=utf-8; profile=\"https://www.mediawiki.org/wiki/Specs/HTML/2.8.0\""
+    },
+    "alcohol-prohibition": {
+      "status": "complete",
+      "downloadedAt": "2025-12-03T02:53:25.707Z",
+      "title": "List_of_countries_with_alcohol_prohibition",
+      "category": "facts",
+      "fields": [
+        "has_alcohol_prohibition"
+      ],
+      "size": 300671,
+      "contentType": "text/html; charset=utf-8; profile=\"https://www.mediawiki.org/wiki/Specs/HTML/2.8.0\""
+    },
+    "alcohol-consumption": {
+      "status": "complete",
+      "downloadedAt": "2025-12-03T02:53:27.979Z",
+      "title": "List_of_countries_by_alcohol_consumption_per_capita",
+      "category": "facts",
+      "fields": [
+        "alcohol_consumption_rank"
+      ],
+      "size": 524274,
+      "contentType": "text/html; charset=utf-8; profile=\"https://www.mediawiki.org/wiki/Specs/HTML/2.8.0\""
+    },
+    "rail-networks": {
+      "status": "complete",
+      "downloadedAt": "2025-12-03T02:53:37.301Z",
+      "title": "List_of_countries_by_rail_transport_network_size",
+      "category": "facts",
+      "fields": [
+        "rail_network_rank"
+      ],
+      "size": 644280,
+      "contentType": "text/html; charset=utf-8; profile=\"https://www.mediawiki.org/wiki/Specs/HTML/2.8.0\""
+    },
+    "population-density": {
+      "status": "complete",
+      "downloadedAt": "2025-12-03T02:53:39.555Z",
+      "title": "List_of_countries_and_dependencies_by_population_density",
+      "category": "facts",
+      "fields": [
+        "population_density_rank"
+      ],
+      "size": 652685,
+      "contentType": "text/html; charset=utf-8; profile=\"https://www.mediawiki.org/wiki/Specs/HTML/2.8.0\""
+    },
+    "tourist-arrivals": {
+      "status": "complete",
+      "downloadedAt": "2025-12-03T02:53:44.318Z",
+      "title": "World_Tourism_rankings",
+      "category": "facts",
+      "fields": [
+        "tourist_arrivals_rank"
+      ],
+      "size": 300837,
+      "contentType": "text/html; charset=utf-8; profile=\"https://www.mediawiki.org/wiki/Specs/HTML/2.8.0\""
+    },
+    "world-heritage-sites": {
+      "status": "complete",
+      "downloadedAt": "2025-12-03T02:53:46.581Z",
+      "title": "World_Heritage_Sites_by_country",
+      "category": "facts",
+      "fields": [
+        "world_heritage_sites_rank"
+      ],
+      "size": 343214,
+      "contentType": "text/html; charset=utf-8; profile=\"https://www.mediawiki.org/wiki/Specs/HTML/2.8.0\""
+    },
+    "air-pollution": {
+      "status": "complete",
+      "downloadedAt": "2025-12-03T02:53:53.674Z",
+      "title": "List_of_countries_by_air_pollution",
+      "category": "facts",
+      "fields": [
+        "air_pollution_pm25"
+      ],
+      "size": 454149,
+      "contentType": "text/html; charset=utf-8; profile=\"https://www.mediawiki.org/wiki/Specs/HTML/2.8.0\""
+    },
+    "co2-emissions": {
+      "status": "complete",
+      "downloadedAt": "2025-12-03T02:54:05.499Z",
+      "title": "List_of_countries_by_carbon_dioxide_emissions_per_capita",
+      "category": "facts",
+      "fields": [
+        "co2_emissions_per_capita"
+      ],
+      "size": 1261980,
+      "contentType": "text/html; charset=utf-8; profile=\"https://www.mediawiki.org/wiki/Specs/HTML/2.8.0\""
+    },
+    "olympic-medals": {
+      "status": "complete",
+      "downloadedAt": "2025-12-03T02:54:08.155Z",
+      "title": "All-time_Olympic_Games_medal_table",
+      "category": "sports",
+      "fields": [
+        "olympic_medals"
+      ],
+      "size": 1883596,
+      "contentType": "text/html; charset=utf-8; profile=\"https://www.mediawiki.org/wiki/Specs/HTML/2.8.0\""
+    },
+    "olympic-hosts": {
+      "status": "complete",
+      "downloadedAt": "2025-12-03T02:54:09.653Z",
+      "title": "List_of_Olympic_Games_host_cities",
+      "category": "sports",
+      "fields": [
+        "olympics_hosted"
+      ],
+      "size": 488307,
+      "contentType": "text/html; charset=utf-8; profile=\"https://www.mediawiki.org/wiki/Specs/HTML/2.8.0\""
+    },
+    "fifa-hosts": {
+      "status": "complete",
+      "downloadedAt": "2025-12-03T02:54:12.233Z",
+      "title": "FIFA_World_Cup_hosts",
+      "category": "sports",
+      "fields": [
+        "fifa_world_cup.hosted"
+      ],
+      "size": 745370,
+      "contentType": "text/html; charset=utf-8; profile=\"https://www.mediawiki.org/wiki/Specs/HTML/2.8.0\""
+    },
+    "fifa-appearances": {
+      "status": "complete",
+      "downloadedAt": "2025-12-03T02:54:22.815Z",
+      "title": "National_team_appearances_in_the_FIFA_World_Cup",
+      "category": "sports",
+      "fields": [
+        "fifa_world_cup.played"
+      ],
+      "size": 1435453,
+      "contentType": "text/html; charset=utf-8; profile=\"https://www.mediawiki.org/wiki/Specs/HTML/2.8.0\""
+    },
+    "fifa-finals": {
+      "status": "complete",
+      "downloadedAt": "2025-12-03T02:54:24.882Z",
+      "title": "List_of_FIFA_World_Cup_finals",
+      "category": "sports",
+      "fields": [
+        "fifa_world_cup.wins"
+      ],
+      "size": 331124,
+      "contentType": "text/html; charset=utf-8; profile=\"https://www.mediawiki.org/wiki/Specs/HTML/2.8.0\""
+    },
+    "f1-grands-prix": {
+      "status": "complete",
+      "downloadedAt": "2025-12-03T02:54:31.908Z",
+      "title": "List_of_Formula_One_Grands_Prix",
+      "category": "sports",
+      "fields": [
+        "f1_hosted"
+      ],
+      "size": 753879,
+      "contentType": "text/html; charset=utf-8; profile=\"https://www.mediawiki.org/wiki/Specs/HTML/2.8.0\""
+    },
+    "country-areas": {
+      "status": "complete",
+      "downloadedAt": "2025-12-03T02:54:34.598Z",
+      "title": "List_of_countries_and_dependencies_by_area",
+      "category": "size",
+      "fields": [
+        "area_km2"
+      ],
+      "size": 871968,
+      "contentType": "text/html; charset=utf-8; profile=\"https://www.mediawiki.org/wiki/Specs/HTML/2.8.0\""
+    }
+  },
+  "external": {},
+  "countryPages": {},
+  "lastUpdated": "2025-12-03T02:54:34.598Z"
+}
