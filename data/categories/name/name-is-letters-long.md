@@ -1,0 +1,1 @@
+Name is # letters longName is a specified number of letters long.

@@ -1,0 +1,3 @@
+Top 20 in alcohol consumptionThe country ranks among the top 20 globally for the highest per capita alcohol consumption, measured in equivalent liters of pure alcohol (ethanol) consumed per year. A standard drink is about 17 millilitres of ethanol, putting one litre at about 59 drinks. 
+
+Source:  [Wikipedia - Countries by alcohol consumption per capita](https://en.wikipedia.org/wiki/List_of_countries_by_alcohol_consumption_per_capita)

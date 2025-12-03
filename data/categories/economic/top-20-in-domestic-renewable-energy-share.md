@@ -1,0 +1,3 @@
+Top 20 in domestic renewable energy shareThe country is among the top 20 producers of electricity from renewable sources, based on the percentage of renewable energy in domestic electricity production. This includes hydro, wind, biomass, solar, and geothermal energy. 
+
+Source:  [Wikipedia - List of countries by renewable electricity production](https://en.wikipedia.org/wiki/List_of_countries_by_renewable_electricity_production)

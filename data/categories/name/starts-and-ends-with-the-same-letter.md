@@ -1,0 +1,1 @@
+Starts and ends with the same letterThe first and the last letters of the name are the same.

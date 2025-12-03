@@ -1,0 +1,1 @@
+Starts/Ends with letterStarts or ends with a specified letter.

@@ -1,0 +1,327 @@
+[
+  {
+    "section": "Flag",
+    "name": "Flag with color",
+    "description": "Flag with colorColor must appear on the flag.\n\nAccepted Colors: Only the following colors are recognized: black, white, grey, pink, red, orange, yellow, green, blue, light blue, purple, brown. Any other shades will be categorized under the closest matching color on this list.\n\nShades Don't Count Separately: Different shades of the same color (e.g., dark red or pale yellow) do not count as separate colors. They will all be classified under the primary color (e.g., \"red\" or \"yellow\").\n\nException for Blue: If a flag contains only one blue, it will be classified as \"blue.\" If there are two blues, and one is significantly lighter, the colors will be classified as \"blue\" and \"light blue.\"Counting Colors: The total number of colors on the flag will only reflect these accepted colors, with no distinction made for minor shade variations (except for the exception mentioned with blue)."
+  },
+  {
+    "section": "Flag",
+    "name": "Star in flag",
+    "description": "Star in flagHas/Does not have a star in the flag, including symbols of the sun. \n\nSource:  [Wikipedia - National Flags with a Sun](https://en.wikipedia.org/wiki/List_of_national_flags_by_design#Sun) \n\nSource:  [Wikipedia - National Flags with a Star](https://en.wikipedia.org/wiki/List_of_national_flags_by_design#Star)"
+  },
+  {
+    "section": "Flag",
+    "name": "Flag with only red, white, and blue",
+    "description": "Flag with only red, white, and blueFlag consists of only red, white, and blue.\n\nAccepted Colors: Only the following colors are recognized: black, white, grey, pink, red, orange, yellow, green, blue, light blue, purple, brown. Any other shades will be categorized under the closest matching color on this list.\n\nShades Don't Count Separately: Different shades of the same color (e.g., dark red or pale yellow) do not count as separate colors. They will all be classified under the primary color (e.g., \"red\" or \"yellow\").\n\nException for Blue: If a flag contains only one blue, it will be classified as \"blue.\" If there are two blues, and one is significantly lighter, the colors will be classified as \"blue\" and \"light blue.\"Counting Colors: The total number of colors on the flag will only reflect these accepted colors, with no distinction made for minor shade variations (except for the exception mentioned with blue)."
+  },
+  {
+    "section": "Flag",
+    "name": "Flag without red, white, or blue",
+    "description": "Flag without red, white, or blueFlag does not consist of red, white, or blue.\n\nAccepted Colors: Only the following colors are recognized: black, white, grey, pink, red, orange, yellow, green, blue, light blue, purple, brown. Any other shades will be categorized under the closest matching color on this list.\n\nShades Don't Count Separately: Different shades of the same color (e.g., dark red or pale yellow) do not count as separate colors. They will all be classified under the primary color (e.g., \"red\" or \"yellow\").\n\nException for Blue: If a flag contains only one blue, it will be classified as \"blue.\" If there are two blues, and one is significantly lighter, the colors will be classified as \"blue\" and \"light blue.\"Counting Colors: The total number of colors on the flag will only reflect these accepted colors, with no distinction made for minor shade variations (except for the exception mentioned with blue)."
+  },
+  {
+    "section": "Flag",
+    "name": "Flag has a coat of arms",
+    "description": "Flag has a coat of armsThe flag has a coat of arms, national emblem, or national seal.\n\nEven though the design of an emblem doesn't follow the rules of heraldry and so not containing a shield (escutcheon) in the center, we decided to include them in this category. Many unheraldic national emblems are colloquially called national coats of arms anyway, because they are used for the same purposes as national coats of arms. \n\nSource:  [Wikipedia - Flags with coats of arms](https://en.wikipedia.org/wiki/List_of_national_flags_by_design#Coat_of_arms) \n\nSource:  [Wikipedia - National emblems](https://en.wikipedia.org/wiki/National_emblem)"
+  },
+  {
+    "section": "Flag",
+    "name": "Flag has an animal",
+    "description": "Flag has an animalFlag contains a depiction of an animal (including humans). \n\nSource:  [Wikipedia - Flags with animals](https://en.wikipedia.org/wiki/List_of_national_flags_by_design)"
+  },
+  {
+    "section": "Flag",
+    "name": "Flag with only # colors",
+    "description": "Flag with only # colorsCountry with a flag consisting of only a specified number of colors.\n\nAccepted Colors: Only the following colors are recognized: black, white, grey, pink, red, orange, yellow, green, blue, light blue, purple, brown. Any other shades will be categorized under the closest matching color on this list.\n\nShades Don't Count Separately: Different shades of the same color (e.g., dark red or pale yellow) do not count as separate colors. They will all be classified under the primary color (e.g., \"red\" or \"yellow\").\n\nException for Blue: If a flag contains only one blue, it will be classified as \"blue.\" If there are two blues, and one is significantly lighter, the colors will be classified as \"blue\" and \"light blue.\"Counting Colors: The total number of colors on the flag will only reflect these accepted colors, with no distinction made for minor shade variations (except for the exception mentioned with blue)."
+  },
+  {
+    "section": "Geography",
+    "name": "Island nation",
+    "description": "Island nationThe country is entirely surrounded by water and does not share land borders with any other country, being composed of one or more islands.\n\nExceptions:Australia is not included as it is considered a continental country, while Greenland is regarded as the largest island.\n\nEven though the following countries de facto have a land border with another country, we include them in this category based on their geographical location, being situated on an island without mainland territory: Brunei, Dominican Republic, Haiti, Indonesia, Ireland, Papua New Guinea, Timor-Leste, Sint Maarten, Saint Martin. \n\nSource:  [Wikipedia - List of island countries](https://en.wikipedia.org/wiki/List_of_island_countries)"
+  },
+  {
+    "section": "Geography",
+    "name": "Landlocked",
+    "description": "LandlockedDoes not border an ocean or a sea. The Caspian Sea is not considered a sea, so, for example, Turkmenistan is a landlocked country. \n\nSource:  [Wikipedia - List of landlocked countries](https://en.wikipedia.org/wiki/Landlocked_country#List_of_landlocked_countries_and_landlocked_de_facto_states)"
+  },
+  {
+    "section": "Geography",
+    "name": "Coastline length",
+    "description": "Coastline lengthOver or under specified length of coastline. Excludes overseas departments and landlocked countries. For countries where data is not available from our listed source, the World Resources Institute, we have used an alternative source, The World Factbook.\n\nUseful statistics:25th percentile: 72 km50th percentile: 445 km75th percentile: 2,400 kmAverage: 3,800 km \n\nSource:  [World Resources Institute](https://en.wikipedia.org/wiki/List_of_countries_by_length_of_coastline)"
+  },
+  {
+    "section": "Geography",
+    "name": "Coastline on the X",
+    "description": "Coastline on the XHas a coastline on the Mediterranean Sea. \n\nSource:  [Wikipedia - Mediterranean Sea](https://en.wikipedia.org/wiki/Mediterranean_Sea)Has a coastline on the Indian Ocean. Countries are considered to have a coastline on an ocean if they directly border that ocean or any adjacent seas or gulfs that are not separated by significant geographical barriers (like straits). For example, Oman has a coastline on the Indian Ocean despite bordering the Arabian Sea, but Qatar doesn't have a coastline on the Indian Ocean because the Persian Gulf is separated from the Gulf of Oman, the Arabian Sea and therefore the Indian Ocean by the Strait of Hormuz. \n\nSource:  [Wikipedia - Indian Ocean](https://en.wikipedia.org/wiki/Indian_Ocean)Has a coastline on the Pacific Ocean. Countries are considered to have a coastline on an ocean if they directly border that ocean or any adjacent seas or gulfs that are not separated by significant geographical barriers (like straits).\n\nSeas in the Pacific Ocean which are treated differently: the South China Sea and the East China Sea. Countries bordering these seas (e.g., Brunei, Vietnam) are classified as having coastlines on the South or East China Seas, not the Pacific Ocean. \n\nSource:  [Wikipedia - Pacific Ocean](https://en.wikipedia.org/wiki/Pacific_Ocean)Has a coastline on the Atlantic Ocean (both South and North Atlantic). Countries are considered to have a coastline on an ocean if they directly border that ocean or any adjacent seas or gulfs that are not separated by significant geographical barriers (like straits). For example, Algeria doesn't have a coastline on the Atlantic Ocean.\n\nSeas in the Atlantic Ocean which are treated differently: the Caribbean Sea. Countries bordering the Caribbean Sea (e.g., Panama, Colombia) are classified as having coastlines on the Caribbean Sea, not the Atlantic Ocean. \n\nSource:  [Wikipedia - Atlantic Ocean](https://en.wikipedia.org/wiki/Atlantic_Ocean)Has a coastline on the South Atlantic Ocean. The same rules are applied as to the whole Atlantic Ocean. \n\nSource:  [Wikipedia - South Atlantic Ocean](https://en.wikipedia.org/wiki/List_of_seas_on_Earth)Has a coastline on the North Atlantic Ocean. The same rules are applied as to the whole Atlantic Ocean. \n\nSource:  [Wikipedia - North Atlantic Ocean](https://en.wikipedia.org/wiki/List_of_seas_on_Earth)Has a coastline on the Caribbean Sea. \n\nSource:  [Wikipedia - Caribbean Sea](https://en.wikipedia.org/wiki/Caribbean_Sea)Has a coastline on the Black Sea. \n\nSource:  [Wikipedia - Black Sea](https://en.wikipedia.org/wiki/Black_Sea)Has a coastline on the Baltic Sea. \n\nSource:  [Wikipedia - Baltic Sea.](https://en.wikipedia.org/wiki/Baltic_Sea)Has a coastline on the South or East China Seas. \n\nSource:  [Wikipedia - East China Sea](https://en.wikipedia.org/wiki/East_China_Sea) \n\nSource:  [Wikipedia - South China Sea](https://en.wikipedia.org/wiki/South_China_Sea)"
+  },
+  {
+    "section": "Geography",
+    "name": "Is part of the X River system",
+    "description": "Is part of the X River systemIs part of the Nile River system. \n\nSource:  [Wikipedia - List of River Systems](https://en.wikipedia.org/wiki/List_of_river_systems_by_length)Is part of the Amazon River system. \n\nSource:  [Wikipedia - List of River Systems](https://en.wikipedia.org/wiki/List_of_river_systems_by_length)Is part of the Danube River system. \n\nSource:  [Wikipedia - List of River Systems](https://en.wikipedia.org/wiki/List_of_river_systems_by_length)Is part of the Congo River system. \n\nSource:  [Wikipedia - List of River Systems](https://en.wikipedia.org/wiki/List_of_river_systems_by_length)Is part of the Niger River system. \n\nSource:  [Wikipedia - List of River Systems](https://en.wikipedia.org/wiki/List_of_river_systems_by_length)Is part of the Rhine River system. \n\nSource:  [Wikipedia - List of River Systems](https://en.wikipedia.org/wiki/List_of_river_systems_by_length)Is part of the Mekong River system. \n\nSource:  [Wikipedia - List of River Systems](https://en.wikipedia.org/wiki/List_of_river_systems_by_length)Is part of the Zambezi River system. \n\nSource:  [Wikipedia - List of River Systems](https://en.wikipedia.org/wiki/List_of_river_systems_by_length)"
+  },
+  {
+    "section": "Geography",
+    "name": "In X Continent",
+    "description": "In X ContinentIs located in Asia. \n\nSource:  [Wikipedia - Asia](https://en.wikipedia.org/wiki/Asia)Is located in Europe. \n\nSource:  [Wikipedia - Europe](https://en.wikipedia.org/wiki/Europe)Is located in Africa. \n\nSource:  [Wikipedia - Africa](https://en.wikipedia.org/wiki/Africa)Is located in North America. \n\nSource:  [Wikipedia - North America](https://en.wikipedia.org/wiki/North_America)Is located in South America. \n\nSource:  [Wikipedia - South America](https://en.wikipedia.org/wiki/South_America)Is located in Oceania. \n\nSource:  [Wikipedia - Oceania](https://en.wikipedia.org/wiki/Oceania)"
+  },
+  {
+    "section": "Geography",
+    "name": "Touches the Eurasian Steppe",
+    "description": "Touches the Eurasian SteppeThe country lies within or borders the Eurasian Steppe, a vast grassland region stretching from Eastern Europe to Central Asia. \n\nSource:  [Wikipedia - Eurasian Steppe](https://en.wikipedia.org/wiki/Eurasian_Steppe)"
+  },
+  {
+    "section": "Geography",
+    "name": "Touches the Equator",
+    "description": "Touches the EquatorThe country is situated on or crosses the Earth's equator, the imaginary line that divides the planet into the Northern and Southern Hemispheres. \n\nSource:  [Wikipedia - Equator](https://en.wikipedia.org/wiki/Equator#Equatorial_countries_and_territories)"
+  },
+  {
+    "section": "Geography",
+    "name": "Touches the Sahara Desert",
+    "description": "Touches the Sahara DesertThe country is located within or borders the Sahara Desert, the world's largest hot desert, spanning much of North Africa. \n\nSource:  [Wikipedia - Sahara Desert](https://en.wikipedia.org/wiki/Sahara)"
+  },
+  {
+    "section": "Economic",
+    "name": "Human Development Index",
+    "description": "Human Development IndexOver or under specified Human Development Index.\n\nThe HDI is a summary measure of achievement in key dimensions: health, knowledge, and living standards.\n\nData is retrieved from each country's Wikipedia page and updated on the 1st of each month. Wikipedia itself typically sources the underlying data from the United Nation’s Human Development Index Report. For data discrepancies with the UN report, please contact a Wikipedia editor about the country in question."
+  },
+  {
+    "section": "Economic",
+    "name": "GDP per capita",
+    "description": "GDP per capitaOver or under specified GDP per capita.\n\nGDP measures economic output per person.\n\nThe data was taken from the information box on each country's Wikipedia page. The data is retrieved from the Wikipedia pages every 1st of each month."
+  },
+  {
+    "section": "Economic",
+    "name": "Produces Nuclear power",
+    "description": "Produces Nuclear powerThe country generates electricity using nuclear reactors as part of its energy production. \n\nSource:  [Wikipedia - Nuclear power by country](https://en.wikipedia.org/wiki/Nuclear_power_by_country)"
+  },
+  {
+    "section": "Economic",
+    "name": "Top 20 in wheat production",
+    "description": "Top 20 in wheat productionThe country is among the top 20 global producers of wheat, measured by annual yield. \n\nSource:  [Wikipedia - List of countries by wheat production](https://en.wikipedia.org/wiki/List_of_countries_by_wheat_production)"
+  },
+  {
+    "section": "Economic",
+    "name": "Top 20 in oil production",
+    "description": "Top 20 in oil productionThe country is among the top 20 global producers of oil, based on annual crude oil and lease condensate production as compiled by the U.\n\nS. Energy Information Administration. This ranking reflects consistent full-year production figures, which avoid short-term distortions due to maintenance or seasonal factors. \n\nSource:  [Wikipedia - List of countries by oil production](https://en.wikipedia.org/wiki/List_of_countries_by_oil_production)"
+  },
+  {
+    "section": "Economic",
+    "name": "Top 20 in domestic renewable energy share",
+    "description": "Top 20 in domestic renewable energy shareThe country is among the top 20 producers of electricity from renewable sources, based on the percentage of renewable energy in domestic electricity production. This includes hydro, wind, biomass, solar, and geothermal energy. \n\nSource:  [Wikipedia - List of countries by renewable electricity production](https://en.wikipedia.org/wiki/List_of_countries_by_renewable_electricity_production)"
+  },
+  {
+    "section": "Name",
+    "name": "Starts/Ends with letter",
+    "description": "Starts/Ends with letterStarts or ends with a specified letter."
+  },
+  {
+    "section": "Name",
+    "name": "Name is # letters long",
+    "description": "Name is # letters longName is a specified number of letters long."
+  },
+  {
+    "section": "Name",
+    "name": "Name is multiple words",
+    "description": "Name is multiple wordsName consists of multiple words."
+  },
+  {
+    "section": "Name",
+    "name": "Starts and ends with the same letter",
+    "description": "Starts and ends with the same letterThe first and the last letters of the name are the same."
+  },
+  {
+    "section": "Borders",
+    "name": "Borders countries",
+    "description": "Borders countriesBorders a specified number of countries.\n\nFor example, in the category \"Borders 4-5 countries\" Ukraine would be an invalid answer, as it borders 7 countries. The correct answer must fall within the specified range for the category. So, Romania (borders 5 countries) or Czechia (borders 4 countries) would be valid answers. Does not include overseas departments as they are represented as separate entities in our games. \n\nSource:  [Wikipedia - Countries and territories by number of land borders](https://en.wikipedia.org/wiki/List_of_countries_and_territories_by_number_of_land_borders)"
+  },
+  {
+    "section": "Borders",
+    "name": "Borders X Country",
+    "description": "Borders X CountryHas a land border with Russia. \n\nSource:  [Wikipedia - Countries and territories by number of land borders](https://en.wikipedia.org/wiki/List_of_countries_and_territories_by_number_of_land_borders)Has a land border with China. \n\nSource:  [Wikipedia - Countries and territories by number of land borders](https://en.wikipedia.org/wiki/List_of_countries_and_territories_by_number_of_land_borders)Has a land border with Brazil. Does not include overseas departments. \n\nSource:  [Wikipedia - Countries and territories by number of land borders](https://en.wikipedia.org/wiki/List_of_countries_and_territories_by_number_of_land_borders)Has a land border with France. Does not include overseas departments. \n\nSource:  [Wikipedia - Countries and territories by number of land borders](https://en.wikipedia.org/wiki/List_of_countries_and_territories_by_number_of_land_borders)"
+  },
+  {
+    "section": "Facts",
+    "name": "Drives on the left",
+    "description": "Drives on the leftThe country follows left-hand traffic rules, meaning vehicles drive on the left side of the road. \n\nSource:  [Wikipedia - Left and right-hand traffic](https://en.wikipedia.org/wiki/Left-_and_right-hand_traffic)"
+  },
+  {
+    "section": "Facts",
+    "name": "Has 50+ skyscrapers",
+    "description": "Has 50+ skyscrapersHas 50 or more skyscrapers. \n\nSource:  [Wikipedia - Countries with the most skyscrapers](https://en.wikipedia.org/wiki/List_of_countries_with_the_most_skyscrapers)"
+  },
+  {
+    "section": "Facts",
+    "name": "Top 20 in obesity rate",
+    "description": "Top 20 in obesity rateThe country ranks among the top 20 in the world for the highest percentage of its population classified as obese, based on body mass index (BMI) data. \n\nSource:  [WHO - Prevalence of obesity among adults, BMI >= 30 (crude estimate) (%)](https://www.who.int/data/gho/data/indicators/indicator-details/GHO/prevalence-of-obesity-among-adults-bmi-=-30-(crude-estimate)-(-))"
+  },
+  {
+    "section": "Facts",
+    "name": "Alcohol prohibition",
+    "description": "Alcohol prohibitionThe country enforces comprehensive bans on the production, storage, transportation, sale, possession, and consumption of alcoholic beverages. \n\nSource:  [Wikipedia - Countries with alcohol prohibition](https://en.wikipedia.org/wiki/List_of_countries_with_alcohol_prohibition)"
+  },
+  {
+    "section": "Facts",
+    "name": "Top 20 in alcohol consumption",
+    "description": "Top 20 in alcohol consumptionThe country ranks among the top 20 globally for the highest per capita alcohol consumption, measured in equivalent liters of pure alcohol (ethanol) consumed per year. A standard drink is about 17 millilitres of ethanol, putting one litre at about 59 drinks. \n\nSource:  [Wikipedia - Countries by alcohol consumption per capita](https://en.wikipedia.org/wiki/List_of_countries_by_alcohol_consumption_per_capita)"
+  },
+  {
+    "section": "Facts",
+    "name": "Top 20 in chocolate consumption",
+    "description": "Top 20 in chocolate consumptionThe country ranks among the top 20 globally for the highest per capita chocolate consumption, measured in kilograms per person per year. \n\nSource:  [World Population Review - Chocolate consumption](https://worldpopulationreview.com/country-rankings/which-country-eats-the-most-chocolate)"
+  },
+  {
+    "section": "Facts",
+    "name": "Top 20 countries by rail transport network size",
+    "description": "Top 20 countries by rail transport network sizeTop 20 in rail transport network size based on length of rail lines. \n\nSource:  [Wikipedia - Countries by rail transport network size](https://en.wikipedia.org/wiki/List_of_countries_by_rail_transport_network_size)"
+  },
+  {
+    "section": "Facts",
+    "name": "Top/Bottom 20 in population density",
+    "description": "Top/Bottom 20 in population densityTop or Bottom 20 in population density, expressed as number of people per km². \n\nSource:  [Wikipedia - Countries by population density](https://en.wikipedia.org/wiki/List_of_countries_and_dependencies_by_population_density)"
+  },
+  {
+    "section": "Facts",
+    "name": "Top 20 in annual tourist arrivals",
+    "description": "Top 20 in annual tourist arrivalsTop 20 in annual tourist arrivals.\n\nThe World Tourism rankings are compiled by the United Nations World Tourism Organization as part of their World Tourism Barometer publication, which is released up to six times per year. \n\nSource:  [Wikipedia - World Tourism rankings](https://en.wikipedia.org/wiki/World_Tourism_rankings)"
+  },
+  {
+    "section": "Facts",
+    "name": "Top 20 in number of World Heritage sites",
+    "description": "Top 20 in number of World Heritage sitesThe country is among the top 20 globally for having the most UNESCO World Heritage sites, which are designated for their cultural, historical, or natural significance. \n\nSource:  [Wikipedia - World Heritage Sites by country](https://en.wikipedia.org/wiki/World_Heritage_Sites_by_country)"
+  },
+  {
+    "section": "Facts",
+    "name": "Air pollution μg/m³",
+    "description": "Air pollution μg/m³Over or under a specified concentration of PM2.5 (μg/m³).\n\nIt shows the average measured concentration of particulate matter (PM2.5) in micrograms per cubic meter (μg/m³). \n\nSource:  [Wikipedia - Countries by air pollution](https://en.wikipedia.org/wiki/List_of_countries_by_air_pollution)"
+  },
+  {
+    "section": "Facts",
+    "name": "CO₂ emissions per capita tCO₂/year",
+    "description": "CO₂ emissions per capita tCO₂/yearOver or under a specified amount of Fossil tCO₂ emissions per capita.\n\nCO₂ emissions are measured in metric tons of carbon dioxide per year (tCO₂/year) and reflect the amount of carbon dioxide released into the atmosphere from fossil fuel combustion, industrial processes, and other human activities, indicating a country's environmental impact and contribution to global warming. \n\nSource:  [Wikipedia - Countries by carbon dioxide emissions](https://en.wikipedia.org/wiki/List_of_countries_by_carbon_dioxide_emissions_per_capita)"
+  },
+  {
+    "section": "Facts",
+    "name": "Top 10 in number of lakes",
+    "description": "Top 10 in number of lakesTop 10 countries by the overall number of lakes on their territory. \n\nSource:  [World Population Review - Number of lakes](https://worldpopulationreview.com/country-rankings/what-country-has-the-most-lakes)"
+  },
+  {
+    "section": "Sports",
+    "name": "Olympic medal count",
+    "description": "Olympic medal countOver or under specified Olympic medals across all Olympic games, both Summer and Winter. \n\nSource:  [Wikipedia - Olympic medal table](https://en.wikipedia.org/wiki/All-time_Olympic_Games_medal_table)"
+  },
+  {
+    "section": "Sports",
+    "name": "Has never won an Olympic medal",
+    "description": "Has never won an Olympic medalHas never won an Olympic medal. \n\nSource:  [Wikipedia - Olympic medal table](https://en.wikipedia.org/wiki/All-time_Olympic_Games_medal_table)"
+  },
+  {
+    "section": "Sports",
+    "name": "Has hosted the Olympics",
+    "description": "Has hosted the OlympicsHas hosted the Summer or Winter Olympics. \n\nSource:  [Wikipedia - Olympic Games host cities](https://en.wikipedia.org/wiki/List_of_Olympic_Games_host_cities)"
+  },
+  {
+    "section": "Sports",
+    "name": "Has hosted the Men's FIFA World Cup",
+    "description": "Has hosted the Men's FIFA World CupHas hosted the Men's FIFA World Cup. \n\nSource:  [Wikipedia - FIFA World Cup hosts](https://en.wikipedia.org/wiki/FIFA_World_Cup_hosts)"
+  },
+  {
+    "section": "Sports",
+    "name": "Has played in the Men's FIFA World Cup",
+    "description": "Has played in the Men's FIFA World CupHas played in the Men's FIFA World Cup. \n\nSource:  [Wikipedia - National team appearances in the FIFA World Cup](https://en.wikipedia.org/wiki/National_team_appearances_in_the_FIFA_World_Cup)"
+  },
+  {
+    "section": "Sports",
+    "name": "Has won the Men's FIFA World Cup",
+    "description": "Has won the Men's FIFA World CupHas won the Men's FIFA World Cup. \n\nSource:  [Wikipedia - List of FIFA World Cup finals](https://en.wikipedia.org/wiki/List_of_FIFA_World_Cup_finals#Results)"
+  },
+  {
+    "section": "Sports",
+    "name": "Has hosted a Formula 1 Grand Prix",
+    "description": "Has hosted a Formula 1 Grand PrixHas hosted a Formula 1 Grand Prix \n\nSource:  [Wikipedia - Formula One Grands Prix by host nation](https://en.wikipedia.org/wiki/List_of_Formula_One_Grands_Prix#By_host_nation)"
+  },
+  {
+    "section": "Political",
+    "name": "Member of the European Union",
+    "description": "Member of the European UnionThe country is part of the European Union (EU), a political and economic union of member states located primarily in Europe that share common policies and regulations. \n\nSource:  [Wikipedia - Member state of the European Union](https://en.wikipedia.org/wiki/Member_state_of_the_European_Union)"
+  },
+  {
+    "section": "Political",
+    "name": "Member of the Commonwealth",
+    "description": "Member of the CommonwealthThe country is part of the Commonwealth of Nations, a political association of member states, most of which were former territories of the British Empire, that cooperate on shared goals and values. \n\nSource:  [Wikipedia - Member states of the Commonwealth](https://en.wikipedia.org/wiki/Member_states_of_the_Commonwealth_of_Nations)"
+  },
+  {
+    "section": "Political",
+    "name": "Was part of the USSR",
+    "description": "Was part of the USSRThe country was formerly a part of the Union of Soviet Socialist Republics (USSR), a federal socialist state that existed from 1922 to 1991. \n\nSource:  [Wikipedia - Former Soviet Union countries](https://en.wikipedia.org/wiki/Post-Soviet_states)"
+  },
+  {
+    "section": "Political",
+    "name": "Is a monarchy",
+    "description": "Is a monarchyThe country is governed by a monarchy, where the head of state is a king, queen, or emperor, either ruling with full or limited constitutional powers. \n\nSource:  [Wikipedia - Monarchy](https://en.wikipedia.org/wiki/Monarchy#Current_monarchies)"
+  },
+  {
+    "section": "Political",
+    "name": "Is a dependency/territory",
+    "description": "Is a dependency/territoryThe country or region is not fully sovereign and is governed or overseen by another country, often enjoying limited autonomy. \n\nSource:  [Wikipedia - Dependent territory](https://en.wikipedia.org/wiki/Dependent_territory)"
+  },
+  {
+    "section": "Political",
+    "name": "Has nuclear weapons",
+    "description": "Has nuclear weaponsThe country possesses and maintains nuclear weapons as part of its military capabilities. \n\nSource:  [Wikipedia - States with nuclear weapons](https://en.wikipedia.org/wiki/List_of_states_with_nuclear_weapons)"
+  },
+  {
+    "section": "Political",
+    "name": "X is an official language",
+    "description": "X is an official languageSpanish is an official language. \n\nSource:  [Wikipedia - Countries where Spanish is an official language](https://en.wikipedia.org/wiki/List_of_countries_where_Spanish_is_an_official_language)Portuguese is an official language. \n\nSource:  [Wikipedia - Countries where Portuguese is an official language](https://en.wikipedia.org/wiki/List_of_countries_and_territories_where_Portuguese_is_an_official_language)French is an official language. \n\nSource:  [Wikipedia - Countries where French is an official language](https://en.wikipedia.org/wiki/List_of_countries_and_territories_where_French_is_an_official_language)Arabic is an official language. \n\nSource:  [Wikipedia - Countries where Arabic is an official language](https://en.wikipedia.org/wiki/List_of_countries_and_territories_where_Arabic_is_an_official_language)English is an official language. \n\nSource:  [Wikipedia - Countries where English is an official language](https://en.wikipedia.org/wiki/List_of_countries_and_territories_where_English_is_an_official_language)"
+  },
+  {
+    "section": "Political",
+    "name": "Same-sex marriage legalised",
+    "description": "Same-sex marriage legalisedSame-sex marriage is legally performed and recognized. \n\nSource:  [Wikipedia - Legal status of same-sex marriage](https://en.wikipedia.org/wiki/Same-sex_marriage#Same-sex_marriage_around_the_world)"
+  },
+  {
+    "section": "Political",
+    "name": "Same-sex activities are illegal",
+    "description": "Same-sex activities are illegalSame-sex activities are classified as a criminal offense. \n\nSource:  [Wikipedia - Criminalization of homosexuality](https://en.wikipedia.org/wiki/Criminalization_of_homosexuality#Current_status)"
+  },
+  {
+    "section": "Political",
+    "name": "Corruption Perceptions Index",
+    "description": "Corruption Perceptions IndexOver or under specified CPI.\n\nCorruption Perceptions Index (CPI) is an index that scores and ranks countries by their perceived levels of public sector corruption. The 2023 CPI, published in January 2024, currently ranks 180 countries \"on a scale from 100 (very clean) to 0 (highly corrupt)\" based on the situation between 1 May 2022 and 30 April 2023. \n\nSource:  [Wikipedia - Corruption Perceptions Index](https://en.wikipedia.org/wiki/Corruption_Perceptions_Index#2020%E2%80%932023)"
+  },
+  {
+    "section": "Political",
+    "name": "Has more than 1 time zone",
+    "description": "Has more than 1 time zoneThe country spans across multiple time zones due to its large geographical area or territories, requiring different regions to operate on different local times. \n\nSource:  [Wikipedia - Time zones by country](https://en.wikipedia.org/wiki/List_of_time_zones_by_country)"
+  },
+  {
+    "section": "Political",
+    "name": "Observes X time zone",
+    "description": "Observes X time zoneObserve a specific UTC time zone when DST is not in effect. \n\nSource:  [Wikipedia - Time zones](https://en.wikipedia.org/wiki/Time_zone)"
+  },
+  {
+    "section": "Political",
+    "name": "Observes Daylight Saving Time",
+    "description": "Observes Daylight Saving TimeThe country adjusts its clocks forward in the spring and back in the fall to make better use of daylight during the longer days of summer. \n\nSource:  [Wikipedia - Daylight Saving Time](https://en.wikipedia.org/wiki/Daylight_saving_time)"
+  },
+  {
+    "section": "Population",
+    "name": "Population count",
+    "description": "Population countOver or under specified population.\n\nThe data for each country's population is taken from the information box of that country's Wikipedia page. The data is retrieved from the Wikipedia pages every 1st of each month.\n\nUseful statistics:25th percentile: 2,000,00050th percentile: 8,000,00075th percentile: 30,000,000Average: 40,000,000 \n\nSource:  [Wikipedia](https://wikipedia.org/)"
+  },
+  {
+    "section": "Population",
+    "name": "Capital city population",
+    "description": "Capital city populationOver or under specified population of capital city. Only the official capital area is considered.\n\nThe data for each city's population is taken from the information box of that city's Wikipedia page. The data is retrieved from the Wikipedia pages every 1st of each month.\n\nNote on countries with multiple capitals:For Capital city population, the category is true if the population of any of the official capitals matches the specified number.\n\nUseful statistics:25th percentile: 282,00050th percentile: 1,134,00075th percentile: 2,801,000Average: 2,765,000 \n\nSource:  [Wikipedia](https://wikipedia.org/)"
+  },
+  {
+    "section": "Population",
+    "name": "Capital is not the most populated city",
+    "description": "Capital is not the most populated cityThe capital city of the country is not the largest in terms of population, with another city having a higher population.\n\nFor example, Australia's capital, Canberra, is not the most populated city, as Sydney holds that distinction.\n\nNote on countries with multiple capitals:For Capital is not the most populated city, the category is true only if none of the official capitals are the most populated city. If any of the capitals are the most populated city, it is considered false."
+  },
+  {
+    "section": "Size",
+    "name": "Area km²",
+    "description": "Area km²Over or under specified area in km². Excludes overseas departments.\n\nUseful statistics:25th percentile: 22,000 km²50th percentile: 115,000 km²75th percentile: 524,000 km²Average: 675,000 km² \n\nSource:  [Wikipedia - List of countries and dependencies by area](https://en.wikipedia.org/wiki/List_of_countries_and_dependencies_by_area)"
+  }
+]
