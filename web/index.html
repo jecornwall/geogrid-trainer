@@ -23,10 +23,91 @@
         <h1>GeoGrid Trainer</h1>
         <p class="subtitle">Click any country to explore its facts</p>
       </header>
-      <div id="map"></div>
-      <div id="popup" class="popup hidden">
-        <button class="popup-close" aria-label="Close">&times;</button>
-        <div class="popup-content"></div>
+      <div class="main-layout">
+        <!-- Left Filter Panel -->
+        <aside id="filter-panel" class="filter-panel">
+          <div class="filter-panel-header">
+            <h2>Filters</h2>
+            <button id="filter-toggle" class="filter-toggle" aria-label="Toggle filters">
+              <span class="filter-icon">☰</span>
+            </button>
+          </div>
+          <div class="filter-panel-content">
+            <!-- Filter Summary -->
+            <div class="filter-summary">
+              <div class="summary-stat">
+                <span class="summary-value" id="total-highlighted">0</span>
+                <span class="summary-label">countries highlighted</span>
+              </div>
+              <div class="summary-stat">
+                <span class="summary-value" id="active-filters">0</span>
+                <span class="summary-label">active filters</span>
+              </div>
+            </div>
+
+            <!-- Border Count Filter -->
+            <div class="filter-section" data-filter="borders">
+              <div class="filter-header">
+                <h3 class="filter-section-title">Bordering Countries</h3>
+                <label class="filter-toggle-switch">
+                  <input type="checkbox" id="filter-borders-enabled" checked />
+                  <span class="toggle-slider"></span>
+                </label>
+              </div>
+              <div class="filter-control">
+                <div class="range-display">
+                  <span id="border-min-display">0</span>
+                  <span class="range-separator">–</span>
+                  <span id="border-max-display">14</span>
+                </div>
+                <div class="dual-range-slider">
+                  <input 
+                    type="range" 
+                    id="border-min" 
+                    min="0" 
+                    max="14" 
+                    value="0" 
+                    class="range-input range-input-min"
+                  />
+                  <input 
+                    type="range" 
+                    id="border-max" 
+                    min="0" 
+                    max="14" 
+                    value="14" 
+                    class="range-input range-input-max"
+                  />
+                  <div class="range-track"></div>
+                  <div id="range-fill" class="range-fill"></div>
+                </div>
+                <div class="range-labels">
+                  <span>0</span>
+                  <span>14</span>
+                </div>
+              </div>
+              <div class="filter-stats" id="borders-filter-stats">
+                <span id="matched-count">0</span> countries match
+              </div>
+            </div>
+          </div>
+        </aside>
+
+        <!-- Map Container -->
+        <div id="map"></div>
+
+        <!-- Right Details Panel -->
+        <aside id="details-panel" class="details-panel">
+          <button class="panel-close" aria-label="Close">&times;</button>
+          <div class="details-content">
+            <div class="details-empty">
+              <div class="empty-icon">🌍</div>
+              <p>Select a country to view details</p>
+            </div>
+          </div>
+        </aside>
+        
+        <!-- Mobile Filter Toggle -->
+        <button class="mobile-filter-toggle" aria-label="Open filters">⚙</button>
       </div>
     </div>
     <script type="module" src="/src/main.ts"></script>

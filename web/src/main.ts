@@ -13,8 +13,31 @@ let countriesMap: Map<string, Country> = new Map();
 // Map instance
 let map: L.Map;
 
+// GeoJSON layer reference for updating styles
+let geoJsonLayer: L.GeoJSON | null = null;
+
 // Currently selected country layer
 let selectedLayer: L.Layer | null = null;
+
+// Filter state
+interface FilterState {
+  borders: {
+    enabled: boolean;
+    min: number;
+    max: number;
+  };
+}
+
+let filterState: FilterState = {
+  borders: {
+    enabled: true,
+    min: 0,
+    max: 14,
+  },
+};
+
+// Track highlighted countries for filter
+let highlightedCountries: Set<string> = new Set();
 
 // Country styles
 const defaultStyle: L.PathOptions = {
@@ -36,6 +59,21 @@ const selectedStyle: L.PathOptions = {
   fillColor: '#22d3ee',
   fillOpacity: 0.9,
   color: '#06b6d4',
+  weight: 2,
+};
+
+const highlightedStyle: L.PathOptions = {
+  fillColor: '#0891b2',
+  fillOpacity: 0.8,
+  color: '#22d3ee',
+  weight: 1.5,
+  opacity: 1,
+};
+
+const highlightedHoverStyle: L.PathOptions = {
+  fillColor: '#06b6d4',
+  fillOpacity: 0.9,
+  color: '#67e8f9',
   weight: 2,
 };
 
@@ -104,6 +142,109 @@ function getCountryCode(feature: GeoJSON.Feature): string | null {
 }
 
 /**
+ * Get the appropriate style for a layer based on filter state
+ */
+function getStyleForLayer(countryCode: string | null, isSelected: boolean, isHovered: boolean): L.PathOptions {
+  if (isSelected) {
+    return selectedStyle;
+  }
+  
+  const isHighlighted = countryCode ? highlightedCountries.has(countryCode) : false;
+  
+  if (isHovered) {
+    return isHighlighted ? highlightedHoverStyle : hoverStyle;
+  }
+  
+  return isHighlighted ? highlightedStyle : defaultStyle;
+}
+
+/**
+ * Check if a country matches the current active filters
+ * Returns true if the country matches ALL enabled filters
+ */
+function countryMatchesFilter(country: Country): boolean {
+  // If no filters are enabled, nothing is highlighted
+  const anyFilterEnabled = filterState.borders.enabled;
+  if (!anyFilterEnabled) {
+    return false;
+  }
+
+  // Check borders filter
+  if (filterState.borders.enabled) {
+    const borderCount = country.borders.countries.length;
+    if (borderCount < filterState.borders.min || borderCount > filterState.borders.max) {
+      return false;
+    }
+  }
+
+  return true;
+}
+
+/**
+ * Count active filters
+ */
+function countActiveFilters(): number {
+  let count = 0;
+  if (filterState.borders.enabled) count++;
+  // Add more filter checks here as they're added
+  return count;
+}
+
+/**
+ * Update the highlighted countries based on filter state
+ */
+function updateHighlightedCountries(): void {
+  highlightedCountries.clear();
+  
+  countriesMap.forEach((country, code) => {
+    if (countryMatchesFilter(country)) {
+      highlightedCountries.add(code);
+    }
+  });
+  
+  // Update the individual filter match count
+  const matchedCount = document.getElementById('matched-count');
+  if (matchedCount) {
+    matchedCount.textContent = String(highlightedCountries.size);
+  }
+  
+  // Update summary stats
+  const totalHighlighted = document.getElementById('total-highlighted');
+  const activeFilters = document.getElementById('active-filters');
+  
+  if (totalHighlighted) {
+    totalHighlighted.textContent = String(highlightedCountries.size);
+  }
+  
+  if (activeFilters) {
+    activeFilters.textContent = String(countActiveFilters());
+  }
+}
+
+/**
+ * Update all country styles on the map based on filter state
+ */
+function updateMapStyles(): void {
+  if (!geoJsonLayer) return;
+  
+  geoJsonLayer.eachLayer((layer) => {
+    const feature = (layer as L.GeoJSON).feature as GeoJSON.Feature;
+    const countryCode = getCountryCode(feature);
+    const isSelected = layer === selectedLayer;
+    const style = getStyleForLayer(countryCode, isSelected, false);
+    (layer as L.Path).setStyle(style);
+  });
+}
+
+/**
+ * Handle filter changes
+ */
+function onFilterChange(): void {
+  updateHighlightedCountries();
+  updateMapStyles();
+}
+
+/**
  * Load and render the GeoJSON world map
  */
 async function loadGeoJSON(): Promise<void> {
@@ -111,8 +252,11 @@ async function loadGeoJSON(): Promise<void> {
     const response = await fetch(GEOJSON_URL);
     const geojson: GeoJSON.FeatureCollection = await response.json();
     
-    L.geoJSON(geojson, {
-      style: defaultStyle,
+    geoJsonLayer = L.geoJSON(geojson, {
+      style: (feature) => {
+        const countryCode = feature ? getCountryCode(feature) : null;
+        return getStyleForLayer(countryCode, false, false);
+      },
       onEachFeature: (feature, layer) => {
         const countryCode = getCountryCode(feature);
         const country = countryCode ? countriesMap.get(countryCode) : null;
@@ -130,13 +274,15 @@ async function loadGeoJSON(): Promise<void> {
         // Add hover effects
         layer.on('mouseover', () => {
           if (layer !== selectedLayer) {
-            (layer as L.Path).setStyle(hoverStyle);
+            const style = getStyleForLayer(countryCode, false, true);
+            (layer as L.Path).setStyle(style);
           }
         });
 
         layer.on('mouseout', () => {
           if (layer !== selectedLayer) {
-            (layer as L.Path).setStyle(defaultStyle);
+            const style = getStyleForLayer(countryCode, false, false);
+            (layer as L.Path).setStyle(style);
           }
         });
 
@@ -144,39 +290,46 @@ async function loadGeoJSON(): Promise<void> {
         layer.on('click', () => {
           // Reset previous selection
           if (selectedLayer && selectedLayer !== layer) {
-            (selectedLayer as L.Path).setStyle(defaultStyle);
+            const prevFeature = (selectedLayer as L.GeoJSON).feature as GeoJSON.Feature;
+            const prevCode = getCountryCode(prevFeature);
+            const prevStyle = getStyleForLayer(prevCode, false, false);
+            (selectedLayer as L.Path).setStyle(prevStyle);
           }
 
           // Set new selection
           selectedLayer = layer;
           (layer as L.Path).setStyle(selectedStyle);
 
-          // Show popup
+          // Show details panel
           if (country) {
-            showPopup(country);
+            showDetails(country);
           } else {
-            showPopup(null, countryName, countryCode);
+            showDetails(null, countryName, countryCode);
           }
         });
       },
     }).addTo(map);
+    
+    // Initial filter update
+    updateHighlightedCountries();
+    updateMapStyles();
   } catch (error) {
     console.error('Failed to load GeoJSON:', error);
   }
 }
 
 /**
- * Show the country popup panel
+ * Show the country details in the panel
  */
-function showPopup(
+function showDetails(
   country: Country | null,
   fallbackName?: string,
   fallbackCode?: string | null
 ): void {
-  const popup = document.getElementById('popup');
-  const content = popup?.querySelector('.popup-content');
+  const panel = document.getElementById('details-panel');
+  const content = panel?.querySelector('.details-content');
   
-  if (!popup || !content) return;
+  if (!panel || !content) return;
 
   if (country) {
     content.innerHTML = renderCountryPopup(country);
@@ -197,23 +350,218 @@ function showPopup(
     `;
   }
 
-  popup.classList.remove('hidden');
+  // On mobile, open the details panel
+  if (window.innerWidth <= 900) {
+    panel.classList.add('open');
+  }
 }
 
 /**
- * Hide the popup
+ * Clear the details panel
  */
-function hidePopup(): void {
-  const popup = document.getElementById('popup');
-  if (popup) {
-    popup.classList.add('hidden');
+function clearDetails(): void {
+  const content = document.querySelector('.details-content');
+  if (content) {
+    content.innerHTML = `
+      <div class="details-empty">
+        <div class="empty-icon">🌍</div>
+        <p>Select a country to view details</p>
+      </div>
+    `;
+  }
+}
+
+/**
+ * Hide the details panel (mobile only)
+ */
+function hideDetails(): void {
+  const panel = document.getElementById('details-panel');
+  if (panel) {
+    panel.classList.remove('open');
   }
 
   // Deselect country
   if (selectedLayer) {
-    (selectedLayer as L.Path).setStyle(defaultStyle);
+    const feature = (selectedLayer as L.GeoJSON).feature as GeoJSON.Feature;
+    const countryCode = getCountryCode(feature);
+    const style = getStyleForLayer(countryCode, false, false);
+    (selectedLayer as L.Path).setStyle(style);
     selectedLayer = null;
   }
+  
+  clearDetails();
+}
+
+/**
+ * Setup the dual range slider for border count filter
+ */
+function setupRangeSlider(): void {
+  const minSlider = document.getElementById('border-min') as HTMLInputElement;
+  const maxSlider = document.getElementById('border-max') as HTMLInputElement;
+  const minDisplay = document.getElementById('border-min-display');
+  const maxDisplay = document.getElementById('border-max-display');
+  const rangeFill = document.getElementById('range-fill');
+  const sliderContainer = document.querySelector('.dual-range-slider') as HTMLElement;
+  
+  if (!minSlider || !maxSlider || !minDisplay || !maxDisplay || !rangeFill || !sliderContainer) return;
+  
+  const sliderMax = 14;
+  
+  function updateDisplay(): void {
+    const minVal = parseInt(minSlider.value);
+    const maxVal = parseInt(maxSlider.value);
+    
+    // Update display
+    minDisplay!.textContent = String(minVal);
+    maxDisplay!.textContent = String(maxVal);
+    
+    // Update range fill position
+    const percent1 = (minVal / sliderMax) * 100;
+    const percent2 = (maxVal / sliderMax) * 100;
+    rangeFill!.style.left = `${percent1}%`;
+    rangeFill!.style.width = `${percent2 - percent1}%`;
+    
+    // Update filter state
+    filterState.borders.min = minVal;
+    filterState.borders.max = maxVal;
+    
+    // Trigger filter update
+    onFilterChange();
+  }
+  
+  function handleMinChange(): void {
+    const minVal = parseInt(minSlider.value);
+    const maxVal = parseInt(maxSlider.value);
+    
+    // Prevent min from exceeding max
+    if (minVal > maxVal) {
+      minSlider.value = String(maxVal);
+    }
+    
+    updateDisplay();
+  }
+  
+  function handleMaxChange(): void {
+    const minVal = parseInt(minSlider.value);
+    const maxVal = parseInt(maxSlider.value);
+    
+    // Prevent max from going below min
+    if (maxVal < minVal) {
+      maxSlider.value = String(minVal);
+    }
+    
+    updateDisplay();
+  }
+  
+  // Dynamic z-index based on mouse position
+  function updateZIndex(e: MouseEvent): void {
+    const rect = sliderContainer.getBoundingClientRect();
+    const mousePercent = (e.clientX - rect.left) / rect.width;
+    
+    const minVal = parseInt(minSlider.value);
+    const maxVal = parseInt(maxSlider.value);
+    const minPercent = minVal / sliderMax;
+    const maxPercent = maxVal / sliderMax;
+    
+    // Calculate distance to each thumb
+    const distToMin = Math.abs(mousePercent - minPercent);
+    const distToMax = Math.abs(mousePercent - maxPercent);
+    
+    // Bring closer thumb to top
+    if (distToMin < distToMax) {
+      minSlider.style.zIndex = '3';
+      maxSlider.style.zIndex = '2';
+    } else {
+      minSlider.style.zIndex = '2';
+      maxSlider.style.zIndex = '3';
+    }
+  }
+  
+  sliderContainer.addEventListener('mousemove', updateZIndex);
+  sliderContainer.addEventListener('touchstart', (e) => {
+    if (e.touches.length > 0) {
+      const touch = e.touches[0];
+      updateZIndex({ clientX: touch.clientX } as MouseEvent);
+    }
+  });
+  
+  minSlider.addEventListener('input', handleMinChange);
+  maxSlider.addEventListener('input', handleMaxChange);
+  
+  // Set initial values explicitly
+  minSlider.value = '0';
+  maxSlider.value = '14';
+  
+  // Initial display update
+  updateDisplay();
+}
+
+/**
+ * Setup filter enable/disable toggles
+ */
+function setupFilterToggles(): void {
+  const bordersToggle = document.getElementById('filter-borders-enabled') as HTMLInputElement;
+  const bordersSection = document.querySelector('[data-filter="borders"]');
+  
+  if (!bordersToggle || !bordersSection) return;
+  
+  function syncToggleState(): void {
+    filterState.borders.enabled = bordersToggle.checked;
+    
+    // Toggle visual disabled state
+    if (bordersToggle.checked) {
+      bordersSection!.classList.remove('disabled');
+    } else {
+      bordersSection!.classList.add('disabled');
+    }
+  }
+  
+  bordersToggle.addEventListener('change', () => {
+    syncToggleState();
+    onFilterChange();
+  });
+  
+  // Sync initial state (in case browser restored form state)
+  syncToggleState();
+}
+
+/**
+ * Setup mobile filter panel toggle
+ */
+function setupFilterPanel(): void {
+  const filterPanel = document.getElementById('filter-panel');
+  const filterToggle = document.getElementById('filter-toggle');
+  
+  if (!filterPanel || !filterToggle) return;
+  
+  // Create overlay for mobile
+  const overlay = document.createElement('div');
+  overlay.className = 'filter-overlay';
+  document.querySelector('.main-layout')?.appendChild(overlay);
+  
+  function toggleFilter(): void {
+    const isOpen = filterPanel!.classList.toggle('open');
+    if (isOpen) {
+      overlay.classList.add('visible');
+    } else {
+      overlay.classList.remove('visible');
+    }
+  }
+  
+  filterToggle.addEventListener('click', toggleFilter);
+  overlay.addEventListener('click', toggleFilter);
+  
+  // Also handle the mobile floating button if we add one
+  const mobileToggle = document.querySelector('.mobile-filter-toggle');
+  mobileToggle?.addEventListener('click', toggleFilter);
+}
+
+/**
+ * Setup the details panel close button (mobile)
+ */
+function setupDetailsPanel(): void {
+  const closeBtn = document.querySelector('.details-panel .panel-close');
+  closeBtn?.addEventListener('click', hideDetails);
 }
 
 /**
@@ -223,14 +571,19 @@ async function init(): Promise<void> {
   // Initialize map
   map = initMap();
 
-  // Set up popup close button
-  const closeBtn = document.querySelector('.popup-close');
-  closeBtn?.addEventListener('click', hidePopup);
+  // Setup UI components
+  setupFilterPanel();
+  setupRangeSlider();
+  setupFilterToggles();
+  setupDetailsPanel();
 
-  // Close popup on Escape key
+  // Close details on Escape key (mobile)
   document.addEventListener('keydown', (e) => {
     if (e.key === 'Escape') {
-      hidePopup();
+      hideDetails();
+      // Also close filter panel
+      document.getElementById('filter-panel')?.classList.remove('open');
+      document.querySelector('.filter-overlay')?.classList.remove('visible');
     }
   });
 
@@ -241,4 +594,3 @@ async function init(): Promise<void> {
 
 // Start the app
 init().catch(console.error);
-
