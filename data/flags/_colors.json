@@ -1,0 +1,1970 @@
+{
+  "AD": {
+    "colors": [
+      "white",
+      "grey",
+      "red",
+      "yellow",
+      "blue",
+      "brown"
+    ],
+    "colorCount": 6,
+    "rawColorCount": 9
+  },
+  "AE": {
+    "colors": [
+      "black",
+      "white",
+      "red",
+      "green"
+    ],
+    "colorCount": 4,
+    "rawColorCount": 3
+  },
+  "AF": {
+    "colors": [
+      "black",
+      "white"
+    ],
+    "colorCount": 2,
+    "rawColorCount": 1
+  },
+  "AG": {
+    "colors": [
+      "black",
+      "white",
+      "red",
+      "yellow",
+      "blue"
+    ],
+    "colorCount": 5,
+    "rawColorCount": 4
+  },
+  "AL": {
+    "colors": [
+      "black",
+      "red"
+    ],
+    "colorCount": 2,
+    "rawColorCount": 2
+  },
+  "AM": {
+    "colors": [
+      "red",
+      "orange",
+      "blue"
+    ],
+    "colorCount": 3,
+    "rawColorCount": 3
+  },
+  "AO": {
+    "colors": [
+      "black",
+      "red",
+      "yellow"
+    ],
+    "colorCount": 3,
+    "rawColorCount": 2
+  },
+  "AR": {
+    "colors": [
+      "white",
+      "yellow",
+      "light blue",
+      "brown"
+    ],
+    "colorCount": 4,
+    "rawColorCount": 5
+  },
+  "AT": {
+    "colors": [
+      "white",
+      "red"
+    ],
+    "colorCount": 2,
+    "rawColorCount": 2
+  },
+  "AU": {
+    "colors": [
+      "white",
+      "red",
+      "blue"
+    ],
+    "colorCount": 3,
+    "rawColorCount": 3
+  },
+  "AW": {
+    "colors": [
+      "white",
+      "red",
+      "yellow",
+      "light blue"
+    ],
+    "colorCount": 4,
+    "rawColorCount": 4
+  },
+  "AZ": {
+    "colors": [
+      "white",
+      "red",
+      "light blue",
+      "brown"
+    ],
+    "colorCount": 4,
+    "rawColorCount": 4
+  },
+  "BA": {
+    "colors": [
+      "white",
+      "yellow",
+      "blue"
+    ],
+    "colorCount": 3,
+    "rawColorCount": 3
+  },
+  "BB": {
+    "colors": [
+      "black",
+      "yellow",
+      "blue"
+    ],
+    "colorCount": 3,
+    "rawColorCount": 3
+  },
+  "BD": {
+    "colors": [
+      "red",
+      "green"
+    ],
+    "colorCount": 2,
+    "rawColorCount": 2
+  },
+  "BE": {
+    "colors": [
+      "black",
+      "red",
+      "yellow"
+    ],
+    "colorCount": 3,
+    "rawColorCount": 2
+  },
+  "BF": {
+    "colors": [
+      "red",
+      "yellow",
+      "green"
+    ],
+    "colorCount": 3,
+    "rawColorCount": 3
+  },
+  "BG": {
+    "colors": [
+      "white",
+      "red",
+      "blue"
+    ],
+    "colorCount": 3,
+    "rawColorCount": 3
+  },
+  "BH": {
+    "colors": [
+      "white",
+      "red"
+    ],
+    "colorCount": 2,
+    "rawColorCount": 2
+  },
+  "BI": {
+    "colors": [
+      "white",
+      "red",
+      "green"
+    ],
+    "colorCount": 3,
+    "rawColorCount": 3
+  },
+  "BJ": {
+    "colors": [
+      "red",
+      "yellow",
+      "green"
+    ],
+    "colorCount": 3,
+    "rawColorCount": 3
+  },
+  "BN": {
+    "colors": [
+      "black",
+      "white",
+      "yellow"
+    ],
+    "colorCount": 3,
+    "rawColorCount": 2
+  },
+  "BO": {
+    "colors": [
+      "red",
+      "yellow",
+      "green"
+    ],
+    "colorCount": 3,
+    "rawColorCount": 3
+  },
+  "BR": {
+    "colors": [
+      "white",
+      "yellow",
+      "green",
+      "blue"
+    ],
+    "colorCount": 4,
+    "rawColorCount": 4
+  },
+  "BS": {
+    "colors": [
+      "black",
+      "yellow",
+      "blue"
+    ],
+    "colorCount": 3,
+    "rawColorCount": 2
+  },
+  "BT": {
+    "colors": [
+      "black",
+      "white",
+      "orange",
+      "yellow"
+    ],
+    "colorCount": 4,
+    "rawColorCount": 4
+  },
+  "BW": {
+    "colors": [
+      "black",
+      "white",
+      "light blue"
+    ],
+    "colorCount": 3,
+    "rawColorCount": 2
+  },
+  "BY": {
+    "colors": [
+      "white",
+      "red",
+      "green"
+    ],
+    "colorCount": 3,
+    "rawColorCount": 3
+  },
+  "BZ": {
+    "colors": [
+      "black",
+      "white",
+      "grey",
+      "pink",
+      "red",
+      "green",
+      "blue",
+      "light blue",
+      "brown"
+    ],
+    "colorCount": 9,
+    "rawColorCount": 18
+  },
+  "CA": {
+    "colors": [
+      "white",
+      "red"
+    ],
+    "colorCount": 2,
+    "rawColorCount": 2
+  },
+  "CD": {
+    "colors": [
+      "red",
+      "yellow",
+      "light blue"
+    ],
+    "colorCount": 3,
+    "rawColorCount": 3
+  },
+  "CF": {
+    "colors": [
+      "white",
+      "red",
+      "yellow",
+      "green",
+      "blue"
+    ],
+    "colorCount": 5,
+    "rawColorCount": 5
+  },
+  "CG": {
+    "colors": [
+      "red",
+      "yellow",
+      "green"
+    ],
+    "colorCount": 3,
+    "rawColorCount": 3
+  },
+  "CH": {
+    "colors": [
+      "white",
+      "red"
+    ],
+    "colorCount": 2,
+    "rawColorCount": 2
+  },
+  "CI": {
+    "colors": [
+      "white",
+      "orange",
+      "green"
+    ],
+    "colorCount": 3,
+    "rawColorCount": 3
+  },
+  "CK": {
+    "colors": [
+      "white",
+      "red",
+      "blue"
+    ],
+    "colorCount": 3,
+    "rawColorCount": 3
+  },
+  "CL": {
+    "colors": [
+      "white",
+      "red",
+      "blue"
+    ],
+    "colorCount": 3,
+    "rawColorCount": 3
+  },
+  "CM": {
+    "colors": [
+      "red",
+      "yellow",
+      "green"
+    ],
+    "colorCount": 3,
+    "rawColorCount": 3
+  },
+  "CN": {
+    "colors": [
+      "red",
+      "yellow"
+    ],
+    "colorCount": 2,
+    "rawColorCount": 2
+  },
+  "CO": {
+    "colors": [
+      "red",
+      "yellow",
+      "blue"
+    ],
+    "colorCount": 3,
+    "rawColorCount": 3
+  },
+  "CR": {
+    "colors": [
+      "white",
+      "red",
+      "blue"
+    ],
+    "colorCount": 3,
+    "rawColorCount": 3
+  },
+  "CU": {
+    "colors": [
+      "white",
+      "red",
+      "blue"
+    ],
+    "colorCount": 3,
+    "rawColorCount": 3
+  },
+  "CV": {
+    "colors": [
+      "white",
+      "red",
+      "yellow",
+      "blue"
+    ],
+    "colorCount": 4,
+    "rawColorCount": 4
+  },
+  "CW": {
+    "colors": [
+      "white",
+      "yellow",
+      "blue"
+    ],
+    "colorCount": 3,
+    "rawColorCount": 3
+  },
+  "CY": {
+    "colors": [
+      "white",
+      "orange",
+      "brown"
+    ],
+    "colorCount": 3,
+    "rawColorCount": 3
+  },
+  "CZ": {
+    "colors": [
+      "white",
+      "red",
+      "blue"
+    ],
+    "colorCount": 3,
+    "rawColorCount": 3
+  },
+  "DE": {
+    "colors": [
+      "black",
+      "red",
+      "yellow"
+    ],
+    "colorCount": 3,
+    "rawColorCount": 3
+  },
+  "DJ": {
+    "colors": [
+      "white",
+      "red",
+      "green",
+      "light blue"
+    ],
+    "colorCount": 4,
+    "rawColorCount": 4
+  },
+  "DK": {
+    "colors": [
+      "white",
+      "red"
+    ],
+    "colorCount": 2,
+    "rawColorCount": 2
+  },
+  "DM": {
+    "colors": [
+      "black",
+      "white",
+      "grey",
+      "red",
+      "yellow",
+      "green",
+      "brown"
+    ],
+    "colorCount": 7,
+    "rawColorCount": 7
+  },
+  "DO": {
+    "colors": [
+      "black",
+      "white",
+      "red",
+      "yellow",
+      "green",
+      "blue",
+      "brown"
+    ],
+    "colorCount": 7,
+    "rawColorCount": 14
+  },
+  "DZ": {
+    "colors": [
+      "white",
+      "red",
+      "green"
+    ],
+    "colorCount": 3,
+    "rawColorCount": 3
+  },
+  "EC": {
+    "colors": [
+      "black",
+      "white",
+      "grey",
+      "pink",
+      "red",
+      "orange",
+      "yellow",
+      "green",
+      "blue",
+      "light blue",
+      "brown"
+    ],
+    "colorCount": 11,
+    "rawColorCount": 73
+  },
+  "EE": {
+    "colors": [
+      "black",
+      "white",
+      "blue"
+    ],
+    "colorCount": 3,
+    "rawColorCount": 2
+  },
+  "EG": {
+    "colors": [
+      "white",
+      "red",
+      "yellow"
+    ],
+    "colorCount": 3,
+    "rawColorCount": 3
+  },
+  "ER": {
+    "colors": [
+      "red",
+      "yellow",
+      "green",
+      "light blue"
+    ],
+    "colorCount": 4,
+    "rawColorCount": 4
+  },
+  "ES": {
+    "colors": [
+      "black",
+      "white",
+      "grey",
+      "pink",
+      "red",
+      "orange",
+      "yellow",
+      "green",
+      "blue",
+      "brown"
+    ],
+    "colorCount": 10,
+    "rawColorCount": 21
+  },
+  "ET": {
+    "colors": [
+      "red",
+      "yellow",
+      "green",
+      "blue"
+    ],
+    "colorCount": 4,
+    "rawColorCount": 4
+  },
+  "FI": {
+    "colors": [
+      "white",
+      "blue"
+    ],
+    "colorCount": 2,
+    "rawColorCount": 2
+  },
+  "FJ": {
+    "colors": [
+      "black",
+      "white",
+      "red",
+      "yellow",
+      "blue",
+      "light blue",
+      "brown"
+    ],
+    "colorCount": 7,
+    "rawColorCount": 7
+  },
+  "FM": {
+    "colors": [
+      "white",
+      "light blue"
+    ],
+    "colorCount": 2,
+    "rawColorCount": 2
+  },
+  "FR": {
+    "colors": [
+      "white",
+      "red",
+      "blue"
+    ],
+    "colorCount": 3,
+    "rawColorCount": 3
+  },
+  "GA": {
+    "colors": [
+      "yellow",
+      "green",
+      "light blue"
+    ],
+    "colorCount": 3,
+    "rawColorCount": 3
+  },
+  "GB": {
+    "colors": [
+      "white",
+      "red",
+      "blue"
+    ],
+    "colorCount": 3,
+    "rawColorCount": 4
+  },
+  "GD": {
+    "colors": [
+      "red",
+      "yellow",
+      "green"
+    ],
+    "colorCount": 3,
+    "rawColorCount": 3
+  },
+  "GE": {
+    "colors": [
+      "white",
+      "red"
+    ],
+    "colorCount": 2,
+    "rawColorCount": 2
+  },
+  "GH": {
+    "colors": [
+      "black",
+      "red",
+      "yellow",
+      "green"
+    ],
+    "colorCount": 4,
+    "rawColorCount": 3
+  },
+  "GL": {
+    "colors": [
+      "white",
+      "red"
+    ],
+    "colorCount": 2,
+    "rawColorCount": 2
+  },
+  "GM": {
+    "colors": [
+      "white",
+      "red",
+      "green",
+      "blue"
+    ],
+    "colorCount": 4,
+    "rawColorCount": 4
+  },
+  "GN": {
+    "colors": [
+      "red",
+      "yellow",
+      "green"
+    ],
+    "colorCount": 3,
+    "rawColorCount": 3
+  },
+  "GQ": {
+    "colors": [
+      "black",
+      "white",
+      "red",
+      "yellow",
+      "green",
+      "blue",
+      "brown"
+    ],
+    "colorCount": 7,
+    "rawColorCount": 10
+  },
+  "GR": {
+    "colors": [
+      "white",
+      "blue"
+    ],
+    "colorCount": 2,
+    "rawColorCount": 2
+  },
+  "GT": {
+    "colors": [
+      "black",
+      "white",
+      "grey",
+      "red",
+      "yellow",
+      "green",
+      "light blue",
+      "brown"
+    ],
+    "colorCount": 8,
+    "rawColorCount": 22
+  },
+  "GW": {
+    "colors": [
+      "black",
+      "red",
+      "yellow",
+      "green"
+    ],
+    "colorCount": 4,
+    "rawColorCount": 4
+  },
+  "GY": {
+    "colors": [
+      "black",
+      "white",
+      "grey",
+      "red",
+      "yellow"
+    ],
+    "colorCount": 5,
+    "rawColorCount": 5
+  },
+  "HN": {
+    "colors": [
+      "white",
+      "light blue"
+    ],
+    "colorCount": 2,
+    "rawColorCount": 2
+  },
+  "HR": {
+    "colors": [
+      "black",
+      "white",
+      "red",
+      "yellow",
+      "blue",
+      "light blue"
+    ],
+    "colorCount": 6,
+    "rawColorCount": 6
+  },
+  "HT": {
+    "colors": [
+      "black",
+      "white",
+      "red",
+      "yellow",
+      "green",
+      "blue"
+    ],
+    "colorCount": 6,
+    "rawColorCount": 10
+  },
+  "HU": {
+    "colors": [
+      "white",
+      "grey",
+      "red"
+    ],
+    "colorCount": 3,
+    "rawColorCount": 3
+  },
+  "ID": {
+    "colors": [
+      "white",
+      "red"
+    ],
+    "colorCount": 2,
+    "rawColorCount": 2
+  },
+  "IE": {
+    "colors": [
+      "white",
+      "orange",
+      "green"
+    ],
+    "colorCount": 3,
+    "rawColorCount": 3
+  },
+  "IL": {
+    "colors": [
+      "white",
+      "blue"
+    ],
+    "colorCount": 2,
+    "rawColorCount": 2
+  },
+  "IN": {
+    "colors": [
+      "white",
+      "orange",
+      "green",
+      "blue"
+    ],
+    "colorCount": 4,
+    "rawColorCount": 4
+  },
+  "IQ": {
+    "colors": [
+      "black",
+      "white",
+      "red",
+      "green"
+    ],
+    "colorCount": 4,
+    "rawColorCount": 3
+  },
+  "IR": {
+    "colors": [
+      "white",
+      "red",
+      "green"
+    ],
+    "colorCount": 3,
+    "rawColorCount": 3
+  },
+  "IS": {
+    "colors": [
+      "white",
+      "red",
+      "blue"
+    ],
+    "colorCount": 3,
+    "rawColorCount": 3
+  },
+  "IT": {
+    "colors": [
+      "white",
+      "red",
+      "green"
+    ],
+    "colorCount": 3,
+    "rawColorCount": 3
+  },
+  "JM": {
+    "colors": [
+      "black",
+      "yellow",
+      "green"
+    ],
+    "colorCount": 3,
+    "rawColorCount": 3
+  },
+  "JO": {
+    "colors": [
+      "black",
+      "white",
+      "red",
+      "green"
+    ],
+    "colorCount": 4,
+    "rawColorCount": 3
+  },
+  "JP": {
+    "colors": [
+      "white",
+      "red"
+    ],
+    "colorCount": 2,
+    "rawColorCount": 2
+  },
+  "KE": {
+    "colors": [
+      "black",
+      "white",
+      "red",
+      "green"
+    ],
+    "colorCount": 4,
+    "rawColorCount": 4
+  },
+  "KG": {
+    "colors": [
+      "red",
+      "yellow"
+    ],
+    "colorCount": 2,
+    "rawColorCount": 2
+  },
+  "KH": {
+    "colors": [
+      "black",
+      "white",
+      "red",
+      "blue"
+    ],
+    "colorCount": 4,
+    "rawColorCount": 4
+  },
+  "KI": {
+    "colors": [
+      "black",
+      "white",
+      "red",
+      "yellow",
+      "blue"
+    ],
+    "colorCount": 5,
+    "rawColorCount": 6
+  },
+  "KM": {
+    "colors": [
+      "white",
+      "red",
+      "yellow",
+      "green",
+      "blue"
+    ],
+    "colorCount": 5,
+    "rawColorCount": 5
+  },
+  "KN": {
+    "colors": [
+      "black",
+      "white",
+      "red",
+      "yellow",
+      "green"
+    ],
+    "colorCount": 5,
+    "rawColorCount": 5
+  },
+  "KP": {
+    "colors": [
+      "white",
+      "red",
+      "blue"
+    ],
+    "colorCount": 3,
+    "rawColorCount": 3
+  },
+  "KR": {
+    "colors": [
+      "black",
+      "white",
+      "red",
+      "blue"
+    ],
+    "colorCount": 4,
+    "rawColorCount": 4
+  },
+  "KW": {
+    "colors": [
+      "black",
+      "white",
+      "red",
+      "green"
+    ],
+    "colorCount": 4,
+    "rawColorCount": 3
+  },
+  "KZ": {
+    "colors": [
+      "yellow",
+      "light blue"
+    ],
+    "colorCount": 2,
+    "rawColorCount": 2
+  },
+  "LA": {
+    "colors": [
+      "white",
+      "red",
+      "blue"
+    ],
+    "colorCount": 3,
+    "rawColorCount": 3
+  },
+  "LB": {
+    "colors": [
+      "white",
+      "red",
+      "green"
+    ],
+    "colorCount": 3,
+    "rawColorCount": 3
+  },
+  "LC": {
+    "colors": [
+      "black",
+      "white",
+      "yellow",
+      "light blue"
+    ],
+    "colorCount": 4,
+    "rawColorCount": 3
+  },
+  "LI": {
+    "colors": [
+      "black",
+      "red",
+      "yellow",
+      "blue"
+    ],
+    "colorCount": 4,
+    "rawColorCount": 4
+  },
+  "LK": {
+    "colors": [
+      "black",
+      "red",
+      "orange",
+      "yellow",
+      "blue"
+    ],
+    "colorCount": 5,
+    "rawColorCount": 5
+  },
+  "LR": {
+    "colors": [
+      "white",
+      "red",
+      "blue"
+    ],
+    "colorCount": 3,
+    "rawColorCount": 3
+  },
+  "LS": {
+    "colors": [
+      "black",
+      "white",
+      "green",
+      "blue"
+    ],
+    "colorCount": 4,
+    "rawColorCount": 3
+  },
+  "LT": {
+    "colors": [
+      "red",
+      "yellow",
+      "green"
+    ],
+    "colorCount": 3,
+    "rawColorCount": 3
+  },
+  "LU": {
+    "colors": [
+      "white",
+      "red",
+      "light blue"
+    ],
+    "colorCount": 3,
+    "rawColorCount": 3
+  },
+  "LV": {
+    "colors": [
+      "white",
+      "red"
+    ],
+    "colorCount": 2,
+    "rawColorCount": 2
+  },
+  "LY": {
+    "colors": [
+      "black",
+      "white",
+      "red",
+      "green"
+    ],
+    "colorCount": 4,
+    "rawColorCount": 4
+  },
+  "MA": {
+    "colors": [
+      "red",
+      "green"
+    ],
+    "colorCount": 2,
+    "rawColorCount": 2
+  },
+  "MC": {
+    "colors": [
+      "white",
+      "red"
+    ],
+    "colorCount": 2,
+    "rawColorCount": 2
+  },
+  "MD": {
+    "colors": [
+      "grey",
+      "red",
+      "yellow",
+      "green",
+      "blue"
+    ],
+    "colorCount": 5,
+    "rawColorCount": 5
+  },
+  "ME": {
+    "colors": [
+      "grey",
+      "red",
+      "orange",
+      "yellow",
+      "blue"
+    ],
+    "colorCount": 5,
+    "rawColorCount": 5
+  },
+  "MG": {
+    "colors": [
+      "white",
+      "red",
+      "green"
+    ],
+    "colorCount": 3,
+    "rawColorCount": 3
+  },
+  "MH": {
+    "colors": [
+      "white",
+      "orange",
+      "blue"
+    ],
+    "colorCount": 3,
+    "rawColorCount": 3
+  },
+  "MK": {
+    "colors": [
+      "red",
+      "yellow"
+    ],
+    "colorCount": 2,
+    "rawColorCount": 2
+  },
+  "ML": {
+    "colors": [
+      "red",
+      "yellow",
+      "green"
+    ],
+    "colorCount": 3,
+    "rawColorCount": 3
+  },
+  "MM": {
+    "colors": [
+      "white",
+      "red",
+      "yellow",
+      "green"
+    ],
+    "colorCount": 4,
+    "rawColorCount": 4
+  },
+  "MN": {
+    "colors": [
+      "red",
+      "yellow",
+      "blue"
+    ],
+    "colorCount": 3,
+    "rawColorCount": 4
+  },
+  "MR": {
+    "colors": [
+      "red",
+      "yellow",
+      "green"
+    ],
+    "colorCount": 3,
+    "rawColorCount": 3
+  },
+  "MT": {
+    "colors": [
+      "black",
+      "white",
+      "red"
+    ],
+    "colorCount": 3,
+    "rawColorCount": 3
+  },
+  "MU": {
+    "colors": [
+      "red",
+      "yellow",
+      "green",
+      "blue"
+    ],
+    "colorCount": 4,
+    "rawColorCount": 4
+  },
+  "MV": {
+    "colors": [
+      "white",
+      "red",
+      "green"
+    ],
+    "colorCount": 3,
+    "rawColorCount": 3
+  },
+  "MW": {
+    "colors": [
+      "black",
+      "red",
+      "green"
+    ],
+    "colorCount": 3,
+    "rawColorCount": 2
+  },
+  "MX": {
+    "colors": [
+      "black",
+      "white",
+      "grey",
+      "pink",
+      "red",
+      "orange",
+      "yellow",
+      "green",
+      "blue",
+      "light blue",
+      "brown"
+    ],
+    "colorCount": 11,
+    "rawColorCount": 45
+  },
+  "MY": {
+    "colors": [
+      "white",
+      "red",
+      "yellow",
+      "blue"
+    ],
+    "colorCount": 4,
+    "rawColorCount": 4
+  },
+  "MZ": {
+    "colors": [
+      "black",
+      "white",
+      "red",
+      "yellow",
+      "blue"
+    ],
+    "colorCount": 5,
+    "rawColorCount": 5
+  },
+  "NA": {
+    "colors": [
+      "white",
+      "red",
+      "yellow",
+      "green",
+      "blue"
+    ],
+    "colorCount": 5,
+    "rawColorCount": 5
+  },
+  "NE": {
+    "colors": [
+      "white",
+      "red",
+      "green"
+    ],
+    "colorCount": 3,
+    "rawColorCount": 3
+  },
+  "NG": {
+    "colors": [
+      "white",
+      "green"
+    ],
+    "colorCount": 2,
+    "rawColorCount": 2
+  },
+  "NI": {
+    "colors": [
+      "black",
+      "white",
+      "red",
+      "orange",
+      "yellow",
+      "green",
+      "blue",
+      "light blue",
+      "purple",
+      "brown"
+    ],
+    "colorCount": 10,
+    "rawColorCount": 26
+  },
+  "NL": {
+    "colors": [
+      "white",
+      "red",
+      "blue"
+    ],
+    "colorCount": 3,
+    "rawColorCount": 3
+  },
+  "NO": {
+    "colors": [
+      "white",
+      "red",
+      "blue"
+    ],
+    "colorCount": 3,
+    "rawColorCount": 3
+  },
+  "NP": {
+    "colors": [
+      "white",
+      "red",
+      "blue"
+    ],
+    "colorCount": 3,
+    "rawColorCount": 3
+  },
+  "NR": {
+    "colors": [
+      "white",
+      "yellow",
+      "blue"
+    ],
+    "colorCount": 3,
+    "rawColorCount": 5
+  },
+  "NU": {
+    "colors": [
+      "black",
+      "white",
+      "red",
+      "yellow",
+      "blue"
+    ],
+    "colorCount": 5,
+    "rawColorCount": 4
+  },
+  "NZ": {
+    "colors": [
+      "white",
+      "red",
+      "blue"
+    ],
+    "colorCount": 3,
+    "rawColorCount": 3
+  },
+  "OM": {
+    "colors": [
+      "white",
+      "red",
+      "green"
+    ],
+    "colorCount": 3,
+    "rawColorCount": 3
+  },
+  "PA": {
+    "colors": [
+      "white",
+      "red",
+      "blue"
+    ],
+    "colorCount": 3,
+    "rawColorCount": 3
+  },
+  "PE": {
+    "colors": [
+      "white",
+      "red"
+    ],
+    "colorCount": 2,
+    "rawColorCount": 2
+  },
+  "PG": {
+    "colors": [
+      "white",
+      "red",
+      "yellow"
+    ],
+    "colorCount": 3,
+    "rawColorCount": 3
+  },
+  "PH": {
+    "colors": [
+      "white",
+      "red",
+      "yellow",
+      "blue"
+    ],
+    "colorCount": 4,
+    "rawColorCount": 4
+  },
+  "PK": {
+    "colors": [
+      "white",
+      "green"
+    ],
+    "colorCount": 2,
+    "rawColorCount": 2
+  },
+  "PL": {
+    "colors": [
+      "white",
+      "red"
+    ],
+    "colorCount": 2,
+    "rawColorCount": 2
+  },
+  "PS": {
+    "colors": [
+      "black",
+      "white",
+      "red",
+      "green"
+    ],
+    "colorCount": 4,
+    "rawColorCount": 3
+  },
+  "PT": {
+    "colors": [
+      "black",
+      "white",
+      "red",
+      "yellow",
+      "green",
+      "blue"
+    ],
+    "colorCount": 6,
+    "rawColorCount": 6
+  },
+  "PW": {
+    "colors": [
+      "yellow",
+      "light blue"
+    ],
+    "colorCount": 2,
+    "rawColorCount": 2
+  },
+  "PY": {
+    "colors": [
+      "black",
+      "white",
+      "red",
+      "yellow",
+      "green",
+      "blue"
+    ],
+    "colorCount": 6,
+    "rawColorCount": 6
+  },
+  "QA": {
+    "colors": [
+      "white",
+      "red"
+    ],
+    "colorCount": 2,
+    "rawColorCount": 2
+  },
+  "RO": {
+    "colors": [
+      "red",
+      "yellow",
+      "blue"
+    ],
+    "colorCount": 3,
+    "rawColorCount": 3
+  },
+  "RS": {
+    "colors": [
+      "black",
+      "white",
+      "red",
+      "yellow",
+      "blue"
+    ],
+    "colorCount": 5,
+    "rawColorCount": 5
+  },
+  "RU": {
+    "colors": [
+      "white",
+      "red",
+      "blue"
+    ],
+    "colorCount": 3,
+    "rawColorCount": 3
+  },
+  "RW": {
+    "colors": [
+      "yellow",
+      "green",
+      "light blue"
+    ],
+    "colorCount": 3,
+    "rawColorCount": 4
+  },
+  "SA": {
+    "colors": [
+      "white",
+      "green"
+    ],
+    "colorCount": 2,
+    "rawColorCount": 2
+  },
+  "SB": {
+    "colors": [
+      "white",
+      "yellow",
+      "green",
+      "blue"
+    ],
+    "colorCount": 4,
+    "rawColorCount": 4
+  },
+  "SC": {
+    "colors": [
+      "white",
+      "red",
+      "yellow",
+      "green",
+      "blue"
+    ],
+    "colorCount": 5,
+    "rawColorCount": 5
+  },
+  "SD": {
+    "colors": [
+      "black",
+      "white",
+      "red",
+      "green"
+    ],
+    "colorCount": 4,
+    "rawColorCount": 3
+  },
+  "SE": {
+    "colors": [
+      "yellow",
+      "blue"
+    ],
+    "colorCount": 2,
+    "rawColorCount": 2
+  },
+  "SG": {
+    "colors": [
+      "white",
+      "red"
+    ],
+    "colorCount": 2,
+    "rawColorCount": 2
+  },
+  "SI": {
+    "colors": [
+      "white",
+      "red",
+      "yellow",
+      "blue"
+    ],
+    "colorCount": 4,
+    "rawColorCount": 4
+  },
+  "SK": {
+    "colors": [
+      "white",
+      "red",
+      "blue"
+    ],
+    "colorCount": 3,
+    "rawColorCount": 3
+  },
+  "SL": {
+    "colors": [
+      "white",
+      "green",
+      "blue"
+    ],
+    "colorCount": 3,
+    "rawColorCount": 3
+  },
+  "SM": {
+    "colors": [
+      "black",
+      "white",
+      "grey",
+      "orange",
+      "yellow",
+      "light blue",
+      "brown"
+    ],
+    "colorCount": 7,
+    "rawColorCount": 13
+  },
+  "SN": {
+    "colors": [
+      "red",
+      "yellow",
+      "green"
+    ],
+    "colorCount": 3,
+    "rawColorCount": 3
+  },
+  "SO": {
+    "colors": [
+      "white",
+      "light blue"
+    ],
+    "colorCount": 2,
+    "rawColorCount": 2
+  },
+  "SR": {
+    "colors": [
+      "white",
+      "red",
+      "yellow",
+      "green"
+    ],
+    "colorCount": 4,
+    "rawColorCount": 4
+  },
+  "SS": {
+    "colors": [
+      "black",
+      "white",
+      "red",
+      "yellow",
+      "green",
+      "light blue"
+    ],
+    "colorCount": 6,
+    "rawColorCount": 5
+  },
+  "ST": {
+    "colors": [
+      "black",
+      "red",
+      "yellow",
+      "green"
+    ],
+    "colorCount": 4,
+    "rawColorCount": 3
+  },
+  "SV": {
+    "colors": [
+      "black",
+      "white",
+      "grey",
+      "pink",
+      "red",
+      "orange",
+      "yellow",
+      "green",
+      "blue",
+      "light blue"
+    ],
+    "colorCount": 10,
+    "rawColorCount": 163
+  },
+  "SX": {
+    "colors": [
+      "black",
+      "white",
+      "pink",
+      "red",
+      "orange",
+      "yellow",
+      "green",
+      "blue",
+      "light blue"
+    ],
+    "colorCount": 9,
+    "rawColorCount": 11
+  },
+  "SY": {
+    "colors": [
+      "black",
+      "white",
+      "red",
+      "green"
+    ],
+    "colorCount": 4,
+    "rawColorCount": 3
+  },
+  "SZ": {
+    "colors": [
+      "black",
+      "white",
+      "red",
+      "yellow",
+      "blue"
+    ],
+    "colorCount": 5,
+    "rawColorCount": 7
+  },
+  "TD": {
+    "colors": [
+      "red",
+      "yellow",
+      "blue"
+    ],
+    "colorCount": 3,
+    "rawColorCount": 3
+  },
+  "TG": {
+    "colors": [
+      "white",
+      "red",
+      "yellow",
+      "green"
+    ],
+    "colorCount": 4,
+    "rawColorCount": 4
+  },
+  "TH": {
+    "colors": [
+      "black",
+      "white",
+      "red"
+    ],
+    "colorCount": 3,
+    "rawColorCount": 3
+  },
+  "TJ": {
+    "colors": [
+      "white",
+      "red",
+      "yellow",
+      "green"
+    ],
+    "colorCount": 4,
+    "rawColorCount": 4
+  },
+  "TL": {
+    "colors": [
+      "black",
+      "white",
+      "red",
+      "yellow"
+    ],
+    "colorCount": 4,
+    "rawColorCount": 3
+  },
+  "TM": {
+    "colors": [
+      "white",
+      "red",
+      "yellow",
+      "green",
+      "brown"
+    ],
+    "colorCount": 5,
+    "rawColorCount": 6
+  },
+  "TN": {
+    "colors": [
+      "white",
+      "red"
+    ],
+    "colorCount": 2,
+    "rawColorCount": 2
+  },
+  "TO": {
+    "colors": [
+      "white",
+      "red"
+    ],
+    "colorCount": 2,
+    "rawColorCount": 2
+  },
+  "TR": {
+    "colors": [
+      "white",
+      "red"
+    ],
+    "colorCount": 2,
+    "rawColorCount": 2
+  },
+  "TT": {
+    "colors": [
+      "black",
+      "white",
+      "red"
+    ],
+    "colorCount": 3,
+    "rawColorCount": 2
+  },
+  "TV": {
+    "colors": [
+      "white",
+      "red",
+      "yellow",
+      "blue",
+      "light blue"
+    ],
+    "colorCount": 5,
+    "rawColorCount": 5
+  },
+  "TW": {
+    "colors": [
+      "white",
+      "red",
+      "blue"
+    ],
+    "colorCount": 3,
+    "rawColorCount": 3
+  },
+  "TZ": {
+    "colors": [
+      "black",
+      "yellow",
+      "green",
+      "light blue"
+    ],
+    "colorCount": 4,
+    "rawColorCount": 4
+  },
+  "UA": {
+    "colors": [
+      "yellow",
+      "blue"
+    ],
+    "colorCount": 2,
+    "rawColorCount": 2
+  },
+  "UG": {
+    "colors": [
+      "black",
+      "white",
+      "grey",
+      "red",
+      "yellow"
+    ],
+    "colorCount": 5,
+    "rawColorCount": 5
+  },
+  "US": {
+    "colors": [
+      "white",
+      "red",
+      "blue"
+    ],
+    "colorCount": 3,
+    "rawColorCount": 3
+  },
+  "UY": {
+    "colors": [
+      "black",
+      "white",
+      "blue",
+      "brown"
+    ],
+    "colorCount": 4,
+    "rawColorCount": 4
+  },
+  "UZ": {
+    "colors": [
+      "white",
+      "red",
+      "green",
+      "light blue"
+    ],
+    "colorCount": 4,
+    "rawColorCount": 4
+  },
+  "VA": {
+    "colors": [
+      "black",
+      "white",
+      "red",
+      "yellow",
+      "light blue",
+      "brown"
+    ],
+    "colorCount": 6,
+    "rawColorCount": 10
+  },
+  "VC": {
+    "colors": [
+      "yellow",
+      "green",
+      "blue"
+    ],
+    "colorCount": 3,
+    "rawColorCount": 3
+  },
+  "VE": {
+    "colors": [
+      "white",
+      "red",
+      "yellow",
+      "blue"
+    ],
+    "colorCount": 4,
+    "rawColorCount": 4
+  },
+  "VN": {
+    "colors": [
+      "red",
+      "yellow"
+    ],
+    "colorCount": 2,
+    "rawColorCount": 2
+  },
+  "VU": {
+    "colors": [
+      "black",
+      "red",
+      "yellow",
+      "green"
+    ],
+    "colorCount": 4,
+    "rawColorCount": 4
+  },
+  "WS": {
+    "colors": [
+      "white",
+      "red",
+      "blue"
+    ],
+    "colorCount": 3,
+    "rawColorCount": 3
+  },
+  "XK": {
+    "colors": [
+      "white",
+      "orange",
+      "blue"
+    ],
+    "colorCount": 3,
+    "rawColorCount": 3
+  },
+  "YE": {
+    "colors": [
+      "black",
+      "white",
+      "red"
+    ],
+    "colorCount": 3,
+    "rawColorCount": 2
+  },
+  "ZA": {
+    "colors": [
+      "black",
+      "white",
+      "red",
+      "yellow",
+      "green",
+      "blue"
+    ],
+    "colorCount": 6,
+    "rawColorCount": 6
+  },
+  "ZM": {
+    "colors": [
+      "black",
+      "red",
+      "orange",
+      "green"
+    ],
+    "colorCount": 4,
+    "rawColorCount": 4
+  },
+  "ZW": {
+    "colors": [
+      "black",
+      "white",
+      "red",
+      "yellow",
+      "green"
+    ],
+    "colorCount": 5,
+    "rawColorCount": 5
+  }
+}
