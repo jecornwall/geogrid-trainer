@@ -28,13 +28,47 @@ interface FilterState {
   };
 }
 
-let filterState: FilterState = {
+const FILTER_STORAGE_KEY = 'geogrid-filter-state';
+
+// Default filter state
+const defaultFilterState: FilterState = {
   borders: {
     enabled: true,
     min: 0,
     max: 14,
   },
 };
+
+// Load saved state or use defaults
+function loadFilterState(): FilterState {
+  try {
+    const saved = localStorage.getItem(FILTER_STORAGE_KEY);
+    if (saved) {
+      const parsed = JSON.parse(saved);
+      // Merge with defaults to handle any missing properties
+      return {
+        borders: {
+          ...defaultFilterState.borders,
+          ...parsed.borders,
+        },
+      };
+    }
+  } catch (e) {
+    console.warn('Failed to load filter state:', e);
+  }
+  return { ...defaultFilterState };
+}
+
+// Save state to localStorage
+function saveFilterState(): void {
+  try {
+    localStorage.setItem(FILTER_STORAGE_KEY, JSON.stringify(filterState));
+  } catch (e) {
+    console.warn('Failed to save filter state:', e);
+  }
+}
+
+let filterState: FilterState = loadFilterState();
 
 // Track highlighted countries for filter
 let highlightedCountries: Set<string> = new Set();
@@ -242,6 +276,7 @@ function updateMapStyles(): void {
 function onFilterChange(): void {
   updateHighlightedCountries();
   updateMapStyles();
+  saveFilterState();
 }
 
 /**
@@ -488,9 +523,9 @@ function setupRangeSlider(): void {
   minSlider.addEventListener('input', handleMinChange);
   maxSlider.addEventListener('input', handleMaxChange);
   
-  // Set initial values explicitly
-  minSlider.value = '0';
-  maxSlider.value = '14';
+  // Set initial values from saved state
+  minSlider.value = String(filterState.borders.min);
+  maxSlider.value = String(filterState.borders.max);
   
   // Initial display update
   updateDisplay();
@@ -505,11 +540,9 @@ function setupFilterToggles(): void {
   
   if (!bordersToggle || !bordersSection) return;
   
-  function syncToggleState(): void {
-    filterState.borders.enabled = bordersToggle.checked;
-    
+  function applyToggleState(): void {
     // Toggle visual disabled state
-    if (bordersToggle.checked) {
+    if (filterState.borders.enabled) {
       bordersSection!.classList.remove('disabled');
     } else {
       bordersSection!.classList.add('disabled');
@@ -517,12 +550,14 @@ function setupFilterToggles(): void {
   }
   
   bordersToggle.addEventListener('change', () => {
-    syncToggleState();
+    filterState.borders.enabled = bordersToggle.checked;
+    applyToggleState();
     onFilterChange();
   });
   
-  // Sync initial state (in case browser restored form state)
-  syncToggleState();
+  // Initialize checkbox from saved state
+  bordersToggle.checked = filterState.borders.enabled;
+  applyToggleState();
 }
 
 /**
