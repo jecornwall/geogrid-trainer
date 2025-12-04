@@ -13,7 +13,8 @@ const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ROOT = path.join(__dirname, '..');
 const WIKIDATA_DIR = path.join(ROOT, 'data/raw/wikidata');
 const COUNTRIES_JSON = path.join(ROOT, 'data/countries.json');
-const OUTPUT_FILE = path.join(ROOT, 'data/countries.jsonl');
+const COUNTRIES_JSONL = path.join(ROOT, 'data/countries.jsonl');
+const OUTPUT_FILE = COUNTRIES_JSONL;
 
 // ============================================================
 // UTILITY FUNCTIONS
@@ -61,19 +62,51 @@ async function parseBasicInfo() {
   return countries;
 }
 
-async function parseBorders() {
-  const bindings = await loadWikidata('borders.json');
-  const borders = new Map();
+/**
+ * Load existing data from countries.jsonl that was populated by Wikipedia parsers.
+ * 
+ * Several fields are sourced from Wikipedia HTML parsing rather than Wikidata:
+ * - borders.countries: from land-borders.html (Wikidata P47 includes maritime borders)
+ * - geography.is_island_nation: from island-countries.html
+ * - geography.coastline_km: from coastline-length.html
+ * - flag.*: from flags-design.html
+ * - sports.olympic_medals: from olympic-medals.html
+ * 
+ * This function preserves those values when regenerating the JSONL.
+ */
+async function loadExistingData() {
+  const existing = new Map();
   
-  for (const b of bindings) {
-    const iso2 = getValue(b, 'iso2');
-    const neighborIso2 = getValue(b, 'neighborIso2');
-    if (!iso2 || !neighborIso2) continue;
+  try {
+    const content = await fs.readFile(COUNTRIES_JSONL, 'utf-8');
+    const lines = content.trim().split('\n');
     
-    if (!borders.has(iso2)) borders.set(iso2, new Set());
-    borders.get(iso2).add(neighborIso2);
+    for (const line of lines) {
+      const country = JSON.parse(line);
+      if (country.id) {
+        existing.set(country.id, country);
+      }
+    }
+    console.log(`  (loaded ${existing.size} existing records from countries.jsonl)`);
+  } catch (err) {
+    console.log('  (no existing countries.jsonl found)');
   }
   
+  return existing;
+}
+
+/**
+ * Get borders from existing data.
+ * Border data is sourced from Wikipedia's "List of countries by land borders".
+ * Run scripts/parse-wikipedia-land-borders.js to update.
+ */
+function getBorders(existingData) {
+  const borders = new Map();
+  for (const [id, country] of existingData) {
+    if (country.borders?.countries) {
+      borders.set(id, new Set(country.borders.countries));
+    }
+  }
   return borders;
 }
 
@@ -309,9 +342,12 @@ async function main() {
   const countriesJson = JSON.parse(await fs.readFile(COUNTRIES_JSON, 'utf-8'));
   console.log(`Loaded ${countriesJson.length} countries\n`);
   
-  console.log('Parsing Wikidata files...');
+  console.log('Loading existing data (Wikipedia-sourced fields)...');
+  const existingData = await loadExistingData();
+  
+  console.log('\nParsing Wikidata files...');
   const basicInfo = await parseBasicInfo();
-  const borders = await parseBorders();
+  const borders = getBorders(existingData);  // Use existing Wikipedia-sourced borders
   const continents = await parseContinents();
   const languages = await parseLanguages();
   const { eu, commonwealth } = await parseMemberships();
@@ -368,26 +404,32 @@ async function main() {
     const area = info.area_km2 > 0 ? info.area_km2 : 1;
     const popCount = info.population_count || 0;
     
+    // Get existing Wikipedia-sourced data for this country
+    const existing = existingData.get(iso2) || {};
+    const existingFlag = existing.flag || {};
+    const existingGeo = existing.geography || {};
+    const existingSports = existing.sports || {};
+    
     const country = {
       id: iso2,
       name: info.name || master.name,
       flag_image_url: flagImages.get(iso2) || `/flags/${iso2.toLowerCase()}.svg`,
       flag: {
-        colors: [],  // TODO: Wikipedia parsing
-        has_star: false,
-        has_coat_of_arms: false,
-        has_animal: false
+        colors: existingFlag.colors || [],  // Wikipedia parsing
+        has_star: existingFlag.has_star || false,  // Wikipedia parsing
+        has_coat_of_arms: existingFlag.has_coat_of_arms || false,  // Wikipedia parsing
+        has_animal: existingFlag.has_animal || false  // Wikipedia parsing
       },
       geography: {
-        continents: conts ? Array.from(conts) : ['Africa'],  // Placeholder if missing
-        is_island_nation: false,  // TODO: Wikipedia parsing
+        continents: conts ? Array.from(conts) : (existingGeo.continents || ['Africa']),
+        is_island_nation: existingGeo.is_island_nation || false,  // Wikipedia parsing
         is_landlocked: landlocked.has(iso2),
-        coastline_km: landlocked.has(iso2) ? null : 0,  // TODO: Wikipedia parsing
-        coastlines: [],  // TODO: Wikipedia parsing
-        river_systems: [],  // TODO: Wikipedia parsing
-        touches_equator: false,  // TODO: Wikipedia parsing
-        touches_eurasian_steppe: false,
-        touches_sahara: false
+        coastline_km: existingGeo.coastline_km ?? (landlocked.has(iso2) ? 0 : 0),  // Wikipedia parsing
+        coastlines: existingGeo.coastlines || [],  // Wikipedia parsing
+        river_systems: existingGeo.river_systems || [],  // Wikipedia parsing
+        touches_equator: existingGeo.touches_equator || false,  // Wikipedia parsing
+        touches_eurasian_steppe: existingGeo.touches_eurasian_steppe || false,
+        touches_sahara: existingGeo.touches_sahara || false
       },
       borders: {
         countries: bord ? Array.from(bord) : []
@@ -437,10 +479,10 @@ async function main() {
         lakes_count_rank: null
       },
       sports: {
-        olympic_medals: { total: 0 },
-        olympics_hosted: hosted || [],
-        fifa_world_cup: { hosted: [], played: false, wins: 0 },
-        f1_hosted: false
+        olympic_medals: existingSports.olympic_medals || { total: 0 },  // Wikipedia parsing
+        olympics_hosted: hosted || existingSports.olympics_hosted || [],
+        fifa_world_cup: existingSports.fifa_world_cup || { hosted: [], played: false, wins: 0 },
+        f1_hosted: existingSports.f1_hosted || false
       }
     };
     
