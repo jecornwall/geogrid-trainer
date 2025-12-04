@@ -8,9 +8,37 @@ A geography training app to help practice for [GeoGuessr](https://www.geoguessr.
 
 - 🗺️ Interactive world map powered by Leaflet
 - 🏳️ Country fact panels with flags, geography, population, political info, and more
+- 🔍 Filter panel to highlight countries matching specific criteria
 - 📊 Data sourced from Wikidata and Wikipedia
 - ⚡ Static deployment - no backend required
 - 🎨 Dark theme with responsive design
+- 💾 Filter settings persist across sessions
+
+## Filter Panel
+
+The left sidebar contains filters to highlight countries matching specific criteria. This is useful for practicing GeoGrid categories.
+
+### Available Filters
+
+- **Bordering Countries**: Filter by number of land borders (0-14 range slider)
+
+### Using Filters
+
+1. **Enable/Disable**: Each filter has a toggle switch to turn it on or off
+2. **Adjust Range**: Use the dual-thumb slider to set min/max values
+3. **Combine Filters**: Enable multiple filters to find countries matching ALL criteria
+4. **View Results**: The summary shows how many countries match your active filters
+
+Matching countries are highlighted on the map with a distinct cyan color.
+
+### Persistence
+
+Filter settings (ranges and toggle states) are saved to localStorage and restored when you return to the app.
+
+### Responsive Layout
+
+- **Desktop (>900px)**: Three-column layout with filter panel on the left, map in the center, and details panel on the right
+- **Mobile (≤900px)**: Filter panel becomes a slide-out drawer (tap the ⚙ button), details panel slides up from the bottom when a country is selected
 
 ## Project Structure
 
@@ -33,10 +61,12 @@ geogrid-trainer/
 │   └── types/                  # TypeScript type definitions
 ├── web/                        # Frontend application
 │   ├── src/
-│   │   ├── main.ts             # Map initialization
+│   │   ├── main.ts             # Map initialization & filter logic
 │   │   ├── popup.ts            # Country popup rendering
+│   │   ├── style.css           # Styles including filter panel
 │   │   └── data/
 │   │       └── display-config.json  # Controls which fields are shown
+│   ├── index.html              # Main HTML with filter panel structure
 │   └── dist/                   # Production build output
 └── NEXT-TASK-PARSE-DATA.md     # Parsing progress & instructions
 ```
