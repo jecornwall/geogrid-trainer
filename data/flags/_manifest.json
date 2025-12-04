@@ -1,0 +1,818 @@
+{
+  "downloadedAt": "2025-12-04T06:14:28.920Z",
+  "totalFlags": 203,
+  "flags": {
+    "ad": {
+      "sourceUrl": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Andorra.svg",
+      "localPath": "data/flags/ad.svg"
+    },
+    "ae": {
+      "sourceUrl": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20the%20United%20Arab%20Emirates.svg",
+      "localPath": "data/flags/ae.svg"
+    },
+    "af": {
+      "sourceUrl": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20the%20Taliban.svg",
+      "localPath": "data/flags/af.svg"
+    },
+    "ag": {
+      "sourceUrl": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Antigua%20and%20Barbuda.svg",
+      "localPath": "data/flags/ag.svg"
+    },
+    "al": {
+      "sourceUrl": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Albania.svg",
+      "localPath": "data/flags/al.svg"
+    },
+    "am": {
+      "sourceUrl": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Armenia.svg",
+      "localPath": "data/flags/am.svg"
+    },
+    "ao": {
+      "sourceUrl": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Angola.svg",
+      "localPath": "data/flags/ao.svg"
+    },
+    "ar": {
+      "sourceUrl": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Argentina.svg",
+      "localPath": "data/flags/ar.svg"
+    },
+    "at": {
+      "sourceUrl": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Austria.svg",
+      "localPath": "data/flags/at.svg"
+    },
+    "au": {
+      "sourceUrl": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Australia%20%28converted%29.svg",
+      "localPath": "data/flags/au.svg"
+    },
+    "aw": {
+      "sourceUrl": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Aruba.svg",
+      "localPath": "data/flags/aw.svg"
+    },
+    "az": {
+      "sourceUrl": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Azerbaijan.svg",
+      "localPath": "data/flags/az.svg"
+    },
+    "ba": {
+      "sourceUrl": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Bosnia%20and%20Herzegovina.svg",
+      "localPath": "data/flags/ba.svg"
+    },
+    "bb": {
+      "sourceUrl": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Barbados.svg",
+      "localPath": "data/flags/bb.svg"
+    },
+    "bd": {
+      "sourceUrl": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Bangladesh.svg",
+      "localPath": "data/flags/bd.svg"
+    },
+    "be": {
+      "sourceUrl": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Belgium.svg",
+      "localPath": "data/flags/be.svg"
+    },
+    "bf": {
+      "sourceUrl": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Burkina%20Faso.svg",
+      "localPath": "data/flags/bf.svg"
+    },
+    "bg": {
+      "sourceUrl": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Bulgaria.svg",
+      "localPath": "data/flags/bg.svg"
+    },
+    "bh": {
+      "sourceUrl": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Bahrain.svg",
+      "localPath": "data/flags/bh.svg"
+    },
+    "bi": {
+      "sourceUrl": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Burundi.svg",
+      "localPath": "data/flags/bi.svg"
+    },
+    "bj": {
+      "sourceUrl": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Benin.svg",
+      "localPath": "data/flags/bj.svg"
+    },
+    "bn": {
+      "sourceUrl": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Brunei.svg",
+      "localPath": "data/flags/bn.svg"
+    },
+    "bo": {
+      "sourceUrl": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Bolivia.svg",
+      "localPath": "data/flags/bo.svg"
+    },
+    "br": {
+      "sourceUrl": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Brazil.svg",
+      "localPath": "data/flags/br.svg"
+    },
+    "bs": {
+      "sourceUrl": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20the%20Bahamas.svg",
+      "localPath": "data/flags/bs.svg"
+    },
+    "bt": {
+      "sourceUrl": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Bhutan.svg",
+      "localPath": "data/flags/bt.svg"
+    },
+    "bw": {
+      "sourceUrl": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Botswana.svg",
+      "localPath": "data/flags/bw.svg"
+    },
+    "by": {
+      "sourceUrl": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Belarus.svg",
+      "localPath": "data/flags/by.svg"
+    },
+    "bz": {
+      "sourceUrl": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Belize.svg",
+      "localPath": "data/flags/bz.svg"
+    },
+    "ca": {
+      "sourceUrl": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Canada%20%28Pantone%29.svg",
+      "localPath": "data/flags/ca.svg"
+    },
+    "cd": {
+      "sourceUrl": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20the%20Democratic%20Republic%20of%20the%20Congo.svg",
+      "localPath": "data/flags/cd.svg"
+    },
+    "cf": {
+      "sourceUrl": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20the%20Central%20African%20Republic.svg",
+      "localPath": "data/flags/cf.svg"
+    },
+    "cg": {
+      "sourceUrl": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20the%20Republic%20of%20the%20Congo.svg",
+      "localPath": "data/flags/cg.svg"
+    },
+    "ch": {
+      "sourceUrl": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Switzerland.svg",
+      "localPath": "data/flags/ch.svg"
+    },
+    "ci": {
+      "sourceUrl": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20C%C3%B4te%20d%27Ivoire.svg",
+      "localPath": "data/flags/ci.svg"
+    },
+    "ck": {
+      "sourceUrl": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20the%20Cook%20Islands.svg",
+      "localPath": "data/flags/ck.svg"
+    },
+    "cl": {
+      "sourceUrl": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Chile.svg",
+      "localPath": "data/flags/cl.svg"
+    },
+    "cm": {
+      "sourceUrl": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Cameroon.svg",
+      "localPath": "data/flags/cm.svg"
+    },
+    "cn": {
+      "sourceUrl": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20the%20People%27s%20Republic%20of%20China.svg",
+      "localPath": "data/flags/cn.svg"
+    },
+    "co": {
+      "sourceUrl": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Colombia.svg",
+      "localPath": "data/flags/co.svg"
+    },
+    "cr": {
+      "sourceUrl": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Costa%20Rica.svg",
+      "localPath": "data/flags/cr.svg"
+    },
+    "cu": {
+      "sourceUrl": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Cuba.svg",
+      "localPath": "data/flags/cu.svg"
+    },
+    "cv": {
+      "sourceUrl": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Cape%20Verde.svg",
+      "localPath": "data/flags/cv.svg"
+    },
+    "cw": {
+      "sourceUrl": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Cura%C3%A7ao.svg",
+      "localPath": "data/flags/cw.svg"
+    },
+    "cy": {
+      "sourceUrl": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Cyprus.svg",
+      "localPath": "data/flags/cy.svg"
+    },
+    "cz": {
+      "sourceUrl": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20the%20Czech%20Republic.svg",
+      "localPath": "data/flags/cz.svg"
+    },
+    "de": {
+      "sourceUrl": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Germany.svg",
+      "localPath": "data/flags/de.svg"
+    },
+    "dj": {
+      "sourceUrl": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Djibouti.svg",
+      "localPath": "data/flags/dj.svg"
+    },
+    "dk": {
+      "sourceUrl": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Denmark.svg",
+      "localPath": "data/flags/dk.svg"
+    },
+    "dm": {
+      "sourceUrl": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Dominica.svg",
+      "localPath": "data/flags/dm.svg"
+    },
+    "do": {
+      "sourceUrl": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20the%20Dominican%20Republic.svg",
+      "localPath": "data/flags/do.svg"
+    },
+    "dz": {
+      "sourceUrl": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Algeria.svg",
+      "localPath": "data/flags/dz.svg"
+    },
+    "ec": {
+      "sourceUrl": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Ecuador.svg",
+      "localPath": "data/flags/ec.svg"
+    },
+    "ee": {
+      "sourceUrl": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Estonia.svg",
+      "localPath": "data/flags/ee.svg"
+    },
+    "eg": {
+      "sourceUrl": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Egypt.svg",
+      "localPath": "data/flags/eg.svg"
+    },
+    "er": {
+      "sourceUrl": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Eritrea.svg",
+      "localPath": "data/flags/er.svg"
+    },
+    "es": {
+      "sourceUrl": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Spain.svg",
+      "localPath": "data/flags/es.svg"
+    },
+    "et": {
+      "sourceUrl": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Ethiopia.svg",
+      "localPath": "data/flags/et.svg"
+    },
+    "fi": {
+      "sourceUrl": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Finland.svg",
+      "localPath": "data/flags/fi.svg"
+    },
+    "fj": {
+      "sourceUrl": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Fiji.svg",
+      "localPath": "data/flags/fj.svg"
+    },
+    "fm": {
+      "sourceUrl": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20the%20Federated%20States%20of%20Micronesia.svg",
+      "localPath": "data/flags/fm.svg"
+    },
+    "fr": {
+      "sourceUrl": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20France.svg",
+      "localPath": "data/flags/fr.svg"
+    },
+    "ga": {
+      "sourceUrl": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Gabon.svg",
+      "localPath": "data/flags/ga.svg"
+    },
+    "gb": {
+      "sourceUrl": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20the%20United%20Kingdom%20%283-5%29.svg",
+      "localPath": "data/flags/gb.svg"
+    },
+    "gd": {
+      "sourceUrl": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Grenada.svg",
+      "localPath": "data/flags/gd.svg"
+    },
+    "ge": {
+      "sourceUrl": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Georgia.svg",
+      "localPath": "data/flags/ge.svg"
+    },
+    "gh": {
+      "sourceUrl": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Ghana.svg",
+      "localPath": "data/flags/gh.svg"
+    },
+    "gl": {
+      "sourceUrl": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Greenland.svg",
+      "localPath": "data/flags/gl.svg"
+    },
+    "gm": {
+      "sourceUrl": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20The%20Gambia.svg",
+      "localPath": "data/flags/gm.svg"
+    },
+    "gn": {
+      "sourceUrl": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Guinea.svg",
+      "localPath": "data/flags/gn.svg"
+    },
+    "gq": {
+      "sourceUrl": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Equatorial%20Guinea.svg",
+      "localPath": "data/flags/gq.svg"
+    },
+    "gr": {
+      "sourceUrl": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Greece.svg",
+      "localPath": "data/flags/gr.svg"
+    },
+    "gt": {
+      "sourceUrl": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Guatemala.svg",
+      "localPath": "data/flags/gt.svg"
+    },
+    "gw": {
+      "sourceUrl": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Guinea-Bissau.svg",
+      "localPath": "data/flags/gw.svg"
+    },
+    "gy": {
+      "sourceUrl": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Guyana.svg",
+      "localPath": "data/flags/gy.svg"
+    },
+    "hn": {
+      "sourceUrl": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Honduras%20%282022%E2%80%93present%29.svg",
+      "localPath": "data/flags/hn.svg"
+    },
+    "hr": {
+      "sourceUrl": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Croatia.svg",
+      "localPath": "data/flags/hr.svg"
+    },
+    "ht": {
+      "sourceUrl": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Haiti.svg",
+      "localPath": "data/flags/ht.svg"
+    },
+    "hu": {
+      "sourceUrl": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Hungary.svg",
+      "localPath": "data/flags/hu.svg"
+    },
+    "id": {
+      "sourceUrl": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Indonesia.svg",
+      "localPath": "data/flags/id.svg"
+    },
+    "ie": {
+      "sourceUrl": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Ireland.svg",
+      "localPath": "data/flags/ie.svg"
+    },
+    "il": {
+      "sourceUrl": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Israel.svg",
+      "localPath": "data/flags/il.svg"
+    },
+    "in": {
+      "sourceUrl": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20India.svg",
+      "localPath": "data/flags/in.svg"
+    },
+    "iq": {
+      "sourceUrl": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Iraq.svg",
+      "localPath": "data/flags/iq.svg"
+    },
+    "ir": {
+      "sourceUrl": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Iran.svg",
+      "localPath": "data/flags/ir.svg"
+    },
+    "is": {
+      "sourceUrl": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Iceland.svg",
+      "localPath": "data/flags/is.svg"
+    },
+    "it": {
+      "sourceUrl": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Italy.svg",
+      "localPath": "data/flags/it.svg"
+    },
+    "jm": {
+      "sourceUrl": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Jamaica.svg",
+      "localPath": "data/flags/jm.svg"
+    },
+    "jo": {
+      "sourceUrl": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Jordan.svg",
+      "localPath": "data/flags/jo.svg"
+    },
+    "jp": {
+      "sourceUrl": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Japan.svg",
+      "localPath": "data/flags/jp.svg"
+    },
+    "ke": {
+      "sourceUrl": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Kenya.svg",
+      "localPath": "data/flags/ke.svg"
+    },
+    "kg": {
+      "sourceUrl": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Kyrgyzstan.svg",
+      "localPath": "data/flags/kg.svg"
+    },
+    "kh": {
+      "sourceUrl": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Cambodia.svg",
+      "localPath": "data/flags/kh.svg"
+    },
+    "ki": {
+      "sourceUrl": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Kiribati.svg",
+      "localPath": "data/flags/ki.svg"
+    },
+    "km": {
+      "sourceUrl": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20the%20Comoros.svg",
+      "localPath": "data/flags/km.svg"
+    },
+    "kn": {
+      "sourceUrl": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Saint%20Kitts%20and%20Nevis.svg",
+      "localPath": "data/flags/kn.svg"
+    },
+    "kp": {
+      "sourceUrl": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20North%20Korea.svg",
+      "localPath": "data/flags/kp.svg"
+    },
+    "kr": {
+      "sourceUrl": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20South%20Korea.svg",
+      "localPath": "data/flags/kr.svg"
+    },
+    "kw": {
+      "sourceUrl": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Kuwait.svg",
+      "localPath": "data/flags/kw.svg"
+    },
+    "kz": {
+      "sourceUrl": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Kazakhstan.svg",
+      "localPath": "data/flags/kz.svg"
+    },
+    "la": {
+      "sourceUrl": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Laos.svg",
+      "localPath": "data/flags/la.svg"
+    },
+    "lb": {
+      "sourceUrl": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Lebanon.svg",
+      "localPath": "data/flags/lb.svg"
+    },
+    "lc": {
+      "sourceUrl": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Saint%20Lucia.svg",
+      "localPath": "data/flags/lc.svg"
+    },
+    "li": {
+      "sourceUrl": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Liechtenstein.svg",
+      "localPath": "data/flags/li.svg"
+    },
+    "lk": {
+      "sourceUrl": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Sri%20Lanka.svg",
+      "localPath": "data/flags/lk.svg"
+    },
+    "lr": {
+      "sourceUrl": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Liberia.svg",
+      "localPath": "data/flags/lr.svg"
+    },
+    "ls": {
+      "sourceUrl": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Lesotho.svg",
+      "localPath": "data/flags/ls.svg"
+    },
+    "lt": {
+      "sourceUrl": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Lithuania.svg",
+      "localPath": "data/flags/lt.svg"
+    },
+    "lu": {
+      "sourceUrl": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Luxembourg.svg",
+      "localPath": "data/flags/lu.svg"
+    },
+    "lv": {
+      "sourceUrl": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Latvia.svg",
+      "localPath": "data/flags/lv.svg"
+    },
+    "ly": {
+      "sourceUrl": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Libya.svg",
+      "localPath": "data/flags/ly.svg"
+    },
+    "ma": {
+      "sourceUrl": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Morocco.svg",
+      "localPath": "data/flags/ma.svg"
+    },
+    "mc": {
+      "sourceUrl": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Monaco.svg",
+      "localPath": "data/flags/mc.svg"
+    },
+    "md": {
+      "sourceUrl": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Moldova.svg",
+      "localPath": "data/flags/md.svg"
+    },
+    "me": {
+      "sourceUrl": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Montenegro.svg",
+      "localPath": "data/flags/me.svg"
+    },
+    "mg": {
+      "sourceUrl": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Madagascar.svg",
+      "localPath": "data/flags/mg.svg"
+    },
+    "mh": {
+      "sourceUrl": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20the%20Marshall%20Islands.svg",
+      "localPath": "data/flags/mh.svg"
+    },
+    "mk": {
+      "sourceUrl": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20North%20Macedonia.svg",
+      "localPath": "data/flags/mk.svg"
+    },
+    "ml": {
+      "sourceUrl": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Mali.svg",
+      "localPath": "data/flags/ml.svg"
+    },
+    "mm": {
+      "sourceUrl": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Myanmar.svg",
+      "localPath": "data/flags/mm.svg"
+    },
+    "mn": {
+      "sourceUrl": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Mongolia.svg",
+      "localPath": "data/flags/mn.svg"
+    },
+    "mr": {
+      "sourceUrl": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Mauritania.svg",
+      "localPath": "data/flags/mr.svg"
+    },
+    "mt": {
+      "sourceUrl": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Malta.svg",
+      "localPath": "data/flags/mt.svg"
+    },
+    "mu": {
+      "sourceUrl": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Mauritius.svg",
+      "localPath": "data/flags/mu.svg"
+    },
+    "mv": {
+      "sourceUrl": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Maldives.svg",
+      "localPath": "data/flags/mv.svg"
+    },
+    "mw": {
+      "sourceUrl": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Malawi.svg",
+      "localPath": "data/flags/mw.svg"
+    },
+    "mx": {
+      "sourceUrl": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Mexico.svg",
+      "localPath": "data/flags/mx.svg"
+    },
+    "my": {
+      "sourceUrl": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Malaysia.svg",
+      "localPath": "data/flags/my.svg"
+    },
+    "mz": {
+      "sourceUrl": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Mozambique.svg",
+      "localPath": "data/flags/mz.svg"
+    },
+    "na": {
+      "sourceUrl": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Namibia.svg",
+      "localPath": "data/flags/na.svg"
+    },
+    "ne": {
+      "sourceUrl": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Niger.svg",
+      "localPath": "data/flags/ne.svg"
+    },
+    "ng": {
+      "sourceUrl": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Nigeria.svg",
+      "localPath": "data/flags/ng.svg"
+    },
+    "ni": {
+      "sourceUrl": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Nicaragua.svg",
+      "localPath": "data/flags/ni.svg"
+    },
+    "nl": {
+      "sourceUrl": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20the%20Netherlands.svg",
+      "localPath": "data/flags/nl.svg"
+    },
+    "no": {
+      "sourceUrl": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Norway.svg",
+      "localPath": "data/flags/no.svg"
+    },
+    "np": {
+      "sourceUrl": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Nepal.svg",
+      "localPath": "data/flags/np.svg"
+    },
+    "nr": {
+      "sourceUrl": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Nauru.svg",
+      "localPath": "data/flags/nr.svg"
+    },
+    "nu": {
+      "sourceUrl": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Niue.svg",
+      "localPath": "data/flags/nu.svg"
+    },
+    "nz": {
+      "sourceUrl": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20New%20Zealand.svg",
+      "localPath": "data/flags/nz.svg"
+    },
+    "om": {
+      "sourceUrl": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Oman.svg",
+      "localPath": "data/flags/om.svg"
+    },
+    "pa": {
+      "sourceUrl": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Panama.svg",
+      "localPath": "data/flags/pa.svg"
+    },
+    "pe": {
+      "sourceUrl": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Peru.svg",
+      "localPath": "data/flags/pe.svg"
+    },
+    "pg": {
+      "sourceUrl": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Papua%20New%20Guinea.svg",
+      "localPath": "data/flags/pg.svg"
+    },
+    "ph": {
+      "sourceUrl": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20the%20Philippines.svg",
+      "localPath": "data/flags/ph.svg"
+    },
+    "pk": {
+      "sourceUrl": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Pakistan.svg",
+      "localPath": "data/flags/pk.svg"
+    },
+    "pl": {
+      "sourceUrl": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Poland.svg",
+      "localPath": "data/flags/pl.svg"
+    },
+    "ps": {
+      "sourceUrl": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Palestine.svg",
+      "localPath": "data/flags/ps.svg"
+    },
+    "pt": {
+      "sourceUrl": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Portugal%20%28official%29.svg",
+      "localPath": "data/flags/pt.svg"
+    },
+    "pw": {
+      "sourceUrl": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Palau.svg",
+      "localPath": "data/flags/pw.svg"
+    },
+    "py": {
+      "sourceUrl": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Paraguay.svg",
+      "localPath": "data/flags/py.svg"
+    },
+    "qa": {
+      "sourceUrl": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Qatar.svg",
+      "localPath": "data/flags/qa.svg"
+    },
+    "ro": {
+      "sourceUrl": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Romania.svg",
+      "localPath": "data/flags/ro.svg"
+    },
+    "rs": {
+      "sourceUrl": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Serbia.svg",
+      "localPath": "data/flags/rs.svg"
+    },
+    "ru": {
+      "sourceUrl": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Russia.svg",
+      "localPath": "data/flags/ru.svg"
+    },
+    "rw": {
+      "sourceUrl": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Rwanda.svg",
+      "localPath": "data/flags/rw.svg"
+    },
+    "sa": {
+      "sourceUrl": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Saudi%20Arabia.svg",
+      "localPath": "data/flags/sa.svg"
+    },
+    "sb": {
+      "sourceUrl": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20the%20Solomon%20Islands.svg",
+      "localPath": "data/flags/sb.svg"
+    },
+    "sc": {
+      "sourceUrl": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Seychelles.svg",
+      "localPath": "data/flags/sc.svg"
+    },
+    "sd": {
+      "sourceUrl": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Sudan.svg",
+      "localPath": "data/flags/sd.svg"
+    },
+    "se": {
+      "sourceUrl": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Sweden.svg",
+      "localPath": "data/flags/se.svg"
+    },
+    "sg": {
+      "sourceUrl": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Singapore.svg",
+      "localPath": "data/flags/sg.svg"
+    },
+    "si": {
+      "sourceUrl": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Slovenia.svg",
+      "localPath": "data/flags/si.svg"
+    },
+    "sk": {
+      "sourceUrl": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Slovakia.svg",
+      "localPath": "data/flags/sk.svg"
+    },
+    "sl": {
+      "sourceUrl": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Sierra%20Leone.svg",
+      "localPath": "data/flags/sl.svg"
+    },
+    "sm": {
+      "sourceUrl": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20San%20Marino.svg",
+      "localPath": "data/flags/sm.svg"
+    },
+    "sn": {
+      "sourceUrl": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Senegal.svg",
+      "localPath": "data/flags/sn.svg"
+    },
+    "so": {
+      "sourceUrl": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Somalia.svg",
+      "localPath": "data/flags/so.svg"
+    },
+    "sr": {
+      "sourceUrl": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Suriname.svg",
+      "localPath": "data/flags/sr.svg"
+    },
+    "ss": {
+      "sourceUrl": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20South%20Sudan.svg",
+      "localPath": "data/flags/ss.svg"
+    },
+    "st": {
+      "sourceUrl": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20S%C3%A3o%20Tom%C3%A9%20and%20Pr%C3%ADncipe.svg",
+      "localPath": "data/flags/st.svg"
+    },
+    "sv": {
+      "sourceUrl": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20El%20Salvador.svg",
+      "localPath": "data/flags/sv.svg"
+    },
+    "sx": {
+      "sourceUrl": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Sint%20Maarten.svg",
+      "localPath": "data/flags/sx.svg"
+    },
+    "sy": {
+      "sourceUrl": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Syria%20%282025-%29.svg",
+      "localPath": "data/flags/sy.svg"
+    },
+    "sz": {
+      "sourceUrl": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Eswatini.svg",
+      "localPath": "data/flags/sz.svg"
+    },
+    "td": {
+      "sourceUrl": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Chad.svg",
+      "localPath": "data/flags/td.svg"
+    },
+    "tg": {
+      "sourceUrl": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Togo%20%283-2%29.svg",
+      "localPath": "data/flags/tg.svg"
+    },
+    "th": {
+      "sourceUrl": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Thailand.svg",
+      "localPath": "data/flags/th.svg"
+    },
+    "tj": {
+      "sourceUrl": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Tajikistan.svg",
+      "localPath": "data/flags/tj.svg"
+    },
+    "tl": {
+      "sourceUrl": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20East%20Timor.svg",
+      "localPath": "data/flags/tl.svg"
+    },
+    "tm": {
+      "sourceUrl": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Turkmenistan.svg",
+      "localPath": "data/flags/tm.svg"
+    },
+    "tn": {
+      "sourceUrl": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Tunisia.svg",
+      "localPath": "data/flags/tn.svg"
+    },
+    "to": {
+      "sourceUrl": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Tonga.svg",
+      "localPath": "data/flags/to.svg"
+    },
+    "tr": {
+      "sourceUrl": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Turkey.svg",
+      "localPath": "data/flags/tr.svg"
+    },
+    "tt": {
+      "sourceUrl": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Trinidad%20and%20Tobago.svg",
+      "localPath": "data/flags/tt.svg"
+    },
+    "tv": {
+      "sourceUrl": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Tuvalu.svg",
+      "localPath": "data/flags/tv.svg"
+    },
+    "tw": {
+      "sourceUrl": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20the%20Republic%20of%20China.svg",
+      "localPath": "data/flags/tw.svg"
+    },
+    "tz": {
+      "sourceUrl": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Tanzania.svg",
+      "localPath": "data/flags/tz.svg"
+    },
+    "ua": {
+      "sourceUrl": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Ukraine.svg",
+      "localPath": "data/flags/ua.svg"
+    },
+    "ug": {
+      "sourceUrl": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Uganda.svg",
+      "localPath": "data/flags/ug.svg"
+    },
+    "us": {
+      "sourceUrl": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20the%20United%20States%20%28DDD-F-416E%20specifications%29.svg",
+      "localPath": "data/flags/us.svg"
+    },
+    "uy": {
+      "sourceUrl": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Uruguay.svg",
+      "localPath": "data/flags/uy.svg"
+    },
+    "uz": {
+      "sourceUrl": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Uzbekistan.svg",
+      "localPath": "data/flags/uz.svg"
+    },
+    "va": {
+      "sourceUrl": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Vatican%20City%20%282023%E2%80%93present%29.svg",
+      "localPath": "data/flags/va.svg"
+    },
+    "vc": {
+      "sourceUrl": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Saint%20Vincent%20and%20the%20Grenadines.svg",
+      "localPath": "data/flags/vc.svg"
+    },
+    "ve": {
+      "sourceUrl": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Venezuela.svg",
+      "localPath": "data/flags/ve.svg"
+    },
+    "vn": {
+      "sourceUrl": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Vietnam.svg",
+      "localPath": "data/flags/vn.svg"
+    },
+    "vu": {
+      "sourceUrl": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Vanuatu.svg",
+      "localPath": "data/flags/vu.svg"
+    },
+    "ws": {
+      "sourceUrl": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Samoa.svg",
+      "localPath": "data/flags/ws.svg"
+    },
+    "xk": {
+      "sourceUrl": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Kosovo.svg",
+      "localPath": "data/flags/xk.svg"
+    },
+    "ye": {
+      "sourceUrl": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Yemen.svg",
+      "localPath": "data/flags/ye.svg"
+    },
+    "za": {
+      "sourceUrl": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20South%20Africa.svg",
+      "localPath": "data/flags/za.svg"
+    },
+    "zm": {
+      "sourceUrl": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Zambia.svg",
+      "localPath": "data/flags/zm.svg"
+    },
+    "zw": {
+      "sourceUrl": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Zimbabwe.svg",
+      "localPath": "data/flags/zw.svg"
+    }
+  }
+}

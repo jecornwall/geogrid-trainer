@@ -10,6 +10,7 @@
     "download:wikipedia": "node scripts/download-raw-data.js --wikipedia-only",
     "download:external": "node scripts/download-raw-data.js --external-only",
     "download:countries": "node scripts/download-raw-data.js --countries-only",
+    "download:flags": "NODE_TLS_REJECT_UNAUTHORIZED=0 node scripts/download-flag-svgs.js",
     "test": "vitest run",
     "test:watch": "vitest"
   },
