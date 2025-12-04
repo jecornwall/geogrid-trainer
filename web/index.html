@@ -52,8 +52,22 @@
           </div>
         </aside>
 
-        <!-- Map Container -->
-        <div id="map"></div>
+        <!-- Map and Bottom Panel Container -->
+        <div class="map-container">
+          <!-- Map Container -->
+          <div id="map"></div>
+
+          <!-- Bottom Countries Panel -->
+          <aside id="countries-panel" class="countries-panel">
+            <div class="countries-panel-header">
+              <h2>Matching Countries</h2>
+              <span class="countries-count" id="countries-count">0</span>
+            </div>
+            <div class="countries-list" id="countries-list">
+              <!-- Countries will be rendered dynamically -->
+            </div>
+          </aside>
+        </div>
 
         <!-- Right Details Panel -->
         <aside id="details-panel" class="details-panel">

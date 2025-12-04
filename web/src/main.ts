@@ -43,6 +43,9 @@ let highlightedCountries: Set<string> = new Set();
 // Track collapsed categories
 let collapsedCategories: Set<string> = new Set();
 
+// Store GeoJSON layer mapping for country selection
+let countryCodeToLayer: Map<string, L.Layer> = new Map();
+
 // Country styles
 const defaultStyle: L.PathOptions = {
   fillColor: '#1e3a5f',
@@ -65,6 +68,17 @@ const selectedStyle: L.PathOptions = {
   color: '#06b6d4',
   weight: 2,
 };
+
+/**
+ * Convert a 2-letter country code to a Unicode flag emoji
+ * Each letter is converted to a Regional Indicator Symbol
+ */
+function countryCodeToFlag(code: string): string {
+  const codePoints = [...code.toUpperCase()].map(
+    (char) => 0x1f1e6 - 65 + char.charCodeAt(0)
+  );
+  return String.fromCodePoint(...codePoints);
+}
 
 const highlightedStyle: L.PathOptions = {
   fillColor: '#0891b2',
@@ -232,11 +246,144 @@ function updateMapStyles(): void {
 }
 
 /**
+ * Render the countries list in the bottom panel
+ */
+function renderCountriesList(): void {
+  const listContainer = document.getElementById('countries-list');
+  const countDisplay = document.getElementById('countries-count');
+  
+  if (!listContainer) return;
+  
+  // Get countries matching current filters
+  const activeCount = countActiveFilters(filterState);
+  const matchingCountries: Country[] = [];
+  
+  if (activeCount > 0) {
+    countriesMap.forEach((country) => {
+      if (countryMatchesFilters(country, filterState)) {
+        matchingCountries.push(country);
+      }
+    });
+    // Sort alphabetically by name
+    matchingCountries.sort((a, b) => a.name.localeCompare(b.name));
+  }
+  
+  // Update count display
+  if (countDisplay) {
+    countDisplay.textContent = String(matchingCountries.length);
+  }
+  
+  // Render the list
+  if (matchingCountries.length === 0) {
+    listContainer.innerHTML = activeCount === 0
+      ? '<div class="countries-empty">Enable filters to see matching countries</div>'
+      : '<div class="countries-empty">No countries match the current filters</div>';
+    return;
+  }
+  
+  // Get currently selected country code
+  let selectedCode: string | null = null;
+  if (selectedLayer) {
+    const feature = (selectedLayer as L.GeoJSON).feature as GeoJSON.Feature;
+    selectedCode = getCountryCode(feature);
+  }
+  
+  listContainer.innerHTML = matchingCountries.map((country) => {
+    const flag = countryCodeToFlag(country.id);
+    const isSelected = country.id === selectedCode;
+    return `
+      <button 
+        class="country-chip${isSelected ? ' selected' : ''}" 
+        data-country-id="${country.id}"
+        title="${country.name}"
+      >
+        <span class="country-chip-flag">${flag}</span>
+        <span class="country-chip-name">${country.name}</span>
+      </button>
+    `;
+  }).join('');
+  
+  // Attach click handlers
+  listContainer.querySelectorAll('.country-chip').forEach((chip) => {
+    chip.addEventListener('click', () => {
+      const countryId = chip.getAttribute('data-country-id');
+      if (countryId) {
+        selectCountryById(countryId);
+      }
+    });
+  });
+}
+
+/**
+ * Select a country by its ISO code
+ */
+function selectCountryById(countryId: string): void {
+  const country = countriesMap.get(countryId);
+  const layer = countryCodeToLayer.get(countryId);
+  
+  if (!layer) {
+    // Country exists in data but not in GeoJSON
+    if (country) {
+      showDetails(country);
+    }
+    return;
+  }
+  
+  // Reset previous selection
+  if (selectedLayer && selectedLayer !== layer) {
+    const prevFeature = (selectedLayer as L.GeoJSON).feature as GeoJSON.Feature;
+    const prevCode = getCountryCode(prevFeature);
+    const prevStyle = getStyleForLayer(prevCode, false, false);
+    (selectedLayer as L.Path).setStyle(prevStyle);
+  }
+  
+  // Set new selection
+  selectedLayer = layer;
+  (layer as L.Path).setStyle(selectedStyle);
+  
+  // Pan to the country
+  const bounds = (layer as L.GeoJSON).getBounds();
+  if (bounds.isValid()) {
+    map.fitBounds(bounds, { padding: [50, 50], maxZoom: 5 });
+  }
+  
+  // Show details
+  if (country) {
+    showDetails(country);
+  } else {
+    const feature = (layer as L.GeoJSON).feature as GeoJSON.Feature;
+    const countryName = feature.properties?.name || feature.properties?.ADMIN || 'Unknown';
+    showDetails(null, countryName, countryId);
+  }
+  
+  // Update the countries list to show selection
+  updateCountriesListSelection(countryId);
+}
+
+/**
+ * Update the selected state in the countries list
+ */
+function updateCountriesListSelection(selectedId: string | null): void {
+  const listContainer = document.getElementById('countries-list');
+  if (!listContainer) return;
+  
+  listContainer.querySelectorAll('.country-chip').forEach((chip) => {
+    const countryId = chip.getAttribute('data-country-id');
+    if (countryId === selectedId) {
+      chip.classList.add('selected');
+    } else {
+      chip.classList.remove('selected');
+    }
+  });
+}
+
+/**
  * Handle filter changes
  */
 function onFilterChange(): void {
   updateHighlightedCountries();
   updateMapStyles();
+  renderCountriesList();
   saveFilterState(filterState);
 }
 
@@ -613,6 +760,9 @@ async function loadGeoJSON(): Promise<void> {
     const response = await fetch(GEOJSON_URL);
     const geojson: GeoJSON.FeatureCollection = await response.json();
     
+    // Clear and rebuild the country code to layer mapping
+    countryCodeToLayer.clear();
+    
     geoJsonLayer = L.geoJSON(geojson, {
       style: (feature) => {
         const countryCode = feature ? getCountryCode(feature) : null;
@@ -623,6 +773,11 @@ async function loadGeoJSON(): Promise<void> {
         const country = countryCode ? countriesMap.get(countryCode) : null;
         const countryName =
           country?.name || feature.properties?.name || feature.properties?.ADMIN || 'Unknown';
+        
+        // Store the layer for country code lookup
+        if (countryCode) {
+          countryCodeToLayer.set(countryCode, layer);
+        }
 
         // Add tooltip
         layer.bindTooltip(countryName, {
@@ -667,6 +822,9 @@ async function loadGeoJSON(): Promise<void> {
           } else {
             showDetails(null, countryName, countryCode);
           }
+          
+          // Update the countries list selection
+          updateCountriesListSelection(countryCode);
         });
       },
     }).addTo(map);
@@ -674,6 +832,7 @@ async function loadGeoJSON(): Promise<void> {
     // Initial filter update
     updateHighlightedCountries();
     updateMapStyles();
+    renderCountriesList();
   } catch (error) {
     console.error('Failed to load GeoJSON:', error);
   }
@@ -748,6 +907,9 @@ function hideDetails(): void {
     (selectedLayer as L.Path).setStyle(style);
     selectedLayer = null;
   }
+  
+  // Clear countries list selection
+  updateCountriesListSelection(null);
   
   clearDetails();
 }
