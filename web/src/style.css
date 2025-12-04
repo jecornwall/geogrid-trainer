@@ -25,7 +25,6 @@
   --font-mono: 'JetBrains Mono', ui-monospace, monospace;
   
   /* Layout dimensions */
-  --header-height: 60px;
   --filter-panel-width: 300px;
   --details-panel-width: 380px;
 }
@@ -56,35 +55,6 @@ body {
   height: 100%;
   display: flex;
   flex-direction: column;
-}
-
-/* === Header === */
-.header {
-  padding: 0.75rem 1.5rem;
-  background: var(--bg-secondary);
-  border-bottom: 1px solid var(--border-color);
-  position: relative;
-  z-index: 1000;
-  height: var(--header-height);
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-
-.header h1 {
-  font-size: 1.25rem;
-  font-weight: 700;
-  letter-spacing: -0.02em;
-  background: linear-gradient(135deg, var(--text-primary) 0%, var(--accent-primary) 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
-}
-
-.header .subtitle {
-  font-size: 0.75rem;
-  color: var(--text-secondary);
-  margin-top: 0.125rem;
 }
 
 /* === Main Layout === */
@@ -850,7 +820,6 @@ body {
 .details-content {
   flex: 1;
   overflow-y: auto;
-  padding: 1.25rem;
 }
 
 /* Empty state for details panel */
@@ -860,6 +829,7 @@ body {
   align-items: center;
   justify-content: center;
   height: 100%;
+  padding: 1.25rem;
   text-align: center;
   color: var(--text-muted);
 }
@@ -879,8 +849,13 @@ body {
   display: flex;
   align-items: center;
   gap: 1rem;
-  margin-bottom: 1.5rem;
+  padding: 1.25rem;
   padding-right: 2.5rem;
+  background: var(--bg-secondary);
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  border-bottom: 1px solid var(--border-color);
 }
 
 .country-flag {
@@ -909,6 +884,15 @@ body {
 /* === Fact Sections === */
 .fact-section {
   margin-bottom: 1.25rem;
+  padding: 0 1.25rem;
+}
+
+.fact-section:first-of-type {
+  padding-top: 1.25rem;
+}
+
+.fact-section:last-of-type {
+  padding-bottom: 1.25rem;
 }
 
 .fact-section-title {
@@ -1127,7 +1111,7 @@ body {
   }
 
   .country-header {
-    padding-right: 3rem;
+    padding-right: 3.5rem;
   }
 
   /* Countries panel on mobile */
@@ -1151,16 +1135,8 @@ body {
 
 /* === Very small screens === */
 @media (max-width: 640px) {
-  .header h1 {
-    font-size: 1rem;
-  }
-
-  .header .subtitle {
-    display: none;
-  }
-
-  :root {
-    --header-height: 50px;
+  .country-name {
+    font-size: 1.1rem;
   }
 }
 
