@@ -3,14 +3,12 @@ import L from 'leaflet';
 import type { Country } from './types/country';
 import type { FilterState, RangeFilter, BooleanFilter, MultiSelectFilter, DisplayConfig } from './types/filters';
 import {
-  createDefaultFilterState,
   loadFilterState,
   saveFilterState,
   countActiveFilters,
   countryMatchesFilters,
   getFiltersByCategory,
   formatFilterValue,
-  FILTER_LABELS,
 } from './filters';
 import { renderCountryPopup } from './popup';
 
@@ -20,6 +18,9 @@ const GEOJSON_URL =
 
 // Store country data keyed by ISO code
 let countriesMap: Map<string, Country> = new Map();
+
+// Store country name to ISO code mapping for fallback lookups
+let countryNameToCode: Map<string, string> = new Map();
 
 // Display configuration
 let displayConfig: DisplayConfig | null = null;
@@ -127,6 +128,12 @@ async function loadCountryData(): Promise<void> {
     const response = await fetch('./countries.json');
     const countries: Country[] = await response.json();
     countriesMap = new Map(countries.map((c) => [c.id, c]));
+    
+    // Build name-to-code map for fallback lookups (normalized to lowercase)
+    countryNameToCode = new Map();
+    for (const country of countries) {
+      countryNameToCode.set(country.name.toLowerCase(), country.id);
+    }
   } catch (error) {
     console.error('Failed to load country data:', error);
   }
@@ -147,7 +154,18 @@ function getCountryCode(feature: GeoJSON.Feature): string | null {
     props.id ||
     null;
   
-  return code;
+  // If code is valid and not a placeholder, return it
+  if (code && code !== '-99') {
+    return code;
+  }
+  
+  // Fallback: try to match by country name
+  const name = props.name || props.ADMIN || props.NAME;
+  if (name && countryNameToCode.has(name.toLowerCase())) {
+    return countryNameToCode.get(name.toLowerCase()) || null;
+  }
+  
+  return null;
 }
 
 /**
