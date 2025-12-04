@@ -128,9 +128,20 @@ body {
 /* === Filter Summary === */
 .filter-summary {
   display: flex;
+  flex-direction: column;
   gap: 0.75rem;
-  padding-bottom: 0.75rem;
+  padding: 1rem;
+  margin: -1rem -1rem 0 -1rem;
+  background: var(--bg-secondary);
+  position: sticky;
+  top: -1rem;
+  z-index: 10;
   border-bottom: 1px solid var(--border-subtle);
+}
+
+.summary-stats {
+  display: flex;
+  gap: 0.75rem;
 }
 
 .summary-stat {
@@ -157,6 +168,32 @@ body {
   text-transform: uppercase;
   letter-spacing: 0.05em;
   color: var(--text-muted);
+}
+
+.clear-filters-btn {
+  width: 100%;
+  padding: 0.5rem 0.75rem;
+  font-size: 0.6875rem;
+  font-weight: 600;
+  font-family: var(--font-sans);
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  border: 1px solid var(--border-color);
+  background: var(--bg-tertiary);
+  color: var(--text-secondary);
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 0.15s ease;
+}
+
+.clear-filters-btn:hover {
+  background: var(--bg-elevated);
+  color: var(--text-primary);
+  border-color: var(--accent-primary);
+}
+
+.clear-filters-btn:active {
+  transform: scale(0.98);
 }
 
 /* === Filter Categories === */

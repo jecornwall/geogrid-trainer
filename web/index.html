@@ -31,14 +31,17 @@
           <div class="filter-panel-content">
             <!-- Filter Summary -->
             <div class="filter-summary">
-              <div class="summary-stat">
-                <span class="summary-value" id="total-highlighted">0</span>
-                <span class="summary-label">Matched</span>
+              <div class="summary-stats">
+                <div class="summary-stat">
+                  <span class="summary-value" id="total-highlighted">0</span>
+                  <span class="summary-label">Matched</span>
+                </div>
+                <div class="summary-stat">
+                  <span class="summary-value" id="active-filters">0</span>
+                  <span class="summary-label">Filters</span>
+                </div>
               </div>
-              <div class="summary-stat">
-                <span class="summary-value" id="active-filters">0</span>
-                <span class="summary-label">Filters</span>
-              </div>
+              <button id="clear-filters" class="clear-filters-btn" type="button">Clear All</button>
             </div>
 
             <!-- Dynamic Filter Categories -->

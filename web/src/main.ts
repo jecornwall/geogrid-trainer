@@ -9,6 +9,7 @@ import {
   countryMatchesFilters,
   getFiltersByCategory,
   formatFilterValue,
+  clearAllFilters,
 } from './filters';
 import { renderCountryPopup } from './popup';
 
@@ -943,6 +944,14 @@ function setupFilterPanel(): void {
   // Also handle the mobile floating button
   const mobileToggle = document.querySelector('.mobile-filter-toggle');
   mobileToggle?.addEventListener('click', toggleFilter);
+  
+  // Clear filters button
+  const clearBtn = document.getElementById('clear-filters');
+  clearBtn?.addEventListener('click', () => {
+    filterState = clearAllFilters();
+    renderFilters();
+    onFilterChange();
+  });
 }
 
 /**

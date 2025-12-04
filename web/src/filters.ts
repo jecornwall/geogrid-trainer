@@ -275,6 +275,15 @@ export function saveFilterState(state: FilterState): void {
 }
 
 /**
+ * Clear all filters by resetting to default state
+ */
+export function clearAllFilters(): FilterState {
+  const defaults = createDefaultFilterState();
+  saveFilterState(defaults);
+  return defaults;
+}
+
+/**
  * Count the number of active (enabled) filters
  */
 export function countActiveFilters(state: FilterState): number {
