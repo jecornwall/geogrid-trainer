@@ -2,7 +2,7 @@
  * Filter system types for GeoGrid Trainer
  */
 
-import type { Continent, OfficialLanguage } from './country';
+import type { Continent, OfficialLanguage, FlagColor } from './country';
 
 // Filter value types
 export type BooleanFilterValue = boolean | null; // null = not filtering
@@ -47,6 +47,7 @@ export interface FilterState {
     coastline_km: RangeFilter;
   };
   flag: {
+    colors: MultiSelectFilter<FlagColor>;
     has_star: BooleanFilter;
     has_coat_of_arms: BooleanFilter;
     has_animal: BooleanFilter;

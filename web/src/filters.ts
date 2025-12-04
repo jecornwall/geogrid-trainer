@@ -2,7 +2,8 @@
  * Filter management for GeoGrid Trainer
  */
 
-import type { Country, Continent, OfficialLanguage } from './types/country';
+import type { Country, Continent, OfficialLanguage, FlagColor } from './types/country';
+import { FLAG_COLORS } from './types/country';
 import type { FilterState, BooleanFilter, RangeFilter, MultiSelectFilter, DisplayConfig } from './types/filters';
 
 const FILTER_STORAGE_KEY = 'geogrid-filter-state-v2';
@@ -28,6 +29,7 @@ export const FILTER_LABELS: Record<string, string> = {
   'geography.is_landlocked': 'Landlocked',
   'geography.coastline_km': 'Coastline Length (km)',
   // Flag
+  'flag.colors': 'Flag Colors',
   'flag.has_star': 'Flag Has Star',
   'flag.has_coat_of_arms': 'Flag Has Coat of Arms',
   'flag.has_animal': 'Flag Has Animal',
@@ -76,6 +78,9 @@ export const LANGUAGE_OPTIONS: OfficialLanguage[] = [
   'Portuguese',
 ];
 
+// Flag color options (all 12 recognized colors)
+export const FLAG_COLOR_OPTIONS: FlagColor[] = [...FLAG_COLORS];
+
 /**
  * Create default filter state
  */
@@ -102,6 +107,12 @@ export function createDefaultFilterState(): FilterState {
       },
     },
     flag: {
+      colors: {
+        type: 'multiselect',
+        enabled: false,
+        selected: [],
+        options: FLAG_COLOR_OPTIONS,
+      },
       has_star: { type: 'boolean', enabled: false, value: true },
       has_coat_of_arms: { type: 'boolean', enabled: false, value: true },
       has_animal: { type: 'boolean', enabled: false, value: true },
@@ -343,6 +354,14 @@ export function countryMatchesFilters(country: Country, state: FilterState): boo
   }
   
   // Flag filters
+  if (state.flag.colors.enabled && state.flag.colors.selected.length > 0) {
+    // Country's flag must have ALL selected colors (AND logic)
+    const hasAllColors = state.flag.colors.selected.every(color =>
+      country.flag.colors.includes(color)
+    );
+    if (!hasAllColors) return false;
+  }
+  
   if (state.flag.has_star.enabled) {
     if (country.flag.has_star !== state.flag.has_star.value) return false;
   }
@@ -528,6 +547,9 @@ export function getFiltersByCategory(state: FilterState, displayConfig: DisplayC
   // Flag
   if (displayConfig.flag) {
     const filters: Array<{ id: string; label: string; filter: any }> = [];
+    if (displayConfig.flag.colors) {
+      filters.push({ id: 'flag.colors', label: FILTER_LABELS['flag.colors'], filter: state.flag.colors });
+    }
     if (displayConfig.flag.has_star) {
       filters.push({ id: 'flag.has_star', label: FILTER_LABELS['flag.has_star'], filter: state.flag.has_star });
     }

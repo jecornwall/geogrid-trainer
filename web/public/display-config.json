@@ -15,7 +15,7 @@
   },
   
   "flag": {
-    "colors": false,
+    "colors": true,
     "has_star": true,
     "has_coat_of_arms": true,
     "has_animal": true
