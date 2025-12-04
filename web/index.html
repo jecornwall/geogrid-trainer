@@ -37,57 +37,17 @@
             <div class="filter-summary">
               <div class="summary-stat">
                 <span class="summary-value" id="total-highlighted">0</span>
-                <span class="summary-label">countries highlighted</span>
+                <span class="summary-label">Matched</span>
               </div>
               <div class="summary-stat">
                 <span class="summary-value" id="active-filters">0</span>
-                <span class="summary-label">active filters</span>
+                <span class="summary-label">Filters</span>
               </div>
             </div>
 
-            <!-- Border Count Filter -->
-            <div class="filter-section" data-filter="borders">
-              <div class="filter-header">
-                <h3 class="filter-section-title">Bordering Countries</h3>
-                <label class="filter-toggle-switch">
-                  <input type="checkbox" id="filter-borders-enabled" checked />
-                  <span class="toggle-slider"></span>
-                </label>
-              </div>
-              <div class="filter-control">
-                <div class="range-display">
-                  <span id="border-min-display">0</span>
-                  <span class="range-separator">–</span>
-                  <span id="border-max-display">14</span>
-                </div>
-                <div class="dual-range-slider">
-                  <input 
-                    type="range" 
-                    id="border-min" 
-                    min="0" 
-                    max="14" 
-                    value="0" 
-                    class="range-input range-input-min"
-                  />
-                  <input 
-                    type="range" 
-                    id="border-max" 
-                    min="0" 
-                    max="14" 
-                    value="14" 
-                    class="range-input range-input-max"
-                  />
-                  <div class="range-track"></div>
-                  <div id="range-fill" class="range-fill"></div>
-                </div>
-                <div class="range-labels">
-                  <span>0</span>
-                  <span>14</span>
-                </div>
-              </div>
-              <div class="filter-stats" id="borders-filter-stats">
-                <span id="matched-count">0</span> countries match
-              </div>
+            <!-- Dynamic Filter Categories -->
+            <div id="filter-categories" class="filter-categories">
+              <!-- Filters will be rendered dynamically by JavaScript -->
             </div>
           </div>
         </aside>
@@ -113,4 +73,3 @@
     <script type="module" src="/src/main.ts"></script>
   </body>
 </html>
-

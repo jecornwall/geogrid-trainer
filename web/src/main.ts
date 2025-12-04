@@ -1,6 +1,17 @@
 import './style.css';
 import L from 'leaflet';
 import type { Country } from './types/country';
+import type { FilterState, RangeFilter, BooleanFilter, MultiSelectFilter, DisplayConfig } from './types/filters';
+import {
+  createDefaultFilterState,
+  loadFilterState,
+  saveFilterState,
+  countActiveFilters,
+  countryMatchesFilters,
+  getFiltersByCategory,
+  formatFilterValue,
+  FILTER_LABELS,
+} from './filters';
 import { renderCountryPopup } from './popup';
 
 // GeoJSON URL for world countries (Natural Earth via GitHub)
@@ -9,6 +20,9 @@ const GEOJSON_URL =
 
 // Store country data keyed by ISO code
 let countriesMap: Map<string, Country> = new Map();
+
+// Display configuration
+let displayConfig: DisplayConfig | null = null;
 
 // Map instance
 let map: L.Map;
@@ -20,58 +34,13 @@ let geoJsonLayer: L.GeoJSON | null = null;
 let selectedLayer: L.Layer | null = null;
 
 // Filter state
-interface FilterState {
-  borders: {
-    enabled: boolean;
-    min: number;
-    max: number;
-  };
-}
-
-const FILTER_STORAGE_KEY = 'geogrid-filter-state';
-
-// Default filter state
-const defaultFilterState: FilterState = {
-  borders: {
-    enabled: true,
-    min: 0,
-    max: 14,
-  },
-};
-
-// Load saved state or use defaults
-function loadFilterState(): FilterState {
-  try {
-    const saved = localStorage.getItem(FILTER_STORAGE_KEY);
-    if (saved) {
-      const parsed = JSON.parse(saved);
-      // Merge with defaults to handle any missing properties
-      return {
-        borders: {
-          ...defaultFilterState.borders,
-          ...parsed.borders,
-        },
-      };
-    }
-  } catch (e) {
-    console.warn('Failed to load filter state:', e);
-  }
-  return { ...defaultFilterState };
-}
-
-// Save state to localStorage
-function saveFilterState(): void {
-  try {
-    localStorage.setItem(FILTER_STORAGE_KEY, JSON.stringify(filterState));
-  } catch (e) {
-    console.warn('Failed to save filter state:', e);
-  }
-}
-
 let filterState: FilterState = loadFilterState();
 
 // Track highlighted countries for filter
 let highlightedCountries: Set<string> = new Set();
+
+// Track collapsed categories
+let collapsedCategories: Set<string> = new Set();
 
 // Country styles
 const defaultStyle: L.PathOptions = {
@@ -128,7 +97,7 @@ function initMap(): L.Map {
     maxBoundsViscosity: 1.0,
   });
 
-  // Add a subtle tile layer for context (optional - can be removed for pure SVG look)
+  // Add a subtle tile layer for context
   L.tileLayer(
     'https://{s}.basemaps.cartocdn.com/dark_nolabels/{z}/{x}/{y}{r}.png',
     {
@@ -143,13 +112,20 @@ function initMap(): L.Map {
 }
 
 /**
- * Load country data from the JSONL file (bundled during build)
+ * Load display configuration
+ */
+async function loadDisplayConfig(): Promise<DisplayConfig> {
+  const response = await fetch('./display-config.json');
+  return response.json();
+}
+
+/**
+ * Load country data from the JSON file
  */
 async function loadCountryData(): Promise<void> {
   try {
     const response = await fetch('./countries.json');
     const countries: Country[] = await response.json();
-    
     countriesMap = new Map(countries.map((c) => [c.id, c]));
   } catch (error) {
     console.error('Failed to load country data:', error);
@@ -163,7 +139,6 @@ function getCountryCode(feature: GeoJSON.Feature): string | null {
   const props = feature.properties;
   if (!props) return null;
   
-  // The geo-countries dataset uses ISO3166-1-Alpha-2 for 2-letter codes
   const code =
     props['ISO3166-1-Alpha-2'] ||
     props.ISO_A2 ||
@@ -193,53 +168,21 @@ function getStyleForLayer(countryCode: string | null, isSelected: boolean, isHov
 }
 
 /**
- * Check if a country matches the current active filters
- * Returns true if the country matches ALL enabled filters
- */
-function countryMatchesFilter(country: Country): boolean {
-  // If no filters are enabled, nothing is highlighted
-  const anyFilterEnabled = filterState.borders.enabled;
-  if (!anyFilterEnabled) {
-    return false;
-  }
-
-  // Check borders filter
-  if (filterState.borders.enabled) {
-    const borderCount = country.borders.countries.length;
-    if (borderCount < filterState.borders.min || borderCount > filterState.borders.max) {
-      return false;
-    }
-  }
-
-  return true;
-}
-
-/**
- * Count active filters
- */
-function countActiveFilters(): number {
-  let count = 0;
-  if (filterState.borders.enabled) count++;
-  // Add more filter checks here as they're added
-  return count;
-}
-
-/**
  * Update the highlighted countries based on filter state
  */
 function updateHighlightedCountries(): void {
   highlightedCountries.clear();
   
-  countriesMap.forEach((country, code) => {
-    if (countryMatchesFilter(country)) {
-      highlightedCountries.add(code);
-    }
-  });
-  
-  // Update the individual filter match count
-  const matchedCount = document.getElementById('matched-count');
-  if (matchedCount) {
-    matchedCount.textContent = String(highlightedCountries.size);
+  // Only highlight if at least one filter is enabled
+  const activeCount = countActiveFilters(filterState);
+  if (activeCount === 0) {
+    // No filters active - clear highlights
+  } else {
+    countriesMap.forEach((country, code) => {
+      if (countryMatchesFilters(country, filterState)) {
+        highlightedCountries.add(code);
+      }
+    });
   }
   
   // Update summary stats
@@ -251,7 +194,7 @@ function updateHighlightedCountries(): void {
   }
   
   if (activeFilters) {
-    activeFilters.textContent = String(countActiveFilters());
+    activeFilters.textContent = String(activeCount);
   }
 }
 
@@ -276,7 +219,372 @@ function updateMapStyles(): void {
 function onFilterChange(): void {
   updateHighlightedCountries();
   updateMapStyles();
-  saveFilterState();
+  saveFilterState(filterState);
+}
+
+/**
+ * Get a nested value from filter state using dot notation
+ */
+function getFilterValue(path: string): any {
+  const parts = path.split('.');
+  let current: any = filterState;
+  for (const part of parts) {
+    if (current === undefined) return undefined;
+    current = current[part];
+  }
+  return current;
+}
+
+/**
+ * Set a nested value in filter state using dot notation
+ */
+function setFilterValue(path: string, key: string, value: any): void {
+  const parts = path.split('.');
+  let current: any = filterState;
+  for (let i = 0; i < parts.length; i++) {
+    if (i === parts.length - 1) {
+      current[parts[i]][key] = value;
+    } else {
+      current = current[parts[i]];
+    }
+  }
+}
+
+/**
+ * Render a boolean filter
+ */
+function renderBooleanFilter(id: string, label: string, filter: BooleanFilter): string {
+  const safeId = id.replace(/\./g, '-');
+  return `
+    <div class="filter-item filter-boolean" data-filter-id="${id}">
+      <div class="filter-item-header">
+        <label class="filter-item-label" for="${safeId}-enabled">${label}</label>
+        <label class="filter-toggle-switch">
+          <input type="checkbox" id="${safeId}-enabled" ${filter.enabled ? 'checked' : ''} />
+          <span class="toggle-slider"></span>
+        </label>
+      </div>
+      <div class="filter-item-control ${filter.enabled ? '' : 'disabled'}">
+        <div class="boolean-toggle-group">
+          <button class="boolean-btn ${filter.value === true ? 'active' : ''}" data-value="true">Yes</button>
+          <button class="boolean-btn ${filter.value === false ? 'active' : ''}" data-value="false">No</button>
+        </div>
+      </div>
+    </div>
+  `;
+}
+
+/**
+ * Render a range filter
+ */
+function renderRangeFilter(id: string, label: string, filter: RangeFilter): string {
+  const safeId = id.replace(/\./g, '-');
+  const format = filter.format || 'number';
+  const minDisplay = formatFilterValue(filter.min, format);
+  const maxDisplay = formatFilterValue(filter.max, format);
+  const minBoundDisplay = formatFilterValue(filter.minBound, format);
+  const maxBoundDisplay = formatFilterValue(filter.maxBound, format);
+  
+  return `
+    <div class="filter-item filter-range" data-filter-id="${id}">
+      <div class="filter-item-header">
+        <label class="filter-item-label" for="${safeId}-enabled">${label}</label>
+        <label class="filter-toggle-switch">
+          <input type="checkbox" id="${safeId}-enabled" ${filter.enabled ? 'checked' : ''} />
+          <span class="toggle-slider"></span>
+        </label>
+      </div>
+      <div class="filter-item-control ${filter.enabled ? '' : 'disabled'}">
+        <div class="range-display">
+          <span class="range-value-display" data-display="min">${minDisplay}</span>
+          <span class="range-separator">–</span>
+          <span class="range-value-display" data-display="max">${maxDisplay}</span>
+        </div>
+        <div class="dual-range-slider" data-min-bound="${filter.minBound}" data-max-bound="${filter.maxBound}" data-step="${filter.step || 1}" data-format="${format}">
+          <input 
+            type="range" 
+            class="range-input range-input-min"
+            min="${filter.minBound}" 
+            max="${filter.maxBound}" 
+            value="${filter.min}" 
+            step="${filter.step || 1}"
+          />
+          <input 
+            type="range" 
+            class="range-input range-input-max"
+            min="${filter.minBound}" 
+            max="${filter.maxBound}" 
+            value="${filter.max}" 
+            step="${filter.step || 1}"
+          />
+          <div class="range-track"></div>
+          <div class="range-fill"></div>
+        </div>
+        <div class="range-labels">
+          <span>${minBoundDisplay}</span>
+          <span>${maxBoundDisplay}</span>
+        </div>
+      </div>
+    </div>
+  `;
+}
+
+/**
+ * Render a multi-select filter
+ */
+function renderMultiSelectFilter(id: string, label: string, filter: MultiSelectFilter): string {
+  const safeId = id.replace(/\./g, '-');
+  const optionsHtml = filter.options.map(option => `
+    <label class="multiselect-option">
+      <input type="checkbox" value="${option}" ${filter.selected.includes(option) ? 'checked' : ''} />
+      <span class="multiselect-label">${option}</span>
+    </label>
+  `).join('');
+  
+  return `
+    <div class="filter-item filter-multiselect" data-filter-id="${id}">
+      <div class="filter-item-header">
+        <label class="filter-item-label" for="${safeId}-enabled">${label}</label>
+        <label class="filter-toggle-switch">
+          <input type="checkbox" id="${safeId}-enabled" ${filter.enabled ? 'checked' : ''} />
+          <span class="toggle-slider"></span>
+        </label>
+      </div>
+      <div class="filter-item-control ${filter.enabled ? '' : 'disabled'}">
+        <div class="multiselect-options">
+          ${optionsHtml}
+        </div>
+      </div>
+    </div>
+  `;
+}
+
+/**
+ * Render all filters based on display config
+ */
+function renderFilters(): void {
+  if (!displayConfig) return;
+  
+  const container = document.getElementById('filter-categories');
+  if (!container) return;
+  
+  const categories = getFiltersByCategory(filterState, displayConfig);
+  
+  const html = categories.map(({ category, categoryLabel, filters }) => {
+    const isCollapsed = collapsedCategories.has(category);
+    const filtersHtml = filters.map(({ id, label, filter }) => {
+      switch (filter.type) {
+        case 'boolean':
+          return renderBooleanFilter(id, label, filter);
+        case 'range':
+          return renderRangeFilter(id, label, filter);
+        case 'multiselect':
+          return renderMultiSelectFilter(id, label, filter);
+        default:
+          return '';
+      }
+    }).join('');
+    
+    return `
+      <div class="filter-category ${isCollapsed ? 'collapsed' : ''}" data-category="${category}">
+        <button class="filter-category-header" type="button">
+          <span class="filter-category-title">${categoryLabel}</span>
+          <span class="filter-category-toggle">▼</span>
+        </button>
+        <div class="filter-category-content">
+          ${filtersHtml}
+        </div>
+      </div>
+    `;
+  }).join('');
+  
+  container.innerHTML = html;
+  
+  // Attach event listeners
+  attachFilterEventListeners();
+}
+
+/**
+ * Attach event listeners to dynamically created filter elements
+ */
+function attachFilterEventListeners(): void {
+  const container = document.getElementById('filter-categories');
+  if (!container) return;
+  
+  // Category collapse toggles
+  container.querySelectorAll('.filter-category-header').forEach(header => {
+    header.addEventListener('click', () => {
+      const category = header.closest('.filter-category');
+      const categoryId = category?.getAttribute('data-category');
+      if (categoryId) {
+        if (collapsedCategories.has(categoryId)) {
+          collapsedCategories.delete(categoryId);
+          category?.classList.remove('collapsed');
+        } else {
+          collapsedCategories.add(categoryId);
+          category?.classList.add('collapsed');
+        }
+      }
+    });
+  });
+  
+  // Enable/disable toggles
+  container.querySelectorAll('.filter-toggle-switch input').forEach(checkbox => {
+    checkbox.addEventListener('change', (e) => {
+      const target = e.target as HTMLInputElement;
+      const filterItem = target.closest('.filter-item');
+      const filterId = filterItem?.getAttribute('data-filter-id');
+      if (!filterId) return;
+      
+      const control = filterItem?.querySelector('.filter-item-control');
+      if (target.checked) {
+        control?.classList.remove('disabled');
+      } else {
+        control?.classList.add('disabled');
+      }
+      
+      setFilterValue(filterId, 'enabled', target.checked);
+      onFilterChange();
+    });
+  });
+  
+  // Boolean filter buttons
+  container.querySelectorAll('.filter-boolean .boolean-btn').forEach(btn => {
+    btn.addEventListener('click', (e) => {
+      const target = e.target as HTMLButtonElement;
+      const filterItem = target.closest('.filter-item');
+      const filterId = filterItem?.getAttribute('data-filter-id');
+      if (!filterId) return;
+      
+      const value = target.getAttribute('data-value') === 'true';
+      
+      // Update UI
+      filterItem?.querySelectorAll('.boolean-btn').forEach(b => b.classList.remove('active'));
+      target.classList.add('active');
+      
+      setFilterValue(filterId, 'value', value);
+      onFilterChange();
+    });
+  });
+  
+  // Range filter sliders
+  container.querySelectorAll('.filter-range .dual-range-slider').forEach(slider => {
+    const filterItem = slider.closest('.filter-item');
+    const filterId = filterItem?.getAttribute('data-filter-id');
+    if (!filterId) return;
+    
+    const minSlider = slider.querySelector('.range-input-min') as HTMLInputElement;
+    const maxSlider = slider.querySelector('.range-input-max') as HTMLInputElement;
+    const rangeFill = slider.querySelector('.range-fill') as HTMLElement;
+    const minDisplay = filterItem?.querySelector('[data-display="min"]');
+    const maxDisplay = filterItem?.querySelector('[data-display="max"]');
+    
+    const minBound = parseFloat(slider.getAttribute('data-min-bound') || '0');
+    const maxBound = parseFloat(slider.getAttribute('data-max-bound') || '100');
+    const format = slider.getAttribute('data-format') || 'number';
+    
+    const updateSlider = () => {
+      const minVal = parseFloat(minSlider.value);
+      const maxVal = parseFloat(maxSlider.value);
+      
+      // Update display
+      if (minDisplay) minDisplay.textContent = formatFilterValue(minVal, format);
+      if (maxDisplay) maxDisplay.textContent = formatFilterValue(maxVal, format);
+      
+      // Update range fill
+      const percent1 = ((minVal - minBound) / (maxBound - minBound)) * 100;
+      const percent2 = ((maxVal - minBound) / (maxBound - minBound)) * 100;
+      rangeFill.style.left = `${percent1}%`;
+      rangeFill.style.width = `${percent2 - percent1}%`;
+      
+      // Update filter state
+      setFilterValue(filterId, 'min', minVal);
+      setFilterValue(filterId, 'max', maxVal);
+      onFilterChange();
+    };
+    
+    const handleMinChange = () => {
+      const minVal = parseFloat(minSlider.value);
+      const maxVal = parseFloat(maxSlider.value);
+      if (minVal > maxVal) {
+        minSlider.value = String(maxVal);
+      }
+      updateSlider();
+    };
+    
+    const handleMaxChange = () => {
+      const minVal = parseFloat(minSlider.value);
+      const maxVal = parseFloat(maxSlider.value);
+      if (maxVal < minVal) {
+        maxSlider.value = String(minVal);
+      }
+      updateSlider();
+    };
+    
+    // Dynamic z-index for thumb selection
+    const updateZIndex = (e: MouseEvent) => {
+      const rect = slider.getBoundingClientRect();
+      const mousePercent = (e.clientX - rect.left) / rect.width;
+      
+      const minVal = parseFloat(minSlider.value);
+      const maxVal = parseFloat(maxSlider.value);
+      const minPercent = (minVal - minBound) / (maxBound - minBound);
+      const maxPercent = (maxVal - minBound) / (maxBound - minBound);
+      
+      const distToMin = Math.abs(mousePercent - minPercent);
+      const distToMax = Math.abs(mousePercent - maxPercent);
+      
+      if (distToMin < distToMax) {
+        minSlider.style.zIndex = '3';
+        maxSlider.style.zIndex = '2';
+      } else {
+        minSlider.style.zIndex = '2';
+        maxSlider.style.zIndex = '3';
+      }
+    };
+    
+    slider.addEventListener('mousemove', updateZIndex as EventListener);
+    slider.addEventListener('touchstart', (e: Event) => {
+      const te = e as TouchEvent;
+      if (te.touches.length > 0) {
+        updateZIndex({ clientX: te.touches[0].clientX } as MouseEvent);
+      }
+    });
+    
+    minSlider.addEventListener('input', handleMinChange);
+    maxSlider.addEventListener('input', handleMaxChange);
+    
+    // Initial fill update
+    const minVal = parseFloat(minSlider.value);
+    const maxVal = parseFloat(maxSlider.value);
+    const percent1 = ((minVal - minBound) / (maxBound - minBound)) * 100;
+    const percent2 = ((maxVal - minBound) / (maxBound - minBound)) * 100;
+    rangeFill.style.left = `${percent1}%`;
+    rangeFill.style.width = `${percent2 - percent1}%`;
+  });
+  
+  // Multi-select checkboxes
+  container.querySelectorAll('.filter-multiselect .multiselect-option input').forEach(checkbox => {
+    checkbox.addEventListener('change', (e) => {
+      const target = e.target as HTMLInputElement;
+      const filterItem = target.closest('.filter-item');
+      const filterId = filterItem?.getAttribute('data-filter-id');
+      if (!filterId) return;
+      
+      const value = target.value;
+      const filter = getFilterValue(filterId) as MultiSelectFilter;
+      
+      if (target.checked) {
+        if (!filter.selected.includes(value)) {
+          filter.selected.push(value);
+        }
+      } else {
+        filter.selected = filter.selected.filter(v => v !== value);
+      }
+      
+      onFilterChange();
+    });
+  });
 }
 
 /**
@@ -369,7 +677,6 @@ function showDetails(
   if (country) {
     content.innerHTML = renderCountryPopup(country);
   } else {
-    // Show minimal info for countries not in our dataset
     content.innerHTML = `
       <div class="country-header">
         <div>
@@ -428,139 +735,6 @@ function hideDetails(): void {
 }
 
 /**
- * Setup the dual range slider for border count filter
- */
-function setupRangeSlider(): void {
-  const minSlider = document.getElementById('border-min') as HTMLInputElement;
-  const maxSlider = document.getElementById('border-max') as HTMLInputElement;
-  const minDisplay = document.getElementById('border-min-display');
-  const maxDisplay = document.getElementById('border-max-display');
-  const rangeFill = document.getElementById('range-fill');
-  const sliderContainer = document.querySelector('.dual-range-slider') as HTMLElement;
-  
-  if (!minSlider || !maxSlider || !minDisplay || !maxDisplay || !rangeFill || !sliderContainer) return;
-  
-  const sliderMax = 14;
-  
-  function updateDisplay(): void {
-    const minVal = parseInt(minSlider.value);
-    const maxVal = parseInt(maxSlider.value);
-    
-    // Update display
-    minDisplay!.textContent = String(minVal);
-    maxDisplay!.textContent = String(maxVal);
-    
-    // Update range fill position
-    const percent1 = (minVal / sliderMax) * 100;
-    const percent2 = (maxVal / sliderMax) * 100;
-    rangeFill!.style.left = `${percent1}%`;
-    rangeFill!.style.width = `${percent2 - percent1}%`;
-    
-    // Update filter state
-    filterState.borders.min = minVal;
-    filterState.borders.max = maxVal;
-    
-    // Trigger filter update
-    onFilterChange();
-  }
-  
-  function handleMinChange(): void {
-    const minVal = parseInt(minSlider.value);
-    const maxVal = parseInt(maxSlider.value);
-    
-    // Prevent min from exceeding max
-    if (minVal > maxVal) {
-      minSlider.value = String(maxVal);
-    }
-    
-    updateDisplay();
-  }
-  
-  function handleMaxChange(): void {
-    const minVal = parseInt(minSlider.value);
-    const maxVal = parseInt(maxSlider.value);
-    
-    // Prevent max from going below min
-    if (maxVal < minVal) {
-      maxSlider.value = String(minVal);
-    }
-    
-    updateDisplay();
-  }
-  
-  // Dynamic z-index based on mouse position
-  function updateZIndex(e: MouseEvent): void {
-    const rect = sliderContainer.getBoundingClientRect();
-    const mousePercent = (e.clientX - rect.left) / rect.width;
-    
-    const minVal = parseInt(minSlider.value);
-    const maxVal = parseInt(maxSlider.value);
-    const minPercent = minVal / sliderMax;
-    const maxPercent = maxVal / sliderMax;
-    
-    // Calculate distance to each thumb
-    const distToMin = Math.abs(mousePercent - minPercent);
-    const distToMax = Math.abs(mousePercent - maxPercent);
-    
-    // Bring closer thumb to top
-    if (distToMin < distToMax) {
-      minSlider.style.zIndex = '3';
-      maxSlider.style.zIndex = '2';
-    } else {
-      minSlider.style.zIndex = '2';
-      maxSlider.style.zIndex = '3';
-    }
-  }
-  
-  sliderContainer.addEventListener('mousemove', updateZIndex);
-  sliderContainer.addEventListener('touchstart', (e) => {
-    if (e.touches.length > 0) {
-      const touch = e.touches[0];
-      updateZIndex({ clientX: touch.clientX } as MouseEvent);
-    }
-  });
-  
-  minSlider.addEventListener('input', handleMinChange);
-  maxSlider.addEventListener('input', handleMaxChange);
-  
-  // Set initial values from saved state
-  minSlider.value = String(filterState.borders.min);
-  maxSlider.value = String(filterState.borders.max);
-  
-  // Initial display update
-  updateDisplay();
-}
-
-/**
- * Setup filter enable/disable toggles
- */
-function setupFilterToggles(): void {
-  const bordersToggle = document.getElementById('filter-borders-enabled') as HTMLInputElement;
-  const bordersSection = document.querySelector('[data-filter="borders"]');
-  
-  if (!bordersToggle || !bordersSection) return;
-  
-  function applyToggleState(): void {
-    // Toggle visual disabled state
-    if (filterState.borders.enabled) {
-      bordersSection!.classList.remove('disabled');
-    } else {
-      bordersSection!.classList.add('disabled');
-    }
-  }
-  
-  bordersToggle.addEventListener('change', () => {
-    filterState.borders.enabled = bordersToggle.checked;
-    applyToggleState();
-    onFilterChange();
-  });
-  
-  // Initialize checkbox from saved state
-  bordersToggle.checked = filterState.borders.enabled;
-  applyToggleState();
-}
-
-/**
  * Setup mobile filter panel toggle
  */
 function setupFilterPanel(): void {
@@ -586,7 +760,7 @@ function setupFilterPanel(): void {
   filterToggle.addEventListener('click', toggleFilter);
   overlay.addEventListener('click', toggleFilter);
   
-  // Also handle the mobile floating button if we add one
+  // Also handle the mobile floating button
   const mobileToggle = document.querySelector('.mobile-filter-toggle');
   mobileToggle?.addEventListener('click', toggleFilter);
 }
@@ -608,23 +782,33 @@ async function init(): Promise<void> {
 
   // Setup UI components
   setupFilterPanel();
-  setupRangeSlider();
-  setupFilterToggles();
   setupDetailsPanel();
 
-  // Close details on Escape key (mobile)
+  // Close panels on Escape key
   document.addEventListener('keydown', (e) => {
     if (e.key === 'Escape') {
       hideDetails();
-      // Also close filter panel
       document.getElementById('filter-panel')?.classList.remove('open');
       document.querySelector('.filter-overlay')?.classList.remove('visible');
     }
   });
 
-  // Load country data first, then GeoJSON (GeoJSON needs country data for matching)
-  await loadCountryData();
-  await loadGeoJSON();
+  // Load data
+  try {
+    const [, config] = await Promise.all([
+      loadCountryData(),
+      loadDisplayConfig(),
+    ]);
+    displayConfig = config;
+    
+    // Render filters based on display config
+    renderFilters();
+    
+    // Load GeoJSON
+    await loadGeoJSON();
+  } catch (error) {
+    console.error('Failed to initialize:', error);
+  }
 }
 
 // Start the app
