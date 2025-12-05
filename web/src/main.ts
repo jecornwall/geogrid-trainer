@@ -507,8 +507,21 @@ function renderMultiSelectFilter(id: string, label: string, filter: MultiSelectF
     </label>
   `).join('');
   
+  // Add mode toggle if this filter supports it
+  const hasModeToggle = filter.mode !== undefined;
+  const modeToggleHtml = hasModeToggle ? `
+    <div class="multiselect-mode-toggle">
+      <button class="mode-btn ${filter.mode === 'inclusive' ? 'active' : ''}" data-mode="inclusive" title="Show countries that have these colors (may have others)">
+        Has colors
+      </button>
+      <button class="mode-btn ${filter.mode === 'exclusive' ? 'active' : ''}" data-mode="exclusive" title="Show countries that only have these colors (no others)">
+        Only colors
+      </button>
+    </div>
+  ` : '';
+  
   return `
-    <div class="filter-item filter-multiselect" data-filter-id="${id}">
+    <div class="filter-item filter-multiselect ${hasModeToggle ? 'has-mode-toggle' : ''}" data-filter-id="${id}">
       <div class="filter-item-header">
         <label class="filter-item-label" for="${safeId}-enabled">${label}</label>
         <label class="filter-toggle-switch">
@@ -517,6 +530,7 @@ function renderMultiSelectFilter(id: string, label: string, filter: MultiSelectF
         </label>
       </div>
       <div class="filter-item-control ${filter.enabled ? '' : 'disabled'}">
+        ${modeToggleHtml}
         <div class="multiselect-options">
           ${optionsHtml}
         </div>
@@ -747,6 +761,26 @@ function attachFilterEventListeners(): void {
       } else {
         filter.selected = filter.selected.filter(v => v !== value);
       }
+      
+      onFilterChange();
+    });
+  });
+  
+  // Multi-select mode toggle buttons
+  container.querySelectorAll('.filter-multiselect .multiselect-mode-toggle .mode-btn').forEach(btn => {
+    btn.addEventListener('click', (e) => {
+      const target = e.target as HTMLButtonElement;
+      const filterItem = target.closest('.filter-item');
+      const filterId = filterItem?.getAttribute('data-filter-id');
+      if (!filterId) return;
+      
+      const mode = target.getAttribute('data-mode') as 'inclusive' | 'exclusive';
+      const filter = getFilterValue(filterId) as MultiSelectFilter;
+      filter.mode = mode;
+      
+      // Update UI
+      filterItem?.querySelectorAll('.mode-btn').forEach(b => b.classList.remove('active'));
+      target.classList.add('active');
       
       onFilterChange();
     });

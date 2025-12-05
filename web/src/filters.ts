@@ -112,6 +112,7 @@ export function createDefaultFilterState(): FilterState {
         enabled: false,
         selected: [],
         options: FLAG_COLOR_OPTIONS,
+        mode: 'inclusive',
       },
       has_star: { type: 'boolean', enabled: false, value: true },
       has_coat_of_arms: { type: 'boolean', enabled: false, value: true },
@@ -355,11 +356,21 @@ export function countryMatchesFilters(country: Country, state: FilterState): boo
   
   // Flag filters
   if (state.flag.colors.enabled && state.flag.colors.selected.length > 0) {
-    // Country's flag must have ALL selected colors (AND logic)
-    const hasAllColors = state.flag.colors.selected.every(color =>
-      country.flag.colors.includes(color)
-    );
-    if (!hasAllColors) return false;
+    const selectedColors = state.flag.colors.selected;
+    const flagColors = country.flag.colors;
+    
+    if (state.flag.colors.mode === 'exclusive') {
+      // Exclusive: Flag must have EXACTLY the selected colors (all of them, and only them)
+      // 1. Flag must have ALL selected colors
+      const hasAllSelected = selectedColors.every(color => flagColors.includes(color));
+      // 2. Flag must have NO other colors (only selected colors)
+      const hasOnlySelected = flagColors.every(color => selectedColors.includes(color));
+      if (!hasAllSelected || !hasOnlySelected) return false;
+    } else {
+      // Inclusive (default): Flag must have ALL selected colors (may have others)
+      const hasAllColors = selectedColors.every(color => flagColors.includes(color));
+      if (!hasAllColors) return false;
+    }
   }
   
   if (state.flag.has_star.enabled) {

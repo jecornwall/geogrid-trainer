@@ -34,6 +34,8 @@ export interface MultiSelectFilter<T = string> {
   enabled: boolean;
   selected: T[];
   options: T[];
+  /** For filters that support exclusive mode (e.g., flag colors) */
+  mode?: 'inclusive' | 'exclusive';
 }
 
 export type Filter = BooleanFilter | RangeFilter | MultiSelectFilter;
