@@ -18,7 +18,7 @@ let nameToIso = new Map();
 
 /**
  * Extract country name from a "Flag of X" reference
- * Returns null for state/government flag variants - we only want civil flags
+ * Returns null for state/government flag variants - we only want current civil flags
  */
 function extractCountryFromFlagRef(text) {
   // Skip state/government flag variants - we only want civil flags
@@ -143,9 +143,16 @@ async function parseFlags() {
       
       for (const match of flagRefs) {
         const fullMatch = match[0];
+
+        // Skip historical/state flags by checking the full gallery item context
+        if (/Flag_of_[A-Za-z_]+_\d{4}|Flag_of_[A-Za-z_]+_%28\d{4}|Flag_of_[A-Za-z_]+_\(\d{4}/.test(item) ||
+            /_1921|_1868|_\(1957|_1868/.test(item)) {
+          continue;
+        }
+
         const country = extractCountryFromFlagRef(fullMatch);
         const iso = lookupIso(country);
-        
+
         if (iso) {
           if (currentSection === 'coat_of_arms' || currentSection === 'emblem') {
             coatOfArmsFlags.add(iso);
