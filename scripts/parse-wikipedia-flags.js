@@ -18,8 +18,17 @@ let nameToIso = new Map();
 
 /**
  * Extract country name from a "Flag of X" reference
+ * Returns null for state/government flag variants - we only want civil flags
  */
 function extractCountryFromFlagRef(text) {
+  // Skip state/government flag variants - we only want civil flags
+  // These are typically "Flag_of_X_(state).svg" or URL-encoded as "%28state%29"
+  if (/\(state\)/i.test(text) || /%28state%29/i.test(text) ||
+      /\(government\)/i.test(text) || /%28government%29/i.test(text) ||
+      /_state\./i.test(text)) {
+    return null;
+  }
+  
   const match = text.match(/Flag[_ ]of[_ ](?:the[_ ])?([A-Za-z_\-' ]+?)(?:#|"|$|\s*\(|\.svg)/i);
   if (!match) return null;
   
@@ -80,6 +89,12 @@ async function parseFlags() {
   let currentSection = '';
   
   for (const section of sections) {
+    // Skip state-flag-only sections entirely - we only want civil flags
+    if (section.includes('state_flags_only') || section.includes('state flags only')) {
+      currentSection = '';
+      continue;
+    }
+    
     // Coat of arms sections
     if (section.includes('id="Mobile_charge_—_National_coat_of_arms') || 
         section.includes('id="National_coat_of_arms')) {
@@ -115,20 +130,30 @@ async function parseFlags() {
     
     if (!currentSection) continue;
     
-    const flagRefs = section.matchAll(/Flag[_ ]of[_ ](?:the[_ ])?([A-Za-z_\-' ]+?)(?:#|"|<|\.svg)/gi);
+    // Split section into gallery items to check context per item
+    const galleryItems = section.split(/<li class="gallerybox"/);
     
-    for (const match of flagRefs) {
-      const fullMatch = match[0];
-      const country = extractCountryFromFlagRef(fullMatch);
-      const iso = lookupIso(country);
+    for (const item of galleryItems) {
+      // Skip items that explicitly mention state flag only / civil flag without arms
+      if (/state flag only|civil flag is without/i.test(item)) {
+        continue;
+      }
       
-      if (iso) {
-        if (currentSection === 'coat_of_arms' || currentSection === 'emblem') {
-          coatOfArmsFlags.add(iso);
-        } else if (currentSection === 'star') {
-          starFlags.add(iso);
-        } else if (currentSection === 'animal') {
-          animalFlags.add(iso);
+      const flagRefs = item.matchAll(/Flag[_ ]of[_ ](?:the[_ ])?([A-Za-z_\-' ]+?)(?:#|"|<|\.svg)/gi);
+      
+      for (const match of flagRefs) {
+        const fullMatch = match[0];
+        const country = extractCountryFromFlagRef(fullMatch);
+        const iso = lookupIso(country);
+        
+        if (iso) {
+          if (currentSection === 'coat_of_arms' || currentSection === 'emblem') {
+            coatOfArmsFlags.add(iso);
+          } else if (currentSection === 'star') {
+            starFlags.add(iso);
+          } else if (currentSection === 'animal') {
+            animalFlags.add(iso);
+          }
         }
       }
     }
