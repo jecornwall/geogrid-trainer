@@ -1,20 +1,38 @@
 /**
- * Parse raw Wikidata JSON files to generate data/countries.jsonl
+ * Parse raw Wikidata JSON files to generate/update data/countries.jsonl
  * 
- * This script ONLY handles Wikidata. Wikipedia HTML parsing will be
- * added incrementally in separate passes.
+ * This script handles base country data from Wikidata:
+ * - Basic info (name, area, population, capitals)
+ * - Continents
+ * - Languages
+ * - Memberships (EU, Commonwealth)
+ * - Government types (monarchy)
+ * - Time zones
+ * - Economic data (GDP, HDI)
+ * - Driving side
+ * - Landlocked status
+ * - Former USSR membership
+ * - Dependencies
+ * - Largest cities
+ * - Flag image URLs
+ * - Olympic hosts
+ * 
+ * Fields managed by Wikipedia parsers are PRESERVED, not overwritten:
+ * - borders.countries (parse-wikipedia-land-borders.js)
+ * - flag.has_star, has_coat_of_arms, has_animal (parse-wikipedia-flags.js)
+ * - flag.colors (update-flag-colors.js)
+ * - geography.is_island_nation (parse-wikipedia-island-countries.js)
+ * - geography.coastline_km (parse-wikipedia-coastline-length.js)
+ * - sports.olympic_medals (parse-wikipedia-olympic-medals.js)
  */
 
 import fs from 'fs/promises';
 import path from 'path';
 import { fileURLToPath } from 'url';
+import { loadCountries, saveCountries, loadMasterCountryList, paths } from './lib/countries-jsonl.js';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
-const ROOT = path.join(__dirname, '..');
-const WIKIDATA_DIR = path.join(ROOT, 'data/raw/wikidata');
-const COUNTRIES_JSON = path.join(ROOT, 'data/countries.json');
-const COUNTRIES_JSONL = path.join(ROOT, 'data/countries.jsonl');
-const OUTPUT_FILE = COUNTRIES_JSONL;
+const WIKIDATA_DIR = paths.rawWikidata;
 
 // ============================================================
 // UTILITY FUNCTIONS
@@ -60,54 +78,6 @@ async function parseBasicInfo() {
   }
   
   return countries;
-}
-
-/**
- * Load existing data from countries.jsonl that was populated by Wikipedia parsers.
- * 
- * Several fields are sourced from Wikipedia HTML parsing rather than Wikidata:
- * - borders.countries: from land-borders.html (Wikidata P47 includes maritime borders)
- * - geography.is_island_nation: from island-countries.html
- * - geography.coastline_km: from coastline-length.html
- * - flag.*: from flags-design.html
- * - sports.olympic_medals: from olympic-medals.html
- * 
- * This function preserves those values when regenerating the JSONL.
- */
-async function loadExistingData() {
-  const existing = new Map();
-  
-  try {
-    const content = await fs.readFile(COUNTRIES_JSONL, 'utf-8');
-    const lines = content.trim().split('\n');
-    
-    for (const line of lines) {
-      const country = JSON.parse(line);
-      if (country.id) {
-        existing.set(country.id, country);
-      }
-    }
-    console.log(`  (loaded ${existing.size} existing records from countries.jsonl)`);
-  } catch (err) {
-    console.log('  (no existing countries.jsonl found)');
-  }
-  
-  return existing;
-}
-
-/**
- * Get borders from existing data.
- * Border data is sourced from Wikipedia's "List of countries by land borders".
- * Run scripts/parse-wikipedia-land-borders.js to update.
- */
-function getBorders(existingData) {
-  const borders = new Map();
-  for (const [id, country] of existingData) {
-    if (country.borders?.countries) {
-      borders.set(id, new Set(country.borders.countries));
-    }
-  }
-  return borders;
 }
 
 async function parseContinents() {
@@ -189,7 +159,6 @@ async function parseTimeZones() {
     const tz = getValue(b, 'timezoneLabel');
     if (!iso2 || !tz) continue;
     
-    // Extract UTC offset if present
     const utcMatch = tz.match(/UTC[+−-]?\d{1,2}(:\d{2})?/i);
     if (utcMatch) {
       const tzValue = utcMatch[0].replace('−', '-');
@@ -334,20 +303,106 @@ async function parseOlympicHosts() {
 }
 
 // ============================================================
+// DEFAULT COUNTRY STRUCTURE
+// ============================================================
+
+/**
+ * Create a default country object with all required fields.
+ * This ensures the schema is complete even for countries with missing Wikidata.
+ */
+function createDefaultCountry(iso2, name) {
+  return {
+    id: iso2,
+    name: name,
+    flag_image_url: `/flags/${iso2.toLowerCase()}.svg`,
+    flag: {
+      colors: [],
+      has_star: false,
+      has_coat_of_arms: false,
+      has_animal: false
+    },
+    geography: {
+      continents: ['Africa'],  // Placeholder
+      is_island_nation: false,
+      is_landlocked: false,
+      coastline_km: 0,
+      coastlines: [],
+      river_systems: [],
+      touches_equator: false,
+      touches_eurasian_steppe: false,
+      touches_sahara: false
+    },
+    borders: {
+      countries: []
+    },
+    political: {
+      is_eu_member: false,
+      is_commonwealth_member: false,
+      was_ussr: false,
+      is_monarchy: false,
+      is_dependency: false,
+      has_nuclear_weapons: false,
+      official_languages: [],
+      same_sex_marriage_legal: false,
+      same_sex_activities_illegal: false,
+      corruption_perceptions_index: 50,
+      time_zones: ['UTC+0'],
+      observes_dst: false
+    },
+    population: {
+      count: 0,
+      density_per_km2: 0,
+      capitals: [{ name: 'Unknown', population: 0 }],
+      most_populated_city: 'Unknown'
+    },
+    area_km2: 1,
+    economic: {
+      gdp_per_capita: 0,
+      hdi: 0,
+      produces_nuclear_power: false,
+      wheat_production_rank: null,
+      oil_production_rank: null,
+      renewable_energy_share_rank: null
+    },
+    facts: {
+      drives_on_left: false,
+      skyscraper_count: 0,
+      has_alcohol_prohibition: false,
+      air_pollution_pm25: 0,
+      co2_emissions_per_capita: 0,
+      obesity_rate_rank: null,
+      alcohol_consumption_rank: null,
+      chocolate_consumption_rank: null,
+      rail_network_rank: null,
+      population_density_rank: null,
+      tourist_arrivals_rank: null,
+      world_heritage_sites_rank: null,
+      lakes_count_rank: null
+    },
+    sports: {
+      olympic_medals: { total: 0 },
+      olympics_hosted: [],
+      fifa_world_cup: { hosted: [], played: false, wins: 0 },
+      f1_hosted: false
+    }
+  };
+}
+
+// ============================================================
 // MAIN
 // ============================================================
 
 async function main() {
   console.log('Loading master country list...');
-  const countriesJson = JSON.parse(await fs.readFile(COUNTRIES_JSON, 'utf-8'));
-  console.log(`Loaded ${countriesJson.length} countries\n`);
+  const masterList = await loadMasterCountryList();
+  console.log(`  Loaded ${masterList.length} countries from countries.json\n`);
   
-  console.log('Loading existing data (Wikipedia-sourced fields)...');
-  const existingData = await loadExistingData();
+  console.log('Loading existing data (preserving Wikipedia-sourced fields)...');
+  const existingCountries = await loadCountries();
+  console.log(`  Loaded ${existingCountries.size} existing records\n`);
   
-  console.log('\nParsing Wikidata files...');
+  console.log('Parsing Wikidata files...');
   const basicInfo = await parseBasicInfo();
-  const borders = getBorders(existingData);  // Use existing Wikipedia-sourced borders
   const continents = await parseContinents();
   const languages = await parseLanguages();
   const { eu, commonwealth } = await parseMemberships();
@@ -363,7 +418,6 @@ async function main() {
   const olympicHosts = await parseOlympicHosts();
   
   console.log(`  basicInfo: ${basicInfo.size}`);
-  console.log(`  borders: ${borders.size}`);
   console.log(`  continents: ${continents.size}`);
   console.log(`  languages: ${languages.size}`);
   console.log(`  EU: ${eu.size}, Commonwealth: ${commonwealth.size}`);
@@ -379,129 +433,133 @@ async function main() {
   console.log(`  olympicHosts: ${olympicHosts.size}`);
   
   console.log('\nBuilding country records...');
-  const output = [];
+  const outputCountries = new Map();
   
-  for (const master of countriesJson) {
+  for (const master of masterList) {
     const iso2 = master.code;
     const info = basicInfo.get(iso2) || {};
     const econ = economic.get(iso2) || {};
     const conts = continents.get(iso2);
     const tz = timezones.get(iso2);
     const langs = languages.get(iso2);
-    const bord = borders.get(iso2);
     const hosted = olympicHosts.get(iso2);
     
-    // Build capitals array
+    // Start with existing data or create default
+    const existing = existingCountries.get(iso2) || createDefaultCountry(iso2, master.name);
+    
+    // Build capitals array from Wikidata
     let capitals = info.capitals || [];
     if (capitals.length === 0) {
-      capitals = [{ name: 'Unknown', population: 0 }];
+      capitals = existing.population?.capitals || [{ name: 'Unknown', population: 0 }];
     }
     
     // Get most populated city
-    const mostPopulated = largestCities.get(iso2) || capitals[0]?.name || 'Unknown';
+    const mostPopulated = largestCities.get(iso2) || existing.population?.most_populated_city || capitals[0]?.name || 'Unknown';
     
     // Ensure valid area
-    const area = info.area_km2 > 0 ? info.area_km2 : 1;
-    const popCount = info.population_count || 0;
+    const area = info.area_km2 > 0 ? info.area_km2 : (existing.area_km2 || 1);
+    const popCount = info.population_count || existing.population?.count || 0;
     
-    // Get existing Wikipedia-sourced data for this country
-    const existing = existingData.get(iso2) || {};
-    const existingFlag = existing.flag || {};
-    const existingGeo = existing.geography || {};
-    const existingSports = existing.sports || {};
-    
+    // Build the updated country object
+    // IMPORTANT: Preserve Wikipedia-sourced fields from existing data
     const country = {
       id: iso2,
       name: info.name || master.name,
-      flag_image_url: flagImages.get(iso2) || `/flags/${iso2.toLowerCase()}.svg`,
+      flag_image_url: flagImages.get(iso2) || existing.flag_image_url || `/flags/${iso2.toLowerCase()}.svg`,
+      
+      // PRESERVE existing flag data (managed by parse-wikipedia-flags.js and update-flag-colors.js)
       flag: {
-        colors: existingFlag.colors || [],  // Wikipedia parsing
-        has_star: existingFlag.has_star || false,  // Wikipedia parsing
-        has_coat_of_arms: existingFlag.has_coat_of_arms || false,  // Wikipedia parsing
-        has_animal: existingFlag.has_animal || false  // Wikipedia parsing
+        colors: existing.flag?.colors || [],
+        has_star: existing.flag?.has_star ?? false,
+        has_coat_of_arms: existing.flag?.has_coat_of_arms ?? false,
+        has_animal: existing.flag?.has_animal ?? false
       },
+      
       geography: {
-        continents: conts ? Array.from(conts) : (existingGeo.continents || ['Africa']),
-        is_island_nation: existingGeo.is_island_nation || false,  // Wikipedia parsing
+        continents: conts ? Array.from(conts) : (existing.geography?.continents || ['Africa']),
+        // PRESERVE existing island nation status (managed by parse-wikipedia-island-countries.js)
+        is_island_nation: existing.geography?.is_island_nation ?? false,
         is_landlocked: landlocked.has(iso2),
-        coastline_km: existingGeo.coastline_km ?? (landlocked.has(iso2) ? 0 : 0),  // Wikipedia parsing
-        coastlines: existingGeo.coastlines || [],  // Wikipedia parsing
-        river_systems: existingGeo.river_systems || [],  // Wikipedia parsing
-        touches_equator: existingGeo.touches_equator || false,  // Wikipedia parsing
-        touches_eurasian_steppe: existingGeo.touches_eurasian_steppe || false,
-        touches_sahara: existingGeo.touches_sahara || false
+        // PRESERVE existing coastline_km (managed by parse-wikipedia-coastline-length.js)
+        coastline_km: existing.geography?.coastline_km ?? 0,
+        coastlines: existing.geography?.coastlines || [],
+        river_systems: existing.geography?.river_systems || [],
+        touches_equator: existing.geography?.touches_equator ?? false,
+        touches_eurasian_steppe: existing.geography?.touches_eurasian_steppe ?? false,
+        touches_sahara: existing.geography?.touches_sahara ?? false
       },
+      
+      // PRESERVE existing borders (managed by parse-wikipedia-land-borders.js)
       borders: {
-        countries: bord ? Array.from(bord) : []
+        countries: existing.borders?.countries || []
       },
+      
       political: {
         is_eu_member: eu.has(iso2),
         is_commonwealth_member: commonwealth.has(iso2),
         was_ussr: formerUSSR.has(iso2),
         is_monarchy: monarchies.has(iso2),
         is_dependency: dependencies.has(iso2),
-        has_nuclear_weapons: false,  // TODO: Wikipedia parsing
-        official_languages: langs ? Array.from(langs) : [],
-        same_sex_marriage_legal: false,  // TODO: Wikipedia parsing
-        same_sex_activities_illegal: false,
-        corruption_perceptions_index: 50,  // TODO: Wikipedia parsing
-        time_zones: tz ? Array.from(tz) : ['UTC+0'],
-        observes_dst: false  // TODO: Wikipedia parsing
+        has_nuclear_weapons: existing.political?.has_nuclear_weapons ?? false,
+        official_languages: langs ? Array.from(langs) : (existing.political?.official_languages || []),
+        same_sex_marriage_legal: existing.political?.same_sex_marriage_legal ?? false,
+        same_sex_activities_illegal: existing.political?.same_sex_activities_illegal ?? false,
+        corruption_perceptions_index: existing.political?.corruption_perceptions_index ?? 50,
+        time_zones: tz ? Array.from(tz) : (existing.political?.time_zones || ['UTC+0']),
+        observes_dst: existing.political?.observes_dst ?? false
       },
+      
       population: {
         count: popCount,
         density_per_km2: Math.round(popCount / area),
         capitals: capitals,
         most_populated_city: mostPopulated
       },
+      
       area_km2: area,
+      
       economic: {
-        gdp_per_capita: econ.gdp_per_capita || 0,
-        hdi: econ.hdi || 0,
-        produces_nuclear_power: false,  // TODO: Wikipedia parsing
-        wheat_production_rank: null,
-        oil_production_rank: null,
-        renewable_energy_share_rank: null
+        gdp_per_capita: econ.gdp_per_capita || existing.economic?.gdp_per_capita || 0,
+        hdi: econ.hdi || existing.economic?.hdi || 0,
+        produces_nuclear_power: existing.economic?.produces_nuclear_power ?? false,
+        wheat_production_rank: existing.economic?.wheat_production_rank ?? null,
+        oil_production_rank: existing.economic?.oil_production_rank ?? null,
+        renewable_energy_share_rank: existing.economic?.renewable_energy_share_rank ?? null
       },
+      
       facts: {
         drives_on_left: leftDriving.has(iso2),
-        skyscraper_count: 0,
-        has_alcohol_prohibition: false,
-        air_pollution_pm25: 0,
-        co2_emissions_per_capita: 0,
-        obesity_rate_rank: null,
-        alcohol_consumption_rank: null,
-        chocolate_consumption_rank: null,
-        rail_network_rank: null,
-        population_density_rank: null,
-        tourist_arrivals_rank: null,
-        world_heritage_sites_rank: null,
-        lakes_count_rank: null
+        skyscraper_count: existing.facts?.skyscraper_count ?? 0,
+        has_alcohol_prohibition: existing.facts?.has_alcohol_prohibition ?? false,
+        air_pollution_pm25: existing.facts?.air_pollution_pm25 ?? 0,
+        co2_emissions_per_capita: existing.facts?.co2_emissions_per_capita ?? 0,
+        obesity_rate_rank: existing.facts?.obesity_rate_rank ?? null,
+        alcohol_consumption_rank: existing.facts?.alcohol_consumption_rank ?? null,
+        chocolate_consumption_rank: existing.facts?.chocolate_consumption_rank ?? null,
+        rail_network_rank: existing.facts?.rail_network_rank ?? null,
+        population_density_rank: existing.facts?.population_density_rank ?? null,
+        tourist_arrivals_rank: existing.facts?.tourist_arrivals_rank ?? null,
+        world_heritage_sites_rank: existing.facts?.world_heritage_sites_rank ?? null,
+        lakes_count_rank: existing.facts?.lakes_count_rank ?? null
       },
+      
       sports: {
-        olympic_medals: existingSports.olympic_medals || { total: 0 },  // Wikipedia parsing
-        olympics_hosted: hosted || existingSports.olympics_hosted || [],
-        fifa_world_cup: existingSports.fifa_world_cup || { hosted: [], played: false, wins: 0 },
-        f1_hosted: existingSports.f1_hosted || false
+        // PRESERVE existing olympic_medals (managed by parse-wikipedia-olympic-medals.js)
+        olympic_medals: existing.sports?.olympic_medals || { total: 0 },
+        olympics_hosted: hosted || existing.sports?.olympics_hosted || [],
+        fifa_world_cup: existing.sports?.fifa_world_cup || { hosted: [], played: false, wins: 0 },
+        f1_hosted: existing.sports?.f1_hosted ?? false
       }
     };
     
-    output.push(country);
+    outputCountries.set(iso2, country);
   }
   
-  output.sort((a, b) => a.name.localeCompare(b.name));
-  
-  console.log(`\nWriting ${output.length} countries to ${OUTPUT_FILE}...`);
-  const jsonl = output.map(c => JSON.stringify(c)).join('\n') + '\n';
-  await fs.writeFile(OUTPUT_FILE, jsonl);
+  console.log(`\nSaving ${outputCountries.size} countries...`);
+  await saveCountries(outputCountries);
   
   console.log('Done! Wikidata parsing complete.');
-  console.log('\nNext steps: Add Wikipedia HTML parsing for:');
-  console.log('  - Flag colors/properties (flags-design.html)');
-  console.log('  - Island nations (island-countries.html)');
-  console.log('  - Olympic medals (olympic-medals.html)');
-  console.log('  - Various rankings (wheat, oil, etc.)');
-  console.log('  - And more...');
 }
 
 main().catch(console.error);
+
