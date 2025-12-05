@@ -107,8 +107,8 @@
     "colors": [
       "white",
       "red",
-      "light blue",
-      "brown"
+      "green",
+      "light blue"
     ],
     "colorCount": 4,
     "rawColorCount": 4
@@ -161,7 +161,7 @@
     "colors": [
       "white",
       "red",
-      "blue"
+      "green"
     ],
     "colorCount": 3,
     "rawColorCount": 3
@@ -224,7 +224,7 @@
     "colors": [
       "black",
       "yellow",
-      "blue"
+      "green"
     ],
     "colorCount": 3,
     "rawColorCount": 2
@@ -589,9 +589,9 @@
   },
   "FR": {
     "colors": [
+      "black",
       "white",
-      "red",
-      "blue"
+      "red"
     ],
     "colorCount": 3,
     "rawColorCount": 3
@@ -717,9 +717,9 @@
     "colors": [
       "black",
       "white",
-      "grey",
       "red",
-      "yellow"
+      "yellow",
+      "green"
     ],
     "colorCount": 5,
     "rawColorCount": 5
@@ -1006,7 +1006,7 @@
       "red",
       "orange",
       "yellow",
-      "blue"
+      "green"
     ],
     "colorCount": 5,
     "rawColorCount": 5
@@ -1095,10 +1095,10 @@
   },
   "ME": {
     "colors": [
-      "grey",
       "red",
       "orange",
       "yellow",
+      "green",
       "blue"
     ],
     "colorCount": 5,
@@ -1180,10 +1180,9 @@
     "colors": [
       "red",
       "yellow",
-      "green",
-      "blue"
+      "green"
     ],
-    "colorCount": 4,
+    "colorCount": 3,
     "rawColorCount": 4
   },
   "MV": {
@@ -1237,7 +1236,7 @@
       "white",
       "red",
       "yellow",
-      "blue"
+      "green"
     ],
     "colorCount": 5,
     "rawColorCount": 5
@@ -1389,8 +1388,8 @@
   },
   "PK": {
     "colors": [
-      "white",
-      "green"
+      "black",
+      "white"
     ],
     "colorCount": 2,
     "rawColorCount": 2
@@ -1640,7 +1639,6 @@
     "colors": [
       "black",
       "white",
-      "grey",
       "pink",
       "red",
       "orange",
@@ -1649,7 +1647,7 @@
       "blue",
       "light blue"
     ],
-    "colorCount": 10,
+    "colorCount": 9,
     "rawColorCount": 163
   },
   "SX": {
@@ -1681,11 +1679,12 @@
     "colors": [
       "black",
       "white",
+      "grey",
       "red",
       "yellow",
       "blue"
     ],
-    "colorCount": 5,
+    "colorCount": 6,
     "rawColorCount": 7
   },
   "TD": {

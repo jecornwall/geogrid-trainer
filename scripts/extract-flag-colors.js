@@ -43,8 +43,8 @@ const ACCEPTED_COLORS = {
   red:        { r: 200, g: 30,  b: 30  },  // Typical flag red
   orange:     { r: 255, g: 140, b: 0   },  // Dark orange
   yellow:     { r: 255, g: 215, b: 0   },  // Gold/yellow
-  green:      { r: 0,   g: 128, b: 0   },  // Medium green
-  blue:       { r: 0,   g: 50,  b: 160 },  // Typical flag blue (darker)
+  green:      { r: 0,   g: 140, b: 70  },  // Flag green (includes teal/sea greens)
+  blue:       { r: 0,   g: 30,  b: 180 },  // Typical flag blue (darker, less green)
   'light blue': { r: 100, g: 180, b: 230 }, // Sky blue
   purple:     { r: 128, g: 0,   b: 128 },
   brown:      { r: 139, g: 90,  b: 43  },  // Saddle brown
