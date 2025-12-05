@@ -81,1392 +81,6 @@
       {
         "country": {
           "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q117"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "GH"
-        },
-        "flag": {
-          "type": "uri",
-          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Ghana.svg"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q221"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "MK"
-        },
-        "flag": {
-          "type": "uri",
-          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20North%20Macedonia.svg"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q227"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "AZ"
-        },
-        "flag": {
-          "type": "uri",
-          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Azerbaijan.svg"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q217"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "MD"
-        },
-        "flag": {
-          "type": "uri",
-          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Moldova.svg"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q159"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "RU"
-        },
-        "flag": {
-          "type": "uri",
-          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Russia.svg"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q730"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "SR"
-        },
-        "flag": {
-          "type": "uri",
-          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Suriname.svg"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q214"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "SK"
-        },
-        "flag": {
-          "type": "uri",
-          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Slovakia.svg"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q218"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "RO"
-        },
-        "flag": {
-          "type": "uri",
-          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Romania.svg"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q37"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "LT"
-        },
-        "flag": {
-          "type": "uri",
-          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Lithuania.svg"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q664"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "NZ"
-        },
-        "flag": {
-          "type": "uri",
-          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20New%20Zealand.svg"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q709"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "MH"
-        },
-        "flag": {
-          "type": "uri",
-          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20the%20Marshall%20Islands.svg"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q423"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "KP"
-        },
-        "flag": {
-          "type": "uri",
-          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20North%20Korea.svg"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q657"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "TD"
-        },
-        "flag": {
-          "type": "uri",
-          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Chad.svg"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q225"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "BA"
-        },
-        "flag": {
-          "type": "uri",
-          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Bosnia%20and%20Herzegovina.svg"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q739"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "CO"
-        },
-        "flag": {
-          "type": "uri",
-          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Colombia.svg"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q241"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "CU"
-        },
-        "flag": {
-          "type": "uri",
-          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Cuba.svg"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q28"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "HU"
-        },
-        "flag": {
-          "type": "uri",
-          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Hungary.svg"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q712"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "FJ"
-        },
-        "flag": {
-          "type": "uri",
-          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Fiji.svg"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q262"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "DZ"
-        },
-        "flag": {
-          "type": "uri",
-          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Algeria.svg"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q678"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "TO"
-        },
-        "flag": {
-          "type": "uri",
-          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Tonga.svg"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q41"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "GR"
-        },
-        "flag": {
-          "type": "uri",
-          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Greece.svg"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q242"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "BZ"
-        },
-        "flag": {
-          "type": "uri",
-          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Belize.svg"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q32"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "LU"
-        },
-        "flag": {
-          "type": "uri",
-          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Luxembourg.svg"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q184"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "BY"
-        },
-        "flag": {
-          "type": "uri",
-          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Belarus.svg"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q691"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "PG"
-        },
-        "flag": {
-          "type": "uri",
-          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Papua%20New%20Guinea.svg"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q695"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "PW"
-        },
-        "flag": {
-          "type": "uri",
-          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Palau.svg"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q77"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "UY"
-        },
-        "flag": {
-          "type": "uri",
-          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Uruguay.svg"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q697"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "NR"
-        },
-        "flag": {
-          "type": "uri",
-          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Nauru.svg"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q685"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "SB"
-        },
-        "flag": {
-          "type": "uri",
-          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20the%20Solomon%20Islands.svg"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q189"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "IS"
-        },
-        "flag": {
-          "type": "uri",
-          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Iceland.svg"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q734"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "GY"
-        },
-        "flag": {
-          "type": "uri",
-          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Guyana.svg"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q191"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "EE"
-        },
-        "flag": {
-          "type": "uri",
-          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Estonia.svg"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q265"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "UZ"
-        },
-        "flag": {
-          "type": "uri",
-          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Uzbekistan.svg"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q114"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "KE"
-        },
-        "flag": {
-          "type": "uri",
-          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Kenya.svg"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q229"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "CY"
-        },
-        "flag": {
-          "type": "uri",
-          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Cyprus.svg"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q223"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "GL"
-        },
-        "flag": {
-          "type": "uri",
-          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Greenland.svg"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q212"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "UA"
-        },
-        "flag": {
-          "type": "uri",
-          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Ukraine.svg"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q298"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "CL"
-        },
-        "flag": {
-          "type": "uri",
-          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Chile.svg"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q29"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "ES"
-        },
-        "flag": {
-          "type": "uri",
-          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Spain.svg"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q235"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "MC"
-        },
-        "flag": {
-          "type": "uri",
-          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Monaco.svg"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q683"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "WS"
-        },
-        "flag": {
-          "type": "uri",
-          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Samoa.svg"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q142"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "FR"
-        },
-        "flag": {
-          "type": "uri",
-          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20France.svg"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q232"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "KZ"
-        },
-        "flag": {
-          "type": "uri",
-          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Kazakhstan.svg"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q38"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "IT"
-        },
-        "flag": {
-          "type": "uri",
-          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Italy.svg"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q711"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "MN"
-        },
-        "flag": {
-          "type": "uri",
-          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Mongolia.svg"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q222"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "AL"
-        },
-        "flag": {
-          "type": "uri",
-          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Albania.svg"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q39"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "CH"
-        },
-        "flag": {
-          "type": "uri",
-          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Switzerland.svg"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q115"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "ET"
-        },
-        "flag": {
-          "type": "uri",
-          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Ethiopia.svg"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q40"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "AT"
-        },
-        "flag": {
-          "type": "uri",
-          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Austria.svg"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q403"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "RS"
-        },
-        "flag": {
-          "type": "uri",
-          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Serbia.svg"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q27"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "IE"
-        },
-        "flag": {
-          "type": "uri",
-          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Ireland.svg"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q398"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "BH"
-        },
-        "flag": {
-          "type": "uri",
-          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Bahrain.svg"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q155"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "BR"
-        },
-        "flag": {
-          "type": "uri",
-          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Brazil.svg"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q702"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "FM"
-        },
-        "flag": {
-          "type": "uri",
-          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20the%20Federated%20States%20of%20Micronesia.svg"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q211"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "LV"
-        },
-        "flag": {
-          "type": "uri",
-          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Latvia.svg"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q96"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "MX"
-        },
-        "flag": {
-          "type": "uri",
-          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Mexico.svg"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q574"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "TL"
-        },
-        "flag": {
-          "type": "uri",
-          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20East%20Timor.svg"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q334"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "SG"
-        },
-        "flag": {
-          "type": "uri",
-          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Singapore.svg"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q31"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "BE"
-        },
-        "flag": {
-          "type": "uri",
-          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Belgium.svg"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q34"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "SE"
-        },
-        "flag": {
-          "type": "uri",
-          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Sweden.svg"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q45"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "PT"
-        },
-        "flag": {
-          "type": "uri",
-          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Portugal%20%28official%29.svg"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q33"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "FI"
-        },
-        "flag": {
-          "type": "uri",
-          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Finland.svg"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q148"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "CN"
-        },
-        "flag": {
-          "type": "uri",
-          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20the%20People%27s%20Republic%20of%20China.svg"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q733"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "PY"
-        },
-        "flag": {
-          "type": "uri",
-          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Paraguay.svg"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q414"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "AR"
-        },
-        "flag": {
-          "type": "uri",
-          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Argentina.svg"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q228"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "AD"
-        },
-        "flag": {
-          "type": "uri",
-          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Andorra.svg"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q17"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "JP"
-        },
-        "flag": {
-          "type": "uri",
-          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Japan.svg"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q347"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "LI"
-        },
-        "flag": {
-          "type": "uri",
-          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Liechtenstein.svg"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q244"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "BB"
-        },
-        "flag": {
-          "type": "uri",
-          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Barbados.svg"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q252"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "ID"
-        },
-        "flag": {
-          "type": "uri",
-          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Indonesia.svg"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q399"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "AM"
-        },
-        "flag": {
-          "type": "uri",
-          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Armenia.svg"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q43"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "TR"
-        },
-        "flag": {
-          "type": "uri",
-          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Turkey.svg"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q213"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "CZ"
-        },
-        "flag": {
-          "type": "uri",
-          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20the%20Czech%20Republic.svg"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q686"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "VU"
-        },
-        "flag": {
-          "type": "uri",
-          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Vanuatu.svg"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q717"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "VE"
-        },
-        "flag": {
-          "type": "uri",
-          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Venezuela.svg"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q668"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "IN"
-        },
-        "flag": {
-          "type": "uri",
-          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20India.svg"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q736"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "EC"
-        },
-        "flag": {
-          "type": "uri",
-          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Ecuador.svg"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q236"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "ME"
-        },
-        "flag": {
-          "type": "uri",
-          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Montenegro.svg"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q408"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "AU"
-        },
-        "flag": {
-          "type": "uri",
-          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Australia%20%28converted%29.svg"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q710"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "KI"
-        },
-        "flag": {
-          "type": "uri",
-          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Kiribati.svg"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q237"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "VA"
-        },
-        "flag": {
-          "type": "uri",
-          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Vatican%20City%20%282023%E2%80%93present%29.svg"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q145"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "GB"
-        },
-        "flag": {
-          "type": "uri",
-          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20the%20United%20Kingdom%20%283-5%29.svg"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q258"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "ZA"
-        },
-        "flag": {
-          "type": "uri",
-          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20South%20Africa.svg"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q219"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "BG"
-        },
-        "flag": {
-          "type": "uri",
-          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Bulgaria.svg"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q215"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "SI"
-        },
-        "flag": {
-          "type": "uri",
-          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Slovenia.svg"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q672"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "TV"
-        },
-        "flag": {
-          "type": "uri",
-          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Tuvalu.svg"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q79"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "EG"
-        },
-        "flag": {
-          "type": "uri",
-          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Egypt.svg"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q16"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "CA"
-        },
-        "flag": {
-          "type": "uri",
-          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Canada%20%28Pantone%29.svg"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q36"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "PL"
-        },
-        "flag": {
-          "type": "uri",
-          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Poland.svg"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q230"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "GE"
-        },
-        "flag": {
-          "type": "uri",
-          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Georgia.svg"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q233"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "MT"
-        },
-        "flag": {
-          "type": "uri",
-          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Malta.svg"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q183"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "DE"
-        },
-        "flag": {
-          "type": "uri",
-          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Germany.svg"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q419"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "PE"
-        },
-        "flag": {
-          "type": "uri",
-          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Peru.svg"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q35"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "DK"
-        },
-        "flag": {
-          "type": "uri",
-          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Denmark.svg"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q238"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "SM"
-        },
-        "flag": {
-          "type": "uri",
-          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20San%20Marino.svg"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q224"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "HR"
-        },
-        "flag": {
-          "type": "uri",
-          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Croatia.svg"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q30"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "US"
-        },
-        "flag": {
-          "type": "uri",
-          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20the%20United%20States%20%28DDD-F-416E%20specifications%29.svg"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q424"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "KH"
-        },
-        "flag": {
-          "type": "uri",
-          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Cambodia.svg"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q20"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "NO"
-        },
-        "flag": {
-          "type": "uri",
-          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Norway.svg"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
           "value": "http://www.wikidata.org/entity/Q854"
         },
         "iso2": {
@@ -2862,6 +1476,1392 @@
         "flag": {
           "type": "uri",
           "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Honduras%20%282022%E2%80%93present%29.svg"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q117"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "GH"
+        },
+        "flag": {
+          "type": "uri",
+          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Ghana.svg"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q221"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "MK"
+        },
+        "flag": {
+          "type": "uri",
+          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20North%20Macedonia.svg"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q227"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "AZ"
+        },
+        "flag": {
+          "type": "uri",
+          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Azerbaijan.svg"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q217"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "MD"
+        },
+        "flag": {
+          "type": "uri",
+          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Moldova.svg"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q159"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "RU"
+        },
+        "flag": {
+          "type": "uri",
+          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Russia.svg"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q730"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "SR"
+        },
+        "flag": {
+          "type": "uri",
+          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Suriname.svg"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q214"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "SK"
+        },
+        "flag": {
+          "type": "uri",
+          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Slovakia.svg"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q218"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "RO"
+        },
+        "flag": {
+          "type": "uri",
+          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Romania.svg"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q37"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "LT"
+        },
+        "flag": {
+          "type": "uri",
+          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Lithuania.svg"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q664"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "NZ"
+        },
+        "flag": {
+          "type": "uri",
+          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20New%20Zealand.svg"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q709"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "MH"
+        },
+        "flag": {
+          "type": "uri",
+          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20the%20Marshall%20Islands.svg"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q423"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "KP"
+        },
+        "flag": {
+          "type": "uri",
+          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20North%20Korea.svg"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q657"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "TD"
+        },
+        "flag": {
+          "type": "uri",
+          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Chad.svg"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q225"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "BA"
+        },
+        "flag": {
+          "type": "uri",
+          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Bosnia%20and%20Herzegovina.svg"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q739"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "CO"
+        },
+        "flag": {
+          "type": "uri",
+          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Colombia.svg"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q241"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "CU"
+        },
+        "flag": {
+          "type": "uri",
+          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Cuba.svg"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q28"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "HU"
+        },
+        "flag": {
+          "type": "uri",
+          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Hungary.svg"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q712"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "FJ"
+        },
+        "flag": {
+          "type": "uri",
+          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Fiji.svg"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q262"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "DZ"
+        },
+        "flag": {
+          "type": "uri",
+          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Algeria.svg"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q678"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "TO"
+        },
+        "flag": {
+          "type": "uri",
+          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Tonga.svg"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q41"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "GR"
+        },
+        "flag": {
+          "type": "uri",
+          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Greece.svg"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q242"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "BZ"
+        },
+        "flag": {
+          "type": "uri",
+          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Belize.svg"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q32"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "LU"
+        },
+        "flag": {
+          "type": "uri",
+          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Luxembourg.svg"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q184"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "BY"
+        },
+        "flag": {
+          "type": "uri",
+          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Belarus.svg"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q691"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "PG"
+        },
+        "flag": {
+          "type": "uri",
+          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Papua%20New%20Guinea.svg"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q695"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "PW"
+        },
+        "flag": {
+          "type": "uri",
+          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Palau.svg"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q77"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "UY"
+        },
+        "flag": {
+          "type": "uri",
+          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Uruguay.svg"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q697"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "NR"
+        },
+        "flag": {
+          "type": "uri",
+          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Nauru.svg"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q685"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "SB"
+        },
+        "flag": {
+          "type": "uri",
+          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20the%20Solomon%20Islands.svg"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q189"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "IS"
+        },
+        "flag": {
+          "type": "uri",
+          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Iceland.svg"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q734"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "GY"
+        },
+        "flag": {
+          "type": "uri",
+          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Guyana.svg"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q191"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "EE"
+        },
+        "flag": {
+          "type": "uri",
+          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Estonia.svg"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q265"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "UZ"
+        },
+        "flag": {
+          "type": "uri",
+          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Uzbekistan.svg"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q114"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "KE"
+        },
+        "flag": {
+          "type": "uri",
+          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Kenya.svg"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q229"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "CY"
+        },
+        "flag": {
+          "type": "uri",
+          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Cyprus.svg"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q223"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "GL"
+        },
+        "flag": {
+          "type": "uri",
+          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Greenland.svg"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q212"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "UA"
+        },
+        "flag": {
+          "type": "uri",
+          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Ukraine.svg"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q298"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "CL"
+        },
+        "flag": {
+          "type": "uri",
+          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Chile.svg"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q29"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "ES"
+        },
+        "flag": {
+          "type": "uri",
+          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Spain.svg"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q235"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "MC"
+        },
+        "flag": {
+          "type": "uri",
+          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Monaco.svg"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q683"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "WS"
+        },
+        "flag": {
+          "type": "uri",
+          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Samoa.svg"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q142"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "FR"
+        },
+        "flag": {
+          "type": "uri",
+          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20France.svg"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q232"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "KZ"
+        },
+        "flag": {
+          "type": "uri",
+          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Kazakhstan.svg"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q38"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "IT"
+        },
+        "flag": {
+          "type": "uri",
+          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Italy.svg"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q711"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "MN"
+        },
+        "flag": {
+          "type": "uri",
+          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Mongolia.svg"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q222"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "AL"
+        },
+        "flag": {
+          "type": "uri",
+          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Albania.svg"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q39"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "CH"
+        },
+        "flag": {
+          "type": "uri",
+          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Switzerland.svg"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q115"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "ET"
+        },
+        "flag": {
+          "type": "uri",
+          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Ethiopia.svg"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q40"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "AT"
+        },
+        "flag": {
+          "type": "uri",
+          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Austria.svg"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q403"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "RS"
+        },
+        "flag": {
+          "type": "uri",
+          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Serbia.svg"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q27"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "IE"
+        },
+        "flag": {
+          "type": "uri",
+          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Ireland.svg"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q398"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "BH"
+        },
+        "flag": {
+          "type": "uri",
+          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Bahrain.svg"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q155"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "BR"
+        },
+        "flag": {
+          "type": "uri",
+          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Brazil.svg"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q702"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "FM"
+        },
+        "flag": {
+          "type": "uri",
+          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20the%20Federated%20States%20of%20Micronesia.svg"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q211"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "LV"
+        },
+        "flag": {
+          "type": "uri",
+          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Latvia.svg"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q96"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "MX"
+        },
+        "flag": {
+          "type": "uri",
+          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Mexico.svg"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q574"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "TL"
+        },
+        "flag": {
+          "type": "uri",
+          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20East%20Timor.svg"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q334"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "SG"
+        },
+        "flag": {
+          "type": "uri",
+          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Singapore.svg"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q31"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "BE"
+        },
+        "flag": {
+          "type": "uri",
+          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Belgium.svg"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q34"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "SE"
+        },
+        "flag": {
+          "type": "uri",
+          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Sweden.svg"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q45"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "PT"
+        },
+        "flag": {
+          "type": "uri",
+          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Portugal%20%28official%29.svg"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q33"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "FI"
+        },
+        "flag": {
+          "type": "uri",
+          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Finland.svg"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q148"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "CN"
+        },
+        "flag": {
+          "type": "uri",
+          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20the%20People%27s%20Republic%20of%20China.svg"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q733"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "PY"
+        },
+        "flag": {
+          "type": "uri",
+          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Paraguay.svg"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q414"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "AR"
+        },
+        "flag": {
+          "type": "uri",
+          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Argentina.svg"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q228"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "AD"
+        },
+        "flag": {
+          "type": "uri",
+          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Andorra.svg"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q17"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "JP"
+        },
+        "flag": {
+          "type": "uri",
+          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Japan.svg"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q347"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "LI"
+        },
+        "flag": {
+          "type": "uri",
+          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Liechtenstein.svg"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q244"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "BB"
+        },
+        "flag": {
+          "type": "uri",
+          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Barbados.svg"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q252"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "ID"
+        },
+        "flag": {
+          "type": "uri",
+          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Indonesia.svg"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q399"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "AM"
+        },
+        "flag": {
+          "type": "uri",
+          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Armenia.svg"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q43"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "TR"
+        },
+        "flag": {
+          "type": "uri",
+          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Turkey.svg"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q213"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "CZ"
+        },
+        "flag": {
+          "type": "uri",
+          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20the%20Czech%20Republic.svg"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q686"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "VU"
+        },
+        "flag": {
+          "type": "uri",
+          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Vanuatu.svg"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q717"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "VE"
+        },
+        "flag": {
+          "type": "uri",
+          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Venezuela.svg"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q668"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "IN"
+        },
+        "flag": {
+          "type": "uri",
+          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20India.svg"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q736"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "EC"
+        },
+        "flag": {
+          "type": "uri",
+          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Ecuador.svg"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q236"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "ME"
+        },
+        "flag": {
+          "type": "uri",
+          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Montenegro.svg"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q408"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "AU"
+        },
+        "flag": {
+          "type": "uri",
+          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Australia%20%28converted%29.svg"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q710"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "KI"
+        },
+        "flag": {
+          "type": "uri",
+          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Kiribati.svg"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q237"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "VA"
+        },
+        "flag": {
+          "type": "uri",
+          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Vatican%20City%20%282023%E2%80%93present%29.svg"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q145"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "GB"
+        },
+        "flag": {
+          "type": "uri",
+          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20the%20United%20Kingdom%20%283-5%29.svg"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q258"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "ZA"
+        },
+        "flag": {
+          "type": "uri",
+          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20South%20Africa.svg"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q219"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "BG"
+        },
+        "flag": {
+          "type": "uri",
+          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Bulgaria.svg"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q215"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "SI"
+        },
+        "flag": {
+          "type": "uri",
+          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Slovenia.svg"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q672"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "TV"
+        },
+        "flag": {
+          "type": "uri",
+          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Tuvalu.svg"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q79"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "EG"
+        },
+        "flag": {
+          "type": "uri",
+          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Egypt.svg"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q16"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "CA"
+        },
+        "flag": {
+          "type": "uri",
+          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Canada%20%28Pantone%29.svg"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q36"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "PL"
+        },
+        "flag": {
+          "type": "uri",
+          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Poland.svg"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q230"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "GE"
+        },
+        "flag": {
+          "type": "uri",
+          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Georgia.svg"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q233"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "MT"
+        },
+        "flag": {
+          "type": "uri",
+          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Malta.svg"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q183"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "DE"
+        },
+        "flag": {
+          "type": "uri",
+          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Germany.svg"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q419"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "PE"
+        },
+        "flag": {
+          "type": "uri",
+          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Peru.svg"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q35"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "DK"
+        },
+        "flag": {
+          "type": "uri",
+          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Denmark.svg"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q238"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "SM"
+        },
+        "flag": {
+          "type": "uri",
+          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20San%20Marino.svg"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q224"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "HR"
+        },
+        "flag": {
+          "type": "uri",
+          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Croatia.svg"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q30"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "US"
+        },
+        "flag": {
+          "type": "uri",
+          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20the%20United%20States%20%28DDD-F-416E%20specifications%29.svg"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q424"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "KH"
+        },
+        "flag": {
+          "type": "uri",
+          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Cambodia.svg"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q20"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "NO"
+        },
+        "flag": {
+          "type": "uri",
+          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Norway.svg"
         }
       }
     ]

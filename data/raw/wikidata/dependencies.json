@@ -133,30 +133,6 @@
       {
         "territory": {
           "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q223"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "GL"
-        },
-        "sovereign": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q756617"
-        },
-        "territoryLabel": {
-          "xml:lang": "en",
-          "type": "literal",
-          "value": "Greenland"
-        },
-        "sovereignLabel": {
-          "xml:lang": "en",
-          "type": "literal",
-          "value": "Danish Realm"
-        }
-      },
-      {
-        "territory": {
-          "type": "uri",
           "value": "http://www.wikidata.org/entity/Q36823"
         },
         "iso2": {
@@ -1151,6 +1127,30 @@
           "xml:lang": "en",
           "type": "literal",
           "value": "France"
+        }
+      },
+      {
+        "territory": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q223"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "GL"
+        },
+        "sovereign": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q756617"
+        },
+        "territoryLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Greenland"
+        },
+        "sovereignLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Kingdom of Denmark"
         }
       },
       {

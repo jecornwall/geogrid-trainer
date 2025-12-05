@@ -72,6 +72,1481 @@
       {
         "country": {
           "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q801"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "IL"
+        },
+        "hdi": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+          "type": "literal",
+          "value": "0.919"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q902"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "BD"
+        },
+        "hdi": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+          "type": "literal",
+          "value": "0.661"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q760"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "LC"
+        },
+        "hdi": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+          "type": "literal",
+          "value": "0.715"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q1016"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "LY"
+        },
+        "hdi": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+          "type": "literal",
+          "value": "0.718"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q1050"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "SZ"
+        },
+        "hdi": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+          "type": "literal",
+          "value": "0.597"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q889"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "AF"
+        },
+        "hdi": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+          "type": "literal",
+          "value": "0.478"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q921"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "BN"
+        },
+        "hdi": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+          "type": "literal",
+          "value": "0.829"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q858"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "SY"
+        },
+        "hdi": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+          "type": "literal",
+          "value": "0.577"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q1000"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "GA"
+        },
+        "hdi": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+          "type": "literal",
+          "value": "0.706"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q822"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "LB"
+        },
+        "hdi": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+          "type": "literal",
+          "value": "0.706"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q884"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "KR"
+        },
+        "hdi": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+          "type": "literal",
+          "value": "0.925"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q1005"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "GM"
+        },
+        "hdi": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+          "type": "literal",
+          "value": "0.5"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q1039"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "ST"
+        },
+        "hdi": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+          "type": "literal",
+          "value": "0.618"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q811"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "NI"
+        },
+        "hdi": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+          "type": "literal",
+          "value": "0.667"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q917"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "BT"
+        },
+        "hdi": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+          "type": "literal",
+          "value": "0.666"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q837"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "NP"
+        },
+        "hdi": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+          "type": "literal",
+          "value": "0.602"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q774"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "GT"
+        },
+        "hdi": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+          "type": "literal",
+          "value": "0.627"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q1014"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "LR"
+        },
+        "hdi": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+          "type": "literal",
+          "value": "0.481"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q1033"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "NG"
+        },
+        "hdi": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+          "type": "literal",
+          "value": "0.535"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q967"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "BI"
+        },
+        "hdi": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+          "type": "literal",
+          "value": "0.426"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q1020"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "MW"
+        },
+        "hdi": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+          "type": "literal",
+          "value": "0.512"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q1042"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "SC"
+        },
+        "hdi": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+          "type": "literal",
+          "value": "0.785"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q786"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "DO"
+        },
+        "hdi": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+          "type": "literal",
+          "value": "0.767"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q792"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "SV"
+        },
+        "hdi": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+          "type": "literal",
+          "value": "0.675"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q1044"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "SL"
+        },
+        "hdi": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+          "type": "literal",
+          "value": "0.477"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q1025"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "MR"
+        },
+        "hdi": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+          "type": "literal",
+          "value": "0.556"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q1029"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "MZ"
+        },
+        "hdi": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+          "type": "literal",
+          "value": "0.446"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q953"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "ZM"
+        },
+        "hdi": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+          "type": "literal",
+          "value": "0.565"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q1036"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "UG"
+        },
+        "hdi": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+          "type": "literal",
+          "value": "0.525"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q863"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "TJ"
+        },
+        "hdi": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+          "type": "literal",
+          "value": "0.685"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q842"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "OM"
+        },
+        "hdi": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+          "type": "literal",
+          "value": "0.816"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q757"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "VC"
+        },
+        "hdi": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+          "type": "literal",
+          "value": "0.751"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q846"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "QA"
+        },
+        "hdi": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+          "type": "literal",
+          "value": "0.855"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q763"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "KN"
+        },
+        "hdi": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+          "type": "literal",
+          "value": "0.777"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q924"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "TZ"
+        },
+        "hdi": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+          "type": "literal",
+          "value": "0.549"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q833"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "MY"
+        },
+        "hdi": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+          "type": "literal",
+          "value": "0.803"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q954"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "ZW"
+        },
+        "hdi": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+          "type": "literal",
+          "value": "0.593"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q819"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "LA"
+        },
+        "hdi": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+          "type": "literal",
+          "value": "0.607"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q874"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "TM"
+        },
+        "hdi": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+          "type": "literal",
+          "value": "0.745"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q1028"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "MA"
+        },
+        "hdi": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+          "type": "literal",
+          "value": "0.683"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q1049"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "SD"
+        },
+        "hdi": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+          "type": "literal",
+          "value": "0.508"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q781"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "AG"
+        },
+        "hdi": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+          "type": "literal",
+          "value": "0.851"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q790"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "HT"
+        },
+        "hdi": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+          "type": "literal",
+          "value": "0.535"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q1045"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "SO"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q1030"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "NA"
+        },
+        "hdi": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+          "type": "literal",
+          "value": "0.615"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q817"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "KW"
+        },
+        "hdi": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+          "type": "literal",
+          "value": "0.831"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q971"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "CG"
+        },
+        "hdi": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+          "type": "literal",
+          "value": "0.571"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q836"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "MM"
+        },
+        "hdi": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+          "type": "literal",
+          "value": "0.585"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q869"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "TH"
+        },
+        "hdi": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+          "type": "literal",
+          "value": "0.8"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q881"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "VN"
+        },
+        "hdi": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+          "type": "literal",
+          "value": "0.703"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q794"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "IR"
+        },
+        "hdi": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+          "type": "literal",
+          "value": "0.774"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q21203"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "AW"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q783"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "HN"
+        },
+        "hdi": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+          "type": "literal",
+          "value": "0.621"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q1246"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "XK"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q1041"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "SN"
+        },
+        "hdi": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+          "type": "literal",
+          "value": "0.511"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q1013"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "LS"
+        },
+        "hdi": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+          "type": "literal",
+          "value": "0.514"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q813"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "KG"
+        },
+        "hdi": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+          "type": "literal",
+          "value": "0.692"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q1011"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "CV"
+        },
+        "hdi": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+          "type": "literal",
+          "value": "0.662"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q754"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "TT"
+        },
+        "hdi": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+          "type": "literal",
+          "value": "0.81"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q805"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "YE"
+        },
+        "hdi": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+          "type": "literal",
+          "value": "0.455"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q878"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "AE"
+        },
+        "hdi": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+          "type": "literal",
+          "value": "0.911"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q977"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "DJ"
+        },
+        "hdi": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+          "type": "literal",
+          "value": "0.509"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q843"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "PK"
+        },
+        "hdi": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+          "type": "literal",
+          "value": "0.544"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q804"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "PA"
+        },
+        "hdi": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+          "type": "literal",
+          "value": "0.805"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q916"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "AO"
+        },
+        "hdi": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+          "type": "literal",
+          "value": "0.586"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q784"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "DM"
+        },
+        "hdi": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+          "type": "literal",
+          "value": "0.74"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q750"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "BO"
+        },
+        "hdi": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+          "type": "literal",
+          "value": "0.692"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q958"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "SS"
+        },
+        "hdi": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+          "type": "literal",
+          "value": "0.385"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q986"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "ER"
+        },
+        "hdi": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+          "type": "literal",
+          "value": "0.492"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q800"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "CR"
+        },
+        "hdi": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+          "type": "literal",
+          "value": "0.809"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q912"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "ML"
+        },
+        "hdi": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+          "type": "literal",
+          "value": "0.428"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q970"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "KM"
+        },
+        "hdi": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+          "type": "literal",
+          "value": "0.558"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q1007"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "GW"
+        },
+        "hdi": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+          "type": "literal",
+          "value": "0.483"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q963"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "BW"
+        },
+        "hdi": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+          "type": "literal",
+          "value": "0.693"
+        },
+        "gdpPerCapita": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+          "type": "literal",
+          "value": "6710.99"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q769"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "GD"
+        },
+        "hdi": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+          "type": "literal",
+          "value": "0.795"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q948"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "TN"
+        },
+        "hdi": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+          "type": "literal",
+          "value": "0.731"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q945"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "TG"
+        },
+        "hdi": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+          "type": "literal",
+          "value": "0.539"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q1037"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "RW"
+        },
+        "hdi": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+          "type": "literal",
+          "value": "0.534"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q25279"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "CW"
+        },
+        "hdi": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+          "type": "literal",
+          "value": "0.89"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q983"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "GQ"
+        },
+        "hdi": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+          "type": "literal",
+          "value": "0.596"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q974"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "CD"
+        },
+        "hdi": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+          "type": "literal",
+          "value": "0.479"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q778"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "BS"
+        },
+        "hdi": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+          "type": "literal",
+          "value": "0.812"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q865"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "TW"
+        },
+        "hdi": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+          "type": "literal",
+          "value": "0.911"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q929"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "CF"
+        },
+        "hdi": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+          "type": "literal",
+          "value": "0.404"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q826"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "MV"
+        },
+        "hdi": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+          "type": "literal",
+          "value": "0.747"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q962"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "BJ"
+        },
+        "hdi": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+          "type": "literal",
+          "value": "0.525"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q1009"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "CM"
+        },
+        "hdi": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+          "type": "literal",
+          "value": "0.576"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q810"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "JO"
+        },
+        "hdi": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+          "type": "literal",
+          "value": "0.72"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q1027"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "MU"
+        },
+        "hdi": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+          "type": "literal",
+          "value": "0.802"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q796"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "IQ"
+        },
+        "hdi": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+          "type": "literal",
+          "value": "0.686"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q1019"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "MG"
+        },
+        "hdi": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+          "type": "literal",
+          "value": "0.501"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q1006"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "GN"
+        },
+        "hdi": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+          "type": "literal",
+          "value": "0.465"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q1008"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "CI"
+        },
+        "hdi": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+          "type": "literal",
+          "value": "0.55"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q965"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "BF"
+        },
+        "hdi": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+          "type": "literal",
+          "value": "0.449"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q928"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "PH"
+        },
+        "hdi": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+          "type": "literal",
+          "value": "0.699"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q851"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "SA"
+        },
+        "hdi": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+          "type": "literal",
+          "value": "0.875"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q1032"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "NE"
+        },
+        "hdi": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+          "type": "literal",
+          "value": "0.4"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q766"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "JM"
+        },
+        "hdi": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+          "type": "literal",
+          "value": "0.709"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q854"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "LK"
+        },
+        "hdi": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+          "type": "literal",
+          "value": "0.782"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
           "value": "http://www.wikidata.org/entity/Q227"
         },
         "iso2": {
@@ -1567,1481 +3042,6 @@
           "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
           "type": "literal",
           "value": "0.632"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q801"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "IL"
-        },
-        "hdi": {
-          "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
-          "type": "literal",
-          "value": "0.919"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q902"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "BD"
-        },
-        "hdi": {
-          "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
-          "type": "literal",
-          "value": "0.661"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q760"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "LC"
-        },
-        "hdi": {
-          "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
-          "type": "literal",
-          "value": "0.715"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q1016"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "LY"
-        },
-        "hdi": {
-          "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
-          "type": "literal",
-          "value": "0.718"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q1050"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "SZ"
-        },
-        "hdi": {
-          "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
-          "type": "literal",
-          "value": "0.597"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q889"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "AF"
-        },
-        "hdi": {
-          "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
-          "type": "literal",
-          "value": "0.478"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q921"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "BN"
-        },
-        "hdi": {
-          "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
-          "type": "literal",
-          "value": "0.829"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q858"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "SY"
-        },
-        "hdi": {
-          "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
-          "type": "literal",
-          "value": "0.577"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q1000"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "GA"
-        },
-        "hdi": {
-          "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
-          "type": "literal",
-          "value": "0.706"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q822"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "LB"
-        },
-        "hdi": {
-          "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
-          "type": "literal",
-          "value": "0.706"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q884"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "KR"
-        },
-        "hdi": {
-          "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
-          "type": "literal",
-          "value": "0.925"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q1005"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "GM"
-        },
-        "hdi": {
-          "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
-          "type": "literal",
-          "value": "0.5"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q1039"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "ST"
-        },
-        "hdi": {
-          "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
-          "type": "literal",
-          "value": "0.618"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q811"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "NI"
-        },
-        "hdi": {
-          "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
-          "type": "literal",
-          "value": "0.667"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q917"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "BT"
-        },
-        "hdi": {
-          "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
-          "type": "literal",
-          "value": "0.666"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q837"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "NP"
-        },
-        "hdi": {
-          "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
-          "type": "literal",
-          "value": "0.602"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q774"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "GT"
-        },
-        "hdi": {
-          "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
-          "type": "literal",
-          "value": "0.627"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q1014"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "LR"
-        },
-        "hdi": {
-          "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
-          "type": "literal",
-          "value": "0.481"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q1033"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "NG"
-        },
-        "hdi": {
-          "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
-          "type": "literal",
-          "value": "0.535"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q967"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "BI"
-        },
-        "hdi": {
-          "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
-          "type": "literal",
-          "value": "0.426"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q1020"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "MW"
-        },
-        "hdi": {
-          "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
-          "type": "literal",
-          "value": "0.512"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q1042"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "SC"
-        },
-        "hdi": {
-          "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
-          "type": "literal",
-          "value": "0.785"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q786"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "DO"
-        },
-        "hdi": {
-          "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
-          "type": "literal",
-          "value": "0.767"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q792"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "SV"
-        },
-        "hdi": {
-          "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
-          "type": "literal",
-          "value": "0.675"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q1044"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "SL"
-        },
-        "hdi": {
-          "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
-          "type": "literal",
-          "value": "0.477"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q1025"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "MR"
-        },
-        "hdi": {
-          "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
-          "type": "literal",
-          "value": "0.556"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q1029"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "MZ"
-        },
-        "hdi": {
-          "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
-          "type": "literal",
-          "value": "0.446"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q953"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "ZM"
-        },
-        "hdi": {
-          "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
-          "type": "literal",
-          "value": "0.565"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q1036"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "UG"
-        },
-        "hdi": {
-          "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
-          "type": "literal",
-          "value": "0.525"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q863"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "TJ"
-        },
-        "hdi": {
-          "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
-          "type": "literal",
-          "value": "0.685"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q842"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "OM"
-        },
-        "hdi": {
-          "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
-          "type": "literal",
-          "value": "0.816"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q757"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "VC"
-        },
-        "hdi": {
-          "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
-          "type": "literal",
-          "value": "0.751"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q846"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "QA"
-        },
-        "hdi": {
-          "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
-          "type": "literal",
-          "value": "0.855"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q763"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "KN"
-        },
-        "hdi": {
-          "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
-          "type": "literal",
-          "value": "0.777"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q924"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "TZ"
-        },
-        "hdi": {
-          "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
-          "type": "literal",
-          "value": "0.549"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q833"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "MY"
-        },
-        "hdi": {
-          "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
-          "type": "literal",
-          "value": "0.803"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q954"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "ZW"
-        },
-        "hdi": {
-          "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
-          "type": "literal",
-          "value": "0.593"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q819"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "LA"
-        },
-        "hdi": {
-          "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
-          "type": "literal",
-          "value": "0.607"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q874"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "TM"
-        },
-        "hdi": {
-          "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
-          "type": "literal",
-          "value": "0.745"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q1028"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "MA"
-        },
-        "hdi": {
-          "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
-          "type": "literal",
-          "value": "0.683"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q1049"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "SD"
-        },
-        "hdi": {
-          "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
-          "type": "literal",
-          "value": "0.508"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q781"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "AG"
-        },
-        "hdi": {
-          "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
-          "type": "literal",
-          "value": "0.851"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q790"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "HT"
-        },
-        "hdi": {
-          "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
-          "type": "literal",
-          "value": "0.535"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q1045"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "SO"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q1030"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "NA"
-        },
-        "hdi": {
-          "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
-          "type": "literal",
-          "value": "0.615"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q817"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "KW"
-        },
-        "hdi": {
-          "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
-          "type": "literal",
-          "value": "0.831"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q971"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "CG"
-        },
-        "hdi": {
-          "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
-          "type": "literal",
-          "value": "0.571"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q836"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "MM"
-        },
-        "hdi": {
-          "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
-          "type": "literal",
-          "value": "0.585"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q869"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "TH"
-        },
-        "hdi": {
-          "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
-          "type": "literal",
-          "value": "0.8"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q881"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "VN"
-        },
-        "hdi": {
-          "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
-          "type": "literal",
-          "value": "0.703"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q794"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "IR"
-        },
-        "hdi": {
-          "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
-          "type": "literal",
-          "value": "0.774"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q21203"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "AW"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q783"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "HN"
-        },
-        "hdi": {
-          "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
-          "type": "literal",
-          "value": "0.621"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q1246"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "XK"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q1041"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "SN"
-        },
-        "hdi": {
-          "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
-          "type": "literal",
-          "value": "0.511"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q1013"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "LS"
-        },
-        "hdi": {
-          "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
-          "type": "literal",
-          "value": "0.514"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q813"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "KG"
-        },
-        "hdi": {
-          "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
-          "type": "literal",
-          "value": "0.692"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q1011"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "CV"
-        },
-        "hdi": {
-          "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
-          "type": "literal",
-          "value": "0.662"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q754"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "TT"
-        },
-        "hdi": {
-          "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
-          "type": "literal",
-          "value": "0.81"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q805"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "YE"
-        },
-        "hdi": {
-          "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
-          "type": "literal",
-          "value": "0.455"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q878"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "AE"
-        },
-        "hdi": {
-          "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
-          "type": "literal",
-          "value": "0.911"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q977"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "DJ"
-        },
-        "hdi": {
-          "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
-          "type": "literal",
-          "value": "0.509"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q843"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "PK"
-        },
-        "hdi": {
-          "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
-          "type": "literal",
-          "value": "0.544"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q804"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "PA"
-        },
-        "hdi": {
-          "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
-          "type": "literal",
-          "value": "0.805"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q916"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "AO"
-        },
-        "hdi": {
-          "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
-          "type": "literal",
-          "value": "0.586"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q784"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "DM"
-        },
-        "hdi": {
-          "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
-          "type": "literal",
-          "value": "0.74"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q750"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "BO"
-        },
-        "hdi": {
-          "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
-          "type": "literal",
-          "value": "0.692"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q958"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "SS"
-        },
-        "hdi": {
-          "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
-          "type": "literal",
-          "value": "0.385"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q986"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "ER"
-        },
-        "hdi": {
-          "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
-          "type": "literal",
-          "value": "0.492"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q800"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "CR"
-        },
-        "hdi": {
-          "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
-          "type": "literal",
-          "value": "0.809"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q912"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "ML"
-        },
-        "hdi": {
-          "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
-          "type": "literal",
-          "value": "0.428"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q970"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "KM"
-        },
-        "hdi": {
-          "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
-          "type": "literal",
-          "value": "0.558"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q1007"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "GW"
-        },
-        "hdi": {
-          "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
-          "type": "literal",
-          "value": "0.483"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q963"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "BW"
-        },
-        "hdi": {
-          "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
-          "type": "literal",
-          "value": "0.693"
-        },
-        "gdpPerCapita": {
-          "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
-          "type": "literal",
-          "value": "6710.99"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q769"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "GD"
-        },
-        "hdi": {
-          "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
-          "type": "literal",
-          "value": "0.795"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q948"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "TN"
-        },
-        "hdi": {
-          "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
-          "type": "literal",
-          "value": "0.731"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q945"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "TG"
-        },
-        "hdi": {
-          "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
-          "type": "literal",
-          "value": "0.539"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q1037"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "RW"
-        },
-        "hdi": {
-          "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
-          "type": "literal",
-          "value": "0.534"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q25279"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "CW"
-        },
-        "hdi": {
-          "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
-          "type": "literal",
-          "value": "0.89"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q983"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "GQ"
-        },
-        "hdi": {
-          "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
-          "type": "literal",
-          "value": "0.596"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q974"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "CD"
-        },
-        "hdi": {
-          "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
-          "type": "literal",
-          "value": "0.479"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q778"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "BS"
-        },
-        "hdi": {
-          "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
-          "type": "literal",
-          "value": "0.812"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q865"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "TW"
-        },
-        "hdi": {
-          "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
-          "type": "literal",
-          "value": "0.911"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q929"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "CF"
-        },
-        "hdi": {
-          "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
-          "type": "literal",
-          "value": "0.404"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q826"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "MV"
-        },
-        "hdi": {
-          "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
-          "type": "literal",
-          "value": "0.747"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q962"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "BJ"
-        },
-        "hdi": {
-          "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
-          "type": "literal",
-          "value": "0.525"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q1009"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "CM"
-        },
-        "hdi": {
-          "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
-          "type": "literal",
-          "value": "0.576"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q810"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "JO"
-        },
-        "hdi": {
-          "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
-          "type": "literal",
-          "value": "0.72"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q1027"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "MU"
-        },
-        "hdi": {
-          "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
-          "type": "literal",
-          "value": "0.802"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q796"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "IQ"
-        },
-        "hdi": {
-          "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
-          "type": "literal",
-          "value": "0.686"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q1019"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "MG"
-        },
-        "hdi": {
-          "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
-          "type": "literal",
-          "value": "0.501"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q1006"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "GN"
-        },
-        "hdi": {
-          "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
-          "type": "literal",
-          "value": "0.465"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q1008"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "CI"
-        },
-        "hdi": {
-          "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
-          "type": "literal",
-          "value": "0.55"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q965"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "BF"
-        },
-        "hdi": {
-          "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
-          "type": "literal",
-          "value": "0.449"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q928"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "PH"
-        },
-        "hdi": {
-          "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
-          "type": "literal",
-          "value": "0.699"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q851"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "SA"
-        },
-        "hdi": {
-          "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
-          "type": "literal",
-          "value": "0.875"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q1032"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "NE"
-        },
-        "hdi": {
-          "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
-          "type": "literal",
-          "value": "0.4"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q766"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "JM"
-        },
-        "hdi": {
-          "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
-          "type": "literal",
-          "value": "0.709"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q854"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "LK"
-        },
-        "hdi": {
-          "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
-          "type": "literal",
-          "value": "0.782"
         }
       }
     ]

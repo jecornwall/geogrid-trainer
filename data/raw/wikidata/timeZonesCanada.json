@@ -1,0 +1,122 @@
+{
+  "head": {
+    "vars": [
+      "timezone",
+      "timezoneLabel"
+    ]
+  },
+  "results": {
+    "bindings": [
+      {
+        "timezone": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q847142"
+        },
+        "timezoneLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Pacific Time Zone"
+        }
+      },
+      {
+        "timezone": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q2085376"
+        },
+        "timezoneLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Atlantic Time Zone"
+        }
+      },
+      {
+        "timezone": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q2086913"
+        },
+        "timezoneLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Central Time Zone"
+        }
+      },
+      {
+        "timezone": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q2420151"
+        },
+        "timezoneLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Newfoundland Standard time"
+        }
+      },
+      {
+        "timezone": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q3134980"
+        },
+        "timezoneLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Mountain Time Zone"
+        }
+      },
+      {
+        "timezone": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q941023"
+        },
+        "timezoneLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Eastern Time Zone"
+        }
+      },
+      {
+        "timezone": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q2212"
+        },
+        "timezoneLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "UTC−07:00"
+        }
+      },
+      {
+        "timezone": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q5385"
+        },
+        "timezoneLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "UTC−06:00"
+        }
+      },
+      {
+        "timezone": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q5390"
+        },
+        "timezoneLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "UTC−05:00"
+        }
+      },
+      {
+        "timezone": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q5762"
+        },
+        "timezoneLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "UTC−04:00"
+        }
+      }
+    ]
+  }
+}

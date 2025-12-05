@@ -150,6 +150,27 @@ async function parseGovernmentTypes() {
   return monarchies;
 }
 
+// Manual time zone overrides for countries where Wikidata is incomplete
+// These are countries with multiple time zones where Wikidata only stores one on the country entity
+const TIME_ZONE_OVERRIDES = {
+  'AU': ['UTC+8:00', 'UTC+9:30', 'UTC+10:00', 'UTC+10:30', 'UTC+11:00'],  // Western, Central, Eastern (with DST variants)
+  'RU': ['UTC+2:00', 'UTC+3:00', 'UTC+4:00', 'UTC+5:00', 'UTC+6:00', 'UTC+7:00', 'UTC+8:00', 'UTC+9:00', 'UTC+10:00', 'UTC+11:00', 'UTC+12:00'],  // 11 time zones
+  'CA': ['UTC-8:00', 'UTC-7:00', 'UTC-6:00', 'UTC-5:00', 'UTC-4:00', 'UTC-3:30'],  // Pacific to Newfoundland
+  'CN': ['UTC+8:00'],  // China uses single time zone officially (Beijing Time)
+  'ID': ['UTC+7:00', 'UTC+8:00', 'UTC+9:00'],  // Western, Central, Eastern Indonesia
+  'MX': ['UTC-8:00', 'UTC-7:00', 'UTC-6:00', 'UTC-5:00'],  // Pacific to Eastern Mexico
+  'KZ': ['UTC+5:00', 'UTC+6:00'],  // Western and Eastern Kazakhstan
+  'MN': ['UTC+7:00', 'UTC+8:00'],  // Western and Eastern Mongolia
+  'CL': ['UTC-6:00', 'UTC-4:00', 'UTC-3:00'],  // Easter Island, Continental, Magallanes
+  'EC': ['UTC-6:00', 'UTC-5:00'],  // Galapagos and Continental
+  'ES': ['UTC+0:00', 'UTC+1:00'],  // Canary Islands and Peninsula
+  'PT': ['UTC-1:00', 'UTC+0:00'],  // Azores and Continental
+  'CD': ['UTC+1:00', 'UTC+2:00'],  // Western and Eastern DRC
+  'KI': ['UTC+12:00', 'UTC+13:00', 'UTC+14:00'],  // Gilbert, Phoenix, Line Islands
+  'FM': ['UTC+10:00', 'UTC+11:00'],  // Chuuk/Yap and Kosrae/Pohnpei
+  'PF': ['UTC-10:00', 'UTC-9:30', 'UTC-9:00'],  // Tahiti, Marquesas, Gambier
+};
+
 async function parseTimeZones() {
   const bindings = await loadWikidata('timeZones.json');
   const timezones = new Map();
@@ -165,6 +186,11 @@ async function parseTimeZones() {
       if (!timezones.has(iso2)) timezones.set(iso2, new Set());
       timezones.get(iso2).add(tzValue);
     }
+  }
+  
+  // Apply manual overrides for countries with incomplete Wikidata
+  for (const [iso2, zones] of Object.entries(TIME_ZONE_OVERRIDES)) {
+    timezones.set(iso2, new Set(zones));
   }
   
   return timezones;

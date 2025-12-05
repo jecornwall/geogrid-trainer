@@ -1,0 +1,11 @@
+{
+  "head": {
+    "vars": [
+      "timezone",
+      "timezoneLabel"
+    ]
+  },
+  "results": {
+    "bindings": []
+  }
+}

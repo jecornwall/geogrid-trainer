@@ -4303,6 +4303,17 @@
       {
         "country": {
           "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q2480041"
+        },
+        "countryLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Italy in the Middle Ages"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
           "value": "http://www.wikidata.org/entity/Q1008"
         },
         "countryLabel": {
@@ -5775,17 +5786,17 @@
         },
         "capital": {
           "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q3685392"
+          "value": "http://www.wikidata.org/entity/Q55115"
         },
         "capitalLabel": {
           "xml:lang": "en",
           "type": "literal",
-          "value": "Commune of Monaco"
+          "value": "Monaco City"
         },
         "capitalPopulation": {
           "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
           "type": "literal",
-          "value": "39050"
+          "value": "975"
         }
       },
       {

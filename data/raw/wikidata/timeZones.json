@@ -12,1906 +12,6 @@
       {
         "country": {
           "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q215"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "SI"
-        },
-        "timezone": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q6655"
-        },
-        "timezoneLabel": {
-          "xml:lang": "en",
-          "type": "literal",
-          "value": "UTC+01:00"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q16"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "CA"
-        },
-        "timezone": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q3134980"
-        },
-        "timezoneLabel": {
-          "xml:lang": "en",
-          "type": "literal",
-          "value": "Mountain Time Zone"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q43"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "TR"
-        },
-        "timezone": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q16837414"
-        },
-        "timezoneLabel": {
-          "xml:lang": "en",
-          "type": "literal",
-          "value": "Europe/Istanbul"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q16"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "CA"
-        },
-        "timezone": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q941023"
-        },
-        "timezoneLabel": {
-          "xml:lang": "en",
-          "type": "literal",
-          "value": "Eastern Time Zone"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q117"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "GH"
-        },
-        "timezone": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q6574"
-        },
-        "timezoneLabel": {
-          "xml:lang": "en",
-          "type": "literal",
-          "value": "UTC±00:00"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q212"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "UA"
-        },
-        "timezone": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q190252"
-        },
-        "timezoneLabel": {
-          "xml:lang": "en",
-          "type": "literal",
-          "value": "Eastern European Time"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q20"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "NO"
-        },
-        "timezone": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q6655"
-        },
-        "timezoneLabel": {
-          "xml:lang": "en",
-          "type": "literal",
-          "value": "UTC+01:00"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q36"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "PL"
-        },
-        "timezone": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q25989"
-        },
-        "timezoneLabel": {
-          "xml:lang": "en",
-          "type": "literal",
-          "value": "Central European Time"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q148"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "CN"
-        },
-        "timezone": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q6985"
-        },
-        "timezoneLabel": {
-          "xml:lang": "en",
-          "type": "literal",
-          "value": "UTC+08:00"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q214"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "SK"
-        },
-        "timezone": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q6655"
-        },
-        "timezoneLabel": {
-          "xml:lang": "en",
-          "type": "literal",
-          "value": "UTC+01:00"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q214"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "SK"
-        },
-        "timezone": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q6723"
-        },
-        "timezoneLabel": {
-          "xml:lang": "en",
-          "type": "literal",
-          "value": "UTC+02:00"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q30"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "US"
-        },
-        "timezone": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q7105"
-        },
-        "timezoneLabel": {
-          "xml:lang": "en",
-          "type": "literal",
-          "value": "UTC+12:00"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q28"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "HU"
-        },
-        "timezone": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q6655"
-        },
-        "timezoneLabel": {
-          "xml:lang": "en",
-          "type": "literal",
-          "value": "UTC+01:00"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q114"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "KE"
-        },
-        "timezone": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q6760"
-        },
-        "timezoneLabel": {
-          "xml:lang": "en",
-          "type": "literal",
-          "value": "UTC+03:00"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q30"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "US"
-        },
-        "timezone": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q2146"
-        },
-        "timezoneLabel": {
-          "xml:lang": "en",
-          "type": "literal",
-          "value": "UTC−12:00"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q30"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "US"
-        },
-        "timezone": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q2154"
-        },
-        "timezoneLabel": {
-          "xml:lang": "en",
-          "type": "literal",
-          "value": "UTC−11:00"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q30"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "US"
-        },
-        "timezone": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q2183"
-        },
-        "timezoneLabel": {
-          "xml:lang": "en",
-          "type": "literal",
-          "value": "UTC−09:00"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q30"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "US"
-        },
-        "timezone": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q2204"
-        },
-        "timezoneLabel": {
-          "xml:lang": "en",
-          "type": "literal",
-          "value": "UTC−08:00"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q30"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "US"
-        },
-        "timezone": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q2212"
-        },
-        "timezoneLabel": {
-          "xml:lang": "en",
-          "type": "literal",
-          "value": "UTC−07:00"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q219"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "BG"
-        },
-        "timezone": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q6723"
-        },
-        "timezoneLabel": {
-          "xml:lang": "en",
-          "type": "literal",
-          "value": "UTC+02:00"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q40"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "AT"
-        },
-        "timezone": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q6655"
-        },
-        "timezoneLabel": {
-          "xml:lang": "en",
-          "type": "literal",
-          "value": "UTC+01:00"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q115"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "ET"
-        },
-        "timezone": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q6760"
-        },
-        "timezoneLabel": {
-          "xml:lang": "en",
-          "type": "literal",
-          "value": "UTC+03:00"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q30"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "US"
-        },
-        "timezone": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q7056"
-        },
-        "timezoneLabel": {
-          "xml:lang": "en",
-          "type": "literal",
-          "value": "UTC+10:00"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q145"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "GB"
-        },
-        "timezone": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q6574"
-        },
-        "timezoneLabel": {
-          "xml:lang": "en",
-          "type": "literal",
-          "value": "UTC±00:00"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q36"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "PL"
-        },
-        "timezone": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q6655"
-        },
-        "timezoneLabel": {
-          "xml:lang": "en",
-          "type": "literal",
-          "value": "UTC+01:00"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q36"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "PL"
-        },
-        "timezone": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q6723"
-        },
-        "timezoneLabel": {
-          "xml:lang": "en",
-          "type": "literal",
-          "value": "UTC+02:00"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q17"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "JP"
-        },
-        "timezone": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q7041"
-        },
-        "timezoneLabel": {
-          "xml:lang": "en",
-          "type": "literal",
-          "value": "UTC+09:00"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q30"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "US"
-        },
-        "timezone": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q5385"
-        },
-        "timezoneLabel": {
-          "xml:lang": "en",
-          "type": "literal",
-          "value": "UTC−06:00"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q30"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "US"
-        },
-        "timezone": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q5390"
-        },
-        "timezoneLabel": {
-          "xml:lang": "en",
-          "type": "literal",
-          "value": "UTC−05:00"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q211"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "LV"
-        },
-        "timezone": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q6723"
-        },
-        "timezoneLabel": {
-          "xml:lang": "en",
-          "type": "literal",
-          "value": "UTC+02:00"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q211"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "LV"
-        },
-        "timezone": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q6760"
-        },
-        "timezoneLabel": {
-          "xml:lang": "en",
-          "type": "literal",
-          "value": "UTC+03:00"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q30"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "US"
-        },
-        "timezone": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q5762"
-        },
-        "timezoneLabel": {
-          "xml:lang": "en",
-          "type": "literal",
-          "value": "UTC−04:00"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q35"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "DK"
-        },
-        "timezone": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q6655"
-        },
-        "timezoneLabel": {
-          "xml:lang": "en",
-          "type": "literal",
-          "value": "UTC+01:00"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q183"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "DE"
-        },
-        "timezone": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q6655"
-        },
-        "timezoneLabel": {
-          "xml:lang": "en",
-          "type": "literal",
-          "value": "UTC+01:00"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q183"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "DE"
-        },
-        "timezone": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q6723"
-        },
-        "timezoneLabel": {
-          "xml:lang": "en",
-          "type": "literal",
-          "value": "UTC+02:00"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q29"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "ES"
-        },
-        "timezone": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q5412114"
-        },
-        "timezoneLabel": {
-          "xml:lang": "en",
-          "type": "literal",
-          "value": "Europe/Madrid"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q17"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "JP"
-        },
-        "timezone": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q63285941"
-        },
-        "timezoneLabel": {
-          "xml:lang": "en",
-          "type": "literal",
-          "value": "Asia/Tokyo"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q148"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "CN"
-        },
-        "timezone": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q1143153"
-        },
-        "timezoneLabel": {
-          "xml:lang": "en",
-          "type": "literal",
-          "value": "China Standard Time"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q184"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "BY"
-        },
-        "timezone": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q16886728"
-        },
-        "timezoneLabel": {
-          "xml:lang": "en",
-          "type": "literal",
-          "value": "Europe/Minsk"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q77"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "UY"
-        },
-        "timezone": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q63286104"
-        },
-        "timezoneLabel": {
-          "xml:lang": "en",
-          "type": "literal",
-          "value": "America/Montevideo"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q16"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "CA"
-        },
-        "timezone": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q2212"
-        },
-        "timezoneLabel": {
-          "xml:lang": "en",
-          "type": "literal",
-          "value": "UTC−07:00"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q218"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "RO"
-        },
-        "timezone": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q6723"
-        },
-        "timezoneLabel": {
-          "xml:lang": "en",
-          "type": "literal",
-          "value": "UTC+02:00"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q77"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "UY"
-        },
-        "timezone": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q6513"
-        },
-        "timezoneLabel": {
-          "xml:lang": "en",
-          "type": "literal",
-          "value": "UTC−03:00"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q16"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "CA"
-        },
-        "timezone": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q60738798"
-        },
-        "timezoneLabel": {
-          "xml:lang": "en",
-          "type": "literal",
-          "value": "Newfoundland Time Zone"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q33"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "FI"
-        },
-        "timezone": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q6723"
-        },
-        "timezoneLabel": {
-          "xml:lang": "en",
-          "type": "literal",
-          "value": "UTC+02:00"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q79"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "EG"
-        },
-        "timezone": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q6723"
-        },
-        "timezoneLabel": {
-          "xml:lang": "en",
-          "type": "literal",
-          "value": "UTC+02:00"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q79"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "EG"
-        },
-        "timezone": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q6760"
-        },
-        "timezoneLabel": {
-          "xml:lang": "en",
-          "type": "literal",
-          "value": "UTC+03:00"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q115"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "ET"
-        },
-        "timezone": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q1773949"
-        },
-        "timezoneLabel": {
-          "xml:lang": "en",
-          "type": "literal",
-          "value": "East Africa Time"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q16"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "CA"
-        },
-        "timezone": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q5385"
-        },
-        "timezoneLabel": {
-          "xml:lang": "en",
-          "type": "literal",
-          "value": "UTC−06:00"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q16"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "CA"
-        },
-        "timezone": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q5390"
-        },
-        "timezoneLabel": {
-          "xml:lang": "en",
-          "type": "literal",
-          "value": "UTC−05:00"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q16"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "CA"
-        },
-        "timezone": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q5762"
-        },
-        "timezoneLabel": {
-          "xml:lang": "en",
-          "type": "literal",
-          "value": "UTC−04:00"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q31"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "BE"
-        },
-        "timezone": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q6655"
-        },
-        "timezoneLabel": {
-          "xml:lang": "en",
-          "type": "literal",
-          "value": "UTC+01:00"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q117"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "GH"
-        },
-        "timezone": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q4689471"
-        },
-        "timezoneLabel": {
-          "xml:lang": "en",
-          "type": "literal",
-          "value": "Africa/Accra"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q31"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "BE"
-        },
-        "timezone": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q6723"
-        },
-        "timezoneLabel": {
-          "xml:lang": "en",
-          "type": "literal",
-          "value": "UTC+02:00"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q36"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "PL"
-        },
-        "timezone": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q207020"
-        },
-        "timezoneLabel": {
-          "xml:lang": "en",
-          "type": "literal",
-          "value": "Central European Summer Time"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q189"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "IS"
-        },
-        "timezone": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q6574"
-        },
-        "timezoneLabel": {
-          "xml:lang": "en",
-          "type": "literal",
-          "value": "UTC±00:00"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q148"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "CN"
-        },
-        "timezone": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q4806303"
-        },
-        "timezoneLabel": {
-          "xml:lang": "en",
-          "type": "literal",
-          "value": "Asia/Shanghai"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q148"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "CN"
-        },
-        "timezone": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q4806313"
-        },
-        "timezoneLabel": {
-          "xml:lang": "en",
-          "type": "literal",
-          "value": "Asia/Urumqi"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q43"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "TR"
-        },
-        "timezone": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q6760"
-        },
-        "timezoneLabel": {
-          "xml:lang": "en",
-          "type": "literal",
-          "value": "UTC+03:00"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q43"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "TR"
-        },
-        "timezone": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q109521557"
-        },
-        "timezoneLabel": {
-          "xml:lang": "en",
-          "type": "literal",
-          "value": "Asia/Istanbul"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q217"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "MD"
-        },
-        "timezone": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q6723"
-        },
-        "timezoneLabel": {
-          "xml:lang": "en",
-          "type": "literal",
-          "value": "UTC+02:00"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q155"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "BR"
-        },
-        "timezone": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q5390"
-        },
-        "timezoneLabel": {
-          "xml:lang": "en",
-          "type": "literal",
-          "value": "UTC−05:00"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q114"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "KE"
-        },
-        "timezone": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q4689515"
-        },
-        "timezoneLabel": {
-          "xml:lang": "en",
-          "type": "literal",
-          "value": "Africa/Nairobi"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q155"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "BR"
-        },
-        "timezone": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q5762"
-        },
-        "timezoneLabel": {
-          "xml:lang": "en",
-          "type": "literal",
-          "value": "UTC−04:00"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q155"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "BR"
-        },
-        "timezone": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q6513"
-        },
-        "timezoneLabel": {
-          "xml:lang": "en",
-          "type": "literal",
-          "value": "UTC−03:00"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q155"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "BR"
-        },
-        "timezone": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q6536"
-        },
-        "timezoneLabel": {
-          "xml:lang": "en",
-          "type": "literal",
-          "value": "UTC−02:00"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q30"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "US"
-        },
-        "timezone": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q2085376"
-        },
-        "timezoneLabel": {
-          "xml:lang": "en",
-          "type": "literal",
-          "value": "Atlantic Time Zone"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q30"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "US"
-        },
-        "timezone": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q2086913"
-        },
-        "timezoneLabel": {
-          "xml:lang": "en",
-          "type": "literal",
-          "value": "Central Time Zone"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q115"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "ET"
-        },
-        "timezone": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q4689474"
-        },
-        "timezoneLabel": {
-          "xml:lang": "en",
-          "type": "literal",
-          "value": "Africa/Asmara"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q38"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "IT"
-        },
-        "timezone": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q5412122"
-        },
-        "timezoneLabel": {
-          "xml:lang": "en",
-          "type": "literal",
-          "value": "Europe/Rome"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q212"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "UA"
-        },
-        "timezone": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q63286014"
-        },
-        "timezoneLabel": {
-          "xml:lang": "en",
-          "type": "literal",
-          "value": "Europe/Kyiv"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q30"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "US"
-        },
-        "timezone": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q3134980"
-        },
-        "timezoneLabel": {
-          "xml:lang": "en",
-          "type": "literal",
-          "value": "Mountain Time Zone"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q30"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "US"
-        },
-        "timezone": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q3238805"
-        },
-        "timezoneLabel": {
-          "xml:lang": "en",
-          "type": "literal",
-          "value": "Alaska Time Zone"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q36"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "PL"
-        },
-        "timezone": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q5412129"
-        },
-        "timezoneLabel": {
-          "xml:lang": "en",
-          "type": "literal",
-          "value": "Europe/Warsaw"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q30"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "US"
-        },
-        "timezone": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q3446496"
-        },
-        "timezoneLabel": {
-          "xml:lang": "en",
-          "type": "literal",
-          "value": "Chamorro Time Zone"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q142"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "FR"
-        },
-        "timezone": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q6655"
-        },
-        "timezoneLabel": {
-          "xml:lang": "en",
-          "type": "literal",
-          "value": "UTC+01:00"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q39"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "CH"
-        },
-        "timezone": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q6655"
-        },
-        "timezoneLabel": {
-          "xml:lang": "en",
-          "type": "literal",
-          "value": "UTC+01:00"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q212"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "UA"
-        },
-        "timezone": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q6723"
-        },
-        "timezoneLabel": {
-          "xml:lang": "en",
-          "type": "literal",
-          "value": "UTC+02:00"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q212"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "UA"
-        },
-        "timezone": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q6760"
-        },
-        "timezoneLabel": {
-          "xml:lang": "en",
-          "type": "literal",
-          "value": "UTC+03:00"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q32"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "LU"
-        },
-        "timezone": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q6655"
-        },
-        "timezoneLabel": {
-          "xml:lang": "en",
-          "type": "literal",
-          "value": "UTC+01:00"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q41"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "GR"
-        },
-        "timezone": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q6723"
-        },
-        "timezoneLabel": {
-          "xml:lang": "en",
-          "type": "literal",
-          "value": "UTC+02:00"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q30"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "US"
-        },
-        "timezone": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q4816926"
-        },
-        "timezoneLabel": {
-          "xml:lang": "en",
-          "type": "literal",
-          "value": "Samoa Time Zone"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q159"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "RU"
-        },
-        "timezone": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q6723"
-        },
-        "timezoneLabel": {
-          "xml:lang": "en",
-          "type": "literal",
-          "value": "UTC+02:00"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q29"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "ES"
-        },
-        "timezone": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q6574"
-        },
-        "timezoneLabel": {
-          "xml:lang": "en",
-          "type": "literal",
-          "value": "UTC±00:00"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q29"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "ES"
-        },
-        "timezone": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q6655"
-        },
-        "timezoneLabel": {
-          "xml:lang": "en",
-          "type": "literal",
-          "value": "UTC+01:00"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q29"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "ES"
-        },
-        "timezone": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q6723"
-        },
-        "timezoneLabel": {
-          "xml:lang": "en",
-          "type": "literal",
-          "value": "UTC+02:00"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q27"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "IE"
-        },
-        "timezone": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q6574"
-        },
-        "timezoneLabel": {
-          "xml:lang": "en",
-          "type": "literal",
-          "value": "UTC±00:00"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q16"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "CA"
-        },
-        "timezone": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q847142"
-        },
-        "timezoneLabel": {
-          "xml:lang": "en",
-          "type": "literal",
-          "value": "Pacific Time Zone"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q96"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "MX"
-        },
-        "timezone": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q2086913"
-        },
-        "timezoneLabel": {
-          "xml:lang": "en",
-          "type": "literal",
-          "value": "Central Time Zone"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q45"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "PT"
-        },
-        "timezone": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q6574"
-        },
-        "timezoneLabel": {
-          "xml:lang": "en",
-          "type": "literal",
-          "value": "UTC±00:00"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q17"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "JP"
-        },
-        "timezone": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q909085"
-        },
-        "timezoneLabel": {
-          "xml:lang": "en",
-          "type": "literal",
-          "value": "Japan Standard Time"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q34"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "SE"
-        },
-        "timezone": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q6655"
-        },
-        "timezoneLabel": {
-          "xml:lang": "en",
-          "type": "literal",
-          "value": "UTC+01:00"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q37"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "LT"
-        },
-        "timezone": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q6723"
-        },
-        "timezoneLabel": {
-          "xml:lang": "en",
-          "type": "literal",
-          "value": "UTC+02:00"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q37"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "LT"
-        },
-        "timezone": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q6760"
-        },
-        "timezoneLabel": {
-          "xml:lang": "en",
-          "type": "literal",
-          "value": "UTC+03:00"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q16"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "CA"
-        },
-        "timezone": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q2085376"
-        },
-        "timezoneLabel": {
-          "xml:lang": "en",
-          "type": "literal",
-          "value": "Atlantic Time Zone"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q16"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "CA"
-        },
-        "timezone": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q2086913"
-        },
-        "timezoneLabel": {
-          "xml:lang": "en",
-          "type": "literal",
-          "value": "Central Time Zone"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q191"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "EE"
-        },
-        "timezone": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q6723"
-        },
-        "timezoneLabel": {
-          "xml:lang": "en",
-          "type": "literal",
-          "value": "UTC+02:00"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q184"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "BY"
-        },
-        "timezone": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q6760"
-        },
-        "timezoneLabel": {
-          "xml:lang": "en",
-          "type": "literal",
-          "value": "UTC+03:00"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q213"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "CZ"
-        },
-        "timezone": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q6655"
-        },
-        "timezoneLabel": {
-          "xml:lang": "en",
-          "type": "literal",
-          "value": "UTC+01:00"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q79"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "EG"
-        },
-        "timezone": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q4689484"
-        },
-        "timezoneLabel": {
-          "xml:lang": "en",
-          "type": "literal",
-          "value": "Africa/Cairo"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
           "value": "http://www.wikidata.org/entity/Q865"
         },
         "iso2": {
@@ -3807,6 +1907,1906 @@
           "xml:lang": "en",
           "type": "literal",
           "value": "UTC−04:00"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q215"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "SI"
+        },
+        "timezone": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q6655"
+        },
+        "timezoneLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "UTC+01:00"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q16"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "CA"
+        },
+        "timezone": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q3134980"
+        },
+        "timezoneLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Mountain Time Zone"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q43"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "TR"
+        },
+        "timezone": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q16837414"
+        },
+        "timezoneLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Europe/Istanbul"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q16"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "CA"
+        },
+        "timezone": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q941023"
+        },
+        "timezoneLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Eastern Time Zone"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q117"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "GH"
+        },
+        "timezone": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q6574"
+        },
+        "timezoneLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "UTC±00:00"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q212"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "UA"
+        },
+        "timezone": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q190252"
+        },
+        "timezoneLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Eastern European Time"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q20"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "NO"
+        },
+        "timezone": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q6655"
+        },
+        "timezoneLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "UTC+01:00"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q36"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "PL"
+        },
+        "timezone": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q25989"
+        },
+        "timezoneLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Central European Time"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q148"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "CN"
+        },
+        "timezone": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q6985"
+        },
+        "timezoneLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "UTC+08:00"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q214"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "SK"
+        },
+        "timezone": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q6655"
+        },
+        "timezoneLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "UTC+01:00"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q214"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "SK"
+        },
+        "timezone": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q6723"
+        },
+        "timezoneLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "UTC+02:00"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q30"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "US"
+        },
+        "timezone": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q7105"
+        },
+        "timezoneLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "UTC+12:00"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q28"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "HU"
+        },
+        "timezone": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q6655"
+        },
+        "timezoneLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "UTC+01:00"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q114"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "KE"
+        },
+        "timezone": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q6760"
+        },
+        "timezoneLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "UTC+03:00"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q30"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "US"
+        },
+        "timezone": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q2146"
+        },
+        "timezoneLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "UTC−12:00"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q30"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "US"
+        },
+        "timezone": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q2154"
+        },
+        "timezoneLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "UTC−11:00"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q30"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "US"
+        },
+        "timezone": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q2183"
+        },
+        "timezoneLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "UTC−09:00"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q30"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "US"
+        },
+        "timezone": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q2204"
+        },
+        "timezoneLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "UTC−08:00"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q30"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "US"
+        },
+        "timezone": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q2212"
+        },
+        "timezoneLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "UTC−07:00"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q219"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "BG"
+        },
+        "timezone": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q6723"
+        },
+        "timezoneLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "UTC+02:00"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q40"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "AT"
+        },
+        "timezone": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q6655"
+        },
+        "timezoneLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "UTC+01:00"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q115"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "ET"
+        },
+        "timezone": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q6760"
+        },
+        "timezoneLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "UTC+03:00"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q30"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "US"
+        },
+        "timezone": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q7056"
+        },
+        "timezoneLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "UTC+10:00"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q145"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "GB"
+        },
+        "timezone": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q6574"
+        },
+        "timezoneLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "UTC±00:00"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q36"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "PL"
+        },
+        "timezone": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q6655"
+        },
+        "timezoneLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "UTC+01:00"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q36"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "PL"
+        },
+        "timezone": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q6723"
+        },
+        "timezoneLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "UTC+02:00"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q17"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "JP"
+        },
+        "timezone": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q7041"
+        },
+        "timezoneLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "UTC+09:00"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q30"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "US"
+        },
+        "timezone": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q5385"
+        },
+        "timezoneLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "UTC−06:00"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q30"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "US"
+        },
+        "timezone": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q5390"
+        },
+        "timezoneLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "UTC−05:00"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q211"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "LV"
+        },
+        "timezone": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q6723"
+        },
+        "timezoneLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "UTC+02:00"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q211"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "LV"
+        },
+        "timezone": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q6760"
+        },
+        "timezoneLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "UTC+03:00"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q30"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "US"
+        },
+        "timezone": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q5762"
+        },
+        "timezoneLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "UTC−04:00"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q35"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "DK"
+        },
+        "timezone": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q6655"
+        },
+        "timezoneLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "UTC+01:00"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q183"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "DE"
+        },
+        "timezone": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q6655"
+        },
+        "timezoneLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "UTC+01:00"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q183"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "DE"
+        },
+        "timezone": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q6723"
+        },
+        "timezoneLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "UTC+02:00"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q29"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "ES"
+        },
+        "timezone": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q5412114"
+        },
+        "timezoneLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Europe/Madrid"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q17"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "JP"
+        },
+        "timezone": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q63285941"
+        },
+        "timezoneLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Asia/Tokyo"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q148"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "CN"
+        },
+        "timezone": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q1143153"
+        },
+        "timezoneLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "China Standard Time"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q184"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "BY"
+        },
+        "timezone": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q16886728"
+        },
+        "timezoneLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Europe/Minsk"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q77"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "UY"
+        },
+        "timezone": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q63286104"
+        },
+        "timezoneLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "America/Montevideo"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q16"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "CA"
+        },
+        "timezone": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q2212"
+        },
+        "timezoneLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "UTC−07:00"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q218"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "RO"
+        },
+        "timezone": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q6723"
+        },
+        "timezoneLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "UTC+02:00"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q77"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "UY"
+        },
+        "timezone": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q6513"
+        },
+        "timezoneLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "UTC−03:00"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q16"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "CA"
+        },
+        "timezone": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q60738798"
+        },
+        "timezoneLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Newfoundland Time Zone"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q33"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "FI"
+        },
+        "timezone": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q6723"
+        },
+        "timezoneLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "UTC+02:00"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q79"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "EG"
+        },
+        "timezone": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q6723"
+        },
+        "timezoneLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "UTC+02:00"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q79"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "EG"
+        },
+        "timezone": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q6760"
+        },
+        "timezoneLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "UTC+03:00"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q115"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "ET"
+        },
+        "timezone": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q1773949"
+        },
+        "timezoneLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "East Africa Time"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q16"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "CA"
+        },
+        "timezone": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q5385"
+        },
+        "timezoneLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "UTC−06:00"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q16"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "CA"
+        },
+        "timezone": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q5390"
+        },
+        "timezoneLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "UTC−05:00"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q16"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "CA"
+        },
+        "timezone": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q5762"
+        },
+        "timezoneLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "UTC−04:00"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q31"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "BE"
+        },
+        "timezone": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q6655"
+        },
+        "timezoneLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "UTC+01:00"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q117"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "GH"
+        },
+        "timezone": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q4689471"
+        },
+        "timezoneLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Africa/Accra"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q31"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "BE"
+        },
+        "timezone": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q6723"
+        },
+        "timezoneLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "UTC+02:00"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q36"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "PL"
+        },
+        "timezone": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q207020"
+        },
+        "timezoneLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Central European Summer Time"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q189"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "IS"
+        },
+        "timezone": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q6574"
+        },
+        "timezoneLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "UTC±00:00"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q148"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "CN"
+        },
+        "timezone": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q4806303"
+        },
+        "timezoneLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Asia/Shanghai"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q148"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "CN"
+        },
+        "timezone": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q4806313"
+        },
+        "timezoneLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Asia/Urumqi"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q43"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "TR"
+        },
+        "timezone": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q6760"
+        },
+        "timezoneLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "UTC+03:00"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q43"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "TR"
+        },
+        "timezone": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q109521557"
+        },
+        "timezoneLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Asia/Istanbul"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q217"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "MD"
+        },
+        "timezone": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q6723"
+        },
+        "timezoneLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "UTC+02:00"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q155"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "BR"
+        },
+        "timezone": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q5390"
+        },
+        "timezoneLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "UTC−05:00"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q114"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "KE"
+        },
+        "timezone": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q4689515"
+        },
+        "timezoneLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Africa/Nairobi"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q155"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "BR"
+        },
+        "timezone": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q5762"
+        },
+        "timezoneLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "UTC−04:00"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q155"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "BR"
+        },
+        "timezone": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q6513"
+        },
+        "timezoneLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "UTC−03:00"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q155"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "BR"
+        },
+        "timezone": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q6536"
+        },
+        "timezoneLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "UTC−02:00"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q30"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "US"
+        },
+        "timezone": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q2085376"
+        },
+        "timezoneLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Atlantic Time Zone"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q30"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "US"
+        },
+        "timezone": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q2086913"
+        },
+        "timezoneLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Central Time Zone"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q115"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "ET"
+        },
+        "timezone": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q4689474"
+        },
+        "timezoneLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Africa/Asmara"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q38"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "IT"
+        },
+        "timezone": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q5412122"
+        },
+        "timezoneLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Europe/Rome"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q212"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "UA"
+        },
+        "timezone": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q63286014"
+        },
+        "timezoneLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Europe/Kyiv"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q30"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "US"
+        },
+        "timezone": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q3134980"
+        },
+        "timezoneLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Mountain Time Zone"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q30"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "US"
+        },
+        "timezone": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q3238805"
+        },
+        "timezoneLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Alaska Time Zone"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q36"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "PL"
+        },
+        "timezone": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q5412129"
+        },
+        "timezoneLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Europe/Warsaw"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q30"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "US"
+        },
+        "timezone": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q3446496"
+        },
+        "timezoneLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Chamorro Time Zone"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q142"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "FR"
+        },
+        "timezone": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q6655"
+        },
+        "timezoneLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "UTC+01:00"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q39"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "CH"
+        },
+        "timezone": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q6655"
+        },
+        "timezoneLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "UTC+01:00"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q212"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "UA"
+        },
+        "timezone": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q6723"
+        },
+        "timezoneLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "UTC+02:00"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q212"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "UA"
+        },
+        "timezone": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q6760"
+        },
+        "timezoneLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "UTC+03:00"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q32"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "LU"
+        },
+        "timezone": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q6655"
+        },
+        "timezoneLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "UTC+01:00"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q41"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "GR"
+        },
+        "timezone": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q6723"
+        },
+        "timezoneLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "UTC+02:00"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q30"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "US"
+        },
+        "timezone": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q4816926"
+        },
+        "timezoneLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Samoa Time Zone"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q159"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "RU"
+        },
+        "timezone": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q6723"
+        },
+        "timezoneLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "UTC+02:00"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q29"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "ES"
+        },
+        "timezone": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q6574"
+        },
+        "timezoneLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "UTC±00:00"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q29"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "ES"
+        },
+        "timezone": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q6655"
+        },
+        "timezoneLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "UTC+01:00"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q29"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "ES"
+        },
+        "timezone": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q6723"
+        },
+        "timezoneLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "UTC+02:00"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q27"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "IE"
+        },
+        "timezone": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q6574"
+        },
+        "timezoneLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "UTC±00:00"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q16"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "CA"
+        },
+        "timezone": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q847142"
+        },
+        "timezoneLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Pacific Time Zone"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q96"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "MX"
+        },
+        "timezone": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q2086913"
+        },
+        "timezoneLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Central Time Zone"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q45"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "PT"
+        },
+        "timezone": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q6574"
+        },
+        "timezoneLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "UTC±00:00"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q17"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "JP"
+        },
+        "timezone": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q909085"
+        },
+        "timezoneLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Japan Standard Time"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q34"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "SE"
+        },
+        "timezone": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q6655"
+        },
+        "timezoneLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "UTC+01:00"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q37"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "LT"
+        },
+        "timezone": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q6723"
+        },
+        "timezoneLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "UTC+02:00"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q37"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "LT"
+        },
+        "timezone": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q6760"
+        },
+        "timezoneLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "UTC+03:00"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q16"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "CA"
+        },
+        "timezone": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q2085376"
+        },
+        "timezoneLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Atlantic Time Zone"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q16"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "CA"
+        },
+        "timezone": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q2086913"
+        },
+        "timezoneLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Central Time Zone"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q191"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "EE"
+        },
+        "timezone": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q6723"
+        },
+        "timezoneLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "UTC+02:00"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q184"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "BY"
+        },
+        "timezone": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q6760"
+        },
+        "timezoneLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "UTC+03:00"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q213"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "CZ"
+        },
+        "timezone": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q6655"
+        },
+        "timezoneLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "UTC+01:00"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q79"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "EG"
+        },
+        "timezone": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q4689484"
+        },
+        "timezoneLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Africa/Cairo"
         }
       },
       {
@@ -5712,1032 +5712,6 @@
       {
         "country": {
           "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q1042"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "SC"
-        },
-        "timezone": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q63285927"
-        },
-        "timezoneLabel": {
-          "xml:lang": "en",
-          "type": "literal",
-          "value": "Indian/Mahe"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q1041"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "SN"
-        },
-        "timezone": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q6574"
-        },
-        "timezoneLabel": {
-          "xml:lang": "en",
-          "type": "literal",
-          "value": "UTC±00:00"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q717"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "VE"
-        },
-        "timezone": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q5762"
-        },
-        "timezoneLabel": {
-          "xml:lang": "en",
-          "type": "literal",
-          "value": "UTC−04:00"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q26273"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "SX"
-        },
-        "timezone": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q28145653"
-        },
-        "timezoneLabel": {
-          "xml:lang": "en",
-          "type": "literal",
-          "value": "America/St_Kitts"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q1050"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "SZ"
-        },
-        "timezone": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q4689512"
-        },
-        "timezoneLabel": {
-          "xml:lang": "en",
-          "type": "literal",
-          "value": "Africa/Mbabane"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q1042"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "SC"
-        },
-        "timezone": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q6779"
-        },
-        "timezoneLabel": {
-          "xml:lang": "en",
-          "type": "literal",
-          "value": "UTC+04:00"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q29999"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "NL"
-        },
-        "timezone": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q25989"
-        },
-        "timezoneLabel": {
-          "xml:lang": "en",
-          "type": "literal",
-          "value": "Central European Time"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q1050"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "SZ"
-        },
-        "timezone": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q770321"
-        },
-        "timezoneLabel": {
-          "xml:lang": "en",
-          "type": "literal",
-          "value": "South Africa Standard Time"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q21203"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "AW"
-        },
-        "timezone": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q28145364"
-        },
-        "timezoneLabel": {
-          "xml:lang": "en",
-          "type": "literal",
-          "value": "America/Aruba"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q711"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "MN"
-        },
-        "timezone": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q4806283"
-        },
-        "timezoneLabel": {
-          "xml:lang": "en",
-          "type": "literal",
-          "value": "Asia/Hovd"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q711"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "MN"
-        },
-        "timezone": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q4806280"
-        },
-        "timezoneLabel": {
-          "xml:lang": "en",
-          "type": "literal",
-          "value": "Asia/Choibalsan"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q711"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "MN"
-        },
-        "timezone": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q4806310"
-        },
-        "timezoneLabel": {
-          "xml:lang": "en",
-          "type": "literal",
-          "value": "Asia/Ulaanbaatar"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q710"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "KI"
-        },
-        "timezone": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q7122270"
-        },
-        "timezoneLabel": {
-          "xml:lang": "en",
-          "type": "literal",
-          "value": "Pacific/Kiritimati"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q712"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "FJ"
-        },
-        "timezone": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q7105"
-        },
-        "timezoneLabel": {
-          "xml:lang": "en",
-          "type": "literal",
-          "value": "UTC+12:00"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q1045"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "SO"
-        },
-        "timezone": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q6760"
-        },
-        "timezoneLabel": {
-          "xml:lang": "en",
-          "type": "literal",
-          "value": "UTC+03:00"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q34020"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "NU"
-        },
-        "timezone": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q2154"
-        },
-        "timezoneLabel": {
-          "xml:lang": "en",
-          "type": "literal",
-          "value": "UTC−11:00"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q219060"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "PS"
-        },
-        "timezone": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q63285940"
-        },
-        "timezoneLabel": {
-          "xml:lang": "en",
-          "type": "literal",
-          "value": "Asia/Jerusalem"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q712"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "FJ"
-        },
-        "timezone": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q63285964"
-        },
-        "timezoneLabel": {
-          "xml:lang": "en",
-          "type": "literal",
-          "value": "Pacific/Fiji"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q1246"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "XK"
-        },
-        "timezone": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q6655"
-        },
-        "timezoneLabel": {
-          "xml:lang": "en",
-          "type": "literal",
-          "value": "UTC+01:00"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q219060"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "PS"
-        },
-        "timezone": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q6723"
-        },
-        "timezoneLabel": {
-          "xml:lang": "en",
-          "type": "literal",
-          "value": "UTC+02:00"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q219060"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "PS"
-        },
-        "timezone": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q6760"
-        },
-        "timezoneLabel": {
-          "xml:lang": "en",
-          "type": "literal",
-          "value": "UTC+03:00"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q1044"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "SL"
-        },
-        "timezone": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q4689493"
-        },
-        "timezoneLabel": {
-          "xml:lang": "en",
-          "type": "literal",
-          "value": "Africa/Freetown"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q34020"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "NU"
-        },
-        "timezone": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q63285980"
-        },
-        "timezoneLabel": {
-          "xml:lang": "en",
-          "type": "literal",
-          "value": "Pacific/Niue"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q1041"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "SN"
-        },
-        "timezone": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q4689488"
-        },
-        "timezoneLabel": {
-          "xml:lang": "en",
-          "type": "literal",
-          "value": "Africa/Dakar"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q21203"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "AW"
-        },
-        "timezone": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q5762"
-        },
-        "timezoneLabel": {
-          "xml:lang": "en",
-          "type": "literal",
-          "value": "UTC−04:00"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q29999"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "NL"
-        },
-        "timezone": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q2085376"
-        },
-        "timezoneLabel": {
-          "xml:lang": "en",
-          "type": "literal",
-          "value": "Atlantic Time Zone"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q1050"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "SZ"
-        },
-        "timezone": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q6723"
-        },
-        "timezoneLabel": {
-          "xml:lang": "en",
-          "type": "literal",
-          "value": "UTC+02:00"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q710"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "KI"
-        },
-        "timezone": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q63285968"
-        },
-        "timezoneLabel": {
-          "xml:lang": "en",
-          "type": "literal",
-          "value": "Pacific/Tarawa"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q26988"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "CK"
-        },
-        "timezone": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q2163"
-        },
-        "timezoneLabel": {
-          "xml:lang": "en",
-          "type": "literal",
-          "value": "UTC−10:00"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q730"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "SR"
-        },
-        "timezone": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q63286102"
-        },
-        "timezoneLabel": {
-          "xml:lang": "en",
-          "type": "literal",
-          "value": "America/Paramaribo"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q730"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "SR"
-        },
-        "timezone": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q6513"
-        },
-        "timezoneLabel": {
-          "xml:lang": "en",
-          "type": "literal",
-          "value": "UTC−03:00"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q1049"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "SD"
-        },
-        "timezone": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q6723"
-        },
-        "timezoneLabel": {
-          "xml:lang": "en",
-          "type": "literal",
-          "value": "UTC+02:00"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q710"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "KI"
-        },
-        "timezone": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q109531307"
-        },
-        "timezoneLabel": {
-          "xml:lang": "en",
-          "type": "literal",
-          "value": "Pacific/Kanton"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q26988"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "CK"
-        },
-        "timezone": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q63285979"
-        },
-        "timezoneLabel": {
-          "xml:lang": "en",
-          "type": "literal",
-          "value": "Pacific/Rarotonga"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q711"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "MN"
-        },
-        "timezone": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q6985"
-        },
-        "timezoneLabel": {
-          "xml:lang": "en",
-          "type": "literal",
-          "value": "UTC+08:00"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q733"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "PY"
-        },
-        "timezone": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q63286098"
-        },
-        "timezoneLabel": {
-          "xml:lang": "en",
-          "type": "literal",
-          "value": "America/Asuncion"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q29999"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "NL"
-        },
-        "timezone": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q5412088"
-        },
-        "timezoneLabel": {
-          "xml:lang": "en",
-          "type": "literal",
-          "value": "Europe/Amsterdam"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q733"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "PY"
-        },
-        "timezone": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q5762"
-        },
-        "timezoneLabel": {
-          "xml:lang": "en",
-          "type": "literal",
-          "value": "UTC−04:00"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q733"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "PY"
-        },
-        "timezone": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q6513"
-        },
-        "timezoneLabel": {
-          "xml:lang": "en",
-          "type": "literal",
-          "value": "UTC−03:00"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q734"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "GY"
-        },
-        "timezone": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q63225363"
-        },
-        "timezoneLabel": {
-          "xml:lang": "en",
-          "type": "literal",
-          "value": "America/Guyana"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q734"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "GY"
-        },
-        "timezone": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q5762"
-        },
-        "timezoneLabel": {
-          "xml:lang": "en",
-          "type": "literal",
-          "value": "UTC−04:00"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q736"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "EC"
-        },
-        "timezone": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q63286093"
-        },
-        "timezoneLabel": {
-          "xml:lang": "en",
-          "type": "literal",
-          "value": "America/Guayaquil"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q736"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "EC"
-        },
-        "timezone": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q63286095"
-        },
-        "timezoneLabel": {
-          "xml:lang": "en",
-          "type": "literal",
-          "value": "Pacific/Galapagos"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q736"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "EC"
-        },
-        "timezone": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q5385"
-        },
-        "timezoneLabel": {
-          "xml:lang": "en",
-          "type": "literal",
-          "value": "UTC−06:00"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q736"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "EC"
-        },
-        "timezone": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q5390"
-        },
-        "timezoneLabel": {
-          "xml:lang": "en",
-          "type": "literal",
-          "value": "UTC−05:00"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q717"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "VE"
-        },
-        "timezone": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q44380220"
-        },
-        "timezoneLabel": {
-          "xml:lang": "en",
-          "type": "literal",
-          "value": "America/Caracas"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q739"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "CO"
-        },
-        "timezone": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q63286092"
-        },
-        "timezoneLabel": {
-          "xml:lang": "en",
-          "type": "literal",
-          "value": "America/Bogota"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q26273"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "SX"
-        },
-        "timezone": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q2085376"
-        },
-        "timezoneLabel": {
-          "xml:lang": "en",
-          "type": "literal",
-          "value": "Atlantic Time Zone"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q25279"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "CW"
-        },
-        "timezone": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q2085376"
-        },
-        "timezoneLabel": {
-          "xml:lang": "en",
-          "type": "literal",
-          "value": "Atlantic Time Zone"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q739"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "CO"
-        },
-        "timezone": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q5390"
-        },
-        "timezoneLabel": {
-          "xml:lang": "en",
-          "type": "literal",
-          "value": "UTC−05:00"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q1045"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "SO"
-        },
-        "timezone": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q4689513"
-        },
-        "timezoneLabel": {
-          "xml:lang": "en",
-          "type": "literal",
-          "value": "Africa/Mogadishu"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q21203"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "AW"
-        },
-        "timezone": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q2085376"
-        },
-        "timezoneLabel": {
-          "xml:lang": "en",
-          "type": "literal",
-          "value": "Atlantic Time Zone"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q25279"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "CW"
-        },
-        "timezone": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q4742647"
-        },
-        "timezoneLabel": {
-          "xml:lang": "en",
-          "type": "literal",
-          "value": "America/Curacao"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q1044"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "SL"
-        },
-        "timezone": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q6574"
-        },
-        "timezoneLabel": {
-          "xml:lang": "en",
-          "type": "literal",
-          "value": "UTC±00:00"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
           "value": "http://www.wikidata.org/entity/Q672"
         },
         "iso2": {
@@ -8633,6 +7607,1032 @@
           "xml:lang": "en",
           "type": "literal",
           "value": "UTC−04:00"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q1042"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "SC"
+        },
+        "timezone": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q63285927"
+        },
+        "timezoneLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Indian/Mahe"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q1041"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "SN"
+        },
+        "timezone": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q6574"
+        },
+        "timezoneLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "UTC±00:00"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q717"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "VE"
+        },
+        "timezone": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q5762"
+        },
+        "timezoneLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "UTC−04:00"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q26273"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "SX"
+        },
+        "timezone": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q28145653"
+        },
+        "timezoneLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "America/St_Kitts"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q1050"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "SZ"
+        },
+        "timezone": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q4689512"
+        },
+        "timezoneLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Africa/Mbabane"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q1042"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "SC"
+        },
+        "timezone": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q6779"
+        },
+        "timezoneLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "UTC+04:00"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q29999"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "NL"
+        },
+        "timezone": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q25989"
+        },
+        "timezoneLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Central European Time"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q1050"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "SZ"
+        },
+        "timezone": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q770321"
+        },
+        "timezoneLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "South Africa Standard Time"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q21203"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "AW"
+        },
+        "timezone": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q28145364"
+        },
+        "timezoneLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "America/Aruba"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q711"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "MN"
+        },
+        "timezone": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q4806283"
+        },
+        "timezoneLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Asia/Hovd"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q711"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "MN"
+        },
+        "timezone": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q4806280"
+        },
+        "timezoneLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Asia/Choibalsan"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q711"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "MN"
+        },
+        "timezone": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q4806310"
+        },
+        "timezoneLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Asia/Ulaanbaatar"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q710"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "KI"
+        },
+        "timezone": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q7122270"
+        },
+        "timezoneLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Pacific/Kiritimati"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q712"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "FJ"
+        },
+        "timezone": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q7105"
+        },
+        "timezoneLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "UTC+12:00"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q1045"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "SO"
+        },
+        "timezone": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q6760"
+        },
+        "timezoneLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "UTC+03:00"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q34020"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "NU"
+        },
+        "timezone": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q2154"
+        },
+        "timezoneLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "UTC−11:00"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q219060"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "PS"
+        },
+        "timezone": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q63285940"
+        },
+        "timezoneLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Asia/Jerusalem"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q712"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "FJ"
+        },
+        "timezone": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q63285964"
+        },
+        "timezoneLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Pacific/Fiji"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q1246"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "XK"
+        },
+        "timezone": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q6655"
+        },
+        "timezoneLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "UTC+01:00"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q219060"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "PS"
+        },
+        "timezone": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q6723"
+        },
+        "timezoneLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "UTC+02:00"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q219060"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "PS"
+        },
+        "timezone": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q6760"
+        },
+        "timezoneLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "UTC+03:00"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q1044"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "SL"
+        },
+        "timezone": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q4689493"
+        },
+        "timezoneLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Africa/Freetown"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q34020"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "NU"
+        },
+        "timezone": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q63285980"
+        },
+        "timezoneLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Pacific/Niue"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q1041"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "SN"
+        },
+        "timezone": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q4689488"
+        },
+        "timezoneLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Africa/Dakar"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q21203"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "AW"
+        },
+        "timezone": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q5762"
+        },
+        "timezoneLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "UTC−04:00"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q29999"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "NL"
+        },
+        "timezone": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q2085376"
+        },
+        "timezoneLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Atlantic Time Zone"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q1050"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "SZ"
+        },
+        "timezone": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q6723"
+        },
+        "timezoneLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "UTC+02:00"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q710"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "KI"
+        },
+        "timezone": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q63285968"
+        },
+        "timezoneLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Pacific/Tarawa"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q26988"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "CK"
+        },
+        "timezone": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q2163"
+        },
+        "timezoneLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "UTC−10:00"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q730"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "SR"
+        },
+        "timezone": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q63286102"
+        },
+        "timezoneLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "America/Paramaribo"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q730"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "SR"
+        },
+        "timezone": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q6513"
+        },
+        "timezoneLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "UTC−03:00"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q1049"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "SD"
+        },
+        "timezone": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q6723"
+        },
+        "timezoneLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "UTC+02:00"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q710"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "KI"
+        },
+        "timezone": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q109531307"
+        },
+        "timezoneLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Pacific/Kanton"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q26988"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "CK"
+        },
+        "timezone": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q63285979"
+        },
+        "timezoneLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Pacific/Rarotonga"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q711"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "MN"
+        },
+        "timezone": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q6985"
+        },
+        "timezoneLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "UTC+08:00"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q733"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "PY"
+        },
+        "timezone": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q63286098"
+        },
+        "timezoneLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "America/Asuncion"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q29999"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "NL"
+        },
+        "timezone": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q5412088"
+        },
+        "timezoneLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Europe/Amsterdam"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q733"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "PY"
+        },
+        "timezone": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q5762"
+        },
+        "timezoneLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "UTC−04:00"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q733"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "PY"
+        },
+        "timezone": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q6513"
+        },
+        "timezoneLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "UTC−03:00"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q734"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "GY"
+        },
+        "timezone": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q63225363"
+        },
+        "timezoneLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "America/Guyana"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q734"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "GY"
+        },
+        "timezone": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q5762"
+        },
+        "timezoneLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "UTC−04:00"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q736"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "EC"
+        },
+        "timezone": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q63286093"
+        },
+        "timezoneLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "America/Guayaquil"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q736"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "EC"
+        },
+        "timezone": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q63286095"
+        },
+        "timezoneLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Pacific/Galapagos"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q736"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "EC"
+        },
+        "timezone": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q5385"
+        },
+        "timezoneLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "UTC−06:00"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q736"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "EC"
+        },
+        "timezone": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q5390"
+        },
+        "timezoneLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "UTC−05:00"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q717"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "VE"
+        },
+        "timezone": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q44380220"
+        },
+        "timezoneLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "America/Caracas"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q739"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "CO"
+        },
+        "timezone": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q63286092"
+        },
+        "timezoneLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "America/Bogota"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q26273"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "SX"
+        },
+        "timezone": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q2085376"
+        },
+        "timezoneLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Atlantic Time Zone"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q25279"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "CW"
+        },
+        "timezone": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q2085376"
+        },
+        "timezoneLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Atlantic Time Zone"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q739"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "CO"
+        },
+        "timezone": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q5390"
+        },
+        "timezoneLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "UTC−05:00"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q1045"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "SO"
+        },
+        "timezone": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q4689513"
+        },
+        "timezoneLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Africa/Mogadishu"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q21203"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "AW"
+        },
+        "timezone": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q2085376"
+        },
+        "timezoneLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Atlantic Time Zone"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q25279"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "CW"
+        },
+        "timezone": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q4742647"
+        },
+        "timezoneLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "America/Curacao"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q1044"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "SL"
+        },
+        "timezone": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q6574"
+        },
+        "timezoneLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "UTC±00:00"
         }
       }
     ]

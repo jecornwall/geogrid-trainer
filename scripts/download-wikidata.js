@@ -148,7 +148,7 @@ WHERE {
 }
 `,
 
-  // Time zones
+  // Time zones directly on countries
   timeZones: `
 SELECT DISTINCT ?country ?iso2 ?timezone ?timezoneLabel
 WHERE {
