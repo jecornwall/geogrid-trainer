@@ -14,7 +14,8 @@ import {
 } from './filters';
 import { renderCountryPopup } from './popup';
 
-const FILTER_QUERY_KEY = 'filters';
+const FILTER_MODE_SUFFIX = '.mode';
+const RANGE_SEPARATOR = '..';
 
 // GeoJSON URL for world countries (Natural Earth via GitHub)
 const GEOJSON_URL =
@@ -37,11 +38,6 @@ let geoJsonLayer: L.GeoJSON | null = null;
 
 // Currently selected country layer
 let selectedLayer: L.Layer | null = null;
-
-type QueryFilterValue =
-  | { type: 'boolean'; value: boolean }
-  | { type: 'range'; min: number; max: number }
-  | { type: 'multiselect'; selected: string[]; mode?: 'inclusive' | 'exclusive' };
 
 // Filter state
 let filterState: FilterState = getInitialFilterState();
@@ -95,70 +91,88 @@ function getInitialFilterState(): FilterState {
  */
 function loadFilterStateFromQuery(): FilterState | null {
   const url = new URL(window.location.href);
-  const raw = url.searchParams.get(FILTER_QUERY_KEY);
-  if (!raw) return null;
+  const params = url.searchParams;
+  const nextState = createDefaultFilterState();
+  const keys = new Set<string>();
+  params.forEach((_value, key) => keys.add(key));
+  if (keys.size === 0) return null;
 
-  try {
-    const parsed = JSON.parse(raw) as Record<string, QueryFilterValue>;
-    if (!parsed || typeof parsed !== 'object') return null;
-    const nextState = createDefaultFilterState();
-    applyQueryFilters(nextState, parsed);
-    return nextState;
-  } catch (error) {
-    console.warn('Failed to parse filter query params:', error);
-    return null;
-  }
+  const hasFilters = applyQueryFilters(nextState, params, keys);
+  return hasFilters ? nextState : null;
 }
 
 /**
  * Apply query filters to a filter state.
  */
-function applyQueryFilters(state: FilterState, queryFilters: Record<string, QueryFilterValue>): void {
-  for (const [filterId, queryValue] of Object.entries(queryFilters)) {
-    const target = getFilterValueFromState(state, filterId);
+function applyQueryFilters(state: FilterState, params: URLSearchParams, keys: Set<string>): boolean {
+  let hasFilters = false;
+
+  for (const key of keys) {
+    if (key.endsWith(FILTER_MODE_SUFFIX)) {
+      const filterId = key.slice(0, -FILTER_MODE_SUFFIX.length);
+      const target = getFilterValueFromState(state, filterId) as MultiSelectFilter | undefined;
+      if (!target || target.type !== 'multiselect') continue;
+      const mode = params.get(key);
+      if (mode === 'inclusive' || mode === 'exclusive') {
+        target.mode = mode;
+      }
+      continue;
+    }
+
+    const target = getFilterValueFromState(state, key);
     if (!target || typeof target !== 'object' || !('type' in target)) continue;
 
     target.enabled = true;
+    hasFilters = true;
+
     switch (target.type) {
-      case 'boolean':
-        if ('value' in queryValue && typeof queryValue.value === 'boolean') {
-          target.value = queryValue.value;
+      case 'boolean': {
+        const raw = params.get(key);
+        if (raw !== null) {
+          const value = parseBooleanParam(raw);
+          if (value !== null) {
+            target.value = value;
+          }
         }
         break;
-      case 'range':
-        if ('min' in queryValue && typeof queryValue.min === 'number') {
-          target.min = Math.max(target.minBound, Math.min(queryValue.min, target.maxBound));
-        }
-        if ('max' in queryValue && typeof queryValue.max === 'number') {
-          target.max = Math.max(target.minBound, Math.min(queryValue.max, target.maxBound));
-        }
-        break;
-      case 'multiselect':
-        if ('selected' in queryValue && Array.isArray(queryValue.selected)) {
-          target.selected = queryValue.selected.filter((option: string) =>
-            target.options.includes(option)
-          );
-        }
-        if ('mode' in queryValue && (queryValue.mode === 'inclusive' || queryValue.mode === 'exclusive')) {
-          target.mode = queryValue.mode;
+      }
+      case 'range': {
+        const raw = params.get(key);
+        if (raw !== null) {
+          const { min, max } = parseRangeParam(raw);
+          if (min !== null) {
+            target.min = Math.max(target.minBound, Math.min(min, target.maxBound));
+          }
+          if (max !== null) {
+            target.max = Math.max(target.minBound, Math.min(max, target.maxBound));
+          }
         }
         break;
+      }
+      case 'multiselect': {
+        const values = params.getAll(key);
+        const selected = values.length > 1 ? values : splitListParam(values[0]);
+        target.selected = selected.filter((option) => target.options.includes(option));
+        break;
+      }
     }
   }
+
+  return hasFilters;
 }
 
 /**
  * Serialize active filters into query parameters.
  */
 function updateFilterQueryParams(state: FilterState): void {
-  const activeFilters = serializeActiveFilters(state);
   const url = new URL(window.location.href);
+  const params = url.searchParams;
 
-  if (Object.keys(activeFilters).length === 0) {
-    url.searchParams.delete(FILTER_QUERY_KEY);
-  } else {
-    url.searchParams.set(FILTER_QUERY_KEY, JSON.stringify(activeFilters));
+  for (const key of getFilterParamKeys(state)) {
+    params.delete(key);
   }
+
+  appendActiveFiltersToParams(params, state);
 
   window.history.replaceState({}, '', url);
 }
@@ -166,39 +180,76 @@ function updateFilterQueryParams(state: FilterState): void {
 /**
  * Collect active filters in a query-friendly structure.
  */
-function serializeActiveFilters(state: FilterState): Record<string, QueryFilterValue> {
-  const result: Record<string, QueryFilterValue> = {};
-  const addFilter = (id: string, filter: any) => {
+function appendActiveFiltersToParams(params: URLSearchParams, state: FilterState): void {
+  forEachFilter(state, (id, filter) => {
     if (!filter.enabled) return;
     switch (filter.type) {
       case 'boolean':
-        result[id] = { type: 'boolean', value: filter.value };
+        params.set(id, String(filter.value));
         break;
       case 'range':
-        result[id] = { type: 'range', min: filter.min, max: filter.max };
+        params.set(id, `${filter.min}${RANGE_SEPARATOR}${filter.max}`);
         break;
       case 'multiselect':
-        result[id] = {
-          type: 'multiselect',
-          selected: filter.selected,
-          ...(filter.mode ? { mode: filter.mode } : {}),
-        };
+        params.set(id, filter.selected.join(','));
+        if (filter.mode) {
+          params.set(`${id}${FILTER_MODE_SUFFIX}`, filter.mode);
+        }
         break;
     }
-  };
+  });
+}
 
+function forEachFilter(
+  state: FilterState,
+  callback: (id: string, filter: BooleanFilter | RangeFilter | MultiSelectFilter) => void
+): void {
   for (const [categoryKey, categoryValue] of Object.entries(state)) {
     if (!categoryValue || typeof categoryValue !== 'object') continue;
     if ('type' in categoryValue) {
-      addFilter(categoryKey, categoryValue);
+      callback(categoryKey, categoryValue);
     } else {
       for (const [filterKey, filterValue] of Object.entries(categoryValue)) {
-        addFilter(`${categoryKey}.${filterKey}`, filterValue);
+        callback(`${categoryKey}.${filterKey}`, filterValue as BooleanFilter | RangeFilter | MultiSelectFilter);
       }
     }
   }
+}
 
-  return result;
+function getFilterParamKeys(state: FilterState): string[] {
+  const keys: string[] = [];
+  forEachFilter(state, (id, filter) => {
+    keys.push(id);
+    if (filter.type === 'multiselect' && filter.mode !== undefined) {
+      keys.push(`${id}${FILTER_MODE_SUFFIX}`);
+    }
+  });
+  return keys;
+}
+
+function parseBooleanParam(value: string): boolean | null {
+  const normalized = value.trim().toLowerCase();
+  if (normalized === 'true' || normalized === '1') return true;
+  if (normalized === 'false' || normalized === '0') return false;
+  return null;
+}
+
+function parseRangeParam(value: string): { min: number | null; max: number | null } {
+  const trimmed = value.trim();
+  if (!trimmed) return { min: null, max: null };
+  const separator = trimmed.includes(RANGE_SEPARATOR) ? RANGE_SEPARATOR : ',';
+  const [rawMin, rawMax] = trimmed.split(separator);
+  const min = rawMin !== undefined && rawMin !== '' ? Number(rawMin) : null;
+  const max = rawMax !== undefined && rawMax !== '' ? Number(rawMax) : null;
+  return {
+    min: Number.isFinite(min) ? min : null,
+    max: Number.isFinite(max) ? max : null,
+  };
+}
+
+function splitListParam(value: string | null): string[] {
+  if (!value) return [];
+  return value.split(',').map((item) => item.trim()).filter(Boolean);
 }
 
 /**
