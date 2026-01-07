@@ -228,11 +228,11 @@ WHERE {
 
   // Nuclear weapons states
   nuclearWeapons: `
-SELECT DISTINCT ?country ?iso2
+SELECT DISTINCT ?country ?iso2 ?inventory
 WHERE {
   ?country wdt:P31 wd:Q6256 .
   ?country wdt:P297 ?iso2 .
-  ?country wdt:P31 wd:Q4994 .  # Nuclear weapons state
+  ?country wdt:P3999 ?inventory .  # Nuclear weapons inventory
 }
 `,
 
@@ -291,7 +291,18 @@ WHERE {
   ?country wdt:P297 ?iso2 .
   ?olympics wdt:P585 ?date .
   BIND(YEAR(?date) AS ?year)
-  OPTIONAL { ?olympics wdt:P276 ?city . }
+  
+  {
+    ?olympics (wdt:P131)+ ?city .
+  }
+  UNION
+  {
+    ?olympics wdt:P276 ?venue .
+    ?venue (wdt:P131)+ ?city .
+  }
+  
+  # Restrict to human settlements (cities, towns, etc.)
+  ?city wdt:P31/wdt:P279* wd:Q486972 .
   
   SERVICE wikibase:label { bd:serviceParam wikibase:language "en" . }
 }
@@ -306,7 +317,18 @@ WHERE {
   ?country wdt:P297 ?iso2 .
   ?olympics wdt:P585 ?date .
   BIND(YEAR(?date) AS ?year)
-  OPTIONAL { ?olympics wdt:P276 ?city . }
+  
+  {
+    ?olympics (wdt:P131)+ ?city .
+  }
+  UNION
+  {
+    ?olympics wdt:P276 ?venue .
+    ?venue (wdt:P131)+ ?city .
+  }
+  
+  # Restrict to human settlements (cities, towns, etc.)
+  ?city wdt:P31/wdt:P279* wd:Q486972 .
   
   SERVICE wikibase:label { bd:serviceParam wikibase:language "en" . }
 }
@@ -392,4 +414,3 @@ async function main() {
 }
 
 main().catch(console.error);
-

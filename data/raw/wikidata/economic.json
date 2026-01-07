@@ -72,6 +72,21 @@
       {
         "country": {
           "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q25279"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "CW"
+        },
+        "hdi": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+          "type": "literal",
+          "value": "0.89"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
           "value": "http://www.wikidata.org/entity/Q801"
         },
         "iso2": {
@@ -1226,22 +1241,7 @@
         "hdi": {
           "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
           "type": "literal",
-          "value": "0.534"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q25279"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "CW"
-        },
-        "hdi": {
-          "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
-          "type": "literal",
-          "value": "0.89"
+          "value": "0.578"
         }
       },
       {

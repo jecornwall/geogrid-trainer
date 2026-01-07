@@ -97,7 +97,7 @@
         "capitalPopulation": {
           "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
           "type": "literal",
-          "value": "418495"
+          "value": "389323"
         }
       },
       {
@@ -1103,44 +1103,12 @@
       {
         "country": {
           "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q155"
+          "value": "http://www.wikidata.org/entity/Q137386301"
         },
         "countryLabel": {
           "xml:lang": "en",
           "type": "literal",
-          "value": "Brazil"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "BR"
-        },
-        "iso3": {
-          "type": "literal",
-          "value": "BRA"
-        },
-        "area": {
-          "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
-          "type": "literal",
-          "value": "8515767"
-        },
-        "population": {
-          "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
-          "type": "literal",
-          "value": "203062512"
-        },
-        "capital": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q2844"
-        },
-        "capitalLabel": {
-          "xml:lang": "en",
-          "type": "literal",
-          "value": "Brasília"
-        },
-        "capitalPopulation": {
-          "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
-          "type": "literal",
-          "value": "2996899"
+          "value": "British Colony of Jamaica"
         }
       },
       {
@@ -2278,7 +2246,7 @@
         "area": {
           "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
           "type": "literal",
-          "value": "78866"
+          "value": "78871"
         },
         "population": {
           "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
@@ -2369,7 +2337,7 @@
         "population": {
           "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
           "type": "literal",
-          "value": "5827463"
+          "value": "5822863"
         },
         "capital": {
           "type": "uri",
@@ -2674,17 +2642,17 @@
         },
         "capital": {
           "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q3818"
+          "value": "http://www.wikidata.org/entity/Q1140136"
         },
         "capitalLabel": {
           "xml:lang": "en",
           "type": "literal",
-          "value": "Malabo"
+          "value": "Ciudad de la Paz"
         },
         "capitalPopulation": {
           "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
           "type": "literal",
-          "value": "297000"
+          "value": "2000"
         }
       },
       {
@@ -3378,6 +3346,17 @@
       {
         "country": {
           "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q17993985"
+        },
+        "countryLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Guarded Domains of Iran"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
           "value": "http://www.wikidata.org/entity/Q774"
         },
         "countryLabel": {
@@ -4025,7 +4004,7 @@
         "population": {
           "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
           "type": "literal",
-          "value": "1326093247"
+          "value": "1477519529"
         },
         "capital": {
           "type": "uri",
@@ -4596,7 +4575,7 @@
         "capitalPopulation": {
           "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
           "type": "literal",
-          "value": "208243"
+          "value": "209094"
         }
       },
       {
@@ -4764,7 +4743,7 @@
         "capitalPopulation": {
           "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
           "type": "literal",
-          "value": "198897"
+          "value": "227466"
         }
       },
       {
@@ -5954,49 +5933,6 @@
         "population": {
           "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
           "type": "literal",
-          "value": "37076584"
-        },
-        "capital": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q3551"
-        },
-        "capitalLabel": {
-          "xml:lang": "en",
-          "type": "literal",
-          "value": "Rabat"
-        },
-        "capitalPopulation": {
-          "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
-          "type": "literal",
-          "value": "572717"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q1028"
-        },
-        "countryLabel": {
-          "xml:lang": "en",
-          "type": "literal",
-          "value": "Morocco"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "MA"
-        },
-        "iso3": {
-          "type": "literal",
-          "value": "MAR"
-        },
-        "area": {
-          "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
-          "type": "literal",
-          "value": "446550"
-        },
-        "population": {
-          "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
-          "type": "literal",
           "value": "36828330"
         },
         "capital": {
@@ -6563,6 +6499,41 @@
           "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
           "type": "literal",
           "value": "422540"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q23681"
+        },
+        "countryLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Northern Cyprus"
+        },
+        "area": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+          "type": "literal",
+          "value": "3355"
+        },
+        "population": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+          "type": "literal",
+          "value": "476214"
+        },
+        "capital": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q2762100"
+        },
+        "capitalLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "North Nicosia"
+        },
+        "capitalPopulation": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+          "type": "literal",
+          "value": "61378"
         }
       },
       {
@@ -8183,7 +8154,7 @@
         "population": {
           "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
           "type": "literal",
-          "value": "4171898"
+          "value": "6500000"
         },
         "capital": {
           "type": "uri",
@@ -8455,7 +8426,7 @@
         "capitalPopulation": {
           "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
           "type": "literal",
-          "value": "3416771"
+          "value": "3506730"
         }
       },
       {
@@ -10233,7 +10204,7 @@
         "population": {
           "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
           "type": "literal",
-          "value": "28515829"
+          "value": "31250306"
         },
         "capital": {
           "type": "uri",
@@ -10290,7 +10261,222 @@
         "capitalPopulation": {
           "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
           "type": "literal",
+          "value": "7587800"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q881"
+        },
+        "countryLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Vietnam"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "VN"
+        },
+        "iso3": {
+          "type": "literal",
+          "value": "VNM"
+        },
+        "area": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+          "type": "literal",
+          "value": "331690"
+        },
+        "population": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+          "type": "literal",
+          "value": "96208984"
+        },
+        "capital": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q1858"
+        },
+        "capitalLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Hanoi"
+        },
+        "capitalPopulation": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+          "type": "literal",
+          "value": "7785000"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q881"
+        },
+        "countryLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Vietnam"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "VN"
+        },
+        "iso3": {
+          "type": "literal",
+          "value": "VNM"
+        },
+        "area": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+          "type": "literal",
+          "value": "331690"
+        },
+        "population": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+          "type": "literal",
+          "value": "96208984"
+        },
+        "capital": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q1858"
+        },
+        "capitalLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Hanoi"
+        },
+        "capitalPopulation": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+          "type": "literal",
+          "value": "8246600"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q881"
+        },
+        "countryLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Vietnam"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "VN"
+        },
+        "iso3": {
+          "type": "literal",
+          "value": "VNM"
+        },
+        "area": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+          "type": "literal",
+          "value": "331690"
+        },
+        "population": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+          "type": "literal",
+          "value": "96208984"
+        },
+        "capital": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q1858"
+        },
+        "capitalLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Hanoi"
+        },
+        "capitalPopulation": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+          "type": "literal",
+          "value": "8330800"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q881"
+        },
+        "countryLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Vietnam"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "VN"
+        },
+        "iso3": {
+          "type": "literal",
+          "value": "VNM"
+        },
+        "area": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+          "type": "literal",
+          "value": "331690"
+        },
+        "population": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+          "type": "literal",
+          "value": "96208984"
+        },
+        "capital": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q1858"
+        },
+        "capitalLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Hanoi"
+        },
+        "capitalPopulation": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+          "type": "literal",
           "value": "8435650"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q881"
+        },
+        "countryLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Vietnam"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "VN"
+        },
+        "iso3": {
+          "type": "literal",
+          "value": "VNM"
+        },
+        "area": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+          "type": "literal",
+          "value": "331690"
+        },
+        "population": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+          "type": "literal",
+          "value": "96208984"
+        },
+        "capital": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q1858"
+        },
+        "capitalLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Hanoi"
+        },
+        "capitalPopulation": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+          "type": "literal",
+          "value": "8717600"
         }
       },
       {

@@ -16,25 +16,6 @@
         },
         "country": {
           "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q1025"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "MR"
-        },
-        "languageLabel": {
-          "xml:lang": "en",
-          "type": "literal",
-          "value": "Arabic"
-        }
-      },
-      {
-        "language": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q13955"
-        },
-        "country": {
-          "type": "uri",
           "value": "http://www.wikidata.org/entity/Q817"
         },
         "iso2": {
@@ -1627,25 +1608,6 @@
       {
         "language": {
           "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q150"
-        },
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q237"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "VA"
-        },
-        "languageLabel": {
-          "xml:lang": "en",
-          "type": "literal",
-          "value": "French"
-        }
-      },
-      {
-        "language": {
-          "type": "uri",
           "value": "http://www.wikidata.org/entity/Q1860"
         },
         "country": {
@@ -2743,6 +2705,25 @@
           "xml:lang": "en",
           "type": "literal",
           "value": "French"
+        }
+      },
+      {
+        "language": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q13955"
+        },
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q1025"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "MR"
+        },
+        "languageLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Arabic"
         }
       }
     ]

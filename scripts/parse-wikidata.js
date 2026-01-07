@@ -258,6 +258,16 @@ async function parseDependencies() {
   return dependencies;
 }
 
+async function parseNuclearStates() {
+  const bindings = await loadWikidata('nuclearWeapons.json');
+  const nuclear = new Set();
+  for (const b of bindings) {
+    const iso2 = getValue(b, 'iso2');
+    if (iso2) nuclear.add(iso2);
+  }
+  return nuclear;
+}
+
 async function parseLargestCities() {
   const bindings = await loadWikidata('largestCities.json');
   const cities = new Map();
@@ -306,18 +316,13 @@ async function parseOlympicHosts() {
       const iso2 = getValue(b, 'iso2');
       const year = parseInt(getValue(b, 'year')) || 0;
       const cityLabel = getValue(b, 'cityLabel') || '';
-      if (!iso2 || !year) continue;
-      
-      // Skip venue names, only actual cities
-      const lowerCity = cityLabel.toLowerCase();
-      if (lowerCity.includes('stadium') || lowerCity.includes('arena') || 
-          lowerCity.includes('rink') || lowerCity.includes('center') ||
-          lowerCity.includes('hall') || lowerCity.includes('oval')) continue;
+      const city = cityLabel.trim();
+      if (!iso2 || !year || !city) continue;
       
       if (!hosts.has(iso2)) hosts.set(iso2, []);
       const existing = hosts.get(iso2);
       if (!existing.find(e => e.year === year && e.type === type)) {
-        existing.push({ year, type, city: cityLabel });
+        existing.push({ year, type, city });
       }
     }
   };
@@ -439,6 +444,7 @@ async function main() {
   const landlocked = await parseLandlocked();
   const formerUSSR = await parseFormerUSSR();
   const dependencies = await parseDependencies();
+  const nuclearStates = await parseNuclearStates();
   const largestCities = await parseLargestCities();
   const flagImages = await parseFlagImages();
   const olympicHosts = await parseOlympicHosts();
@@ -454,6 +460,7 @@ async function main() {
   console.log(`  landlocked: ${landlocked.size}`);
   console.log(`  formerUSSR: ${formerUSSR.size}`);
   console.log(`  dependencies: ${dependencies.size}`);
+  console.log(`  nuclear states: ${nuclearStates.size}`);
   console.log(`  largestCities: ${largestCities.size}`);
   console.log(`  flagImages: ${flagImages.size}`);
   console.log(`  olympicHosts: ${olympicHosts.size}`);
@@ -526,7 +533,7 @@ async function main() {
         was_ussr: formerUSSR.has(iso2),
         is_monarchy: monarchies.has(iso2),
         is_dependency: dependencies.has(iso2),
-        has_nuclear_weapons: existing.political?.has_nuclear_weapons ?? false,
+        has_nuclear_weapons: nuclearStates.has(iso2) || existing.political?.has_nuclear_weapons || false,
         official_languages: langs ? Array.from(langs) : (existing.political?.official_languages || []),
         same_sex_marriage_legal: existing.political?.same_sex_marriage_legal ?? false,
         same_sex_activities_illegal: existing.political?.same_sex_activities_illegal ?? false,
@@ -588,4 +595,3 @@ async function main() {
 }
 
 main().catch(console.error);
-
