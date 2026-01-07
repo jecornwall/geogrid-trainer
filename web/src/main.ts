@@ -778,17 +778,81 @@ function renderMultiSelectFilter(id: string, label: string, filter: MultiSelectF
 /**
  * Render all filters based on display config
  */
+type FilterCategoryGroup = ReturnType<typeof getFiltersByCategory>;
+
 function renderFilters(): void {
   if (!displayConfig) return;
-  
+
   const container = document.getElementById('filter-categories');
   if (!container) return;
-  
+
   const categories = getFiltersByCategory(filterState, displayConfig);
-  
-  const html = categories.map(({ category, categoryLabel, filters }) => {
-    const isCollapsed = collapsedCategories.has(category);
-    const filtersHtml = filters.map(({ id, label, filter }) => {
+  const mobileLayout = isMobileLayout();
+  container.classList.toggle('is-mobile-layout', mobileLayout);
+
+  container.innerHTML = mobileLayout
+    ? renderMobileFilterCategories(categories)
+    : renderDesktopFilterCategories(categories);
+
+  if (mobileLayout) {
+    addHorizontalWheelScroll(container.querySelector('.mobile-filter-cards'));
+  }
+
+  attachFilterEventListeners();
+}
+
+function renderDesktopFilterCategories(categories: FilterCategoryGroup): string {
+  return categories
+    .map(({ category, categoryLabel, filters }) => {
+      const isCollapsed = collapsedCategories.has(category);
+      const filtersHtml = renderFilterGroup(filters);
+      return `
+        <div class="filter-category ${isCollapsed ? 'collapsed' : ''}" data-category="${category}">
+          <button class="filter-category-header" type="button">
+            <span class="filter-category-title">${categoryLabel}</span>
+            <span class="filter-category-toggle">▼</span>
+          </button>
+          <div class="filter-category-content">
+            ${filtersHtml}
+          </div>
+        </div>
+      `;
+    })
+    .join('');
+}
+
+function renderMobileFilterCategories(categories: FilterCategoryGroup): string {
+  const cards = categories
+    .map(({ category, categoryLabel, filters }) => {
+      const isCollapsed = collapsedCategories.has(category);
+      const filtersHtml = renderFilterGroup(filters);
+      const filterCount = filters.length;
+      return `
+        <section class="filter-category mobile-filter-card ${isCollapsed ? 'collapsed' : ''}" data-category="${category}">
+          <button class="filter-category-header mobile-filter-card-header" type="button">
+            <div class="mobile-filter-card-heading">
+              <p class="mobile-filter-card-eyebrow">Filter Bucket</p>
+              <p class="mobile-filter-card-title">${categoryLabel}</p>
+              <p class="mobile-filter-card-subtitle">${filterCount} option${filterCount === 1 ? '' : 's'}</p>
+            </div>
+            <span class="filter-category-toggle" aria-hidden="true">▼</span>
+          </button>
+          <div class="filter-category-content mobile-filter-card-body">
+            ${filtersHtml}
+          </div>
+        </section>
+      `;
+    })
+    .join('');
+
+  return `<div class="mobile-filter-cards">${cards}</div>`;
+}
+
+function renderFilterGroup(
+  filters: FilterCategoryGroup[number]['filters']
+): string {
+  return filters
+    .map(({ id, label, filter }) => {
       switch (filter.type) {
         case 'boolean':
           return renderBooleanFilter(id, label, filter);
@@ -799,25 +863,8 @@ function renderFilters(): void {
         default:
           return '';
       }
-    }).join('');
-    
-    return `
-      <div class="filter-category ${isCollapsed ? 'collapsed' : ''}" data-category="${category}">
-        <button class="filter-category-header" type="button">
-          <span class="filter-category-title">${categoryLabel}</span>
-          <span class="filter-category-toggle">▼</span>
-        </button>
-        <div class="filter-category-content">
-          ${filtersHtml}
-        </div>
-      </div>
-    `;
-  }).join('');
-  
-  container.innerHTML = html;
-  
-  // Attach event listeners
-  attachFilterEventListeners();
+    })
+    .join('');
 }
 
 /**
@@ -1334,6 +1381,7 @@ function setupMobilePanels(): void {
   const handleChange = (matches: boolean): void => {
     applyLayoutState(matches);
     renderDetailsContentForCurrentLayout();
+    renderFilters();
   };
 
   if (typeof mobileLayoutQuery.addEventListener === 'function') {
