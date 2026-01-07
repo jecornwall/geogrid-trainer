@@ -4,6 +4,16 @@ import displayConfig from './data/display-config.json';
 
 // Cast the imported JSON to our type
 const config = displayConfig as unknown as DisplayConfig;
+const compactNumberFormatter = new Intl.NumberFormat('en-US', {
+  notation: 'compact',
+  maximumFractionDigits: 1,
+});
+const integerFormatter = new Intl.NumberFormat('en-US');
+const currencyFormatter = new Intl.NumberFormat('en-US', {
+  style: 'currency',
+  currency: 'USD',
+  maximumFractionDigits: 0,
+});
 
 /**
  * Format a number with thousand separators
@@ -36,6 +46,11 @@ function formatPopulation(pop: number): string {
     return `${(pop / 1_000).toFixed(1)}K`;
   }
   return formatNumber(pop);
+}
+
+function formatCompactNumber(value: number | null | undefined): string {
+  if (value === null || value === undefined) return '—';
+  return compactNumberFormatter.format(value);
 }
 
 /**
@@ -309,5 +324,150 @@ export function renderCountryPopup(country: Country): string {
     ${bordersSection}
     ${factsSection}
     ${sportsSection}
+  `;
+}
+
+export interface MobileDetailCard {
+  id: string;
+  label: string;
+  value: string;
+  meta?: string;
+}
+
+function buildMobileDetailCards(country: Country): MobileDetailCard[] {
+  const primaryCapital = country.population.capitals[0];
+  const languages = country.political.official_languages;
+  const majorCity = country.population.most_populated_city;
+  const timeZones = country.political.time_zones;
+  const gdp = country.economic.gdp_per_capita;
+  const hdi = country.economic.hdi;
+  const area = country.area_km2;
+  const drivesLeft = country.facts.drives_on_left;
+  const coastline = country.geography.coastline_km;
+
+  const cards: Array<MobileDetailCard & { enabled: boolean }> = [
+    {
+      id: 'capital',
+      label: 'Capital',
+      value: primaryCapital?.name || 'Unknown',
+      meta: primaryCapital?.population
+        ? `${formatCompactNumber(primaryCapital.population)} residents`
+        : 'Primary city',
+      enabled: config.population.capitals,
+    },
+    {
+      id: 'population',
+      label: 'Population',
+      value: formatCompactNumber(country.population.count),
+      meta:
+        country.population.density_per_km2 !== null && country.population.density_per_km2 !== undefined
+          ? `${integerFormatter.format(Math.round(country.population.density_per_km2))} per km²`
+          : 'Density unavailable',
+      enabled: config.population.count,
+    },
+    {
+      id: 'region',
+      label: 'Region',
+      value: country.geography.continents.join(' · ') || '—',
+      meta: config.geography.is_island_nation
+        ? country.geography.is_island_nation
+          ? 'Island nation'
+          : 'Mainland access'
+        : undefined,
+      enabled: config.geography.continents,
+    },
+    {
+      id: 'languages',
+      label: 'Languages',
+      value: languages.slice(0, 2).join(' · ') || 'Multiple',
+      meta: languages.length > 0 ? `${languages.length} official` : 'No official data',
+      enabled: config.political.official_languages,
+    },
+    {
+      id: 'largest-city',
+      label: 'Largest City',
+      value: majorCity || primaryCapital?.name || '—',
+      meta: majorCity && primaryCapital && majorCity !== primaryCapital.name ? 'Different from capital' : '',
+      enabled: config.population.most_populated_city || config.population.capitals,
+    },
+    {
+      id: 'area',
+      label: 'Area',
+      value: area ? `${formatCompactNumber(area)} km²` : 'Unknown',
+      meta:
+        config.geography.coastline_km && coastline
+          ? `${formatCompactNumber(coastline)} km coastline`
+          : config.geography.coastline_km
+            ? 'Land coverage'
+            : undefined,
+      enabled: config.area_km2,
+    },
+    {
+      id: 'gdp',
+      label: 'GDP per Capita',
+      value: gdp ? currencyFormatter.format(gdp) : 'Unknown',
+      meta: config.economic.hdi && hdi ? `HDI ${hdi.toFixed(2)}` : config.economic.hdi ? 'Human development' : undefined,
+      enabled: config.economic.gdp_per_capita,
+    },
+    {
+      id: 'time-zones',
+      label: 'Time Zones',
+      value: timeZones.length ? String(timeZones.length) : 'Single zone',
+      meta: timeZones.length ? timeZones.slice(0, 2).join(', ') : 'Standard time',
+      enabled: config.political.time_zones,
+    },
+    {
+      id: 'travel',
+      label: 'Travel',
+      value: drivesLeft ? 'Left side' : 'Right side',
+      meta: drivesLeft ? 'Keep left' : 'Keep right',
+      enabled: config.facts.drives_on_left,
+    },
+  ];
+
+  return cards.filter((card) => card.enabled);
+}
+
+export function renderMobileDetails(country: Country | null, fallbackName?: string): string {
+  if (!country) {
+    return `
+      <div class="mobile-details-cards">
+        <article class="mobile-details-card">
+          <p class="mobile-details-label">${fallbackName || 'Country Details'}</p>
+          <p class="mobile-details-value">No data</p>
+          <p class="mobile-details-meta">We don't have full metrics for this selection yet.</p>
+        </article>
+      </div>
+    `;
+  }
+
+  const cards = buildMobileDetailCards(country);
+
+  if (cards.length === 0) {
+    return `
+      <div class="mobile-details-cards">
+        <article class="mobile-details-card">
+          <p class="mobile-details-label">${country.name}</p>
+          <p class="mobile-details-value">No details available</p>
+          <p class="mobile-details-meta">Enable more fields in display-config.json to show data.</p>
+        </article>
+      </div>
+    `;
+  }
+
+  return `
+    <div class="mobile-details-cards">
+      ${cards
+        .map(
+          (card) => `
+        <article class="mobile-details-card">
+          <p class="mobile-details-label">${card.label}</p>
+          <p class="mobile-details-value">${card.value}</p>
+          ${card.meta ? `<p class="mobile-details-meta">${card.meta}</p>` : ''}
+        </article>
+      `
+        )
+        .join('')}
+    </div>
   `;
 }

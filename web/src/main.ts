@@ -12,7 +12,7 @@ import {
   formatFilterValue,
   clearAllFilters,
 } from './filters';
-import { renderCountryPopup } from './popup';
+import { renderCountryPopup, renderMobileDetails } from './details';
 
 const FILTER_MODE_SUFFIX = '.mode';
 const RANGE_SEPARATOR = '..';
@@ -41,16 +41,6 @@ const mobileDetailsHeader = {
 };
 const defaultMobileDetailsTitle = mobileDetailsHeader.title?.textContent?.trim() ?? 'Country Details';
 const defaultMobileDetailsSubtitle = mobileDetailsHeader.subtitle?.textContent?.trim() ?? '';
-const compactNumberFormatter = new Intl.NumberFormat('en-US', {
-  notation: 'compact',
-  maximumFractionDigits: 1,
-});
-const integerFormatter = new Intl.NumberFormat('en-US');
-const currencyFormatter = new Intl.NumberFormat('en-US', {
-  style: 'currency',
-  currency: 'USD',
-  maximumFractionDigits: 0,
-});
 const DETAILS_EMPTY_TEMPLATE = `
       <div class="details-empty">
         <div class="empty-icon">🌍</div>
@@ -1172,11 +1162,6 @@ function isMobileLayout(): boolean {
   return mobileLayoutQuery.matches;
 }
 
-function formatCompactNumber(value: number | null | undefined): string {
-  if (value === null || value === undefined) return '—';
-  return compactNumberFormatter.format(value);
-}
-
 function getFlagEmojiFromCode(code: string | null | undefined): string {
   if (!code || code.length !== 2) return '🌍';
   return code
@@ -1201,98 +1186,6 @@ function addHorizontalWheelScroll(element: HTMLElement | null): void {
     { passive: false }
   );
   target.dataset.hScrollBound = 'true';
-}
-
-function renderMobileDetails(country: Country | null, fallbackName?: string): string {
-  if (!country) {
-    return `
-      <div class="mobile-details-cards">
-        <article class="mobile-details-card">
-          <p class="mobile-details-label">${fallbackName || 'Country Details'}</p>
-          <p class="mobile-details-value">No data</p>
-          <p class="mobile-details-meta">We don't have full metrics for this selection yet.</p>
-        </article>
-      </div>
-    `;
-  }
-
-  const primaryCapital = country.population.capitals[0];
-  const languages = country.political.official_languages;
-  const majorCity = country.population.most_populated_city;
-  const timeZones = country.political.time_zones;
-  const gdp = country.economic.gdp_per_capita;
-  const hdi = country.economic.hdi;
-  const area = country.area_km2;
-  const drivesLeft = country.facts.drives_on_left;
-  const coastline = country.geography.coastline_km;
-  const cards = [
-    {
-      label: 'Capital',
-      value: primaryCapital?.name || 'Unknown',
-      meta: primaryCapital?.population
-        ? `${formatCompactNumber(primaryCapital.population)} residents`
-        : 'Primary city',
-    },
-    {
-      label: 'Population',
-      value: formatCompactNumber(country.population.count),
-      meta:
-        country.population.density_per_km2 !== null && country.population.density_per_km2 !== undefined
-          ? `${integerFormatter.format(Math.round(country.population.density_per_km2))} per km²`
-          : 'Density unavailable',
-    },
-    {
-      label: 'Region',
-      value: country.geography.continents.join(' · ') || '—',
-      meta: country.geography.is_island_nation ? 'Island nation' : 'Mainland access',
-    },
-    {
-      label: 'Languages',
-      value: languages.slice(0, 2).join(' · ') || 'Multiple',
-      meta: languages.length > 0 ? `${languages.length} official` : 'No official data',
-    },
-    {
-      label: 'Largest City',
-      value: majorCity || primaryCapital?.name || '—',
-      meta: majorCity && primaryCapital && majorCity !== primaryCapital.name ? 'Different from capital' : '',
-    },
-    {
-      label: 'Area',
-      value: area ? `${formatCompactNumber(area)} km²` : 'Unknown',
-      meta: coastline ? `${formatCompactNumber(coastline)} km coastline` : 'Land coverage',
-    },
-    {
-      label: 'GDP per Capita',
-      value: gdp ? currencyFormatter.format(gdp) : 'Unknown',
-      meta: hdi ? `HDI ${hdi.toFixed(2)}` : 'Human development',
-    },
-    {
-      label: 'Time Zones',
-      value: timeZones.length ? String(timeZones.length) : 'Single zone',
-      meta: timeZones.length ? timeZones.slice(0, 2).join(', ') : 'Standard time',
-    },
-    {
-      label: 'Travel',
-      value: drivesLeft ? 'Left side' : 'Right side',
-      meta: country.facts.drives_on_left ? 'Keep left' : 'Keep right',
-    },
-  ];
-
-  return `
-    <div class="mobile-details-cards">
-      ${cards
-        .map(
-          (card) => `
-        <article class="mobile-details-card">
-          <p class="mobile-details-label">${card.label}</p>
-          <p class="mobile-details-value">${card.value}</p>
-          ${card.meta ? `<p class="mobile-details-meta">${card.meta}</p>` : ''}
-        </article>
-      `
-        )
-        .join('')}
-    </div>
-  `;
 }
 
 function renderFallbackDetails(fallbackName?: string, fallbackCode?: string | null): string {
@@ -1362,11 +1255,11 @@ function renderDetailsContentForCurrentLayout(): void {
   }
 
   if (isMobileLayout()) {
-  content.innerHTML = renderMobileDetails(country, fallbackName);
-  updateMobileDetailsHeader(country, fallbackName, fallbackCode ?? null);
-  addHorizontalWheelScroll(content.querySelector('.mobile-details-cards'));
-  return;
-}
+    content.innerHTML = renderMobileDetails(country, fallbackName);
+    updateMobileDetailsHeader(country, fallbackName, fallbackCode ?? null);
+    addHorizontalWheelScroll(content.querySelector('.mobile-details-cards'));
+    return;
+  }
 
   content.innerHTML = country
     ? renderCountryPopup(country)
