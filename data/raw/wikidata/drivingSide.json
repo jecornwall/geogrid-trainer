@@ -1285,25 +1285,6 @@
       {
         "country": {
           "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q25279"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "CW"
-        },
-        "drivingSide": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q14565199"
-        },
-        "drivingSideLabel": {
-          "xml:lang": "en",
-          "type": "literal",
-          "value": "right"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
           "value": "http://www.wikidata.org/entity/Q763"
         },
         "iso2": {
@@ -1917,6 +1898,25 @@
         "iso2": {
           "type": "literal",
           "value": "SX"
+        },
+        "drivingSide": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q14565199"
+        },
+        "drivingSideLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "right"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q25279"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "CW"
         },
         "drivingSide": {
           "type": "uri",

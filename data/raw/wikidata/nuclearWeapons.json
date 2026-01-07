@@ -2,7 +2,8 @@
   "head": {
     "vars": [
       "country",
-      "iso2"
+      "iso2",
+      "inventory"
     ]
   },
   "results": {

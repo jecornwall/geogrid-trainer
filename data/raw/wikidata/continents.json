@@ -12,6 +12,2096 @@
       {
         "country": {
           "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q672"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "TV"
+        },
+        "continent": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q538"
+        },
+        "continentLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Insular Oceania"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q17"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "JP"
+        },
+        "continent": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q48"
+        },
+        "continentLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Asia"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q242"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "BZ"
+        },
+        "continent": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q49"
+        },
+        "continentLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "North America"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q419"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "PE"
+        },
+        "continent": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q18"
+        },
+        "continentLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "South America"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q238"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "SM"
+        },
+        "continent": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q46"
+        },
+        "continentLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Europe"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q424"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "KH"
+        },
+        "continent": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q48"
+        },
+        "continentLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Asia"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q668"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "IN"
+        },
+        "continent": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q48"
+        },
+        "continentLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Asia"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q403"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "RS"
+        },
+        "continent": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q46"
+        },
+        "continentLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Europe"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q218"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "RO"
+        },
+        "continent": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q46"
+        },
+        "continentLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Europe"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q77"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "UY"
+        },
+        "continent": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q18"
+        },
+        "continentLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "South America"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q96"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "MX"
+        },
+        "continent": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q49"
+        },
+        "continentLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "North America"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q414"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "AR"
+        },
+        "continent": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q18"
+        },
+        "continentLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "South America"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q33"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "FI"
+        },
+        "continent": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q46"
+        },
+        "continentLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Europe"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q79"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "EG"
+        },
+        "continent": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q15"
+        },
+        "continentLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Africa"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q686"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "VU"
+        },
+        "continent": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q538"
+        },
+        "continentLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Insular Oceania"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q228"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "AD"
+        },
+        "continent": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q46"
+        },
+        "continentLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Europe"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q574"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "TL"
+        },
+        "continent": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q48"
+        },
+        "continentLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Asia"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q697"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "NR"
+        },
+        "continent": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q55643"
+        },
+        "continentLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Oceania"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q31"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "BE"
+        },
+        "continent": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q46"
+        },
+        "continentLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Europe"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q709"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "MH"
+        },
+        "continent": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q55643"
+        },
+        "continentLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Oceania"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q225"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "BA"
+        },
+        "continent": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q46"
+        },
+        "continentLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Europe"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q189"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "IS"
+        },
+        "continent": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q46"
+        },
+        "continentLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Europe"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q237"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "VA"
+        },
+        "continent": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q46"
+        },
+        "continentLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Europe"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q334"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "SG"
+        },
+        "continent": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q48"
+        },
+        "continentLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Asia"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q43"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "TR"
+        },
+        "continent": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q48"
+        },
+        "continentLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Asia"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q16"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "CA"
+        },
+        "continent": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q49"
+        },
+        "continentLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "North America"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q695"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "PW"
+        },
+        "continent": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q538"
+        },
+        "continentLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Insular Oceania"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q217"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "MD"
+        },
+        "continent": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q46"
+        },
+        "continentLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Europe"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q235"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "MC"
+        },
+        "continent": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q46"
+        },
+        "continentLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Europe"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q710"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "KI"
+        },
+        "continent": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q55643"
+        },
+        "continentLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Oceania"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q423"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "KP"
+        },
+        "continent": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q48"
+        },
+        "continentLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Asia"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q730"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "SR"
+        },
+        "continent": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q18"
+        },
+        "continentLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "South America"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q711"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "MN"
+        },
+        "continent": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q48"
+        },
+        "continentLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Asia"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q155"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "BR"
+        },
+        "continent": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q18"
+        },
+        "continentLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "South America"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q298"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "CL"
+        },
+        "continent": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q18"
+        },
+        "continentLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "South America"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q399"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "AM"
+        },
+        "continent": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q48"
+        },
+        "continentLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Asia"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q142"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "FR"
+        },
+        "continent": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q46"
+        },
+        "continentLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Europe"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q212"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "UA"
+        },
+        "continent": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q46"
+        },
+        "continentLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Europe"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q39"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "CH"
+        },
+        "continent": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q46"
+        },
+        "continentLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Europe"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q398"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "BH"
+        },
+        "continent": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q48"
+        },
+        "continentLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Asia"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q229"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "CY"
+        },
+        "continent": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q46"
+        },
+        "continentLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Europe"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q41"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "GR"
+        },
+        "continent": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q46"
+        },
+        "continentLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Europe"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q32"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "LU"
+        },
+        "continent": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q46"
+        },
+        "continentLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Europe"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q712"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "FJ"
+        },
+        "continent": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q538"
+        },
+        "continentLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Insular Oceania"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q159"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "RU"
+        },
+        "continent": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q46"
+        },
+        "continentLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Europe"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q691"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "PG"
+        },
+        "continent": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q55643"
+        },
+        "continentLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Oceania"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q29"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "ES"
+        },
+        "continent": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q46"
+        },
+        "continentLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Europe"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q678"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "TO"
+        },
+        "continent": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q55643"
+        },
+        "continentLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Oceania"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q27"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "IE"
+        },
+        "continent": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q46"
+        },
+        "continentLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Europe"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q224"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "HR"
+        },
+        "continent": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q46"
+        },
+        "continentLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Europe"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q230"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "GE"
+        },
+        "continent": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q46"
+        },
+        "continentLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Europe"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q45"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "PT"
+        },
+        "continent": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q46"
+        },
+        "continentLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Europe"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q685"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "SB"
+        },
+        "continent": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q55643"
+        },
+        "continentLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Oceania"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q710"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "KI"
+        },
+        "continent": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q538"
+        },
+        "continentLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Insular Oceania"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q408"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "AU"
+        },
+        "continent": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q55643"
+        },
+        "continentLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Oceania"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q34"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "SE"
+        },
+        "continent": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q46"
+        },
+        "continentLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Europe"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q236"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "ME"
+        },
+        "continent": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q46"
+        },
+        "continentLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Europe"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q37"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "LT"
+        },
+        "continent": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q46"
+        },
+        "continentLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Europe"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q265"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "UZ"
+        },
+        "continent": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q48"
+        },
+        "continentLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Asia"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q191"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "EE"
+        },
+        "continent": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q46"
+        },
+        "continentLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Europe"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q184"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "BY"
+        },
+        "continent": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q46"
+        },
+        "continentLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Europe"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q213"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "CZ"
+        },
+        "continent": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q46"
+        },
+        "continentLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Europe"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q657"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "TD"
+        },
+        "continent": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q15"
+        },
+        "continentLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Africa"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q215"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "SI"
+        },
+        "continent": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q46"
+        },
+        "continentLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Europe"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q223"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "GL"
+        },
+        "continent": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q49"
+        },
+        "continentLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "North America"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q221"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "MK"
+        },
+        "continent": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q46"
+        },
+        "continentLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Europe"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q664"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "NZ"
+        },
+        "continent": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q55643"
+        },
+        "continentLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Oceania"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q717"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "VE"
+        },
+        "continent": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q18"
+        },
+        "continentLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "South America"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q672"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "TV"
+        },
+        "continent": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q55643"
+        },
+        "continentLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Oceania"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q233"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "MT"
+        },
+        "continent": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q46"
+        },
+        "continentLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Europe"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q262"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "DZ"
+        },
+        "continent": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q15"
+        },
+        "continentLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Africa"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q117"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "GH"
+        },
+        "continent": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q15"
+        },
+        "continentLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Africa"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q148"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "CN"
+        },
+        "continent": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q48"
+        },
+        "continentLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Asia"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q20"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "NO"
+        },
+        "continent": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q46"
+        },
+        "continentLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Europe"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q227"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "AZ"
+        },
+        "continent": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q48"
+        },
+        "continentLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Asia"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q214"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "SK"
+        },
+        "continent": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q46"
+        },
+        "continentLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Europe"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q28"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "HU"
+        },
+        "continent": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q46"
+        },
+        "continentLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Europe"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q241"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "CU"
+        },
+        "continent": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q49"
+        },
+        "continentLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "North America"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q114"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "KE"
+        },
+        "continent": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q15"
+        },
+        "continentLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Africa"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q347"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "LI"
+        },
+        "continent": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q46"
+        },
+        "continentLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Europe"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q222"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "AL"
+        },
+        "continent": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q46"
+        },
+        "continentLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Europe"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q219"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "BG"
+        },
+        "continent": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q46"
+        },
+        "continentLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Europe"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q244"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "BB"
+        },
+        "continent": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q49"
+        },
+        "continentLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "North America"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q38"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "IT"
+        },
+        "continent": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q46"
+        },
+        "continentLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Europe"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q685"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "SB"
+        },
+        "continent": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q538"
+        },
+        "continentLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Insular Oceania"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q40"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "AT"
+        },
+        "continent": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q46"
+        },
+        "continentLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Europe"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q115"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "ET"
+        },
+        "continent": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q15"
+        },
+        "continentLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Africa"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q702"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "FM"
+        },
+        "continent": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q55643"
+        },
+        "continentLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Oceania"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q145"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "GB"
+        },
+        "continent": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q46"
+        },
+        "continentLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Europe"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q36"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "PL"
+        },
+        "continent": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q46"
+        },
+        "continentLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Europe"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q683"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "WS"
+        },
+        "continent": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q55643"
+        },
+        "continentLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Oceania"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q211"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "LV"
+        },
+        "continent": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q46"
+        },
+        "continentLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Europe"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q35"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "DK"
+        },
+        "continent": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q46"
+        },
+        "continentLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Europe"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q232"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "KZ"
+        },
+        "continent": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q48"
+        },
+        "continentLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Asia"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q232"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "KZ"
+        },
+        "continent": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q46"
+        },
+        "continentLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Europe"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q258"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "ZA"
+        },
+        "continent": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q15"
+        },
+        "continentLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Africa"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q183"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "DE"
+        },
+        "continent": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q46"
+        },
+        "continentLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Europe"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q30"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "US"
+        },
+        "continent": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q49"
+        },
+        "continentLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "North America"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q252"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "ID"
+        },
+        "continent": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q48"
+        },
+        "continentLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Asia"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q695"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "PW"
+        },
+        "continent": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q55643"
+        },
+        "continentLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Oceania"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q219060"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "PS"
+        },
+        "continent": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q48"
+        },
+        "continentLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Asia"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q26273"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "SX"
+        },
+        "continent": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q49"
+        },
+        "continentLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "North America"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q25279"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "CW"
+        },
+        "continent": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q49"
+        },
+        "continentLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "North America"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q733"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "PY"
+        },
+        "continent": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q18"
+        },
+        "continentLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "South America"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q734"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "GY"
+        },
+        "continent": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q18"
+        },
+        "continentLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "South America"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q736"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "EC"
+        },
+        "continent": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q18"
+        },
+        "continentLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "South America"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q34020"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "NU"
+        },
+        "continent": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q538"
+        },
+        "continentLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Insular Oceania"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q739"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "CO"
+        },
+        "continent": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q18"
+        },
+        "continentLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "South America"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q26988"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "CK"
+        },
+        "continent": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q538"
+        },
+        "continentLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Insular Oceania"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q29999"
+        },
+        "iso2": {
+          "type": "literal",
+          "value": "NL"
+        },
+        "continent": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q46"
+        },
+        "continentLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Europe"
+        }
+      },
+      {
+        "country": {
+          "type": "uri",
           "value": "http://www.wikidata.org/entity/Q917"
         },
         "iso2": {
@@ -349,25 +2439,6 @@
           "xml:lang": "en",
           "type": "literal",
           "value": "Europe"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q25279"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "CW"
-        },
-        "continent": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q49"
-        },
-        "continentLabel": {
-          "xml:lang": "en",
-          "type": "literal",
-          "value": "North America"
         }
       },
       {
@@ -1888,2058 +3959,6 @@
           "xml:lang": "en",
           "type": "literal",
           "value": "North America"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q219060"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "PS"
-        },
-        "continent": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q48"
-        },
-        "continentLabel": {
-          "xml:lang": "en",
-          "type": "literal",
-          "value": "Asia"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q26273"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "SX"
-        },
-        "continent": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q49"
-        },
-        "continentLabel": {
-          "xml:lang": "en",
-          "type": "literal",
-          "value": "North America"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q734"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "GY"
-        },
-        "continent": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q18"
-        },
-        "continentLabel": {
-          "xml:lang": "en",
-          "type": "literal",
-          "value": "South America"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q736"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "EC"
-        },
-        "continent": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q18"
-        },
-        "continentLabel": {
-          "xml:lang": "en",
-          "type": "literal",
-          "value": "South America"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q34020"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "NU"
-        },
-        "continent": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q538"
-        },
-        "continentLabel": {
-          "xml:lang": "en",
-          "type": "literal",
-          "value": "Insular Oceania"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q739"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "CO"
-        },
-        "continent": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q18"
-        },
-        "continentLabel": {
-          "xml:lang": "en",
-          "type": "literal",
-          "value": "South America"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q26988"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "CK"
-        },
-        "continent": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q538"
-        },
-        "continentLabel": {
-          "xml:lang": "en",
-          "type": "literal",
-          "value": "Insular Oceania"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q29999"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "NL"
-        },
-        "continent": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q46"
-        },
-        "continentLabel": {
-          "xml:lang": "en",
-          "type": "literal",
-          "value": "Europe"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q672"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "TV"
-        },
-        "continent": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q538"
-        },
-        "continentLabel": {
-          "xml:lang": "en",
-          "type": "literal",
-          "value": "Insular Oceania"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q17"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "JP"
-        },
-        "continent": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q48"
-        },
-        "continentLabel": {
-          "xml:lang": "en",
-          "type": "literal",
-          "value": "Asia"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q242"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "BZ"
-        },
-        "continent": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q49"
-        },
-        "continentLabel": {
-          "xml:lang": "en",
-          "type": "literal",
-          "value": "North America"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q419"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "PE"
-        },
-        "continent": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q18"
-        },
-        "continentLabel": {
-          "xml:lang": "en",
-          "type": "literal",
-          "value": "South America"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q238"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "SM"
-        },
-        "continent": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q46"
-        },
-        "continentLabel": {
-          "xml:lang": "en",
-          "type": "literal",
-          "value": "Europe"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q424"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "KH"
-        },
-        "continent": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q48"
-        },
-        "continentLabel": {
-          "xml:lang": "en",
-          "type": "literal",
-          "value": "Asia"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q668"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "IN"
-        },
-        "continent": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q48"
-        },
-        "continentLabel": {
-          "xml:lang": "en",
-          "type": "literal",
-          "value": "Asia"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q403"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "RS"
-        },
-        "continent": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q46"
-        },
-        "continentLabel": {
-          "xml:lang": "en",
-          "type": "literal",
-          "value": "Europe"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q218"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "RO"
-        },
-        "continent": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q46"
-        },
-        "continentLabel": {
-          "xml:lang": "en",
-          "type": "literal",
-          "value": "Europe"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q77"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "UY"
-        },
-        "continent": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q18"
-        },
-        "continentLabel": {
-          "xml:lang": "en",
-          "type": "literal",
-          "value": "South America"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q96"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "MX"
-        },
-        "continent": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q49"
-        },
-        "continentLabel": {
-          "xml:lang": "en",
-          "type": "literal",
-          "value": "North America"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q414"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "AR"
-        },
-        "continent": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q18"
-        },
-        "continentLabel": {
-          "xml:lang": "en",
-          "type": "literal",
-          "value": "South America"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q33"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "FI"
-        },
-        "continent": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q46"
-        },
-        "continentLabel": {
-          "xml:lang": "en",
-          "type": "literal",
-          "value": "Europe"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q79"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "EG"
-        },
-        "continent": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q15"
-        },
-        "continentLabel": {
-          "xml:lang": "en",
-          "type": "literal",
-          "value": "Africa"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q686"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "VU"
-        },
-        "continent": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q538"
-        },
-        "continentLabel": {
-          "xml:lang": "en",
-          "type": "literal",
-          "value": "Insular Oceania"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q228"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "AD"
-        },
-        "continent": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q46"
-        },
-        "continentLabel": {
-          "xml:lang": "en",
-          "type": "literal",
-          "value": "Europe"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q574"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "TL"
-        },
-        "continent": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q48"
-        },
-        "continentLabel": {
-          "xml:lang": "en",
-          "type": "literal",
-          "value": "Asia"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q697"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "NR"
-        },
-        "continent": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q55643"
-        },
-        "continentLabel": {
-          "xml:lang": "en",
-          "type": "literal",
-          "value": "Oceania"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q31"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "BE"
-        },
-        "continent": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q46"
-        },
-        "continentLabel": {
-          "xml:lang": "en",
-          "type": "literal",
-          "value": "Europe"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q709"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "MH"
-        },
-        "continent": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q55643"
-        },
-        "continentLabel": {
-          "xml:lang": "en",
-          "type": "literal",
-          "value": "Oceania"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q225"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "BA"
-        },
-        "continent": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q46"
-        },
-        "continentLabel": {
-          "xml:lang": "en",
-          "type": "literal",
-          "value": "Europe"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q189"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "IS"
-        },
-        "continent": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q46"
-        },
-        "continentLabel": {
-          "xml:lang": "en",
-          "type": "literal",
-          "value": "Europe"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q237"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "VA"
-        },
-        "continent": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q46"
-        },
-        "continentLabel": {
-          "xml:lang": "en",
-          "type": "literal",
-          "value": "Europe"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q334"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "SG"
-        },
-        "continent": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q48"
-        },
-        "continentLabel": {
-          "xml:lang": "en",
-          "type": "literal",
-          "value": "Asia"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q43"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "TR"
-        },
-        "continent": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q48"
-        },
-        "continentLabel": {
-          "xml:lang": "en",
-          "type": "literal",
-          "value": "Asia"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q16"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "CA"
-        },
-        "continent": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q49"
-        },
-        "continentLabel": {
-          "xml:lang": "en",
-          "type": "literal",
-          "value": "North America"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q695"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "PW"
-        },
-        "continent": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q538"
-        },
-        "continentLabel": {
-          "xml:lang": "en",
-          "type": "literal",
-          "value": "Insular Oceania"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q217"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "MD"
-        },
-        "continent": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q46"
-        },
-        "continentLabel": {
-          "xml:lang": "en",
-          "type": "literal",
-          "value": "Europe"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q235"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "MC"
-        },
-        "continent": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q46"
-        },
-        "continentLabel": {
-          "xml:lang": "en",
-          "type": "literal",
-          "value": "Europe"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q710"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "KI"
-        },
-        "continent": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q55643"
-        },
-        "continentLabel": {
-          "xml:lang": "en",
-          "type": "literal",
-          "value": "Oceania"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q423"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "KP"
-        },
-        "continent": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q48"
-        },
-        "continentLabel": {
-          "xml:lang": "en",
-          "type": "literal",
-          "value": "Asia"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q730"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "SR"
-        },
-        "continent": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q18"
-        },
-        "continentLabel": {
-          "xml:lang": "en",
-          "type": "literal",
-          "value": "South America"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q711"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "MN"
-        },
-        "continent": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q48"
-        },
-        "continentLabel": {
-          "xml:lang": "en",
-          "type": "literal",
-          "value": "Asia"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q155"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "BR"
-        },
-        "continent": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q18"
-        },
-        "continentLabel": {
-          "xml:lang": "en",
-          "type": "literal",
-          "value": "South America"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q298"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "CL"
-        },
-        "continent": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q18"
-        },
-        "continentLabel": {
-          "xml:lang": "en",
-          "type": "literal",
-          "value": "South America"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q399"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "AM"
-        },
-        "continent": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q48"
-        },
-        "continentLabel": {
-          "xml:lang": "en",
-          "type": "literal",
-          "value": "Asia"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q733"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "PY"
-        },
-        "continent": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q18"
-        },
-        "continentLabel": {
-          "xml:lang": "en",
-          "type": "literal",
-          "value": "South America"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q142"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "FR"
-        },
-        "continent": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q46"
-        },
-        "continentLabel": {
-          "xml:lang": "en",
-          "type": "literal",
-          "value": "Europe"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q212"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "UA"
-        },
-        "continent": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q46"
-        },
-        "continentLabel": {
-          "xml:lang": "en",
-          "type": "literal",
-          "value": "Europe"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q39"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "CH"
-        },
-        "continent": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q46"
-        },
-        "continentLabel": {
-          "xml:lang": "en",
-          "type": "literal",
-          "value": "Europe"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q398"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "BH"
-        },
-        "continent": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q48"
-        },
-        "continentLabel": {
-          "xml:lang": "en",
-          "type": "literal",
-          "value": "Asia"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q229"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "CY"
-        },
-        "continent": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q46"
-        },
-        "continentLabel": {
-          "xml:lang": "en",
-          "type": "literal",
-          "value": "Europe"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q41"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "GR"
-        },
-        "continent": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q46"
-        },
-        "continentLabel": {
-          "xml:lang": "en",
-          "type": "literal",
-          "value": "Europe"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q32"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "LU"
-        },
-        "continent": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q46"
-        },
-        "continentLabel": {
-          "xml:lang": "en",
-          "type": "literal",
-          "value": "Europe"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q712"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "FJ"
-        },
-        "continent": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q538"
-        },
-        "continentLabel": {
-          "xml:lang": "en",
-          "type": "literal",
-          "value": "Insular Oceania"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q159"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "RU"
-        },
-        "continent": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q46"
-        },
-        "continentLabel": {
-          "xml:lang": "en",
-          "type": "literal",
-          "value": "Europe"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q691"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "PG"
-        },
-        "continent": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q55643"
-        },
-        "continentLabel": {
-          "xml:lang": "en",
-          "type": "literal",
-          "value": "Oceania"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q29"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "ES"
-        },
-        "continent": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q46"
-        },
-        "continentLabel": {
-          "xml:lang": "en",
-          "type": "literal",
-          "value": "Europe"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q678"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "TO"
-        },
-        "continent": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q55643"
-        },
-        "continentLabel": {
-          "xml:lang": "en",
-          "type": "literal",
-          "value": "Oceania"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q27"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "IE"
-        },
-        "continent": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q46"
-        },
-        "continentLabel": {
-          "xml:lang": "en",
-          "type": "literal",
-          "value": "Europe"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q224"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "HR"
-        },
-        "continent": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q46"
-        },
-        "continentLabel": {
-          "xml:lang": "en",
-          "type": "literal",
-          "value": "Europe"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q230"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "GE"
-        },
-        "continent": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q46"
-        },
-        "continentLabel": {
-          "xml:lang": "en",
-          "type": "literal",
-          "value": "Europe"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q45"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "PT"
-        },
-        "continent": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q46"
-        },
-        "continentLabel": {
-          "xml:lang": "en",
-          "type": "literal",
-          "value": "Europe"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q685"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "SB"
-        },
-        "continent": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q55643"
-        },
-        "continentLabel": {
-          "xml:lang": "en",
-          "type": "literal",
-          "value": "Oceania"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q710"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "KI"
-        },
-        "continent": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q538"
-        },
-        "continentLabel": {
-          "xml:lang": "en",
-          "type": "literal",
-          "value": "Insular Oceania"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q408"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "AU"
-        },
-        "continent": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q55643"
-        },
-        "continentLabel": {
-          "xml:lang": "en",
-          "type": "literal",
-          "value": "Oceania"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q34"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "SE"
-        },
-        "continent": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q46"
-        },
-        "continentLabel": {
-          "xml:lang": "en",
-          "type": "literal",
-          "value": "Europe"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q236"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "ME"
-        },
-        "continent": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q46"
-        },
-        "continentLabel": {
-          "xml:lang": "en",
-          "type": "literal",
-          "value": "Europe"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q37"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "LT"
-        },
-        "continent": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q46"
-        },
-        "continentLabel": {
-          "xml:lang": "en",
-          "type": "literal",
-          "value": "Europe"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q265"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "UZ"
-        },
-        "continent": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q48"
-        },
-        "continentLabel": {
-          "xml:lang": "en",
-          "type": "literal",
-          "value": "Asia"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q191"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "EE"
-        },
-        "continent": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q46"
-        },
-        "continentLabel": {
-          "xml:lang": "en",
-          "type": "literal",
-          "value": "Europe"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q184"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "BY"
-        },
-        "continent": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q46"
-        },
-        "continentLabel": {
-          "xml:lang": "en",
-          "type": "literal",
-          "value": "Europe"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q213"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "CZ"
-        },
-        "continent": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q46"
-        },
-        "continentLabel": {
-          "xml:lang": "en",
-          "type": "literal",
-          "value": "Europe"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q657"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "TD"
-        },
-        "continent": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q15"
-        },
-        "continentLabel": {
-          "xml:lang": "en",
-          "type": "literal",
-          "value": "Africa"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q215"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "SI"
-        },
-        "continent": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q46"
-        },
-        "continentLabel": {
-          "xml:lang": "en",
-          "type": "literal",
-          "value": "Europe"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q223"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "GL"
-        },
-        "continent": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q49"
-        },
-        "continentLabel": {
-          "xml:lang": "en",
-          "type": "literal",
-          "value": "North America"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q221"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "MK"
-        },
-        "continent": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q46"
-        },
-        "continentLabel": {
-          "xml:lang": "en",
-          "type": "literal",
-          "value": "Europe"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q664"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "NZ"
-        },
-        "continent": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q55643"
-        },
-        "continentLabel": {
-          "xml:lang": "en",
-          "type": "literal",
-          "value": "Oceania"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q717"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "VE"
-        },
-        "continent": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q18"
-        },
-        "continentLabel": {
-          "xml:lang": "en",
-          "type": "literal",
-          "value": "South America"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q672"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "TV"
-        },
-        "continent": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q55643"
-        },
-        "continentLabel": {
-          "xml:lang": "en",
-          "type": "literal",
-          "value": "Oceania"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q233"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "MT"
-        },
-        "continent": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q46"
-        },
-        "continentLabel": {
-          "xml:lang": "en",
-          "type": "literal",
-          "value": "Europe"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q262"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "DZ"
-        },
-        "continent": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q15"
-        },
-        "continentLabel": {
-          "xml:lang": "en",
-          "type": "literal",
-          "value": "Africa"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q117"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "GH"
-        },
-        "continent": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q15"
-        },
-        "continentLabel": {
-          "xml:lang": "en",
-          "type": "literal",
-          "value": "Africa"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q148"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "CN"
-        },
-        "continent": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q48"
-        },
-        "continentLabel": {
-          "xml:lang": "en",
-          "type": "literal",
-          "value": "Asia"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q20"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "NO"
-        },
-        "continent": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q46"
-        },
-        "continentLabel": {
-          "xml:lang": "en",
-          "type": "literal",
-          "value": "Europe"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q227"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "AZ"
-        },
-        "continent": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q48"
-        },
-        "continentLabel": {
-          "xml:lang": "en",
-          "type": "literal",
-          "value": "Asia"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q214"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "SK"
-        },
-        "continent": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q46"
-        },
-        "continentLabel": {
-          "xml:lang": "en",
-          "type": "literal",
-          "value": "Europe"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q28"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "HU"
-        },
-        "continent": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q46"
-        },
-        "continentLabel": {
-          "xml:lang": "en",
-          "type": "literal",
-          "value": "Europe"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q241"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "CU"
-        },
-        "continent": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q49"
-        },
-        "continentLabel": {
-          "xml:lang": "en",
-          "type": "literal",
-          "value": "North America"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q114"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "KE"
-        },
-        "continent": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q15"
-        },
-        "continentLabel": {
-          "xml:lang": "en",
-          "type": "literal",
-          "value": "Africa"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q347"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "LI"
-        },
-        "continent": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q46"
-        },
-        "continentLabel": {
-          "xml:lang": "en",
-          "type": "literal",
-          "value": "Europe"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q222"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "AL"
-        },
-        "continent": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q46"
-        },
-        "continentLabel": {
-          "xml:lang": "en",
-          "type": "literal",
-          "value": "Europe"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q219"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "BG"
-        },
-        "continent": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q46"
-        },
-        "continentLabel": {
-          "xml:lang": "en",
-          "type": "literal",
-          "value": "Europe"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q244"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "BB"
-        },
-        "continent": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q49"
-        },
-        "continentLabel": {
-          "xml:lang": "en",
-          "type": "literal",
-          "value": "North America"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q38"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "IT"
-        },
-        "continent": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q46"
-        },
-        "continentLabel": {
-          "xml:lang": "en",
-          "type": "literal",
-          "value": "Europe"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q685"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "SB"
-        },
-        "continent": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q538"
-        },
-        "continentLabel": {
-          "xml:lang": "en",
-          "type": "literal",
-          "value": "Insular Oceania"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q40"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "AT"
-        },
-        "continent": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q46"
-        },
-        "continentLabel": {
-          "xml:lang": "en",
-          "type": "literal",
-          "value": "Europe"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q115"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "ET"
-        },
-        "continent": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q15"
-        },
-        "continentLabel": {
-          "xml:lang": "en",
-          "type": "literal",
-          "value": "Africa"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q702"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "FM"
-        },
-        "continent": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q55643"
-        },
-        "continentLabel": {
-          "xml:lang": "en",
-          "type": "literal",
-          "value": "Oceania"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q145"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "GB"
-        },
-        "continent": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q46"
-        },
-        "continentLabel": {
-          "xml:lang": "en",
-          "type": "literal",
-          "value": "Europe"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q36"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "PL"
-        },
-        "continent": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q46"
-        },
-        "continentLabel": {
-          "xml:lang": "en",
-          "type": "literal",
-          "value": "Europe"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q683"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "WS"
-        },
-        "continent": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q55643"
-        },
-        "continentLabel": {
-          "xml:lang": "en",
-          "type": "literal",
-          "value": "Oceania"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q211"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "LV"
-        },
-        "continent": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q46"
-        },
-        "continentLabel": {
-          "xml:lang": "en",
-          "type": "literal",
-          "value": "Europe"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q35"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "DK"
-        },
-        "continent": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q46"
-        },
-        "continentLabel": {
-          "xml:lang": "en",
-          "type": "literal",
-          "value": "Europe"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q232"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "KZ"
-        },
-        "continent": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q48"
-        },
-        "continentLabel": {
-          "xml:lang": "en",
-          "type": "literal",
-          "value": "Asia"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q258"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "ZA"
-        },
-        "continent": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q15"
-        },
-        "continentLabel": {
-          "xml:lang": "en",
-          "type": "literal",
-          "value": "Africa"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q183"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "DE"
-        },
-        "continent": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q46"
-        },
-        "continentLabel": {
-          "xml:lang": "en",
-          "type": "literal",
-          "value": "Europe"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q30"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "US"
-        },
-        "continent": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q49"
-        },
-        "continentLabel": {
-          "xml:lang": "en",
-          "type": "literal",
-          "value": "North America"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q252"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "ID"
-        },
-        "continent": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q48"
-        },
-        "continentLabel": {
-          "xml:lang": "en",
-          "type": "literal",
-          "value": "Asia"
-        }
-      },
-      {
-        "country": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q695"
-        },
-        "iso2": {
-          "type": "literal",
-          "value": "PW"
-        },
-        "continent": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q55643"
-        },
-        "continentLabel": {
-          "xml:lang": "en",
-          "type": "literal",
-          "value": "Oceania"
         }
       }
     ]
