@@ -16,16 +16,44 @@
       href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,700;1,9..40,400&family=JetBrains+Mono:wght@400;500&display=swap"
       rel="stylesheet"
     />
+    <script>
+      (function () {
+        var path = window.location.pathname.replace(/\/+$/, '') || '/';
+        if (path === '/mobile-prototype') {
+          document.documentElement.classList.add('mobile-prototype-route');
+        }
+      })();
+    </script>
+    <style>
+      html.mobile-prototype-route body {
+        overflow: hidden;
+        background: #020617;
+      }
+
+      html.mobile-prototype-route .main-layout {
+        display: none !important;
+      }
+    </style>
   </head>
   <body>
     <div id="app">
       <div class="main-layout">
         <!-- Left Filter Panel -->
-        <aside id="filter-panel" class="filter-panel">
+        <aside id="filter-panel" class="filter-panel" data-panel="filters" data-mobile-state="collapsed">
           <div class="filter-panel-header">
-            <h2>Filters</h2>
-            <button id="filter-toggle" class="filter-toggle" aria-label="Toggle filters">
-              <span class="filter-icon">☰</span>
+            <div>
+              <h2>Filters</h2>
+              <p class="panel-subtitle mobile-panel-hint">Swipe cards to work through filter buckets</p>
+            </div>
+            <button
+              id="filter-toggle"
+              class="filter-toggle mobile-panel-toggle"
+              data-panel-toggle="filters"
+              aria-expanded="false"
+              type="button"
+            >
+              <span class="mobile-panel-toggle-label">Expand</span>
+              <span class="mobile-panel-toggle-icon" aria-hidden="true">▾</span>
             </button>
           </div>
           <div class="filter-panel-content">
@@ -55,21 +83,27 @@
         <div class="map-container">
           <!-- Map Container -->
           <div id="map"></div>
-
-          <!-- Bottom Countries Panel -->
-          <aside id="countries-panel" class="countries-panel">
-            <div class="countries-panel-header">
-              <h2>Matching Countries</h2>
-              <span class="countries-count" id="countries-count">0</span>
-            </div>
-            <div class="countries-list" id="countries-list">
-              <!-- Countries will be rendered dynamically -->
-            </div>
-          </aside>
         </div>
 
         <!-- Right Details Panel -->
-        <aside id="details-panel" class="details-panel">
+        <aside id="details-panel" class="details-panel" data-panel="details" data-mobile-state="collapsed">
+          <div class="mobile-panel-header">
+            <div class="mobile-panel-heading">
+              <p class="panel-eyebrow mobile-panel-title" data-mobile-panel-title="details">Country Details</p>
+              <p class="panel-subtitle mobile-panel-subtitle" data-mobile-panel-subtitle="details">
+                Collapsed by default · horizontal scroll
+              </p>
+            </div>
+            <button
+              class="mobile-panel-toggle"
+              data-panel-toggle="details"
+              aria-expanded="false"
+              type="button"
+            >
+              <span class="mobile-panel-toggle-label">Expand</span>
+              <span class="mobile-panel-toggle-icon" aria-hidden="true">▾</span>
+            </button>
+          </div>
           <button class="panel-close" aria-label="Close">&times;</button>
           <div class="details-content">
             <div class="details-empty">
@@ -78,9 +112,17 @@
             </div>
           </div>
         </aside>
-        
-        <!-- Mobile Filter Toggle -->
-        <button class="mobile-filter-toggle" aria-label="Open filters">⚙</button>
+
+        <!-- Matching Countries -->
+        <aside id="countries-panel" class="countries-panel">
+          <div class="countries-panel-header">
+            <h2>Matching Countries</h2>
+            <span class="countries-count" id="countries-count">0</span>
+          </div>
+          <div class="countries-list" id="countries-list">
+            <!-- Countries will be rendered dynamically -->
+          </div>
+        </aside>
       </div>
     </div>
     <script type="module" src="/src/main.ts"></script>

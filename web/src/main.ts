@@ -16,6 +16,54 @@ import { renderCountryPopup } from './popup';
 
 const FILTER_MODE_SUFFIX = '.mode';
 const RANGE_SEPARATOR = '..';
+const MOBILE_PROTOTYPE_PATH = '/mobile-prototype';
+const normalizedPath = window.location.pathname.replace(/\/+$/, '') || '/';
+const isMobilePrototypeRoute = normalizedPath === MOBILE_PROTOTYPE_PATH;
+const MOBILE_BREAKPOINT = 900;
+const mobileLayoutQuery = window.matchMedia(`(max-width: ${MOBILE_BREAKPOINT}px)`);
+const mobilePanelIds = ['filters', 'details'] as const;
+type MobilePanelId = (typeof mobilePanelIds)[number];
+const mobilePanels: Record<MobilePanelId, HTMLElement | null> = {
+  filters: null,
+  details: null,
+};
+const mobilePanelToggles: Record<MobilePanelId, HTMLButtonElement | null> = {
+  filters: null,
+  details: null,
+};
+const mobilePanelHeaders: Record<MobilePanelId, HTMLElement | null> = {
+  filters: null,
+  details: null,
+};
+const mobileDetailsHeader = {
+  title: document.querySelector<HTMLElement>('[data-mobile-panel-title="details"]') ?? null,
+  subtitle: document.querySelector<HTMLElement>('[data-mobile-panel-subtitle="details"]') ?? null,
+};
+const defaultMobileDetailsTitle = mobileDetailsHeader.title?.textContent?.trim() ?? 'Country Details';
+const defaultMobileDetailsSubtitle = mobileDetailsHeader.subtitle?.textContent?.trim() ?? '';
+const compactNumberFormatter = new Intl.NumberFormat('en-US', {
+  notation: 'compact',
+  maximumFractionDigits: 1,
+});
+const integerFormatter = new Intl.NumberFormat('en-US');
+const currencyFormatter = new Intl.NumberFormat('en-US', {
+  style: 'currency',
+  currency: 'USD',
+  maximumFractionDigits: 0,
+});
+const DETAILS_EMPTY_TEMPLATE = `
+      <div class="details-empty">
+        <div class="empty-icon">🌍</div>
+        <p>Select a country to view details</p>
+      </div>
+    `;
+let lastDetailsContext: {
+  country: Country | null;
+  fallbackName?: string;
+  fallbackCode?: string | null;
+} = { country: null };
+
+type HorizontalScrollable = HTMLElement & { dataset: DOMStringMap & { hScrollBound?: string } };
 
 // GeoJSON URL for world countries (Natural Earth via GitHub)
 const GEOJSON_URL =
@@ -461,6 +509,7 @@ function renderCountriesList(): void {
     listContainer.innerHTML = activeCount === 0
       ? '<div class="countries-empty">Enable filters to see matching countries</div>'
       : '<div class="countries-empty">No countries match the current filters</div>';
+    addHorizontalWheelScroll(listContainer);
     return;
   }
   
@@ -485,6 +534,7 @@ function renderCountriesList(): void {
       </button>
     `;
   }).join('');
+  addHorizontalWheelScroll(listContainer);
   
   // Attach click handlers
   listContainer.querySelectorAll('.country-chip').forEach((chip) => {
@@ -1077,32 +1127,15 @@ function showDetails(
   fallbackName?: string,
   fallbackCode?: string | null
 ): void {
-  const panel = document.getElementById('details-panel');
-  const content = panel?.querySelector('.details-content');
-  
-  if (!panel || !content) return;
+  lastDetailsContext = {
+    country,
+    fallbackName,
+    fallbackCode: fallbackCode ?? null,
+  };
+  renderDetailsContentForCurrentLayout();
 
-  if (country) {
-    content.innerHTML = renderCountryPopup(country);
-  } else {
-    content.innerHTML = `
-      <div class="country-header">
-        <div>
-          <h2 class="country-name">${fallbackName || 'Unknown Country'}</h2>
-          ${fallbackCode ? `<div class="country-id">${fallbackCode}</div>` : ''}
-        </div>
-      </div>
-      <div class="fact-section">
-        <p style="color: var(--text-secondary);">
-          No detailed data available for this country/territory.
-        </p>
-      </div>
-    `;
-  }
-
-  // On mobile, open the details panel
-  if (window.innerWidth <= 900) {
-    panel.classList.add('open');
+  if (isMobileLayout()) {
+    setMobilePanelState('details', true);
   }
 }
 
@@ -1110,26 +1143,14 @@ function showDetails(
  * Clear the details panel
  */
 function clearDetails(): void {
-  const content = document.querySelector('.details-content');
-  if (content) {
-    content.innerHTML = `
-      <div class="details-empty">
-        <div class="empty-icon">🌍</div>
-        <p>Select a country to view details</p>
-      </div>
-    `;
-  }
+  lastDetailsContext = { country: null };
+  renderDetailsContentForCurrentLayout();
 }
 
 /**
  * Hide the details panel (mobile only)
  */
 function hideDetails(): void {
-  const panel = document.getElementById('details-panel');
-  if (panel) {
-    panel.classList.remove('open');
-  }
-
   // Deselect country
   if (selectedLayer) {
     const feature = (selectedLayer as L.GeoJSON).feature as GeoJSON.Feature;
@@ -1143,45 +1164,320 @@ function hideDetails(): void {
   updateCountriesListSelection(null);
   
   clearDetails();
+  
+  setMobilePanelState('details', false, false);
+}
+
+function isMobileLayout(): boolean {
+  return mobileLayoutQuery.matches;
+}
+
+function formatCompactNumber(value: number | null | undefined): string {
+  if (value === null || value === undefined) return '—';
+  return compactNumberFormatter.format(value);
+}
+
+function getFlagEmojiFromCode(code: string | null | undefined): string {
+  if (!code || code.length !== 2) return '🌍';
+  return code
+    .toUpperCase()
+    .split('')
+    .map((char) => String.fromCodePoint(127397 + char.charCodeAt(0)))
+    .join('');
+}
+
+function addHorizontalWheelScroll(element: HTMLElement | null): void {
+  if (!element) return;
+  const target = element as HorizontalScrollable;
+  if (target.dataset.hScrollBound === 'true') return;
+  target.addEventListener(
+    'wheel',
+    (event) => {
+      if (!event.deltaY || element.scrollWidth <= element.clientWidth) return;
+      if (Math.abs(event.deltaY) <= Math.abs(event.deltaX || 0)) return;
+      event.preventDefault();
+      element.scrollLeft += event.deltaY;
+    },
+    { passive: false }
+  );
+  target.dataset.hScrollBound = 'true';
+}
+
+function renderMobileDetails(country: Country | null, fallbackName?: string): string {
+  if (!country) {
+    return `
+      <div class="mobile-details-cards">
+        <article class="mobile-details-card">
+          <p class="mobile-details-label">${fallbackName || 'Country Details'}</p>
+          <p class="mobile-details-value">No data</p>
+          <p class="mobile-details-meta">We don't have full metrics for this selection yet.</p>
+        </article>
+      </div>
+    `;
+  }
+
+  const primaryCapital = country.population.capitals[0];
+  const languages = country.political.official_languages;
+  const majorCity = country.population.most_populated_city;
+  const timeZones = country.political.time_zones;
+  const gdp = country.economic.gdp_per_capita;
+  const hdi = country.economic.hdi;
+  const area = country.area_km2;
+  const drivesLeft = country.facts.drives_on_left;
+  const coastline = country.geography.coastline_km;
+  const cards = [
+    {
+      label: 'Capital',
+      value: primaryCapital?.name || 'Unknown',
+      meta: primaryCapital?.population
+        ? `${formatCompactNumber(primaryCapital.population)} residents`
+        : 'Primary city',
+    },
+    {
+      label: 'Population',
+      value: formatCompactNumber(country.population.count),
+      meta:
+        country.population.density_per_km2 !== null && country.population.density_per_km2 !== undefined
+          ? `${integerFormatter.format(Math.round(country.population.density_per_km2))} per km²`
+          : 'Density unavailable',
+    },
+    {
+      label: 'Region',
+      value: country.geography.continents.join(' · ') || '—',
+      meta: country.geography.is_island_nation ? 'Island nation' : 'Mainland access',
+    },
+    {
+      label: 'Languages',
+      value: languages.slice(0, 2).join(' · ') || 'Multiple',
+      meta: languages.length > 0 ? `${languages.length} official` : 'No official data',
+    },
+    {
+      label: 'Largest City',
+      value: majorCity || primaryCapital?.name || '—',
+      meta: majorCity && primaryCapital && majorCity !== primaryCapital.name ? 'Different from capital' : '',
+    },
+    {
+      label: 'Area',
+      value: area ? `${formatCompactNumber(area)} km²` : 'Unknown',
+      meta: coastline ? `${formatCompactNumber(coastline)} km coastline` : 'Land coverage',
+    },
+    {
+      label: 'GDP per Capita',
+      value: gdp ? currencyFormatter.format(gdp) : 'Unknown',
+      meta: hdi ? `HDI ${hdi.toFixed(2)}` : 'Human development',
+    },
+    {
+      label: 'Time Zones',
+      value: timeZones.length ? String(timeZones.length) : 'Single zone',
+      meta: timeZones.length ? timeZones.slice(0, 2).join(', ') : 'Standard time',
+    },
+    {
+      label: 'Travel',
+      value: drivesLeft ? 'Left side' : 'Right side',
+      meta: country.facts.drives_on_left ? 'Keep left' : 'Keep right',
+    },
+  ];
+
+  return `
+    <div class="mobile-details-cards">
+      ${cards
+        .map(
+          (card) => `
+        <article class="mobile-details-card">
+          <p class="mobile-details-label">${card.label}</p>
+          <p class="mobile-details-value">${card.value}</p>
+          ${card.meta ? `<p class="mobile-details-meta">${card.meta}</p>` : ''}
+        </article>
+      `
+        )
+        .join('')}
+    </div>
+  `;
+}
+
+function renderFallbackDetails(fallbackName?: string, fallbackCode?: string | null): string {
+  return `
+      <div class="country-header">
+        <div>
+          <h2 class="country-name">${fallbackName || 'Unknown Country'}</h2>
+          ${fallbackCode ? `<div class="country-id">${fallbackCode}</div>` : ''}
+        </div>
+      </div>
+      <div class="fact-section">
+        <p style="color: var(--text-secondary);">
+          No detailed data available for this country/territory.
+        </p>
+      </div>
+    `;
+}
+
+function updateMobileDetailsHeader(
+  country: Country | null,
+  fallbackName?: string,
+  fallbackCode?: string | null
+): void {
+  if (!mobileDetailsHeader.title) return;
+
+  if (!isMobileLayout()) {
+    mobileDetailsHeader.title.textContent = defaultMobileDetailsTitle;
+    if (mobileDetailsHeader.subtitle) {
+      mobileDetailsHeader.subtitle.textContent = defaultMobileDetailsSubtitle;
+      mobileDetailsHeader.subtitle.classList.remove('is-hidden');
+    }
+    return;
+  }
+
+  if (country || fallbackName) {
+    const name = country?.name || fallbackName || defaultMobileDetailsTitle;
+    const code = country?.id || fallbackCode || null;
+    const emoji = getFlagEmojiFromCode(code);
+    mobileDetailsHeader.title.textContent = `${emoji} ${name}`;
+    if (mobileDetailsHeader.subtitle) {
+      mobileDetailsHeader.subtitle.textContent = '';
+      mobileDetailsHeader.subtitle.classList.add('is-hidden');
+    }
+  } else {
+    mobileDetailsHeader.title.textContent = defaultMobileDetailsTitle;
+    if (mobileDetailsHeader.subtitle) {
+      mobileDetailsHeader.subtitle.textContent = defaultMobileDetailsSubtitle;
+      mobileDetailsHeader.subtitle.classList.remove('is-hidden');
+    }
+  }
+}
+
+function renderDetailsContentForCurrentLayout(): void {
+  const panel = document.getElementById('details-panel');
+  const content = panel?.querySelector('.details-content');
+  if (!panel || !content) return;
+  const { country, fallbackName, fallbackCode } = lastDetailsContext;
+
+  if (!country && !fallbackName) {
+    if (isMobileLayout()) {
+      content.innerHTML = '';
+    } else {
+      content.innerHTML = DETAILS_EMPTY_TEMPLATE;
+    }
+    updateMobileDetailsHeader(null);
+    return;
+  }
+
+  if (isMobileLayout()) {
+  content.innerHTML = renderMobileDetails(country, fallbackName);
+  updateMobileDetailsHeader(country, fallbackName, fallbackCode ?? null);
+  addHorizontalWheelScroll(content.querySelector('.mobile-details-cards'));
+  return;
+}
+
+  content.innerHTML = country
+    ? renderCountryPopup(country)
+    : renderFallbackDetails(fallbackName, fallbackCode ?? null);
+  updateMobileDetailsHeader(country, fallbackName, fallbackCode ?? null);
+}
+
+function setMobilePanelState(id: MobilePanelId, expanded: boolean, collapseOthers = true): void {
+  if (!isMobileLayout()) return;
+  const panel = mobilePanels[id];
+  const toggle = mobilePanelToggles[id];
+  if (!panel || !toggle) return;
+
+  panel.dataset.mobileState = expanded ? 'expanded' : 'collapsed';
+  toggle.setAttribute('aria-expanded', String(expanded));
+
+  const label = toggle.querySelector<HTMLElement>('.mobile-panel-toggle-label');
+  if (label) {
+    label.textContent = expanded ? 'Collapse' : 'Expand';
+  }
+
+  const icon = toggle.querySelector<HTMLElement>('.mobile-panel-toggle-icon');
+  if (icon) {
+    icon.textContent = expanded ? '▴' : '▾';
+  }
+
+  if (expanded && collapseOthers) {
+    mobilePanelIds
+      .filter((panelId) => panelId !== id)
+      .forEach((panelId) => setMobilePanelState(panelId, false, false));
+  }
+}
+
+function setupMobilePanels(): void {
+  mobilePanels.filters = document.getElementById('filter-panel');
+  mobilePanels.details = document.getElementById('details-panel');
+  mobilePanelToggles.filters = document.querySelector<HTMLButtonElement>('[data-panel-toggle="filters"]');
+  mobilePanelToggles.details = document.querySelector<HTMLButtonElement>('[data-panel-toggle="details"]');
+  mobilePanelHeaders.filters = document.querySelector<HTMLElement>('#filter-panel .filter-panel-header');
+  mobilePanelHeaders.details = document.querySelector<HTMLElement>('#details-panel .mobile-panel-header');
+
+  const ready = mobilePanelIds.every((panelId) => mobilePanels[panelId] && mobilePanelToggles[panelId]);
+  if (!ready) return;
+
+  const applyLayoutState = (isMobile: boolean): void => {
+    if (!isMobile) {
+      mobilePanelIds.forEach((panelId) => {
+        mobilePanels[panelId]?.removeAttribute('data-mobile-state');
+        const toggle = mobilePanelToggles[panelId];
+        const header = mobilePanelHeaders[panelId];
+        if (toggle) {
+          toggle.setAttribute('aria-expanded', 'false');
+          const label = toggle.querySelector<HTMLElement>('.mobile-panel-toggle-label');
+          if (label) label.textContent = 'Expand';
+          const icon = toggle.querySelector<HTMLElement>('.mobile-panel-toggle-icon');
+          if (icon) icon.textContent = '▾';
+        }
+        if (header) {
+          header.classList.remove('is-collapsible');
+        }
+      });
+      return;
+    }
+
+    mobilePanelIds.forEach((panelId) => setMobilePanelState(panelId, false, false));
+    mobilePanelIds.forEach((panelId) => mobilePanelHeaders[panelId]?.classList.add('is-collapsible'));
+  };
+
+  applyLayoutState(isMobileLayout());
+  renderDetailsContentForCurrentLayout();
+
+  const handleChange = (matches: boolean): void => {
+    applyLayoutState(matches);
+    renderDetailsContentForCurrentLayout();
+  };
+
+  if (typeof mobileLayoutQuery.addEventListener === 'function') {
+    mobileLayoutQuery.addEventListener('change', (event) => handleChange(event.matches));
+  } else {
+    mobileLayoutQuery.addListener((event) => handleChange(event.matches));
+  }
+
+  mobilePanelIds.forEach((panelId) => {
+    const toggle = mobilePanelToggles[panelId];
+    const header = mobilePanelHeaders[panelId];
+    const handler = () => {
+      if (!isMobileLayout()) return;
+      const panel = mobilePanels[panelId];
+      if (!panel) return;
+      const shouldExpand = panel.dataset.mobileState !== 'expanded';
+      setMobilePanelState(panelId, shouldExpand);
+    };
+    toggle?.addEventListener('click', handler);
+    if (header && header !== toggle) {
+      header.addEventListener('click', handler);
+    }
+  });
 }
 
 /**
- * Setup mobile filter panel toggle
+ * Setup filter controls and responsive panel toggles
  */
 function setupFilterPanel(): void {
-  const filterPanel = document.getElementById('filter-panel');
-  const filterToggle = document.getElementById('filter-toggle');
-  
-  if (!filterPanel || !filterToggle) return;
-  
-  // Create overlay for mobile
-  const overlay = document.createElement('div');
-  overlay.className = 'filter-overlay';
-  document.querySelector('.main-layout')?.appendChild(overlay);
-  
-  function toggleFilter(): void {
-    const isOpen = filterPanel!.classList.toggle('open');
-    if (isOpen) {
-      overlay.classList.add('visible');
-    } else {
-      overlay.classList.remove('visible');
-    }
-  }
-  
-  filterToggle.addEventListener('click', toggleFilter);
-  overlay.addEventListener('click', toggleFilter);
-  
-  // Also handle the mobile floating button
-  const mobileToggle = document.querySelector('.mobile-filter-toggle');
-  mobileToggle?.addEventListener('click', toggleFilter);
-  
-  // Clear filters button
   const clearBtn = document.getElementById('clear-filters');
   clearBtn?.addEventListener('click', () => {
     filterState = clearAllFilters();
     renderFilters();
     onFilterChange();
   });
+
+  setupMobilePanels();
 }
 
 /**
@@ -1207,8 +1503,10 @@ async function init(): Promise<void> {
   document.addEventListener('keydown', (e) => {
     if (e.key === 'Escape') {
       hideDetails();
-      document.getElementById('filter-panel')?.classList.remove('open');
-      document.querySelector('.filter-overlay')?.classList.remove('visible');
+      if (isMobileLayout()) {
+        setMobilePanelState('filters', false, false);
+        setMobilePanelState('details', false, false);
+      }
     }
   });
 
@@ -1231,5 +1529,11 @@ async function init(): Promise<void> {
   }
 }
 
-// Start the app
-init().catch(console.error);
+// Start the appropriate experience
+if (isMobilePrototypeRoute) {
+  import('./mobile-prototype')
+    .then(({ initMobilePrototype }) => initMobilePrototype())
+    .catch((error) => console.error('Failed to load mobile prototype:', error));
+} else {
+  init().catch(console.error);
+}
