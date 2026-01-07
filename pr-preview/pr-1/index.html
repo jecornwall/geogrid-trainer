@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GeoGrid Trainer</title>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+      integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+      crossorigin=""
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,700;1,9..40,400&family=JetBrains+Mono:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <script type="module" crossorigin src="/assets/index-x_jdyR4G.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-BCvzjwGl.css">
+  </head>
+  <body>
+    <div id="app">
+      <div class="main-layout">
+        <!-- Left Filter Panel -->
+        <aside id="filter-panel" class="filter-panel">
+          <div class="filter-panel-header">
+            <h2>Filters</h2>
+            <button id="filter-toggle" class="filter-toggle" aria-label="Toggle filters">
+              <span class="filter-icon">☰</span>
+            </button>
+          </div>
+          <div class="filter-panel-content">
+            <!-- Filter Summary -->
+            <div class="filter-summary">
+              <div class="summary-stats">
+                <div class="summary-stat">
+                  <span class="summary-value" id="total-highlighted">0</span>
+                  <span class="summary-label">Matched</span>
+                </div>
+                <div class="summary-stat">
+                  <span class="summary-value" id="active-filters">0</span>
+                  <span class="summary-label">Filters</span>
+                </div>
+              </div>
+              <button id="clear-filters" class="clear-filters-btn" type="button">Clear All</button>
+            </div>
+
+            <!-- Dynamic Filter Categories -->
+            <div id="filter-categories" class="filter-categories">
+              <!-- Filters will be rendered dynamically by JavaScript -->
+            </div>
+          </div>
+        </aside>
+
+        <!-- Map and Bottom Panel Container -->
+        <div class="map-container">
+          <!-- Map Container -->
+          <div id="map"></div>
+
+          <!-- Bottom Countries Panel -->
+          <aside id="countries-panel" class="countries-panel">
+            <div class="countries-panel-header">
+              <h2>Matching Countries</h2>
+              <span class="countries-count" id="countries-count">0</span>
+            </div>
+            <div class="countries-list" id="countries-list">
+              <!-- Countries will be rendered dynamically -->
+            </div>
+          </aside>
+        </div>
+
+        <!-- Right Details Panel -->
+        <aside id="details-panel" class="details-panel">
+          <button class="panel-close" aria-label="Close">&times;</button>
+          <div class="details-content">
+            <div class="details-empty">
+              <div class="empty-icon">🌍</div>
+              <p>Select a country to view details</p>
+            </div>
+          </div>
+        </aside>
+        
+        <!-- Mobile Filter Toggle -->
+        <button class="mobile-filter-toggle" aria-label="Open filters">⚙</button>
+      </div>
+    </div>
+  </body>
+</html>
