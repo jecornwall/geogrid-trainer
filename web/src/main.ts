@@ -3,6 +3,7 @@ import L from 'leaflet';
 import type { Country } from './types/country';
 import type { FilterState, RangeFilter, BooleanFilter, MultiSelectFilter, DisplayConfig } from './types/filters';
 import {
+  createDefaultFilterState,
   loadFilterState,
   saveFilterState,
   countActiveFilters,
@@ -12,6 +13,8 @@ import {
   clearAllFilters,
 } from './filters';
 import { renderCountryPopup } from './popup';
+
+const FILTER_QUERY_KEY = 'filters';
 
 // GeoJSON URL for world countries (Natural Earth via GitHub)
 const GEOJSON_URL =
@@ -35,8 +38,13 @@ let geoJsonLayer: L.GeoJSON | null = null;
 // Currently selected country layer
 let selectedLayer: L.Layer | null = null;
 
+type QueryFilterValue =
+  | { type: 'boolean'; value: boolean }
+  | { type: 'range'; min: number; max: number }
+  | { type: 'multiselect'; selected: string[]; mode?: 'inclusive' | 'exclusive' };
+
 // Filter state
-let filterState: FilterState = loadFilterState();
+let filterState: FilterState = getInitialFilterState();
 
 // Track highlighted countries for filter
 let highlightedCountries: Set<string> = new Set();
@@ -69,6 +77,129 @@ const selectedStyle: L.PathOptions = {
   color: '#06b6d4',
   weight: 2,
 };
+
+/**
+ * Load initial filter state from query parameters or localStorage.
+ */
+function getInitialFilterState(): FilterState {
+  const queryState = loadFilterStateFromQuery();
+  if (queryState) {
+    saveFilterState(queryState);
+    return queryState;
+  }
+  return loadFilterState();
+}
+
+/**
+ * Read filter state from URL query parameters.
+ */
+function loadFilterStateFromQuery(): FilterState | null {
+  const url = new URL(window.location.href);
+  const raw = url.searchParams.get(FILTER_QUERY_KEY);
+  if (!raw) return null;
+
+  try {
+    const parsed = JSON.parse(raw) as Record<string, QueryFilterValue>;
+    if (!parsed || typeof parsed !== 'object') return null;
+    const nextState = createDefaultFilterState();
+    applyQueryFilters(nextState, parsed);
+    return nextState;
+  } catch (error) {
+    console.warn('Failed to parse filter query params:', error);
+    return null;
+  }
+}
+
+/**
+ * Apply query filters to a filter state.
+ */
+function applyQueryFilters(state: FilterState, queryFilters: Record<string, QueryFilterValue>): void {
+  for (const [filterId, queryValue] of Object.entries(queryFilters)) {
+    const target = getFilterValueFromState(state, filterId);
+    if (!target || typeof target !== 'object' || !('type' in target)) continue;
+
+    target.enabled = true;
+    switch (target.type) {
+      case 'boolean':
+        if ('value' in queryValue && typeof queryValue.value === 'boolean') {
+          target.value = queryValue.value;
+        }
+        break;
+      case 'range':
+        if ('min' in queryValue && typeof queryValue.min === 'number') {
+          target.min = Math.max(target.minBound, Math.min(queryValue.min, target.maxBound));
+        }
+        if ('max' in queryValue && typeof queryValue.max === 'number') {
+          target.max = Math.max(target.minBound, Math.min(queryValue.max, target.maxBound));
+        }
+        break;
+      case 'multiselect':
+        if ('selected' in queryValue && Array.isArray(queryValue.selected)) {
+          target.selected = queryValue.selected.filter((option: string) =>
+            target.options.includes(option)
+          );
+        }
+        if ('mode' in queryValue && (queryValue.mode === 'inclusive' || queryValue.mode === 'exclusive')) {
+          target.mode = queryValue.mode;
+        }
+        break;
+    }
+  }
+}
+
+/**
+ * Serialize active filters into query parameters.
+ */
+function updateFilterQueryParams(state: FilterState): void {
+  const activeFilters = serializeActiveFilters(state);
+  const url = new URL(window.location.href);
+
+  if (Object.keys(activeFilters).length === 0) {
+    url.searchParams.delete(FILTER_QUERY_KEY);
+  } else {
+    url.searchParams.set(FILTER_QUERY_KEY, JSON.stringify(activeFilters));
+  }
+
+  window.history.replaceState({}, '', url);
+}
+
+/**
+ * Collect active filters in a query-friendly structure.
+ */
+function serializeActiveFilters(state: FilterState): Record<string, QueryFilterValue> {
+  const result: Record<string, QueryFilterValue> = {};
+  const addFilter = (id: string, filter: any) => {
+    if (!filter.enabled) return;
+    switch (filter.type) {
+      case 'boolean':
+        result[id] = { type: 'boolean', value: filter.value };
+        break;
+      case 'range':
+        result[id] = { type: 'range', min: filter.min, max: filter.max };
+        break;
+      case 'multiselect':
+        result[id] = {
+          type: 'multiselect',
+          selected: filter.selected,
+          ...(filter.mode ? { mode: filter.mode } : {}),
+        };
+        break;
+    }
+  };
+
+  for (const [categoryKey, categoryValue] of Object.entries(state)) {
+    if (!categoryValue || typeof categoryValue !== 'object') continue;
+    if ('type' in categoryValue) {
+      addFilter(categoryKey, categoryValue);
+    } else {
+      for (const [filterKey, filterValue] of Object.entries(categoryValue)) {
+        addFilter(`${categoryKey}.${filterKey}`, filterValue);
+      }
+    }
+  }
+
+  return result;
+}
 
 /**
  * Convert a 2-letter country code to a Unicode flag emoji
@@ -385,6 +516,7 @@ function onFilterChange(): void {
   updateHighlightedCountries();
   updateMapStyles();
   renderCountriesList();
+  updateFilterQueryParams(filterState);
   saveFilterState(filterState);
 }
 
@@ -394,6 +526,19 @@ function onFilterChange(): void {
 function getFilterValue(path: string): any {
   const parts = path.split('.');
   let current: any = filterState;
+  for (const part of parts) {
+    if (current === undefined) return undefined;
+    current = current[part];
+  }
+  return current;
+}
+
+/**
+ * Get a nested value from filter state using dot notation.
+ */
+function getFilterValueFromState(state: FilterState, path: string): any {
+  const parts = path.split('.');
+  let current: any = state;
   for (const part of parts) {
     if (current === undefined) return undefined;
     current = current[part];
@@ -1026,6 +1171,7 @@ async function init(): Promise<void> {
     
     // Render filters based on display config
     renderFilters();
+    updateFilterQueryParams(filterState);
     
     // Load GeoJSON
     await loadGeoJSON();
