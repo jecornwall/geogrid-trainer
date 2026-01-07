@@ -45,6 +45,11 @@ jobs:
       contents: write
       pull-requests: write
     steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+
       - name: Cleanup preview
         uses: rossjrw/pr-preview-action@v1.8.0
         with:
