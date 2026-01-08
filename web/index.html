@@ -41,20 +41,23 @@
         <!-- Left Filter Panel -->
         <aside id="filter-panel" class="filter-panel" data-panel="filters" data-mobile-state="collapsed">
           <div class="filter-panel-header">
-            <div>
+            <div class="filter-panel-header-content">
               <h2>Filters</h2>
-              <p class="panel-subtitle mobile-panel-hint">Swipe cards to work through filter buckets</p>
+              <p class="panel-subtitle mobile-panel-hint" id="mobile-filter-summary"></p>
             </div>
-            <button
-              id="filter-toggle"
-              class="filter-toggle mobile-panel-toggle"
-              data-panel-toggle="filters"
-              aria-expanded="false"
-              type="button"
-            >
-              <span class="mobile-panel-toggle-label">Expand</span>
-              <span class="mobile-panel-toggle-icon" aria-hidden="true">▾</span>
-            </button>
+            <div class="filter-panel-header-actions">
+              <button id="mobile-clear-filters" class="mobile-clear-btn" type="button">Clear</button>
+              <button
+                id="filter-toggle"
+                class="filter-toggle mobile-panel-toggle"
+                data-panel-toggle="filters"
+                aria-expanded="false"
+                type="button"
+              >
+                <span class="mobile-panel-toggle-label">Expand</span>
+                <span class="mobile-panel-toggle-icon" aria-hidden="true">▾</span>
+              </button>
+            </div>
           </div>
           <div class="filter-panel-content">
             <!-- Filter Summary -->

@@ -13,12 +13,19 @@ import {
   clearAllFilters,
 } from './filters';
 import { renderCountryPopup, renderMobileDetails } from './details';
+import {
+  renderCompactBooleanFilter,
+  renderCompactRangeFilter,
+  renderCompactMultiSelectFilter,
+} from './filter-renderers';
 
 const FILTER_MODE_SUFFIX = '.mode';
 const RANGE_SEPARATOR = '..';
 const MOBILE_PROTOTYPE_PATH = '/mobile-prototype';
+const FILTER_EXPERIMENTS_PATH = '/filter-experiments';
 const normalizedPath = window.location.pathname.replace(/\/+$/, '') || '/';
 const isMobilePrototypeRoute = normalizedPath === MOBILE_PROTOTYPE_PATH;
+const isFilterExperimentsRoute = normalizedPath === FILTER_EXPERIMENTS_PATH;
 const MOBILE_BREAKPOINT = 900;
 const mobileLayoutQuery = window.matchMedia(`(max-width: ${MOBILE_BREAKPOINT}px)`);
 const mobilePanelIds = ['filters', 'details'] as const;
@@ -601,6 +608,29 @@ function updateCountriesListSelection(selectedId: string | null): void {
 }
 
 /**
+ * Update mobile filter summary in header
+ */
+function updateMobileFilterSummary(): void {
+  if (!displayConfig || !isMobileLayout()) return;
+
+  const summaryEl = document.getElementById('mobile-filter-summary');
+  if (!summaryEl) return;
+
+  const categories = getFiltersByCategory(filterState, displayConfig);
+  const activeCategories = categories.filter(cat =>
+    cat.filters.some(f => f.filter.enabled)
+  );
+
+  if (activeCategories.length > 0) {
+    const summary = activeCategories.slice(0, 2).map(c => c.categoryLabel).join(' · ') +
+      (activeCategories.length > 2 ? ` +${activeCategories.length - 2}` : '');
+    summaryEl.textContent = summary;
+  } else {
+    summaryEl.textContent = 'No filters active';
+  }
+}
+
+/**
  * Handle filter changes
  */
 function onFilterChange(): void {
@@ -609,6 +639,7 @@ function onFilterChange(): void {
   renderCountriesList();
   updateFilterQueryParams(filterState);
   saveFilterState(filterState);
+  updateMobileFilterSummary();
 }
 
 /**
@@ -787,15 +818,22 @@ function renderFilters(): void {
   if (!container) return;
 
   const categories = getFiltersByCategory(filterState, displayConfig);
+
   const mobileLayout = isMobileLayout();
   container.classList.toggle('is-mobile-layout', mobileLayout);
 
+  // Also add to filter panel so header buttons can be styled
+  const filterPanel = document.getElementById('filter-panel');
+  if (filterPanel) {
+    filterPanel.classList.toggle('is-mobile-layout', mobileLayout);
+  }
+
   container.innerHTML = mobileLayout
-    ? renderMobileFilterCategories(categories)
+    ? renderCompactDockCategories(categories)
     : renderDesktopFilterCategories(categories);
 
   if (mobileLayout) {
-    addHorizontalWheelScroll(container.querySelector('.mobile-filter-cards'));
+    addHorizontalWheelScroll(container.querySelector('.filter-dock-track'));
   }
 
   attachFilterEventListeners();
@@ -821,31 +859,57 @@ function renderDesktopFilterCategories(categories: FilterCategoryGroup): string 
     .join('');
 }
 
-function renderMobileFilterCategories(categories: FilterCategoryGroup): string {
-  const cards = categories
-    .map(({ category, categoryLabel, filters }) => {
-      const isCollapsed = collapsedCategories.has(category);
-      const filtersHtml = renderFilterGroup(filters);
-      const filterCount = filters.length;
-      return `
-        <section class="filter-category mobile-filter-card ${isCollapsed ? 'collapsed' : ''}" data-category="${category}">
-          <button class="filter-category-header mobile-filter-card-header" type="button">
-            <div class="mobile-filter-card-heading">
-              <p class="mobile-filter-card-eyebrow">Filter Bucket</p>
-              <p class="mobile-filter-card-title">${categoryLabel}</p>
-              <p class="mobile-filter-card-subtitle">${filterCount} option${filterCount === 1 ? '' : 's'}</p>
-            </div>
-            <span class="filter-category-toggle" aria-hidden="true">▼</span>
-          </button>
-          <div class="filter-category-content mobile-filter-card-body">
-            ${filtersHtml}
-          </div>
-        </section>
-      `;
-    })
-    .join('');
+function renderCompactDockCategories(categories: FilterCategoryGroup): string {
+  // Show all categories in compact dock
+  const dockCategories = categories;
 
-  return `<div class="mobile-filter-cards">${cards}</div>`;
+  // Count active categories and update header summary
+  const activeCategories = dockCategories.filter(cat =>
+    cat.filters.some(f => f.filter.enabled)
+  );
+
+  // Update mobile filter summary in header
+  const summaryEl = document.getElementById('mobile-filter-summary');
+  if (summaryEl) {
+    if (activeCategories.length > 0) {
+      const summary = activeCategories.slice(0, 2).map(c => c.categoryLabel).join(' · ') +
+        (activeCategories.length > 2 ? ` +${activeCategories.length - 2}` : '');
+      summaryEl.textContent = summary;
+    } else {
+      summaryEl.textContent = 'No filters active';
+    }
+  }
+
+  // Build card track (horizontal scroll, show 2 filters per card for compact height)
+  const cards = dockCategories.map(({ category, categoryLabel, filters }) => {
+    // Show only 2 filters per card to fit without vertical scrolling
+    const visibleFilters = filters.slice(0, 2);
+
+    const filtersHtml = visibleFilters.map(({ id, label, filter }) => {
+      // Use compact renderers based on filter type
+      switch (filter.type) {
+        case 'boolean':
+          return renderCompactBooleanFilter(filter, id, label);
+        case 'range':
+          return renderCompactRangeFilter(filter, id, label);
+        case 'multiselect':
+          return renderCompactMultiSelectFilter(filter, id, label);
+        default:
+          return '';
+      }
+    }).join('');
+
+    return `
+      <section class="filter-dock-card" data-category="${category}">
+        <p class="dock-card-title">${categoryLabel}</p>
+        <div class="dock-card-body">
+          ${filtersHtml}
+        </div>
+      </section>
+    `;
+  }).join('');
+
+  return `<div class="filter-dock-track">${cards}</div>`;
 }
 
 function renderFilterGroup(
@@ -874,22 +938,24 @@ function attachFilterEventListeners(): void {
   const container = document.getElementById('filter-categories');
   if (!container) return;
   
-  // Category collapse toggles
-  container.querySelectorAll('.filter-category-header').forEach(header => {
-    header.addEventListener('click', () => {
-      const category = header.closest('.filter-category');
-      const categoryId = category?.getAttribute('data-category');
-      if (categoryId) {
-        if (collapsedCategories.has(categoryId)) {
-          collapsedCategories.delete(categoryId);
-          category?.classList.remove('collapsed');
-        } else {
-          collapsedCategories.add(categoryId);
-          category?.classList.add('collapsed');
+  // Category collapse toggles (desktop only - compact dock has no collapse)
+  if (!isMobileLayout()) {
+    container.querySelectorAll('.filter-category-header').forEach(header => {
+      header.addEventListener('click', () => {
+        const category = header.closest('.filter-category');
+        const categoryId = category?.getAttribute('data-category');
+        if (categoryId) {
+          if (collapsedCategories.has(categoryId)) {
+            collapsedCategories.delete(categoryId);
+            category?.classList.remove('collapsed');
+          } else {
+            collapsedCategories.add(categoryId);
+            category?.classList.add('collapsed');
+          }
         }
-      }
+      });
     });
-  });
+  }
   
   // Enable/disable toggles
   container.querySelectorAll('.filter-toggle-switch input').forEach(checkbox => {
@@ -1068,6 +1134,114 @@ function attachFilterEventListeners(): void {
       onFilterChange();
     });
   });
+
+  // Compact boolean pills (mobile dock)
+  container.querySelectorAll('.filter-compact-pill').forEach(pill => {
+    pill.addEventListener('click', (e) => {
+      const target = e.target as HTMLElement;
+      const filterLine = target.closest('[data-filter-id]');
+      const filterId = filterLine?.getAttribute('data-filter-id');
+      if (!filterId) return;
+
+      // Toggle active state
+      const isActive = target.classList.contains('is-active');
+      target.classList.toggle('is-active');
+      target.classList.toggle('is-inactive');
+      target.textContent = isActive ? 'Off' : 'Active';
+
+      // Update filter state
+      const filter = getFilterValue(filterId) as BooleanFilter;
+      if (!filter) return;
+
+      filter.enabled = true;
+      filter.value = !isActive;
+
+      onFilterChange();
+    });
+  });
+
+  // Compact chips (mobile dock)
+  container.querySelectorAll('.filter-compact-chips .chip').forEach(chip => {
+    chip.addEventListener('click', (e) => {
+      const target = e.target as HTMLElement;
+      const filterLine = target.closest('[data-filter-id]');
+      const filterId = filterLine?.getAttribute('data-filter-id');
+      const value = target.getAttribute('data-value');
+      if (!filterId || !value) return;
+
+      const filter = getFilterValue(filterId) as MultiSelectFilter;
+      filter.enabled = true;
+
+      // Toggle selected state
+      target.classList.toggle('selected');
+
+      if (target.classList.contains('selected')) {
+        if (!filter.selected.includes(value)) {
+          filter.selected.push(value);
+        }
+      } else {
+        filter.selected = filter.selected.filter(v => v !== value);
+      }
+
+      onFilterChange();
+    });
+  });
+
+  // Compact range sliders (mobile dock, tap-to-set)
+  container.querySelectorAll('.filter-compact-range .range-track').forEach(track => {
+    const handleInteraction = (e: MouseEvent | TouchEvent) => {
+      const filterLine = (track as HTMLElement).closest('[data-filter-id]');
+      const filterId = filterLine?.getAttribute('data-filter-id');
+      if (!filterId) return;
+
+      const rect = (track as HTMLElement).getBoundingClientRect();
+      const clientX = 'touches' in e ? e.touches[0].clientX : e.clientX;
+      const percent = Math.max(0, Math.min(100, ((clientX - rect.left) / rect.width) * 100));
+
+      // Update visual fill
+      const fill = track.querySelector('span') as HTMLElement;
+      if (fill) {
+        fill.style.width = `${percent}%`;
+      }
+
+      // Update filter value
+      const filter = getFilterValue(filterId) as RangeFilter;
+      filter.enabled = true;
+
+      const range = filter.maxBound - filter.minBound;
+      const newMax = filter.minBound + (range * percent / 100);
+
+      filter.max = newMax;
+
+      // Update display value
+      const format = filter.format || 'number';
+      const valueDisplay = filterLine?.querySelector('.range-compact-value');
+      if (valueDisplay) {
+        const minDisplay = formatFilterValue(filter.min, format);
+        const maxDisplay = formatFilterValue(newMax, format);
+        valueDisplay.textContent = `${minDisplay} – ${maxDisplay}`;
+      }
+
+      onFilterChange();
+    };
+
+    track.addEventListener('click', handleInteraction as EventListener);
+    track.addEventListener('touchstart', handleInteraction as EventListener);
+  });
+
+  // Mobile Clear button in header (attach once on first render)
+  const mobileClearBtn = document.getElementById('mobile-clear-filters');
+  if (mobileClearBtn && !mobileClearBtn.dataset.listenerAttached) {
+    mobileClearBtn.dataset.listenerAttached = 'true';
+    mobileClearBtn.addEventListener('click', (e) => {
+      e.stopPropagation(); // Prevent triggering panel toggle
+      filterState = clearAllFilters();
+      renderFilters();
+      updateFilterQueryParams(filterState);
+      updateMapHighlighting();
+      updateMatchingCountries();
+    });
+  }
 }
 
 /**
@@ -1475,6 +1649,10 @@ if (isMobilePrototypeRoute) {
   import('./mobile-prototype')
     .then(({ initMobilePrototype }) => initMobilePrototype())
     .catch((error) => console.error('Failed to load mobile prototype:', error));
+} else if (isFilterExperimentsRoute) {
+  import('./filter-experiments')
+    .then(({ initFilterExperiments }) => initFilterExperiments())
+    .catch((error) => console.error('Failed to load filter experiments:', error));
 } else {
   init().catch(console.error);
 }
